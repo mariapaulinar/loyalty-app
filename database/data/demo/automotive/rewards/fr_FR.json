@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Lavage premium",
+        "description": "Échangez contre un lavage premium qui donne à la voiture un aspect neuf. Idéal pour créer des routines de service régulières."
+    },
+    {
+        "title": "Mise à niveau intérieur",
+        "description": "Passez au detailing intérieur et transformez une visite standard en moment exceptionnel. Idéal pour les ventes additionnelles et la fidélisation."
+    },
+    {
+        "title": "Kit d'entretien",
+        "description": "Un kit pratique qui garde votre marque dans la boîte à gants. Parfait comme échange de niveau intermédiaire."
+    },
+    {
+        "title": "Remise service",
+        "description": "Bon de réduction pour l'entretien qui génère des réservations futures. Utilisez-le pour augmenter la valeur à vie, pas pour tout réduire."
+    },
+    {
+        "title": "Pass voie VIP",
+        "description": "Pass prioritaire qui semble premium et fait gagner du temps. Un avantage fidélité que les clients apprécieront vraiment."
+    },
+    {
+        "title": "Pack suppléments",
+        "description": "Un petit pack (désodorisant, lingettes, etc.) qui ajoute du plaisir à faible coût. Idéal pour l'activation hors-pointe."
+    }
+]

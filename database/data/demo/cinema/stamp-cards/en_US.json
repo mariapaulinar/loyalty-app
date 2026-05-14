@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Blockbuster Bonanza",
+        "title": "Premiere Savings",
+        "description": "Stamp your way to movie deals!"
+    },
+    {
+        "head": "Movie Membership",
+        "title": "Watch and Earn",
+        "description": "Get stamped with every movie!"
+    },
+    {
+        "head": "Film Fanatics Club",
+        "title": "View and Save",
+        "description": "Cinema stamps unlock special perks!"
+    },
+    {
+        "head": "Popcorn Pass",
+        "title": "Snack and Score",
+        "description": "Every popcorn earns a stamp!"
+    },
+    {
+        "head": "Matinee Specials",
+        "title": "Afternoon Discounts",
+        "description": "Afternoon showings earn stamps!"
+    },
+    {
+        "head": "Weekend Film Fest",
+        "title": "Weekend Movie Deals",
+        "description": "Weekend movies mean more stamps!"
+    }
+]

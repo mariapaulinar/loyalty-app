@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Barista",
+        "title": "Trasforma il caffè quotidiano in fedeltà",
+        "description": "Guadagna punti su ogni tazza e dolce. Riscatti veloci che fanno tornare le persone."
+    },
+    {
+        "head": "Boost mattutino",
+        "title": "Mattiniero = Punti extra",
+        "description": "Prima delle 10, i membri guadagnano di più. Pensato per il rush mattutino."
+    },
+    {
+        "head": "Stagione fredda",
+        "title": "Bevande stagionali, premi stagionali",
+        "description": "Lancia un menu estivo e collegalo a premi limitati. Pensato per le visite ripetute."
+    },
+    {
+        "head": "Carburante lavorativo",
+        "title": "Premia l'abitudine delle 14",
+        "description": "I micro-momenti contano: tieni i pomeriggi occupati con boost punti mirati."
+    },
+    {
+        "head": "Nuova miscela",
+        "title": "Prova novità, guadagna di più",
+        "description": "Punti bonus sulle bevande in evidenza. Perfetto per lanci e collaborazioni."
+    },
+    {
+        "head": "Porta un amico",
+        "title": "Bonus referral istantaneo",
+        "description": "Invita un amico e sblocca un vantaggio immediato. Pensato per la crescita social."
+    }
+]

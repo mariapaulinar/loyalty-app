@@ -1,0 +1,1363 @@
+@import "tailwindcss";
+@source "../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php";
+@source "../../storage/framework/views/*.php";
+@source "../**/*.blade.php";
+@source "../**/*.js";
+
+/* @import "./custom-base-styles.css";*/
+@import "./custom-components.css";
+@import "./datepicker.css";
+@import "./card-animations.css";
+
+/* Breakpoint-only variants */
+@custom-variant sm-only (@media (width >= 40rem) and (width < 48rem));
+@custom-variant md-only (@media (width >= 48rem) and (width < 64rem));
+@custom-variant lg-only (@media (width >= 64rem) and (width < 80rem));
+@custom-variant xl-only (@media (width >= 80rem) and (width < 96rem));
+@custom-variant 2xl-only (@media (width >= 96rem));
+
+/* Optional: below breakpoint variants */
+@custom-variant below-sm (@media (width < 40rem));
+@custom-variant below-md (@media (width < 48rem));
+@custom-variant below-lg (@media (width < 64rem));
+@custom-variant below-xl (@media (width < 80rem));
+@custom-variant below-2xl (@media (width < 96rem));
+
+/* Safelist example */
+@source inline("{,sm-only:,md-only:,lg-only:,xl-only:,2xl-only:}{hidden,block,flex,grid,inline,inline-block,inline-flex}");
+@source inline("{,below-sm:,below-md:,below-lg:,below-xl:,below-2xl:}{hidden,block,flex,grid}");
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   REWARD LOYALTY — Design System (Tailwind CSS 4)
+   
+   The Golden Standard in Loyalty
+   Amber Primary (rewards, value) + Blue Trust (security, reliability)
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@theme {
+    /* ─────────────────────────────────────────────────────────────────────────
+       Motion — Easing Curves (§8.2)
+       ───────────────────────────────────────────────────────────────────────── */
+    --ease-default:   cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-out-expo:  cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-spring:    cubic-bezier(0.34, 1.56, 0.64, 1);
+    --ease-decel:     cubic-bezier(0.4, 0, 0.6, 1);
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Layout (§3.2)
+       ───────────────────────────────────────────────────────────────────────── */
+    --sidebar-width: 280px;
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Typography
+       ───────────────────────────────────────────────────────────────────────── */
+    --font-sans: 'Geist', 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-heading: 'Geist', 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Colors — Blue Primary (Trust, Brand) + Amber Accent (CTAs, Rewards)
+       
+       NEW HIERARCHY:
+       • Primary (Blue) — Brand identity, navigation, trust, professionalism
+       • Accent (Amber) — CTAs, rewards, conversion moments, highlights
+       • Secondary (Gray) — Neutral backgrounds and text
+       ───────────────────────────────────────────────────────────────────────── */
+
+    /* Primary — Trust Blue (brand, navigation, professionalism) */
+    --color-primary-50: oklch(0.97 0.02 240);
+    --color-primary-100: oklch(0.94 0.04 240);
+    --color-primary-200: oklch(0.88 0.08 240);
+    --color-primary-300: oklch(0.80 0.12 240);
+    --color-primary-400: oklch(0.70 0.14 240);
+    --color-primary-500: oklch(0.60 0.16 240);
+    --color-primary-600: oklch(0.50 0.14 240);
+    --color-primary-700: oklch(0.40 0.14 240);
+    --color-primary-800: oklch(0.32 0.12 240);
+    --color-primary-900: oklch(0.25 0.10 240);
+    --color-primary-950: oklch(0.18 0.08 240);
+
+    /* Secondary — Neutral Gray (Mapped to Surface/Void concept) */
+    --color-secondary-50: oklch(0.99 0.003 80);
+    --color-secondary-100: oklch(0.97 0.005 80);
+    --color-secondary-200: oklch(0.94 0.008 80);
+    --color-secondary-300: oklch(0.85 0.008 250);
+    --color-secondary-400: oklch(0.65 0.010 250);
+    --color-secondary-500: oklch(0.50 0.010 250);
+    --color-secondary-600: oklch(0.28 0.004 250);
+    --color-secondary-700: oklch(0.22 0.005 250);
+    --color-secondary-800: oklch(0.17 0.006 250);
+    --color-secondary-900: oklch(0.13 0.008 250);
+    --color-secondary-950: oklch(0.08 0.010 250);
+
+    /* Accent — Warm Amber (CTAs, rewards, conversion moments) */
+    --color-accent-50: oklch(0.98 0.02 85);
+    --color-accent-100: oklch(0.96 0.04 83);
+    --color-accent-200: oklch(0.90 0.08 80);
+    --color-accent-300: oklch(0.90 0.14 85);
+    --color-accent-400: oklch(0.85 0.16 80);
+    --color-accent-500: oklch(0.77 0.17 75);
+    --color-accent-600: oklch(0.67 0.16 70);
+    --color-accent-700: oklch(0.55 0.14 65);
+    --color-accent-800: oklch(0.42 0.12 62);
+    --color-accent-900: oklch(0.32 0.10 60);
+    --color-accent-950: oklch(0.22 0.08 58);
+
+    /* Success — Fresh Green */
+    --color-success-50: oklch(0.97 0.03 145);
+    --color-success-100: oklch(0.94 0.06 145);
+    --color-success-200: oklch(0.88 0.10 145);
+    --color-success-300: oklch(0.80 0.14 145);
+    --color-success-400: oklch(0.80 0.16 145);
+    --color-success-500: oklch(0.70 0.17 145);
+    --color-success-600: oklch(0.60 0.15 145);
+    --color-success-700: oklch(0.45 0.13 145);
+    --color-success-800: oklch(0.38 0.11 145);
+    --color-success-900: oklch(0.30 0.09 145);
+    --color-success-950: oklch(0.20 0.07 145);
+
+    /* Warning — Orange */
+    --color-warning-50: oklch(0.98 0.03 60);
+    --color-warning-500: oklch(0.75 0.15 60);
+    --color-warning-600: oklch(0.65 0.15 50);
+    --color-warning-700: oklch(0.55 0.14 48);
+
+    /* Error — Red */
+    --color-error-50: oklch(0.97 0.02 25);
+    --color-error-400: oklch(0.70 0.18 25);
+    --color-error-500: oklch(0.60 0.20 25);
+    --color-error-600: oklch(0.50 0.18 25);
+    --color-error-700: oklch(0.42 0.16 25);
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Shadows
+       ───────────────────────────────────────────────────────────────────────── */
+    --shadow-soft: 0 4px 6px -1px oklch(0 0 0 / 0.02), 0 2px 4px -1px oklch(0 0 0 / 0.02);
+    --shadow-card: 0 0 0 1px oklch(0 0 0 / 0.03), 0 2px 8px oklch(0 0 0 / 0.04);
+    --shadow-card-hover: 0 0 0 1px oklch(0 0 0 / 0.03), 0 8px 16px oklch(0 0 0 / 0.06);
+    --shadow-3xl: 0 25px 50px oklch(0 0 0 / 0.2), 0 15px 30px oklch(0 0 0 / 0.15), 0 5px 15px oklch(0 0 0 / 0.1);
+    --shadow-glow-primary: 0 0 40px -10px var(--color-primary-500);
+    --shadow-glow-accent: 0 0 40px -10px var(--color-accent-500);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Dark Mode via class on <html>
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================
+   Living Gem Border Animation
+   MUST be outside @layer components!
+   ============================================ */
+
+   @property --border-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Base Layer
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@layer base {
+    html {
+        font-family: var(--font-sans);
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color-scheme: light;
+    }
+
+    html.dark {
+        color-scheme: dark;
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Disable ALL transitions during theme switching (prevents jitter)
+       ───────────────────────────────────────────────────────────────────────── */
+    html.disable-transitions,
+    html.disable-transitions *,
+    html.disable-transitions *::before,
+    html.disable-transitions *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+
+    body {
+        @apply bg-secondary-50 text-secondary-900 dark:bg-secondary-950 dark:text-secondary-50;
+    }
+
+    /* Selection — Primary amber */
+    ::selection {
+        background-color: var(--color-primary-500);
+        color: var(--color-secondary-950);
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Scrollbar Styling — Theme-aware
+
+       Two selector patterns are needed for dark mode:
+       1. `.dark ::-webkit-scrollbar-*`  → descendants of <html class="dark">
+       2. `html.dark::-webkit-scrollbar-*` → the document-level scrollbar itself
+       Without (2), the page scrollbar stays light because <html> IS .dark,
+       not a descendant of .dark.
+       ───────────────────────────────────────────────────────────────────────── */
+    
+    /* Webkit browsers (Chrome, Safari, Edge) */
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: oklch(0.97 0.005 80);
+        border-radius: 0;
+    }
+
+    .dark ::-webkit-scrollbar-track,
+    html.dark::-webkit-scrollbar-track {
+        background: oklch(0.13 0.008 250);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: oklch(0.85 0.008 250);
+        border-radius: 6px;
+        border: 2px solid oklch(0.97 0.005 80);
+    }
+
+    .dark ::-webkit-scrollbar-thumb,
+    html.dark::-webkit-scrollbar-thumb {
+        background: oklch(0.28 0.004 250);
+        border: 2px solid oklch(0.13 0.008 250);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: oklch(0.65 0.010 250);
+    }
+
+    .dark ::-webkit-scrollbar-thumb:hover,
+    html.dark::-webkit-scrollbar-thumb:hover {
+        background: oklch(0.50 0.010 250);
+    }
+
+    /* Firefox */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: oklch(0.85 0.008 250) oklch(0.97 0.005 80);
+    }
+
+    .dark *,
+    html.dark {
+        scrollbar-color: oklch(0.28 0.004 250) oklch(0.13 0.008 250);
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       RTL Support — Auto-flip directional icons
+       
+       Lucide directional icons (arrows, chevrons) need to be mirrored in RTL
+       languages (Arabic, Hebrew, etc). This single rule handles all instances
+       site-wide without needing per-template RTL classes.
+       ───────────────────────────────────────────────────────────────────────── */
+    html[dir="rtl"] [data-lucide="arrow-left"],
+    html[dir="rtl"] [data-lucide="arrow-right"],
+    html[dir="rtl"] [data-lucide="chevron-left"],
+    html[dir="rtl"] [data-lucide="chevron-right"] {
+        transform: scaleX(-1);
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Premium Card System
+   Apple Wallet-inspired 3D credit cards
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@layer components {
+
+    /* Card Container - Provides 3D perspective */
+    .premium-card-container {
+        perspective: 1200px;
+        perspective-origin: center center;
+    }
+
+    /* Premium Card - Main card element with 3D transforms */
+    .premium-card {
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
+        will-change: transform;
+        transition: all 500ms cubic-bezier(0.23, 1, 0.32, 1);
+        min-height: 240px;
+        aspect-ratio: 1.586 / 1;
+        /* Credit card ratio */
+    }
+
+    /* Hover State - Lift and subtle tilt with amber glow */
+    .premium-card:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow:
+            0 20px 40px oklch(0 0 0 / 0.15),
+            0 10px 20px oklch(0 0 0 / 0.1),
+            0 0 0 1px oklch(1 0 0 / 0.1) inset,
+            0 0 30px -10px var(--color-primary-500);
+    }
+
+    /* Holographic Shine Effect — Golden shimmer */
+    .card-shine {
+        background: linear-gradient(135deg,
+                transparent 0%,
+                oklch(1 0 0 / 0) 40%,
+                oklch(0.85 0.12 78 / 0.2) 50%,
+                oklch(1 0 0 / 0) 60%,
+                transparent 100%);
+        transform: translateX(-100%) skewX(-15deg);
+        transition: opacity 300ms ease;
+    }
+
+    .premium-card:hover .card-shine {
+        animation: shine 1.5s ease-in-out infinite;
+    }
+
+    @keyframes shine {
+        0% {
+            transform: translateX(-100%) skewX(-15deg);
+        }
+
+        100% {
+            transform: translateX(200%) skewX(-15deg);
+        }
+    }
+
+    /* Stagger Load Animation */
+    .card-stagger {
+        animation: fadeInUp 600ms cubic-bezier(0.23, 1, 0.32, 1) backwards;
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Flip Animation for flippable cards */
+    .premium-card[x-show="flipped"] {
+        animation: flipIn 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    @keyframes flipIn {
+        from {
+            transform: rotateY(180deg);
+            opacity: 0;
+        }
+
+        to {
+            transform: rotateY(0deg);
+            opacity: 1;
+        }
+    }
+
+    /* Enhanced shadow for 3D depth */
+    .shadow-3xl {
+        box-shadow: var(--shadow-3xl);
+    }
+
+    /* Smooth GPU-accelerated transforms */
+    .transform-gpu {
+        transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+    }
+
+    /* ============================================
+       Living Gem Border Animation
+       Sharp beam, soft glow
+       ============================================ */
+
+       .border-glow {
+        --glow-color: oklch(0.60 0.16 240);
+        --glow-color-light: oklch(0.80 0.12 240);
+        --glow-color-intense: oklch(0.70 0.14 240);
+        position: relative;
+        overflow: visible;
+    }
+
+    /* The traveling light beam - bright and sharp */
+    .border-glow::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        padding: 2px;
+        border-radius: inherit;
+        background: conic-gradient(
+            from var(--border-angle),
+            transparent 0%,
+            transparent 20%,
+            var(--glow-color-light) 28%,
+            var(--glow-color-intense) 38%,
+            var(--glow-color) 50%,
+            var(--glow-color-intense) 62%,
+            var(--glow-color-light) 72%,
+            transparent 80%,
+            transparent 100%
+        );
+        mask: 
+            linear-gradient(#fff 0 0) content-box, 
+            linear-gradient(#fff 0 0);
+        mask-composite: exclude;
+        -webkit-mask: 
+            linear-gradient(#fff 0 0) content-box, 
+            linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        animation: border-rotate 2.5s linear infinite;
+    }
+
+    /* Outer glow - tight and controlled */
+    .border-glow::after {
+        content: '';
+        position: absolute;
+        inset: -2px;
+        border-radius: calc(1rem + 2px);
+        background: conic-gradient(
+            from var(--border-angle),
+            transparent 0%,
+            transparent 35%,
+            var(--glow-color) 50%,
+            transparent 65%,
+            transparent 100%
+        );
+        filter: blur(6px);
+        opacity: 0.3;
+        z-index: -1;
+        animation: border-rotate 2.5s linear infinite;
+        pointer-events: none;
+    }
+
+    /* Hover - slightly more glow */
+    .group:hover .border-glow::after {
+        opacity: 0.5;
+        filter: blur(8px);
+    }
+
+    /* ─────────────────────────────────────────
+       Color Variants
+       ───────────────────────────────────────── */
+
+    .border-glow-primary {
+        --glow-color: oklch(0.65 0.20 240);
+        --glow-color-light: oklch(0.85 0.15 240);
+        --glow-color-intense: oklch(0.75 0.18 240);
+    }
+
+    .dark .border-glow-primary {
+        --glow-color: oklch(0.75 0.18 240);
+        --glow-color-light: oklch(0.90 0.12 240);
+        --glow-color-intense: oklch(0.82 0.16 240);
+    }
+
+    .border-glow-amber {
+        --glow-color: oklch(0.78 0.20 60);
+        --glow-color-light: oklch(0.92 0.14 75);
+        --glow-color-intense: oklch(0.85 0.18 65);
+    }
+
+    .dark .border-glow-amber {
+        --glow-color: oklch(0.85 0.18 65);
+        --glow-color-light: oklch(0.95 0.12 80);
+        --glow-color-intense: oklch(0.90 0.16 70);
+    }
+
+    .border-glow-emerald {
+        --glow-color: oklch(0.72 0.19 155);
+        --glow-color-light: oklch(0.88 0.14 155);
+        --glow-color-intense: oklch(0.80 0.17 155);
+    }
+
+    .dark .border-glow-emerald {
+        --glow-color: oklch(0.80 0.17 155);
+        --glow-color-light: oklch(0.92 0.12 155);
+        --glow-color-intense: oklch(0.86 0.15 155);
+    }
+
+    /* ─────────────────────────────────────────
+       Animation
+       ───────────────────────────────────────── */
+
+    @keyframes border-rotate {
+        from { --border-angle: 0deg; }
+        to { --border-angle: 360deg; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        .border-glow::before,
+        .border-glow::after {
+            animation: none;
+            --border-angle: 45deg;
+        }
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Button System — Marketing Site Pattern
+       
+       HIERARCHY (matching rewardloyalty.co):
+       • Primary buttons = GOLD/AMBER (main CTAs, conversion moments)
+       • Blue = Brand color (navigation, links, badges, trust elements)
+       • Secondary = Neutral outline
+       
+       USAGE:
+       • .btn-primary — Gold gradient CTAs (Get Started, Sign Up, Buy Now)
+       • .btn-secondary — Neutral outline buttons
+       • Text/links use blue (primary-*) for brand consistency
+       ───────────────────────────────────────────────────────────────────────── */
+
+    /* Primary Button — GOLD/AMBER (main CTAs, conversion) */
+    .btn-primary {
+        @apply inline-flex items-center justify-center gap-2;
+        @apply px-6 py-3 rounded-full font-semibold text-sm;
+        @apply transition-all duration-300 ease-out;
+        background: linear-gradient(135deg, var(--color-accent-500), var(--color-accent-600));
+        color: var(--color-secondary-950);
+        box-shadow:
+            0 0 0 1px var(--color-accent-600),
+            0 4px 16px -2px oklch(0.77 0.17 75 / 0.35);
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        background: linear-gradient(135deg, var(--color-accent-400), var(--color-accent-500));
+        box-shadow:
+            0 0 0 1px var(--color-accent-500),
+            0 8px 24px -4px oklch(0.77 0.17 75 / 0.45);
+    }
+
+    .btn-primary:active {
+        transform: translateY(0);
+    }
+
+    /* Secondary Button — Neutral outline */
+    .btn-secondary {
+        @apply inline-flex items-center justify-center gap-2;
+        @apply px-6 py-3 rounded-full font-semibold text-sm;
+        @apply transition-all duration-300 ease-out;
+        @apply bg-transparent border border-secondary-200 text-secondary-900;
+        @apply dark:border-secondary-700 dark:text-white;
+    }
+
+    .btn-secondary:hover {
+        @apply border-primary-500 text-primary-600;
+        @apply dark:border-primary-500 dark:text-primary-400;
+        background: oklch(0.60 0.16 240 / 0.1);
+    }
+
+    /* Legacy aliases for backward compatibility */
+    .btn-cta {
+        @apply inline-flex items-center justify-center gap-2;
+        @apply px-6 py-3 rounded-full font-semibold text-sm;
+        @apply transition-all duration-300 ease-out;
+        background: linear-gradient(135deg, var(--color-accent-500), var(--color-accent-600));
+        color: var(--color-secondary-950);
+        box-shadow:
+            0 0 0 1px var(--color-accent-600),
+            0 4px 16px -2px oklch(0.77 0.17 75 / 0.35);
+    }
+
+    .btn-cta:hover {
+        transform: translateY(-2px);
+        background: linear-gradient(135deg, var(--color-accent-400), var(--color-accent-500));
+        box-shadow:
+            0 0 0 1px var(--color-accent-500),
+            0 8px 24px -4px oklch(0.77 0.17 75 / 0.45);
+    }
+
+    .btn-cta:active {
+        transform: translateY(0);
+    }
+
+    .btn-trust {
+        @apply inline-flex items-center justify-center gap-2;
+        @apply px-6 py-3 rounded-full font-semibold text-sm;
+        @apply transition-all duration-300 ease-out;
+        background: linear-gradient(135deg, var(--color-primary-500), var(--color-primary-600));
+        color: white;
+        box-shadow:
+            0 0 0 1px var(--color-primary-600),
+            0 4px 16px -2px oklch(0.60 0.16 240 / 0.3);
+    }
+
+    .btn-trust:hover {
+        transform: translateY(-2px);
+        box-shadow:
+            0 0 0 1px var(--color-primary-500),
+            0 8px 24px -4px oklch(0.60 0.16 240 / 0.4);
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Reward Components — Loyalty-specific UI
+       ───────────────────────────────────────────────────────────────────────── */
+
+    /* Points Display */
+    .points-display {
+        @apply font-heading font-bold text-primary-600 dark:text-primary-400;
+        text-shadow: 0 0 30px oklch(0.72 0.17 72 / 0.5);
+    }
+
+    /* Progress Bar — Loyalty progress */
+    .progress-bar {
+        @apply h-2 rounded-full overflow-hidden bg-secondary-200 dark:bg-secondary-800;
+    }
+
+    .progress-bar-fill {
+        @apply h-full rounded-full transition-all duration-500 ease-out;
+        background: linear-gradient(90deg, var(--color-primary-600), var(--color-primary-400));
+        box-shadow: 0 0 10px oklch(0.72 0.17 72 / 0.5);
+    }
+
+    /* Reward Card */
+    .reward-card {
+        @apply p-6 rounded-2xl transition-all duration-300;
+        @apply bg-white border border-primary-200 dark:bg-secondary-900 dark:border-primary-800;
+        box-shadow: var(--shadow-card), 0 0 30px -15px var(--color-primary-500);
+    }
+
+    .reward-card:hover {
+        @apply border-primary-400 dark:border-primary-600;
+        box-shadow: var(--shadow-card-hover), 0 0 40px -10px var(--color-primary-500);
+    }
+
+    /* Trust Card — Security sections */
+    .trust-card {
+        @apply p-6 rounded-2xl transition-all duration-300;
+        @apply bg-white border border-accent-200 dark:bg-secondary-900 dark:border-accent-800;
+    }
+
+    .trust-card:hover {
+        @apply border-accent-400 dark:border-accent-600;
+        box-shadow: var(--shadow-card-hover), 0 0 30px -15px var(--color-accent-500);
+    }
+
+    /* QR Frame — Golden border */
+    .qr-frame {
+        @apply p-4 rounded-2xl bg-white dark:bg-secondary-900;
+        border: 2px solid var(--color-primary-500);
+        box-shadow:
+            0 0 0 4px var(--color-secondary-50),
+            0 0 30px -5px oklch(0.72 0.17 72 / 0.4);
+    }
+
+    .dark .qr-frame {
+        box-shadow:
+            0 0 0 4px var(--color-secondary-950),
+            0 0 30px -5px oklch(0.72 0.17 72 / 0.4);
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Badges
+       ───────────────────────────────────────────────────────────────────────── */
+
+    .badge {
+        @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium;
+        @apply bg-secondary-100 text-secondary-600 border border-secondary-200;
+        @apply dark:bg-secondary-800 dark:text-secondary-400 dark:border-secondary-700;
+    }
+
+    .badge-primary {
+        background: oklch(0.72 0.17 72 / 0.12);
+        border-color: oklch(0.72 0.17 72 / 0.25);
+        @apply text-primary-700 dark:text-primary-400;
+    }
+
+    .badge-accent {
+        background: oklch(0.58 0.17 240 / 0.12);
+        border-color: oklch(0.58 0.17 240 / 0.25);
+        @apply text-accent-700 dark:text-accent-400;
+    }
+
+    .badge-success {
+        background: oklch(0.65 0.17 145 / 0.12);
+        border-color: oklch(0.65 0.17 145 / 0.25);
+        @apply text-success-700 dark:text-success-400;
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Gradient Text
+       ───────────────────────────────────────────────────────────────────────── */
+
+    .text-gradient-primary {
+        background: linear-gradient(135deg, var(--color-primary-500), var(--color-primary-600));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .text-gradient-accent {
+        background: linear-gradient(135deg, var(--color-accent-400), var(--color-accent-600));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .text-gradient-reward {
+        background: linear-gradient(135deg,
+                var(--color-primary-300),
+                var(--color-primary-500),
+                var(--color-primary-300));
+        background-size: 200% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Animations
+       ───────────────────────────────────────────────────────────────────────── */
+
+    /* Snappy Animations */
+    .animate-pop {
+        transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .animate-pop:hover {
+        transform: scale(1.02);
+    }
+
+    .animate-pop:active {
+        transform: scale(0.95);
+    }
+
+    .animate-fade-in-up {
+        animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+    }
+
+    .animate-slide-in-right {
+        animation: slideInRight 0.6s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+    }
+
+    @keyframes slideInRight {
+        from {
+            opacity: 0;
+            transform: translateX(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .animate-reward-pulse {
+        animation: rewardPulse 2s ease-in-out infinite;
+    }
+
+    @keyframes rewardPulse {
+
+        0%,
+        100% {
+            transform: scale(1);
+            box-shadow: 0 0 0 0 oklch(0.72 0.17 72 / 0.4);
+        }
+
+        50% {
+            transform: scale(1.02);
+            box-shadow: 0 0 0 10px oklch(0.72 0.17 72 / 0);
+        }
+    }
+
+    .animate-gold-shimmer {
+        background: linear-gradient(90deg,
+                var(--color-primary-600) 0%,
+                var(--color-primary-400) 25%,
+                var(--color-primary-300) 50%,
+                var(--color-primary-400) 75%,
+                var(--color-primary-600) 100%);
+        background-size: 200% auto;
+        animation: goldShimmer 3s linear infinite;
+    }
+
+    @keyframes goldShimmer {
+        0% {
+            background-position: -200% center;
+        }
+
+        100% {
+            background-position: 200% center;
+        }
+    }
+
+    /* Shimmer effect for active navigation items */
+    .animate-shimmer {
+        animation: shimmer 3s ease-in-out infinite;
+    }
+
+    @keyframes shimmer {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+
+    /* Share Icons — Staggered Pop Animation */
+    .animate-share-pop {
+        animation: sharePop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) backwards;
+    }
+
+    @keyframes sharePop {
+        0% {
+            opacity: 0;
+            transform: scale(0.5) translateX(-8px);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1) translateX(0);
+        }
+    }
+
+    /* Spinning Gradient Border — Attention-grabbing CTA */
+    .animate-spin-slow {
+        animation: spinSlow 4s linear infinite;
+    }
+
+    @keyframes spinSlow {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    /* Animation Delays */
+    .delay-100 {
+        animation-delay: 100ms;
+    }
+
+    .delay-200 {
+        animation-delay: 200ms;
+    }
+
+    .delay-300 {
+        animation-delay: 300ms;
+    }
+
+    .delay-400 {
+        animation-delay: 400ms;
+    }
+
+    .delay-500 {
+        animation-delay: 500ms;
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Glow Effects
+       ───────────────────────────────────────────────────────────────────────── */
+
+    .glow-primary {
+        box-shadow: var(--shadow-glow-primary);
+    }
+
+    .glow-accent {
+        box-shadow: var(--shadow-glow-accent);
+    }
+
+    .glow-reward {
+        box-shadow:
+            0 0 40px -10px var(--color-primary-500),
+            0 0 80px -20px var(--color-primary-400);
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Font Face Declarations — Only fonts used in the system
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Geist — Primary UI font */
+@font-face {
+    font-display: swap;
+    font-family: 'Geist';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/geist/geist-v4-cyrillic_latin_latin-ext-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Geist';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/geist/geist-v4-cyrillic_latin_latin-ext-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Geist';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/geist/geist-v4-cyrillic_latin_latin-ext-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Geist';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/geist/geist-v4-cyrillic_latin_latin-ext-700.woff2') format('woff2');
+}
+
+/* Inter — Fallback body font */
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/inter/inter-v20-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/inter/inter-v20-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/inter/inter-v20-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-600.woff2') format('woff2');
+}
+
+/* JetBrains Mono — Code/mono font */
+@font-face {
+    font-display: swap;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/jetbrains-mono/jetbrains-mono-v24-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/jetbrains-mono/jetbrains-mono-v24-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-500.woff2') format('woff2');
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Utility Classes
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Contrast-Aware Text Shadows — Card Legibility System
+   
+   Based on TEXT color luminance (not background):
+   • Light text (white) → black shadow for contrast
+   • Dark text (black) → white shadow for contrast
+   
+   Philosophy: "Felt, not seen" — ultra-subtle edge correction
+   ───────────────────────────────────────────────────────────────────────── */
+
+.text-shadow-subtle-white {
+    /* Primary shadow for white text on dark backgrounds (the rich palette case).
+       Soft white glow for anti-aliasing/lift + tiny black anchor.
+       Achieves the digital 'outset' effect from modern mobile OS design. */
+    text-shadow: 
+        0 0 1px rgba(255, 255, 255, 0.45),  /* Soft white highlight/edge correction */
+        0 1px 1px rgba(0, 0, 0, 0.05);       /* Extremely subtle black drop-anchor (5% opacity) */
+}
+
+.text-shadow-subtle-black {
+    /* Contrast rescue shadow for white text on light backgrounds.
+       Stronger to ensure readability, but still soft. */
+    text-shadow: 
+        0 1px 1px rgba(0, 0, 0, 0.5),        /* Subtle drop shadow for depth */
+        0 0 5px rgba(0, 0, 0, 0.3);          /* Soft blur to kill light background bleed */
+}
+
+/* Alpine.js cloak */
+[x-cloak] {
+    display: none !important;
+}
+
+/* Hide scrollbar while maintaining scroll functionality */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* Responsive visibility helpers */
+@media (max-width: 639px) {
+    .sm-only\:hidden {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .md-only\:hidden {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1023px) {
+    .lg-only\:hidden {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1279px) {
+    .xl-only\:hidden {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1535px) {
+    .xxl-only\:hidden {
+        display: none !important;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Pickr Color Picker — Enterprise Revolut Styling
+   Jony Ive × Steve Jobs approved
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Color Swatch Button */
+.color-swatch-btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    border: 2px solid oklch(0.85 0.008 250);
+    transition: all 0.2s ease-out;
+    background: linear-gradient(135deg, 
+        oklch(0.98 0 0) 0%, 
+        oklch(0.95 0 0) 100%);
+}
+
+.dark .color-swatch-btn {
+    border-color: oklch(0.28 0.004 250);
+    background: linear-gradient(135deg, 
+        oklch(0.22 0.005 250) 0%, 
+        oklch(0.17 0.006 250) 100%);
+}
+
+.color-swatch-btn:hover {
+    border-color: oklch(0.80 0.012 240);
+    box-shadow: 0 10px 15px -3px oklch(0 0 0 / 0.1), 0 4px 6px -4px oklch(0 0 0 / 0.1);
+    transform: translateY(-1px) scale(1.02);
+}
+
+.dark .color-swatch-btn:hover {
+    border-color: oklch(0.50 0.010 250);
+}
+
+.color-swatch-btn:active {
+    transform: scale(0.98);
+}
+
+.color-swatch-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px oklch(0.60 0.16 240 / 0.3);
+}
+
+.dark .color-swatch-btn:focus {
+    box-shadow: 0 0 0 2px oklch(0.60 0.16 240 / 0.4);
+}
+
+/* Swatch Preview Circle */
+.color-swatch-preview {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 oklch(0 0 0 / 0.1), inset 0 0 0 1px oklch(0 0 0 / 0.06);
+    transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.color-swatch-btn:hover .color-swatch-preview {
+    box-shadow: 0 4px 6px -1px oklch(0 0 0 / 0.1), inset 0 0 0 1px oklch(0 0 0 / 0.06);
+    transform: scale(1.08);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Pickr Nano Theme Overrides (Native CSS)
+   ───────────────────────────────────────────────────────────────────────── */
+
+.pickr {
+    position: relative;
+}
+
+/* Hide default pickr button (we use custom swatch) */
+.pickr .pcr-button {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* Main picker container */
+.pcr-app {
+    background: white !important;
+    border: 1px solid oklch(0.94 0.008 80) !important;
+    border-radius: 1rem !important;
+    font-family: var(--font-sans) !important;
+    box-shadow: 
+        0 25px 50px -12px oklch(0 0 0 / 0.25),
+        0 0 0 1px oklch(0 0 0 / 0.05) !important;
+}
+
+.dark .pcr-app {
+    background: oklch(0.17 0.006 250) !important;
+    border-color: oklch(0.22 0.005 250) !important;
+    box-shadow: 
+        0 25px 50px -12px oklch(0 0 0 / 0.5),
+        0 0 0 1px oklch(1 0 0 / 0.05) !important;
+}
+
+/* Selection area (gradient box) */
+.pcr-app .pcr-selection {
+    padding: 1rem !important;
+}
+
+/* Color palette area */
+.pcr-app .pcr-selection .pcr-color-palette {
+    border-radius: 0.75rem !important;
+    overflow: hidden !important;
+}
+
+/* Color area sliders */
+.pcr-app .pcr-color-chooser,
+.pcr-app .pcr-color-opacity {
+    border-radius: 9999px !important;
+    height: 0.625rem !important;
+    margin-top: 0.75rem !important;
+}
+
+/* All picker handles (the draggable circles) */
+.pcr-app .pcr-picker {
+    width: 1rem !important;
+    height: 1rem !important;
+    border: 2px solid white !important;
+    border-radius: 9999px !important;
+    box-shadow: 0 1px 4px oklch(0 0 0 / 0.3) !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+/* Hue slider handle - slightly smaller */
+.pcr-app .pcr-color-chooser .pcr-picker,
+.pcr-app .pcr-color-opacity .pcr-picker {
+    width: 0.875rem !important;
+    height: 0.875rem !important;
+}
+
+/* Preview circle */
+.pcr-app .pcr-color-preview {
+    margin-right: 0.75rem !important;
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+/* Hide transparency checkerboard pattern */
+.pcr-app .pcr-color-preview::before {
+    display: none !important;
+}
+
+.pcr-app .pcr-color-preview::after {
+    border-radius: 0.5rem !important;
+    width: 100% !important;
+    height: 100% !important;
+    box-shadow: inset 0 0 0 1px oklch(0 0 0 / 0.1) !important;
+}
+
+.pcr-app .pcr-current-color {
+    border-radius: 0.5rem !important;
+}
+
+/* Swatches container */
+.pcr-app .pcr-swatches {
+    padding: 0.75rem !important;
+    border-top: 1px solid oklch(0.97 0.005 80) !important;
+    gap: 0.375rem !important;
+    max-height: 140px !important;
+    overflow-y: auto !important;
+}
+
+.dark .pcr-app .pcr-swatches {
+    border-top-color: oklch(0.22 0.005 250) !important;
+}
+
+/* Individual swatch buttons */
+.pcr-app .pcr-swatches > button {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    border-radius: 0.375rem !important;
+    border: 1px solid oklch(0.94 0.008 80 / 0.5) !important;
+    transition: all 0.15s ease !important;
+    box-shadow: 0 1px 2px 0 oklch(0 0 0 / 0.05) !important;
+}
+
+.dark .pcr-app .pcr-swatches > button {
+    border-color: oklch(0.28 0.004 250 / 0.5) !important;
+}
+
+.pcr-app .pcr-swatches > button:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 4px 6px -1px oklch(0 0 0 / 0.1) !important;
+    z-index: 10 !important;
+}
+
+.pcr-app .pcr-swatches > button:focus {
+    box-shadow: 0 0 0 2px oklch(0.60 0.16 240 / 0.5) !important;
+    outline: none !important;
+}
+
+/* Interaction area (input + buttons) */
+.pcr-app .pcr-interaction {
+    padding: 0.75rem !important;
+    border-top: 1px solid oklch(0.97 0.005 80) !important;
+    gap: 0.5rem !important;
+}
+
+.dark .pcr-app .pcr-interaction {
+    border-top-color: oklch(0.22 0.005 250) !important;
+}
+
+/* Hex input */
+.pcr-app .pcr-interaction input {
+    flex: 1 !important;
+    background: oklch(0.98 0.003 80) !important;
+    border: 1px solid oklch(0.94 0.008 80) !important;
+    border-radius: 0.5rem !important;
+    padding: 0.5rem 0.75rem !important;
+    font-size: 0.875rem !important;
+    font-family: var(--font-mono) !important;
+    color: oklch(0.13 0.008 250) !important;
+    transition: all 0.2s ease !important;
+}
+
+.dark .pcr-app .pcr-interaction input {
+    background: oklch(0.13 0.008 250) !important;
+    border-color: oklch(0.28 0.004 250) !important;
+    color: white !important;
+}
+
+.pcr-app .pcr-interaction input:focus {
+    outline: none !important;
+    border-color: oklch(0.60 0.16 240) !important;
+    box-shadow: 0 0 0 2px oklch(0.60 0.16 240 / 0.2) !important;
+}
+
+/* Save button */
+.pcr-app .pcr-interaction .pcr-save {
+    padding: 0.5rem 1rem !important;
+    background: oklch(0.50 0.14 240) !important;
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 0.875rem !important;
+    border-radius: 0.5rem !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 1px 2px 0 oklch(0 0 0 / 0.05) !important;
+}
+
+.pcr-app .pcr-interaction .pcr-save:hover {
+    background: oklch(0.40 0.14 240) !important;
+    box-shadow: 0 4px 6px -1px oklch(0 0 0 / 0.1) !important;
+}
+
+.pcr-app .pcr-interaction .pcr-save:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 2px oklch(0.60 0.16 240 / 0.5) !important;
+}
+
+/* Clear button (if enabled) */
+.pcr-app .pcr-interaction .pcr-clear {
+    padding: 0.5rem 0.75rem !important;
+    background: oklch(0.97 0.005 80) !important;
+    color: oklch(0.28 0.004 250) !important;
+    font-weight: 500 !important;
+    font-size: 0.875rem !important;
+    border-radius: 0.5rem !important;
+    transition: all 0.2s ease !important;
+}
+
+.dark .pcr-app .pcr-interaction .pcr-clear {
+    background: oklch(0.22 0.005 250) !important;
+    color: oklch(0.85 0.008 250) !important;
+}
+
+.pcr-app .pcr-interaction .pcr-clear:hover {
+    background: oklch(0.94 0.008 80) !important;
+}
+
+.dark .pcr-app .pcr-interaction .pcr-clear:hover {
+    background: oklch(0.28 0.004 250) !important;
+}
+
+/* Hide opacity slider since we don't use it */
+.pcr-app .pcr-color-opacity {
+    display: none !important;
+}
+
+/* Type indicator labels */
+.pcr-app .pcr-type {
+    display: none !important;
+}
+
+/* Result text */
+.pcr-app .pcr-result {
+    font-family: var(--font-mono) !important;
+    font-size: 0.75rem !important;
+    background: transparent !important;
+    border: 0 !important;
+    color: oklch(0.28 0.004 250) !important;
+}
+
+.dark .pcr-app .pcr-result {
+    color: oklch(0.65 0.010 250) !important;
+}
+
+/* Scrollbar styling for swatches */
+.pcr-app .pcr-swatches::-webkit-scrollbar {
+    width: 6px;
+}
+
+.pcr-app .pcr-swatches::-webkit-scrollbar-track {
+    background: oklch(0.97 0.005 80);
+    border-radius: 9999px;
+}
+
+.dark .pcr-app .pcr-swatches::-webkit-scrollbar-track {
+    background: oklch(0.17 0.006 250);
+}
+
+.pcr-app .pcr-swatches::-webkit-scrollbar-thumb {
+    background: oklch(0.85 0.008 250);
+    border-radius: 9999px;
+}
+
+.dark .pcr-app .pcr-swatches::-webkit-scrollbar-thumb {
+    background: oklch(0.28 0.004 250);
+}
+
+.pcr-app .pcr-swatches::-webkit-scrollbar-thumb:hover {
+    background: oklch(0.65 0.010 250);
+}
+
+.dark .pcr-app .pcr-swatches::-webkit-scrollbar-thumb:hover {
+    background: oklch(0.50 0.010 250);
+}

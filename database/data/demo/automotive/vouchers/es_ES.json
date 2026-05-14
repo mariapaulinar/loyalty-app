@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusivo miembros",
+        "title": "20% en detallado",
+        "description": "Oferta de servicio favorable a la conversión.",
+        "free_product_name": "20% de descuento"
+    },
+    {
+        "head": "Mejora",
+        "title": "Mejora de lavado gratis",
+        "description": "Mejora a lavado premium. Alto valor percibido.",
+        "free_product_name": "Mejora de lavado"
+    },
+    {
+        "head": "Pack ahorro",
+        "title": "$15 de descuento en $100",
+        "description": "Impulsa paquetes más grandes.",
+        "free_product_name": "$15 de descuento"
+    },
+    {
+        "head": "Impulsor de puntos",
+        "title": "+250 puntos bonus",
+        "description": "Recompensa frecuencia sin descuentos profundos.",
+        "free_product_name": "+250 puntos"
+    },
+    {
+        "head": "Fin de semana",
+        "title": "Especial fin de semana",
+        "description": "Oferta de corta duración para llenar capacidad.",
+        "free_product_name": "Oferta fin de semana"
+    },
+    {
+        "head": "Mantenimiento",
+        "title": "$10 de descuento en servicio",
+        "description": "Incentiva reservas de mantenimiento.",
+        "free_product_name": "$10 de descuento"
+    }
+]

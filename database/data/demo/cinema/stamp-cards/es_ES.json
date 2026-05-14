@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Bonanza Blockbuster",
+        "title": "Ahorros de estreno",
+        "description": "¡Sella tu camino hacia ofertas de cine!"
+    },
+    {
+        "head": "Membresía de cine",
+        "title": "Mira y gana",
+        "description": "¡Obtén un sello con cada película!"
+    },
+    {
+        "head": "Club Cinéfilos",
+        "title": "Ve y ahorra",
+        "description": "¡Los sellos de cine desbloquean beneficios especiales!"
+    },
+    {
+        "head": "Pase Palomitas",
+        "title": "Come y gana",
+        "description": "¡Cada palomita gana un sello!"
+    },
+    {
+        "head": "Especiales Matinée",
+        "title": "Descuentos de tarde",
+        "description": "¡Las funciones de la tarde ganan sellos!"
+    },
+    {
+        "head": "Festival Cine Fin de Semana",
+        "title": "Ofertas de cine de fin de semana",
+        "description": "¡Películas de fin de semana = más sellos!"
+    }
+]

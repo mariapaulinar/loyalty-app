@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Anggota eksklusif",
+        "title": "Diskon 20% apa pun minuman",
+        "description": "Waktu terbatas penawaran dirancang Ke convert browsing menjadi buying.",
+        "free_product_name": "Diskon 20%"
+    },
+    {
+        "head": "Hadiah Sambutan",
+        "title": "Gratis Ukuran upgrade",
+        "description": "tinggi perceived Nilai keuntungan Untuk first-time Anggota.",
+        "free_product_name": "Ukuran upgrade"
+    },
+    {
+        "head": "pastri keuntungan",
+        "title": "Gratis pastri",
+        "description": "Promo: dorongan pasangan sales dan bangun routine.",
+        "free_product_name": "pastri"
+    },
+    {
+        "head": "Promo: bundel hemat",
+        "title": "Diskon $5 kopi + pastri",
+        "description": "AOV penguat: Hadiah paket, not single Item.",
+        "free_product_name": "Diskon $5"
+    },
+    {
+        "head": "Promo: bahagia Hour",
+        "title": "BOGO Iced kopi",
+        "description": "dorong traffic di Diskon-peak Jam tanpa potongan harga everything.",
+        "free_product_name": "Gratis Iced kopi"
+    },
+    {
+        "head": "poin penguat",
+        "title": "+100 Poin bonus",
+        "description": "Loyalitas-first incentive Untuk ulang Kunjungan.",
+        "free_product_name": "+100 Poin"
+    }
+]

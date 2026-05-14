@@ -1,0 +1,33 @@
+[
+  {
+    "head": "Offre membre",
+    "title": "25% de réduction",
+    "description": "Économies exclusives pour les membres — durée limitée."
+  },
+  {
+    "head": "Cadeau de bienvenue",
+    "title": "10 € de réduction",
+    "description": "Un petit merci pour votre inscription."
+  },
+  {
+    "head": "Mise à niveau gratuite",
+    "title": "Supplément gratuit",
+    "description": "Recevez un supplément gratuit avec votre achat.",
+    "free_product_name": "Supplément gratuit"
+  },
+  {
+    "head": "Points bonus",
+    "title": "+100 points",
+    "description": "Gagnez des points supplémentaires sur votre prochain achat."
+  },
+  {
+    "head": "Pack économique",
+    "title": "Achetez plus, économisez plus",
+    "description": "Économisez davantage en atteignant le montant minimum."
+  },
+  {
+    "head": "Offre week-end",
+    "title": "Spécial week-end",
+    "description": "Une offre exclusive le week-end pour fidéliser."
+  }
+]

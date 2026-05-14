@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Esploratori",
+        "title": "Punti viaggio che sembrano upgrade",
+        "description": "Guadagna su soggiorni, tour e prenotazioni. Riscatta per vantaggi che migliorano l'esperienza."
+    },
+    {
+        "head": "Weekend fuoriporta",
+        "title": "Boost prenotazioni weekend",
+        "description": "Punti bonus sui soggiorni weekend per aumentare l'occupazione."
+    },
+    {
+        "head": "Prenota presto",
+        "title": "Prenota prima, guadagna di più",
+        "description": "Incentiva prenotazioni anticipate con premi mirati."
+    },
+    {
+        "head": "Fughe stagionali",
+        "title": "Offerte stagionali pronte per campagne",
+        "description": "Lancia fughe estive, vacanze invernali e spinte bassa stagione facilmente."
+    },
+    {
+        "head": "Upgrade VIP",
+        "title": "Vantaggi premium per membri top",
+        "description": "Upgrade prioritari e vantaggi VIP che costruiscono fedeltà."
+    },
+    {
+        "head": "Viaggi famiglia",
+        "title": "Premi pensati per gruppi",
+        "description": "Pensato per prenotazioni di importo elevato e pacchetti famiglia."
+    }
+]

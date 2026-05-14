@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusif membre",
+        "title": "15% sur toute cuisson",
+        "description": "Offre membre limitée. Idéal pour les jours calmes.",
+        "free_product_name": "15% de réduction"
+    },
+    {
+        "head": "Cadeau de bienvenue",
+        "title": "Pâtisserie gratuite",
+        "description": "Avantage première visite qui convertit les inscriptions en achats.",
+        "free_product_name": "Pâtisserie"
+    },
+    {
+        "head": "Jour gâteau",
+        "title": "10 € de réduction gâteaux",
+        "description": "Stimulez les commandes célébration avec une incitation ciblée.",
+        "free_product_name": "10 € de réduction"
+    },
+    {
+        "head": "Pack économique",
+        "title": "2 achetés, 1 offert",
+        "description": "Fait bouger les volumes sans tout réduire.",
+        "free_product_name": "Pâtisserie gratuite"
+    },
+    {
+        "head": "Spécial matin",
+        "title": "Café gratuit",
+        "description": "Avantage accompagnement conçu pour augmenter le panier.",
+        "free_product_name": "Café"
+    },
+    {
+        "head": "Booster de points",
+        "title": "+150 points bonus",
+        "description": "Récompensez la fidélité, pas seulement la sensibilité au prix.",
+        "free_product_name": "+150 points"
+    }
+]

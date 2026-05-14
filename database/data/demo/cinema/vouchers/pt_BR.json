@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Noite Cinema",
+        "title": "Compre 1 Leve 2 Ingressos",
+        "description": "Compre um ingresso e traga um amigo de graça!",
+        "free_product_name": "Ingresso Grátis"
+    },
+    {
+        "head": "Oferta Pipoca",
+        "title": "Pipoca Grande Grátis",
+        "description": "Ganhe uma pipoca grande com qualquer compra de ingresso!",
+        "free_product_name": "Pipoca Grande"
+    },
+    {
+        "head": "Especial Fim de Semana",
+        "title": "$5 de Desconto em Ingressos de Fim de Semana",
+        "description": "Economize $5 em qualquer sessão de fim de semana!",
+        "free_product_name": "$5 Off"
+    },
+    {
+        "head": "Pacote Família",
+        "title": "30% de Desconto em Ingressos Família",
+        "description": "Traga toda a família e economize 30% em 4+ ingressos!",
+        "free_product_name": "30% Off"
+    },
+    {
+        "head": "Assento Premium",
+        "title": "Upgrade Premium Grátis",
+        "description": "Upgrade para assentos premium sem custo extra!",
+        "free_product_name": "Assento Premium"
+    },
+    {
+        "head": "Combo Lanchonete",
+        "title": "$10 de Desconto no Combo",
+        "description": "Economize $10 em qualquer combo de comida e bebida!",
+        "free_product_name": "$10 Off"
+    }
+]

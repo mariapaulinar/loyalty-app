@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Stamp & Save",
+    "title": "Collect stamps",
+    "description": "One stamp per visit. Finish the card, claim a perk."
+  },
+  {
+    "head": "Regulars Club",
+    "title": "Visit, unlock",
+    "description": "Short loop that turns regulars into members."
+  },
+  {
+    "head": "Weekly Challenge",
+    "title": "Double-stamp day",
+    "description": "Pick a day, run 2x stamps, lift traffic."
+  },
+  {
+    "head": "New Member",
+    "title": "Start strong",
+    "description": "Welcome stamp to kick off the habit."
+  },
+  {
+    "head": "Bring Friends",
+    "title": "Group boost",
+    "description": "Come together, progress faster."
+  },
+  {
+    "head": "Limited Run",
+    "title": "Seasonal card",
+    "description": "Limited-time stamp card for campaigns."
+  }
+]

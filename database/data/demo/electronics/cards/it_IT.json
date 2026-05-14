@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Tech Club",
+        "title": "Aggiorna e guadagna",
+        "description": "Punti su dispositivi + accessori con premi che sembrano upgrade, non sconti."
+    },
+    {
+        "head": "Accesso lancio",
+        "title": "Accesso anticipato nuove uscite",
+        "description": "Pensato per calendari lanci e drop prodotti."
+    },
+    {
+        "head": "Boost permute",
+        "title": "Trasforma le permute in fedeltà",
+        "description": "Punti bonus con le permute. Ottimo per upgrade e retention."
+    },
+    {
+        "head": "Vantaggi protezione",
+        "title": "Premia la cura, non solo la spesa",
+        "description": "Incentiva piani protezione e accessori. Favorevole ai margini."
+    },
+    {
+        "head": "Risparmi bundle",
+        "title": "Bundle che aumentano lo scontrino",
+        "description": "Premia acquisti multi-articolo con incentivi più smart."
+    },
+    {
+        "head": "Supporto VIP",
+        "title": "Aiuto prioritario per i membri",
+        "description": "Livello fedeltà dal gusto premium che riduce il churn."
+    }
+]

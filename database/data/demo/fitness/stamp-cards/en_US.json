@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Our Fitness Brand",
+        "title": "Loyalty Rewarded",
+        "description": "Collect workout stamps for rewards!"
+    },
+    {
+        "head": "Summer Fitness",
+        "title": "Seasonal Workouts",
+        "description": "Summer fitness challenges earn stamps!"
+    },
+    {
+        "head": "Membership Card",
+        "title": "Earn as You Train",
+        "description": "Get stamped with every workout!"
+    },
+    {
+        "head": "Elite Fitness Club",
+        "title": "Train and Save",
+        "description": "Premium facilities, exclusive stamps!"
+    },
+    {
+        "head": "Workout Warriors",
+        "title": "Sweat and Earn",
+        "description": "Your dedication earns stamps!"
+    },
+    {
+        "head": "Loyalty Membership",
+        "title": "Save on Subscriptions",
+        "description": "Stamp your way to membership savings!"
+    }
+]

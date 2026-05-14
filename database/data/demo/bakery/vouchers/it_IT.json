@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Esclusiva membri",
+        "title": "15% di sconto su qualsiasi prodotto",
+        "description": "Offerta membri a tempo limitato. Ottima per i giorni lenti.",
+        "free_product_name": "15% di sconto"
+    },
+    {
+        "head": "Regalo benvenuto",
+        "title": "Pasticcino gratuito",
+        "description": "Un vantaggio prima visita che converte le iscrizioni in acquisti.",
+        "free_product_name": "Pasticcino"
+    },
+    {
+        "head": "Giorno torta",
+        "title": "10€ di sconto sulle torte",
+        "description": "Incentiva ordini celebrativi con un incentivo mirato.",
+        "free_product_name": "10€ di sconto"
+    },
+    {
+        "head": "Risparmia sul bundle",
+        "title": "Compra 2 prendi 1 gratis",
+        "description": "Muove volumi senza scontare tutto.",
+        "free_product_name": "Pasticcino gratis"
+    },
+    {
+        "head": "Speciale mattutino",
+        "title": "Caffè gratuito",
+        "description": "Un vantaggio abbinamento pensato per aumentare lo scontrino.",
+        "free_product_name": "Caffè"
+    },
+    {
+        "head": "Booster punti",
+        "title": "+150 punti bonus",
+        "description": "Premia la fedeltà, non solo la sensibilità al prezzo.",
+        "free_product_name": "+150 punti"
+    }
+]

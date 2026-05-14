@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Compra Semanal",
+    "title": "Desafio 5 semanas",
+    "description": "Loop de habito que aumenta visitas semanais."
+  },
+  {
+    "head": "Corrida do Hortifruti",
+    "title": "Carimbos do fresco",
+    "description": "Mais visitas ao hortifruti, cestas mais frescas."
+  },
+  {
+    "head": "Caixa de Snacks",
+    "title": "10 carimbos = bundle",
+    "description": "Recompensa divertida que aumenta add-ons e ticket."
+  },
+  {
+    "head": "Marca da Casa",
+    "title": "Carimbos da marca",
+    "description": "Impulsione itens de boa margem com carimbos."
+  },
+  {
+    "head": "Fim de Semana 2x",
+    "title": "2x carimbos",
+    "description": "Mais carimbos para aumentar cestas maiores."
+  },
+  {
+    "head": "Despensa de Feriado",
+    "title": "Cartao de feriado",
+    "description": "Loop sazonal para campanhas de despensa."
+  }
+]

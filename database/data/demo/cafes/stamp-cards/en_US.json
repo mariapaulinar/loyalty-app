@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Latte Love",
+    "title": "Latte loyalty",
+    "description": "Classic punch card, modern and profitable."
+  },
+  {
+    "head": "Espresso Shots",
+    "title": "Daily espresso",
+    "description": "Low threshold to build a daily habit."
+  },
+  {
+    "head": "Pastry Pairing",
+    "title": "Coffee + pastry",
+    "description": "Pairing stamps to lift basket size."
+  },
+  {
+    "head": "Tea Time",
+    "title": "Tea lover card",
+    "description": "Premium tea perk without heavy discounts."
+  },
+  {
+    "head": "Saturday Double Stamps",
+    "title": "Weekend 2x stamps",
+    "description": "Double stamps to power weekends."
+  },
+  {
+    "head": "Seasonal Special",
+    "title": "Seasonal stamp drop",
+    "description": "Run winter, spring, back-to-school fast."
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta dla Członków",
+        "title": "$10 rabatu przy $50",
+        "description": "Klasyczna oferta zwiększająca koszyk z jasną wartością.",
+        "free_product_name": "$10 rabatu"
+    },
+    {
+        "head": "Świeże wybory",
+        "title": "20% zniżki na owoce i warzywa",
+        "description": "Idealna do sezonowych akcji na świeże produkty.",
+        "free_product_name": "20% zniżki"
+    },
+    {
+        "head": "Marka własna",
+        "title": "Kup 2, odbierz 1 gratis",
+        "description": "Oferta przyjazna marży, która jest odbierana jako hojna.",
+        "free_product_name": "Darmowy produkt"
+    },
+    {
+        "head": "Booster Punktów",
+        "title": "+300 Punktów bonusowych",
+        "description": "Napędza powroty bez mocnych obniżek cen.",
+        "free_product_name": "+300 Punktów"
+    },
+    {
+        "head": "Oszczędność na przekąskach",
+        "title": "$5 rabatu na przekąski",
+        "description": "Zwiększa sprzedaż dodatków i AOV.",
+        "free_product_name": "$5 rabatu"
+    },
+    {
+        "head": "Oferta weekendowa",
+        "title": "Weekendowa oferta dla Członków",
+        "description": "Krótkie okno czasowe, które buduje pilność.",
+        "free_product_name": "Oferta weekendowa"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Gym Pass",
+        "title": "Free Week Trial",
+        "description": "Try our gym free for one week - all facilities included!",
+        "free_product_name": "Week Trial"
+    },
+    {
+        "head": "Personal Training",
+        "title": "3 Free PT Sessions",
+        "description": "Get 3 complimentary personal training sessions!",
+        "free_product_name": "3 PT Sessions"
+    },
+    {
+        "head": "Class Pass",
+        "title": "20% Off Monthly Classes",
+        "description": "Save 20% on unlimited group fitness classes!",
+        "free_product_name": "20% Off"
+    },
+    {
+        "head": "Membership Deal",
+        "title": "$50 Off Annual Membership",
+        "description": "Join for a year and save $50 on your membership!",
+        "free_product_name": "$50 Off"
+    },
+    {
+        "head": "Yoga Special",
+        "title": "Free Yoga Mat",
+        "description": "Get a premium yoga mat with any membership!",
+        "free_product_name": "Yoga Mat"
+    },
+    {
+        "head": "Wellness Package",
+        "title": "30% Off Wellness Services",
+        "description": "Save on massage, nutrition, and recovery services!",
+        "free_product_name": "30% Off"
+    }
+]

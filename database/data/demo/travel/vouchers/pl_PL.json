@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta dla Członków",
+        "title": "15% zniżki na pobyt",
+        "description": "Oferta limitowana, która zwiększa rezerwacje.",
+        "free_product_name": "15% zniżki"
+    },
+    {
+        "head": "Ulepszenie",
+        "title": "Darmowe ulepszenie pokoju",
+        "description": "Korzyść premium (zależnie od dostępności).",
+        "free_product_name": "Ulepszenie pokoju"
+    },
+    {
+        "head": "Pakiet oszczędnościowy",
+        "title": "$50 rabatu przy $500",
+        "description": "Napędza pakiety i rezerwacje o wyższej wartości.",
+        "free_product_name": "$50 rabatu"
+    },
+    {
+        "head": "Booster Punktów",
+        "title": "+500 Punktów bonusowych",
+        "description": "Napędza kolejne rezerwacje bez mocnych rabatów.",
+        "free_product_name": "+500 Punktów"
+    },
+    {
+        "head": "Oferta weekendowa",
+        "title": "Oferta weekendowa",
+        "description": "Krótka oferta weekendowa wspierająca obłożenie.",
+        "free_product_name": "Oferta weekendowa"
+    },
+    {
+        "head": "VIP",
+        "title": "Późne wymeldowanie",
+        "description": "Prosta korzyść, która daje efekt luksusu.",
+        "free_product_name": "Późne wymeldowanie"
+    }
+]

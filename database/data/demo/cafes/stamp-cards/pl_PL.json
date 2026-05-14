@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Miłość do latte",
+        "title": "Lojalność latte",
+        "description": "Klasyczna karta pieczątek w nowoczesnym i opłacalnym wydaniu."
+    },
+    {
+        "head": "Shoty espresso",
+        "title": "Codzienne espresso",
+        "description": "Niski próg wejścia, który buduje codzienny nawyk."
+    },
+    {
+        "head": "Duet z ciastkiem",
+        "title": "Kawa + ciastko",
+        "description": "Pieczątki za zestawy zwiększają wartość koszyka."
+    },
+    {
+        "head": "Pora na herbatę",
+        "title": "Karta miłośnika herbaty",
+        "description": "Korzyść dla miłośników herbaty bez dużych rabatów."
+    },
+    {
+        "head": "Sobotnie podwójne pieczątki",
+        "title": "Weekendowe pieczątki 2x",
+        "description": "Podwójne pieczątki, które napędzają weekendowy ruch."
+    },
+    {
+        "head": "Promocja sezonowa",
+        "title": "Sezonowa akcja pieczątek",
+        "description": "Uruchamiaj kampanie zimowe, wiosenne i back-to-school w kilka chwil."
+    }
+]

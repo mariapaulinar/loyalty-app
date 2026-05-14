@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Club Croissant",
+    "title": "Croissant della mattina",
+    "description": "Ciclo semplice che rende le mattine prevedibili."
+  },
+  {
+    "head": "Corsa ai biscotti",
+    "title": "Pack biscotti gratis",
+    "description": "Piccoli premi che fanno tornare le persone."
+  },
+  {
+    "head": "Fetta di torta",
+    "title": "Fetta compleanno",
+    "description": "Perfetta per celebrazioni e upsell."
+  },
+  {
+    "head": "Bundle pane",
+    "title": "Pane fresco settimanale",
+    "description": "Pensato per famiglie e clienti settimanali."
+  },
+  {
+    "head": "Weekend doppi timbri",
+    "title": "Weekend 2x timbri",
+    "description": "Timbri doppi per aumentare le visite."
+  },
+  {
+    "head": "Torta stagionale",
+    "title": "Premio torta stagionale",
+    "description": "Incentiva i preordini festivi con una carta limitata."
+  }
+]

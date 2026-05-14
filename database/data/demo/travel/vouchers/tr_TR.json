@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Üye ozel",
+        "title": "%15 İndirim konaklama",
+        "description": "Sınırlı sureli teklif Bitiş artir rezervasyonlar.",
+        "free_product_name": "%15 İndirim"
+    },
+    {
+        "head": "yukseltme",
+        "title": "Ücretsiz Room yukseltme",
+        "description": "Premium-feel ayrıcalık (Özne Bitiş Durum).",
+        "free_product_name": "Room yukseltme"
+    },
+    {
+        "head": "Kampanya: paket tasarrufcu",
+        "title": "$50 İndirim $500",
+        "description": "Push paketler ve daha yuksek biletler.",
+        "free_product_name": "$50 İndirim"
+    },
+    {
+        "head": "puan guclendirici",
+        "title": "+500 bonus Puan",
+        "description": "artir tekrar rezervasyonlar olmadan heavy indirimler.",
+        "free_product_name": "+500 Puan"
+    },
+    {
+        "head": "hafta sonu",
+        "title": "hafta sonu ozel",
+        "description": "Short-window hafta sonu teklif İçicinde occupancy.",
+        "free_product_name": "hafta sonu firsat"
+    },
+    {
+        "head": "Kampanya: VIP",
+        "title": "Kampanya: Late odeme",
+        "description": "Simple ayrıcalık ki feels luxurious.",
+        "free_product_name": "Kampanya: Late odeme"
+    }
+]

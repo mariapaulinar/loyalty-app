@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Notre salon",
+        "title": "Récompenses beauté",
+        "description": "Commencez à cumuler des points beauté avec nous dès aujourd'hui !"
+    },
+    {
+        "head": "Styles d'été",
+        "title": "Relooking saisonnier",
+        "description": "Adoptez un nouveau look avec nos offres d'été !"
+    },
+    {
+        "head": "Carte style",
+        "title": "Gagnez en vous coiffant",
+        "description": "Cumulez des points à chaque visite au salon !"
+    },
+    {
+        "head": "Club Glamour",
+        "title": "Style et économies",
+        "description": "Profitez de nos soins beauté et de récompenses exclusives !"
+    },
+    {
+        "head": "Carte Cheveux",
+        "title": "Coiffure et gains",
+        "description": "Récompensez votre amour des beaux cheveux !"
+    },
+    {
+        "head": "Fidélité Beauté",
+        "title": "Économisez sur la beauté",
+        "description": "Rejoignez notre programme fidélité et économisez sur chaque soin !"
+    }
+]

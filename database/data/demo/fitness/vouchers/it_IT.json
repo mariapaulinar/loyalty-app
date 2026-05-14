@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Pass palestra",
+        "title": "Prova gratuita una settimana",
+        "description": "Prova la nostra palestra gratis per una settimana - tutte le strutture incluse!",
+        "free_product_name": "Prova settimana"
+    },
+    {
+        "head": "Personal training",
+        "title": "3 sessioni PT gratuite",
+        "description": "Ottieni 3 sessioni di personal training in omaggio!",
+        "free_product_name": "3 sessioni PT"
+    },
+    {
+        "head": "Pass lezioni",
+        "title": "20% di sconto lezioni mensili",
+        "description": "Risparmia il 20% sulle lezioni di gruppo illimitate!",
+        "free_product_name": "20% di sconto"
+    },
+    {
+        "head": "Offerta membership",
+        "title": "50€ di sconto abbonamento annuale",
+        "description": "Iscriviti per un anno e risparmia 50€ sull'abbonamento!",
+        "free_product_name": "50€ di sconto"
+    },
+    {
+        "head": "Speciale yoga",
+        "title": "Tappetino yoga gratuito",
+        "description": "Ottieni un tappetino yoga premium con qualsiasi abbonamento!",
+        "free_product_name": "Tappetino yoga"
+    },
+    {
+        "head": "Pacchetto benessere",
+        "title": "30% di sconto servizi benessere",
+        "description": "Risparmia su massaggi, nutrizione e servizi di recupero!",
+        "free_product_name": "30% di sconto"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Frisch gebacken",
+        "title": "Das Ritual belohnen",
+        "description": "Punkte auf Brote, Kuchen und Gebäck. Für tägliche und wöchentliche Routinen konzipiert."
+    },
+    {
+        "head": "Wochenend-Ofen",
+        "title": "Wochenend-Vorteile für mehr Umsatz",
+        "description": "Mehr Punkte bei Wochenendeinkäufen für größere Warenkörbe."
+    },
+    {
+        "head": "Feier-Bestellungen",
+        "title": "Anlässe profitabler machen",
+        "description": "Prämien für Geburtstage und Feiertage. Perfekt für größere Bestellungen."
+    },
+    {
+        "head": "Tägliches Brot",
+        "title": "Grundnahrungsmittel, die Treue aufbauen",
+        "description": "Verwandeln Sie Basisprodukte in einen Grund, Sie täglich zu wählen."
+    },
+    {
+        "head": "Saisonale Leckereien",
+        "title": "Limitierte Editionen, schnelle Einlösungen",
+        "description": "Feiertagsgebäck + limitierte Prämien = Dringlichkeit ohne starke Rabatte."
+    },
+    {
+        "head": "Familienbox",
+        "title": "Bundle-Prämien",
+        "description": "Mehrfachkäufe mit Punkteboosts auf Boxen und Bundles fördern."
+    }
+]

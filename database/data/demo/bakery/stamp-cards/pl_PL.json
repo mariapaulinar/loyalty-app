@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Klub Croissanta",
+        "title": "Poranny croissant",
+        "description": "Prosty mechanizm, który porządkuje poranne zakupy."
+    },
+    {
+        "head": "Runda po ciastka",
+        "title": "Darmowa paczka ciastek",
+        "description": "Małe Nagrody, które sprawiają, że klienci wracają."
+    },
+    {
+        "head": "Kawałek ciasta",
+        "title": "Urodzinowy kawałek",
+        "description": "Idealne na okazje i dodatkową sprzedaż."
+    },
+    {
+        "head": "Pakiet pieczywa",
+        "title": "Świeży chleb co tydzień",
+        "description": "Stworzone dla rodzin i klientów robiących cotygodniowe zakupy."
+    },
+    {
+        "head": "Podwójne Pieczątki w weekend",
+        "title": "Weekendowe Pieczątki 2x",
+        "description": "Podwójne Pieczątki zwiększają ruch w lokalu."
+    },
+    {
+        "head": "Sezonowa tarta",
+        "title": "Nagroda: sezonowa tarta",
+        "description": "Zwiększaj świąteczne zamówienia przedpremierowe dzięki limitowanej Karcie."
+    }
+]

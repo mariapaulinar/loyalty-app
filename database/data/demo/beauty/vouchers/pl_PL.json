@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Voucher beauty",
+        "title": "20% zniżki na wszystkie usługi",
+        "description": "Odbierz 20% zniżki na dowolny zabieg beauty w naszym salonie!",
+        "free_product_name": "20% zniżki"
+    },
+    {
+        "head": "Oferta spa",
+        "title": "$30 rabatu na pakiet spa",
+        "description": "Oszczędź $30 na naszym pakiecie premium spa. Relaks czeka!",
+        "free_product_name": "$30 rabatu"
+    },
+    {
+        "head": "Nowy klient",
+        "title": "Oferta na pierwszą wizytę",
+        "description": "Nowi klienci otrzymują 25% zniżki na pierwszą wizytę!",
+        "free_product_name": "25% zniżki"
+    },
+    {
+        "head": "Promocja fryzjerska",
+        "title": "Darmowa usługa stylizacji",
+        "description": "Otrzymaj darmową stylizację przy dowolnym strzyżeniu!",
+        "free_product_name": "Stylizacja"
+    },
+    {
+        "head": "Oferta manicure",
+        "title": "Kup 1 manicure, drugi gratis",
+        "description": "Kup jeden manicure i odbierz drugi za darmo!",
+        "free_product_name": "Darmowy manicure"
+    },
+    {
+        "head": "Oferta na twarz",
+        "title": "Premium facial - $50 rabatu",
+        "description": "Skorzystaj z naszego flagowego zabiegu na twarz i oszczędź $50!",
+        "free_product_name": "$50 rabatu"
+    }
+]

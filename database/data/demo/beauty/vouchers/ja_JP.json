@@ -1,0 +1,38 @@
+[
+    {
+        "head": "ビューティー クーポン",
+        "title": "20%割引 All サービス",
+        "description": "取得 20% 割引 で 任意の ビューティー treatment で 私たちの サロン!",
+        "free_product_name": "20%割引"
+    },
+    {
+        "head": "スパ お得",
+        "title": "$30割引 スパ パッケージ",
+        "description": "お得 $30 で 私たちの プレミアム スパ パッケージ。Relaxation awaits!",
+        "free_product_name": "$30割引"
+    },
+    {
+        "head": "新規 Client",
+        "title": "最初 見つける 特別",
+        "description": "新規 clients 取得 25%割引 their 最初 appointment!",
+        "free_product_name": "25%割引"
+    },
+    {
+        "head": "ヘア 特別",
+        "title": "無料 スタイリング サービス",
+        "description": "取得 無料 スタイリング サービス 付き 任意の haircut!",
+        "free_product_name": "キャンペーン: スタイリング"
+    },
+    {
+        "head": "マニキュア お得",
+        "title": "購入 1 取得 1 マニキュア",
+        "description": "購入 1つ マニキュア と 取得 2番目 1つ 無料!",
+        "free_product_name": "無料 マニキュア"
+    },
+    {
+        "head": "フェイシャル オファー",
+        "title": "プレミアム フェイシャル - $50割引",
+        "description": "体験 私たちの signature フェイシャル 付き $50 節約!",
+        "free_product_name": "$50割引"
+    }
+]

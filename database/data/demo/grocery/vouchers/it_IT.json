@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Offerta membri",
+        "title": "10€ di sconto su 50€",
+        "description": "Un classico costruttore carrello con valore chiaro.",
+        "free_product_name": "10€ di sconto"
+    },
+    {
+        "head": "Prodotti freschi",
+        "title": "20% di sconto ortofrutta",
+        "description": "Ideale per spinte ortofrutta stagionali.",
+        "free_product_name": "20% di sconto"
+    },
+    {
+        "head": "Marca del negozio",
+        "title": "Compra 2 prendi 1 gratis",
+        "description": "Offerta favorevole al margine che sembra generosa.",
+        "free_product_name": "Articolo gratis"
+    },
+    {
+        "head": "Booster punti",
+        "title": "+300 punti bonus",
+        "description": "Incentiva visite ripetute senza forti sconti.",
+        "free_product_name": "+300 punti"
+    },
+    {
+        "head": "Risparmia sugli snack",
+        "title": "5€ di sconto snack",
+        "description": "Aumenta acquisti aggiuntivi e scontrino.",
+        "free_product_name": "5€ di sconto"
+    },
+    {
+        "head": "Offerta weekend",
+        "title": "Offerta membri weekend",
+        "description": "Una finestra breve che crea urgenza.",
+        "free_product_name": "Offerta weekend"
+    }
+]

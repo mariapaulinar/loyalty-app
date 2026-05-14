@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Üye firsat",
+        "title": "$10 İndirim $50",
+        "description": "bir classic basket-builder ile Temizle Değer.",
+        "free_product_name": "$10 İndirim"
+    },
+    {
+        "head": "Kampanya: taze Picks",
+        "title": "%20 İndirim urun",
+        "description": "ideal İçicinde sezonluk urun pushes.",
+        "free_product_name": "%20 İndirim"
+    },
+    {
+        "head": "Kampanya: House marka",
+        "title": "satın al 2 alin 1 Ücretsiz",
+        "description": "Margin-Samimi teklif ki feels generous.",
+        "free_product_name": "Ücretsiz öğe"
+    },
+    {
+        "head": "puan guclendirici",
+        "title": "+300 bonus Puan",
+        "description": "surukler tekrar Ziyaret olmadan heavy indirimleme.",
+        "free_product_name": "+300 Puan"
+    },
+    {
+        "head": "Kampanya: atistirmalik tasarrufcu",
+        "title": "$5 İndirim Snacks",
+        "description": "Kampanya: artirir add-on satin alimlar ve AOV.",
+        "free_product_name": "$5 İndirim"
+    },
+    {
+        "head": "hafta sonu teklif",
+        "title": "hafta sonu Üye firsat",
+        "description": "Kampanya: bir short window ki creates aciliyet.",
+        "free_product_name": "hafta sonu firsat"
+    }
+]

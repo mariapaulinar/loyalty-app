@@ -1,0 +1,102 @@
+[
+    {
+        "head": "Unsere Marke",
+        "title": "Treue belohnt",
+        "description": "Beginnen Sie noch heute, Punkte bei uns zu sammeln!"
+    },
+    {
+        "head": "Sommer-Prämien",
+        "title": "Saisonale Ersparnisse",
+        "description": "Nutzen Sie unsere Sommer-Aktion!"
+    },
+    {
+        "head": "Sparkarte",
+        "title": "Verdienen beim Ausgeben",
+        "description": "Sammeln Sie bei jedem Restaurantbesuch Punkte!"
+    },
+    {
+        "head": "Gourmet-Club",
+        "title": "Genießen und Sparen",
+        "description": "Genießen Sie unsere Köstlichkeiten und aufregende Prämien!"
+    },
+    {
+        "head": "Feinschmecker-Karte",
+        "title": "Probieren und Verdienen",
+        "description": "Wir belohnen Ihre Liebe zu gutem Essen!"
+    },
+    {
+        "head": "Treuekarte",
+        "title": "Jetzt Sparen",
+        "description": "Treten Sie unserem Treueprogramm bei und sparen Sie bei jedem Einkauf!"
+    },
+    {
+        "head": "Abendessen-Specials",
+        "title": "Belohnt werden",
+        "description": "Machen Sie Ihre Abende besonders mit unserem Prämienprogramm!"
+    },
+    {
+        "head": "Wochenend-Bonanza",
+        "title": "Wochenend-Prämien",
+        "description": "Genießen Sie Ihre Wochenenden bei uns und werden Sie belohnt!"
+    },
+    {
+        "head": "Festliche Angebote",
+        "title": "Feiertags-Ersparnisse",
+        "description": "Feiern Sie die Festsaison mit exklusiven Prämien!"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "Stündliche Prämien",
+        "description": "Besuchen Sie uns zur Happy Hour und verdienen Sie doppelte Punkte!"
+    },
+    {
+        "head": "Kaffee-Liebhaber",
+        "title": "Espresso-Punkte",
+        "description": "Verdienen Sie Punkte bei jedem Kaffee!"
+    },
+    {
+        "head": "Pizza-Palast",
+        "title": "Stück-Ersparnisse",
+        "description": "Ersparnisse bei jedem Stück!"
+    },
+    {
+        "head": "Gesund essen",
+        "title": "Salat-Ersparnisse",
+        "description": "Werden Sie für gesunde Entscheidungen belohnt!"
+    },
+    {
+        "head": "Burger-Bonanza",
+        "title": "Burger-Punkte",
+        "description": "Stapeln Sie Punkte mit Ihren Burgern!"
+    },
+    {
+        "head": "Meeresfrüchte-Special",
+        "title": "Fisch-Prämien",
+        "description": "Frische Prämien bei jedem Fang!"
+    },
+    {
+        "head": "Dessert-Freuden",
+        "title": "Süße Ersparnisse",
+        "description": "Versüßen Sie den Deal mit Prämien!"
+    },
+    {
+        "head": "Asiatische Küche",
+        "title": "Sushi-Punkte",
+        "description": "Rollen Sie die Prämien ein!"
+    },
+    {
+        "head": "Mexikanische Fiesta",
+        "title": "Taco-Token",
+        "description": "Tacos, die sich auszahlen!"
+    },
+    {
+        "head": "Frühstücks-Club",
+        "title": "Morgen-Prämien",
+        "description": "Prämien für Frühaufsteher!"
+    },
+    {
+        "head": "Mittagessen-Specials",
+        "title": "Mittags-Treue",
+        "description": "Sparen Sie zur Mittagszeit!"
+    }
+]

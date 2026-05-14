@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Member Exclusive",
+        "title": "20% Off Any Drink",
+        "description": "Limited-time offer designed to convert browsing into buying.",
+        "free_product_name": "20% Off"
+    },
+    {
+        "head": "Welcome Gift",
+        "title": "Free Size Upgrade",
+        "description": "High perceived value perk for first-time members.",
+        "free_product_name": "Size Upgrade"
+    },
+    {
+        "head": "Pastry Perk",
+        "title": "Free Pastry",
+        "description": "Boost pairing sales and build a routine.",
+        "free_product_name": "Pastry"
+    },
+    {
+        "head": "Bundle Saver",
+        "title": "$5 Off Coffee + Pastry",
+        "description": "AOV booster: rewards the combo, not the single item.",
+        "free_product_name": "$5 Off"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "BOGO Iced Coffee",
+        "description": "Drive traffic in off-peak hours without discounting everything.",
+        "free_product_name": "Free Iced Coffee"
+    },
+    {
+        "head": "Points Booster",
+        "title": "+100 Bonus Points",
+        "description": "A loyalty-first incentive for repeat visits.",
+        "free_product_name": "+100 Points"
+    }
+]

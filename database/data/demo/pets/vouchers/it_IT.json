@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Esclusiva membri",
+        "title": "15% di sconto prossimo acquisto",
+        "description": "Offerta conversione a finestra breve.",
+        "free_product_name": "15% di sconto"
+    },
+    {
+        "head": "Toelettatura",
+        "title": "Extra gratuito",
+        "description": "Vantaggio toelettatura dal gusto premium.",
+        "free_product_name": "Extra"
+    },
+    {
+        "head": "Snack",
+        "title": "Pack snack gratuito",
+        "description": "Alta delizia, basso costo.",
+        "free_product_name": "Snack"
+    },
+    {
+        "head": "Booster punti",
+        "title": "+120 punti bonus",
+        "description": "Incentiva le visite ripetute senza dipendenza dagli sconti.",
+        "free_product_name": "+120 punti"
+    },
+    {
+        "head": "Risparmia sul bundle",
+        "title": "10€ di sconto su 60€",
+        "description": "Incoraggia carrelli più grandi.",
+        "free_product_name": "10€ di sconto"
+    },
+    {
+        "head": "Speciale festivo",
+        "title": "Offerta stagionale",
+        "description": "Voucher stagionale pronto per campagne.",
+        "free_product_name": "Offerta festiva"
+    }
+]

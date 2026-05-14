@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Kampanya: Gym gecis",
+        "title": "Ücretsiz Hafta Trial",
+        "description": "dene bizim gym Ücretsiz İçicinde bir Hafta - all facilities included!",
+        "free_product_name": "Hafta Trial"
+    },
+    {
+        "head": "Kampanya: Personal egitim",
+        "title": "3 Ücretsiz PT Sessions",
+        "description": "alin 3 ücretsiz personal egitim sessions!",
+        "free_product_name": "Kampanya: 3 PT Sessions"
+    },
+    {
+        "head": "Kampanya: ders gecis",
+        "title": "%20 İndirim aylik Classes",
+        "description": "tasarruf 20% uzerinde Sınırsız group fitness classes!",
+        "free_product_name": "%20 İndirim"
+    },
+    {
+        "head": "üyelik firsat",
+        "title": "$50 İndirim Annual üyelik",
+        "description": "katil İçicinde bir year ve tasarruf $50 uzerinde sizin üyelik!",
+        "free_product_name": "$50 İndirim"
+    },
+    {
+        "head": "yoga ozel",
+        "title": "Ücretsiz yoga Mat",
+        "description": "alin bir premium yoga mat ile herhangi üyelik!",
+        "free_product_name": "Kampanya: yoga Mat"
+    },
+    {
+        "head": "Kampanya: wellness paket",
+        "title": "%30 İndirim wellness Hizmetler",
+        "description": "tasarruf uzerinde massage, nutrition, ve recovery Hizmetler!",
+        "free_product_name": "%30 İndirim"
+    }
+]

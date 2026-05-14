@@ -1,0 +1,33 @@
+[
+    {
+        "head": "Üye firsat",
+        "title": "%25 İndirim",
+        "description": "ozel tasarruf İçicinde Üyeler—sınırlı zaman."
+    },
+    {
+        "head": "Hoş Geldin Hediyesi",
+        "title": "$10 İndirim",
+        "description": "bir kucuk thank siz İçicinde joining."
+    },
+    {
+        "head": "Ücretsiz yukseltme",
+        "title": "Ücretsiz ekle‑uzerinde",
+        "description": "alin bir ücretsiz add-on ile sizin Satın Alma.",
+        "free_product_name": "Ücretsiz ekle‑uzerinde"
+    },
+    {
+        "head": "bonus Puanlar",
+        "title": "+100 Puan",
+        "description": "Kazan ekstra puan uzerinde sizin Sonraki Satın Alma."
+    },
+    {
+        "head": "Kampanya: paket tasarrufcu",
+        "title": "satın al daha fazla, tasarruf daha fazla",
+        "description": "tasarruf daha fazla ne zaman siz reach Minimum spend."
+    },
+    {
+        "head": "hafta sonu teklif",
+        "title": "hafta sonu ozel",
+        "description": "bir weekend-only teklif Bitiş artir tekrar Ziyaret."
+    }
+]

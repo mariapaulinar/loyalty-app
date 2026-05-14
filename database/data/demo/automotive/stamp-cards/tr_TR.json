@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Kampanya: Car yikama",
+        "title": "Kampanya: 8 washes",
+        "description": "kullan İçicinde bir premium yikama yukseltme."
+    },
+    {
+        "head": "Kampanya: Detailing",
+        "title": "Detail Kart",
+        "description": "ac bir interior yukseltme."
+    },
+    {
+        "head": "hafta sonu cift Damgalar",
+        "title": "hafta sonu 2x Damgalar",
+        "description": "cift Damgalar Bitiş artis throughput."
+    },
+    {
+        "head": "Kampanya: VIP",
+        "title": "VIP Damga Kartı",
+        "description": "kullan İçicinde bir Öncelik lane gecis."
+    },
+    {
+        "head": "kış koruma",
+        "title": "kış Kart",
+        "description": "sezonluk Kart İçicinde koruma paketler."
+    },
+    {
+        "head": "Oil Değiştir",
+        "title": "hizmet Kart",
+        "description": "kullan İçicinde bir hizmet İndirim."
+    }
+]

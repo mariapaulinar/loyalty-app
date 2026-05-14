@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Panier santé",
+        "description": "Un panier d'essentiels santé sélectionnés qui fait que les membres se sentent récompensés pour leurs meilleurs choix. Idéal pour les campagnes bien-être et renouvellements saisonniers."
+    },
+    {
+        "title": "Boîte snacks",
+        "description": "Un échange fun qui semble ouvrir un cadeau. Utilisez-la pour encourager les achats additionnels et augmenter le panier."
+    },
+    {
+        "title": "Article garde-manger premium",
+        "description": "Échangez contre un produit de base premium comme huile d'olive, café ou snacks de spécialité. Une récompense intelligente qui semble luxueuse et pratique."
+    },
+    {
+        "title": "Lot de fruits frais",
+        "description": "Un lot de fruits de saison qui soutient les campagnes produits et les visites répétées. Parfait pour l'été, la rentrée et les fêtes."
+    },
+    {
+        "title": "Carte cadeau membre",
+        "description": "Un petit crédit magasin qui semble flexible et motivant. Idéal pour garder les membres de valeur engagés."
+    },
+    {
+        "title": "Mois de livraison gratuite",
+        "description": "Un avantage premium qui augmente la fréquence et réduit le churn. Idéal pour transformer les acheteurs occasionnels en acheteurs hebdomadaires."
+    }
+]

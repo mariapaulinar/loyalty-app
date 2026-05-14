@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusif membre",
+        "title": "10% sur les accessoires",
+        "description": "Augmentez le taux d'attachement sans réduire les appareils.",
+        "free_product_name": "10% de réduction"
+    },
+    {
+        "head": "Cadeau de bienvenue",
+        "title": "Protection écran gratuite",
+        "description": "Avantage à forte valeur perçue.",
+        "free_product_name": "Protection"
+    },
+    {
+        "head": "Pack économique",
+        "title": "25 € de réduction sur 200 €",
+        "description": "Encouragez les packs et paniers plus grands.",
+        "free_product_name": "25 € de réduction"
+    },
+    {
+        "head": "Reprise",
+        "title": "+300 points bonus",
+        "description": "Récompensez les mises à niveau avec des points, pas des baisses de prix.",
+        "free_product_name": "+300 points"
+    },
+    {
+        "head": "VIP",
+        "title": "Aide configuration gratuite",
+        "description": "Avantage service premium qui renforce la confiance.",
+        "free_product_name": "Configuration"
+    },
+    {
+        "head": "Week-end",
+        "title": "1 câble acheté = 1 offert",
+        "description": "Avantage partageable à faible coût qui génère des visites.",
+        "free_product_name": "Câble gratuit"
+    }
+]

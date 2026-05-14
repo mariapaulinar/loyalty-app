@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Esclusiva membri",
+        "title": "20% di sconto su qualsiasi bevanda",
+        "description": "Offerta a tempo limitato pensata per convertire la curiosità in acquisto.",
+        "free_product_name": "20% di sconto"
+    },
+    {
+        "head": "Regalo benvenuto",
+        "title": "Upgrade taglia gratuito",
+        "description": "Vantaggio ad alto valore percepito per i nuovi membri.",
+        "free_product_name": "Upgrade taglia"
+    },
+    {
+        "head": "Vantaggio dolce",
+        "title": "Pasticcino gratuito",
+        "description": "Aumenta le vendite abbinate e costruisci un'abitudine.",
+        "free_product_name": "Pasticcino"
+    },
+    {
+        "head": "Risparmia sul bundle",
+        "title": "5€ di sconto caffè + pasticcino",
+        "description": "Booster scontrino: premia il combo, non il singolo articolo.",
+        "free_product_name": "5€ di sconto"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "BOGO caffè freddo",
+        "description": "Aumenta il traffico nelle ore morte senza scontare tutto.",
+        "free_product_name": "Caffè freddo gratis"
+    },
+    {
+        "head": "Booster punti",
+        "title": "+100 punti bonus",
+        "description": "Un incentivo orientato alla fedeltà per visite ripetute.",
+        "free_product_name": "+100 punti"
+    }
+]

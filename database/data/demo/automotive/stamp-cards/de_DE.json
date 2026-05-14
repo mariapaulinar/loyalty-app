@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Autowäsche",
+    "title": "8 Wäschen",
+    "description": "Einlösen für ein Premium-Wäsche-Upgrade."
+  },
+  {
+    "head": "Aufbereitung",
+    "title": "Pflege-Karte",
+    "description": "Innenraum-Upgrade freischalten."
+  },
+  {
+    "head": "Wochenend-Doppelstempel",
+    "title": "Wochenende 2x Stempel",
+    "description": "Doppelstempel für mehr Durchlauf."
+  },
+  {
+    "head": "VIP",
+    "title": "VIP-Stempelkarte",
+    "description": "Einlösen für einen Prioritätsspur-Pass."
+  },
+  {
+    "head": "Winterschutz",
+    "title": "Winter-Karte",
+    "description": "Saisonale Karte für Schutzpakete."
+  },
+  {
+    "head": "Ölwechsel",
+    "title": "Service-Karte",
+    "description": "Einlösen für einen Service-Rabatt."
+  }
+]

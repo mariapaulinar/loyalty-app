@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Klub Baristy",
+        "title": "Zamień codzienną kawę w codzienną lojalność",
+        "description": "Zbieraj Punkty za każdą kawę i ciastko. Szybka realizacja nagród sprawia, że klienci wracają już następnego dnia."
+    },
+    {
+        "head": "Poranny boost",
+        "title": "Ranny ptaszek = dodatkowe Punkty",
+        "description": "Przed 10:00 członkowie zbierają więcej. Idealne na przewidywalny poranny ruch."
+    },
+    {
+        "head": "Sezon na mrożone napoje",
+        "title": "Napoje sezonowe, nagrody sezonowe",
+        "description": "Wprowadź letnie menu i połącz je z limitowanymi nagrodami. To skutecznie zwiększa powroty."
+    },
+    {
+        "head": "Energia na dzień pracy",
+        "title": "Nagradzaj nawyk z godziny 14:00",
+        "description": "Mikromomenty mają znaczenie: utrzymuj ruch po południu dzięki ukierunkowanym bonusom punktowym."
+    },
+    {
+        "head": "Nowa mieszanka",
+        "title": "Próbuj nowości, zbieraj szybciej",
+        "description": "Bonusowe Punkty za wyróżnione napoje. Idealne przy premierach i współpracach."
+    },
+    {
+        "head": "Zaproś znajomego",
+        "title": "Bonus za polecenie, który działa od razu",
+        "description": "Zaproś znajomego i odblokuj natychmiastową korzyść. Świetne dla wzrostu społeczności."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "メンバー 限定",
+        "title": "20%割引 Detailing",
+        "description": "Conversion-フレンドリー サービス オファー。",
+        "free_product_name": "20%割引"
+    },
+    {
+        "head": "アップグレード",
+        "title": "無料 洗浄 アップグレード",
+        "description": "アップグレード 送信先 プレミアム 洗浄。高い perceived 値。",
+        "free_product_name": "洗浄 アップグレード"
+    },
+    {
+        "head": "キャンペーン: バンドル 節約",
+        "title": "$15割引 $100",
+        "description": "キャンペーン: Push より大きい パッケージ。",
+        "free_product_name": "$15割引"
+    },
+    {
+        "head": "ポイント ブースター",
+        "title": "+250ボーナスポイント",
+        "description": "特典 頻度 なしで deep 割引。",
+        "free_product_name": "+250ポイント"
+    },
+    {
+        "head": "週末",
+        "title": "週末 特別",
+        "description": "Short-window オファー 設計済み 送信先 fill capacity。",
+        "free_product_name": "週末 お得"
+    },
+    {
+        "head": "キャンペーン: メンテナンス",
+        "title": "$10割引 サービス",
+        "description": "Incentivize メンテナンス 予約。",
+        "free_product_name": "$10割引"
+    }
+]

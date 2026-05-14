@@ -1,0 +1,33 @@
+[
+    {
+        "head": "Oferta dla Członków",
+        "title": "25% zniżki",
+        "description": "Ekskluzywne oszczędności dla Członków, tylko przez ograniczony czas."
+    },
+    {
+        "head": "Prezent powitalny",
+        "title": "$10 rabatu",
+        "description": "Małe podziękowanie za dołączenie."
+    },
+    {
+        "head": "Darmowe ulepszenie",
+        "title": "Darmowy dodatek",
+        "description": "Otrzymaj darmowy dodatek do zakupu.",
+        "free_product_name": "Darmowy dodatek"
+    },
+    {
+        "head": "Punkty bonusowe",
+        "title": "+100 Punktów",
+        "description": "Zdobądź dodatkowe Punkty przy następnym zakupie."
+    },
+    {
+        "head": "Pakiet oszczędnościowy",
+        "title": "Kup więcej, oszczędź więcej",
+        "description": "Oszczędzaj więcej po osiągnięciu minimalnej wartości zakupu."
+    },
+    {
+        "head": "Oferta weekendowa",
+        "title": "Weekendowa promocja",
+        "description": "Oferta tylko na weekend, aby zwiększyć liczbę powrotów."
+    }
+]

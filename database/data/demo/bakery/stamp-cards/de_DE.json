@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Croissant-Club",
+    "title": "Morgen-Croissant",
+    "description": "Einfacher Kreislauf für planbare Morgen."
+  },
+  {
+    "head": "Keks-Aktion",
+    "title": "Gratis Kekspackung",
+    "description": "Kleine Prämien, die Kunden wiederkommen lassen."
+  },
+  {
+    "head": "Tortenstück",
+    "title": "Geburtstagsstück",
+    "description": "Perfekt für Feiern und Upsells."
+  },
+  {
+    "head": "Brot-Bundle",
+    "title": "Frisches Brot wöchentlich",
+    "description": "Für Familien und wöchentliche Einkäufer konzipiert."
+  },
+  {
+    "head": "Wochenend-Doppelstempel",
+    "title": "Wochenende 2x Stempel",
+    "description": "Doppelstempel für mehr Kundenfrequenz."
+  },
+  {
+    "head": "Saisonale Torte",
+    "title": "Saisonale Tortenprämie",
+    "description": "Feiertagsvorbestellungen mit limitierter Karte fördern."
+  }
+]

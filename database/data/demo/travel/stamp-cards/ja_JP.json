@@ -1,0 +1,32 @@
+[
+    {
+        "head": "キャンペーン: Stays",
+        "title": "キャンペーン: 5 stays",
+        "description": "交換 対象 アップグレード。"
+    },
+    {
+        "head": "キャンペーン: Tours",
+        "title": "Tour カード",
+        "description": "Finish 送信先 解放 アクティビティ クレジット。"
+    },
+    {
+        "head": "週末 2倍 スタンプ",
+        "title": "週末 2x スタンプ",
+        "description": "2倍 スタンプ で 週末 予約。"
+    },
+    {
+        "head": "キャンペーン: Business Traveler",
+        "title": "Lounge 特典",
+        "description": "プレミアム ループ 対象 frequent travelers。"
+    },
+    {
+        "head": "ホリデー Escape",
+        "title": "ホリデー escape カード",
+        "description": "季節限定 カード 対象 旅行 キャンペーン。"
+    },
+    {
+        "head": "キャンペーン: VIP",
+        "title": "VIP スタンプカード",
+        "description": "交換 late チェックアウト または アップグレード。"
+    }
+]

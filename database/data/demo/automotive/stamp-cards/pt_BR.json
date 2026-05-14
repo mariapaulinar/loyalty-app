@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Lavagem",
+    "title": "8 lavagens",
+    "description": "Resgate por upgrade de lavagem premium."
+  },
+  {
+    "head": "Detailing",
+    "title": "Cartao detailing",
+    "description": "Destrave um upgrade de interior."
+  },
+  {
+    "head": "Fim de Semana 2x",
+    "title": "2x carimbos",
+    "description": "2x carimbos para aumentar a capacidade no pico."
+  },
+  {
+    "head": "VIP",
+    "title": "Cartao VIP",
+    "description": "Resgate por passe de fila prioritaria."
+  },
+  {
+    "head": "Protecao de Inverno",
+    "title": "Cartao inverno",
+    "description": "Cartao sazonal para pacotes de protecao."
+  },
+  {
+    "head": "Troca de Oleo",
+    "title": "Cartao de servico",
+    "description": "Resgate por desconto de servico."
+  }
+]

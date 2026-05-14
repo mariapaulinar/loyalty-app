@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Pobyty",
+        "title": "5 pobytów",
+        "description": "Wymień na ulepszenie."
+    },
+    {
+        "head": "Wycieczki",
+        "title": "Karta wycieczek",
+        "description": "Dokończ, aby odblokować kredyt na atrakcję."
+    },
+    {
+        "head": "Podwójne Pieczątki w weekend",
+        "title": "Weekendowe Pieczątki 2x",
+        "description": "Podwójne Pieczątki za rezerwacje weekendowe."
+    },
+    {
+        "head": "Podróż służbowa",
+        "title": "Korzyści lounge",
+        "description": "Pętla premium dla często podróżujących."
+    },
+    {
+        "head": "Wyjazd świąteczny",
+        "title": "Karta wyjazdu świątecznego",
+        "description": "Sezonowa Karta do kampanii podróżnych."
+    },
+    {
+        "head": "VIP",
+        "title": "Karta Pieczątek VIP",
+        "description": "Wymień na późne wymeldowanie lub ulepszenia."
+    }
+]

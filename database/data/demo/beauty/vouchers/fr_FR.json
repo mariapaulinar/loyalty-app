@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Bon beauté",
+        "title": "20% sur tous les services",
+        "description": "Obtenez 20% de réduction sur tout soin beauté dans notre salon !",
+        "free_product_name": "20% de réduction"
+    },
+    {
+        "head": "Offre spa",
+        "title": "30 € de réduction forfait spa",
+        "description": "Économisez 30 € sur notre forfait spa premium. La détente vous attend !",
+        "free_product_name": "30 € de réduction"
+    },
+    {
+        "head": "Nouveau client",
+        "title": "Spécial première visite",
+        "description": "Les nouveaux clients bénéficient de 25% sur leur premier rendez-vous !",
+        "free_product_name": "25% de réduction"
+    },
+    {
+        "head": "Spécial cheveux",
+        "title": "Brushing gratuit",
+        "description": "Obtenez un brushing gratuit avec toute coupe !",
+        "free_product_name": "Brushing"
+    },
+    {
+        "head": "Offre manucure",
+        "title": "1 manucure achetée = 1 offerte",
+        "description": "Achetez une manucure et obtenez la seconde gratuite !",
+        "free_product_name": "Manucure gratuite"
+    },
+    {
+        "head": "Offre soin visage",
+        "title": "Soin visage premium - 50 € de réduction",
+        "description": "Découvrez notre soin signature avec 50 € d'économies !",
+        "free_product_name": "50 € de réduction"
+    }
+]

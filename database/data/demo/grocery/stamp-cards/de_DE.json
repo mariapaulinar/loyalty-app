@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Wocheneinkauf",
+    "title": "5-Wochen-Challenge",
+    "description": "Gewohnheitsschleife für wöchentliche Besuche."
+  },
+  {
+    "head": "Obst-Einkauf",
+    "title": "Frische-Stempel",
+    "description": "Mehr Obst-Trips, frischere Körbe."
+  },
+  {
+    "head": "Snack-Box",
+    "title": "10 Stempel = Bundle",
+    "description": "Spaßige Prämie für Zusatzkäufe und höhere Warenkörbe."
+  },
+  {
+    "head": "Eigenmarke",
+    "title": "Eigenmarken-Stempel",
+    "description": "Margenfreundliche Artikel mit Stempeln fördern."
+  },
+  {
+    "head": "Wochenend-Doppelstempel",
+    "title": "Wochenende 2x Stempel",
+    "description": "Mehr Stempel für größere Warenkörbe."
+  },
+  {
+    "head": "Feiertags-Vorrat",
+    "title": "Feiertags-Vorratskarte",
+    "description": "Saisonale Schleife für Vorrats-Kampagnen."
+  }
+]

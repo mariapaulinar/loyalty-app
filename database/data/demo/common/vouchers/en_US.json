@@ -1,0 +1,33 @@
+[
+  {
+    "head": "Member Deal",
+    "title": "25% Off",
+    "description": "Exclusive savings for members—limited time."
+  },
+  {
+    "head": "Welcome Gift",
+    "title": "$10 Off",
+    "description": "A little thank you for joining."
+  },
+  {
+    "head": "Free Upgrade",
+    "title": "Free Add‑On",
+    "description": "Get a complimentary add-on with your purchase.",
+    "free_product_name": "Free Add‑On"
+  },
+  {
+    "head": "Bonus Points",
+    "title": "+100 Points",
+    "description": "Earn extra points on your next purchase."
+  },
+  {
+    "head": "Bundle Saver",
+    "title": "Buy More, Save More",
+    "description": "Save more when you reach the minimum spend."
+  },
+  {
+    "head": "Weekend Offer",
+    "title": "Weekend Special",
+    "description": "A weekend-only offer to drive repeat visits."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "head": "Exclusivo para Membros",
+    "title": "10% de desconto em acessorios",
+    "description": "Aumente attach-rate sem descontar aparelhos.",
+    "free_product_name": "10% de desconto"
+  },
+  {
+    "head": "Presente de Boas-vindas",
+    "title": "Pelicula gratis",
+    "description": "Vantagem com alto valor percebido.",
+    "free_product_name": "Pelicula"
+  },
+  {
+    "head": "Economia no Combo",
+    "title": "US$ 25 de desconto em US$ 200",
+    "description": "Incentive bundles e carrinhos maiores.",
+    "free_product_name": "US$ 25 de desconto"
+  },
+  {
+    "head": "Trade-in",
+    "title": "+300 pontos bonus",
+    "description": "Recompense upgrades com pontos, nao corte de preco.",
+    "free_product_name": "+300 pontos"
+  },
+  {
+    "head": "VIP",
+    "title": "Ajuda de setup gratis",
+    "description": "Vantagem de servico premium que gera confianca.",
+    "free_product_name": "Setup"
+  },
+  {
+    "head": "Fim de Semana",
+    "title": "Compre 1 e leve 1 cabo",
+    "description": "Vantagem barata e compartilhavel que gera visitas.",
+    "free_product_name": "Cabo gratis"
+  }
+]

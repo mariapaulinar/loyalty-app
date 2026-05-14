@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta de comida",
+        "title": "25% de descuento en tu cuenta",
+        "description": "¡Disfruta 25% de descuento en toda tu comida!",
+        "free_product_name": "25% de descuento"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "Compra 1, lleva 1 bebida",
+        "description": "¡Compra una bebida y lleva la segunda gratis!",
+        "free_product_name": "Bebida gratis"
+    },
+    {
+        "head": "Especial de almuerzo",
+        "title": "$10 de descuento en menú de almuerzo",
+        "description": "¡Ahorra $10 en cualquier combo de almuerzo de lunes a viernes!",
+        "free_product_name": "$10 de descuento"
+    },
+    {
+        "head": "Delicia de postre",
+        "title": "Postre gratis",
+        "description": "¡Recibe un postre de cortesía con cualquier plato principal!",
+        "free_product_name": "Postre"
+    },
+    {
+        "head": "Festín familiar",
+        "title": "30% de descuento en comidas familiares",
+        "description": "¡Trae a la familia y ahorra 30% en comidas de 4+ personas!",
+        "free_product_name": "30% de descuento"
+    },
+    {
+        "head": "Especial del chef",
+        "title": "$20 de descuento en menú premium",
+        "description": "¡Experimenta los platos especiales de nuestro chef con $20 de ahorro!",
+        "free_product_name": "$20 de descuento"
+    }
+]

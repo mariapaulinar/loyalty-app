@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Aufenthalte",
+    "title": "5 Aufenthalte",
+    "description": "Einlösen für ein Upgrade."
+  },
+  {
+    "head": "Touren",
+    "title": "Tour-Karte",
+    "description": "Abschließen für Aktivitäts-Guthaben."
+  },
+  {
+    "head": "Wochenend-Doppelstempel",
+    "title": "Wochenende 2x Stempel",
+    "description": "Doppelstempel auf Wochenendbuchungen."
+  },
+  {
+    "head": "Geschäftsreisender",
+    "title": "Lounge-Vorteile",
+    "description": "Premium-Schleife für Vielreisende."
+  },
+  {
+    "head": "Urlaubsflucht",
+    "title": "Urlaubs-Escape-Karte",
+    "description": "Saisonale Karte für Reisekampagnen."
+  },
+  {
+    "head": "VIP",
+    "title": "VIP-Stempelkarte",
+    "description": "Einlösen für späten Check-out oder Upgrades."
+  }
+]

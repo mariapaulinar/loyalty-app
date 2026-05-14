@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Offre repas",
+        "title": "25% sur l'addition",
+        "description": "Profitez de 25% de réduction sur tout votre repas !",
+        "free_product_name": "25% de réduction"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "1 boisson achetée = 1 offerte",
+        "description": "Achetez une boisson et obtenez la seconde gratuite !",
+        "free_product_name": "Boisson gratuite"
+    },
+    {
+        "head": "Spécial déjeuner",
+        "title": "10 € de réduction menu déjeuner",
+        "description": "Économisez 10 € sur tout combo déjeuner du lundi au vendredi !",
+        "free_product_name": "10 € de réduction"
+    },
+    {
+        "head": "Délice dessert",
+        "title": "Dessert gratuit",
+        "description": "Recevez un dessert offert avec tout plat principal !",
+        "free_product_name": "Dessert"
+    },
+    {
+        "head": "Festin familial",
+        "title": "30% sur repas familial",
+        "description": "Venez en famille et économisez 30% sur les repas de 4+ personnes !",
+        "free_product_name": "30% de réduction"
+    },
+    {
+        "head": "Spécial du chef",
+        "title": "20 € de réduction menu premium",
+        "description": "Découvrez les plats spéciaux de notre chef avec 20 € d'économies !",
+        "free_product_name": "20 € de réduction"
+    }
+]

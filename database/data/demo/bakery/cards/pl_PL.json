@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Świeżo wypiekane",
+        "title": "Nagradzaj codzienny rytuał",
+        "description": "Punkty za pieczywo, ciasta i wypieki. Idealne dla codziennych i cotygodniowych zakupów."
+    },
+    {
+        "head": "Weekendowe wypieki",
+        "title": "Weekendowe korzyści, które zwiększają sprzedaż",
+        "description": "Więcej Punktów za zakupy weekendowe, by zwiększać wartość koszyka w szczycie."
+    },
+    {
+        "head": "Zamówienia okolicznościowe",
+        "title": "Spraw, by okazje były bardziej opłacalne",
+        "description": "Nagrody dopasowane do urodzin i świąt. Idealne dla zamówień o wyższej wartości."
+    },
+    {
+        "head": "Codzienny chleb",
+        "title": "Podstawy, które budują lojalność",
+        "description": "Zamień podstawowe produkty w powód, by wybierać Cię każdego dnia."
+    },
+    {
+        "head": "Sezonowe przysmaki",
+        "title": "Limitowane dropy, szybkie realizacje",
+        "description": "Świąteczne wypieki + limitowane nagrody = pilność bez głębokich rabatów."
+    },
+    {
+        "head": "Pudełko rodzinne",
+        "title": "Nagrody pakietowe",
+        "description": "Zachęcaj do zakupów wielu produktów dzięki bonusom punktowym za boxy i pakiety."
+    }
+]

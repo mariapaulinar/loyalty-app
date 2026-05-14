@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Bonança de Blockbusters",
+        "title": "Economias de Estreia",
+        "description": "Carimbos para ofertas de filmes!"
+    },
+    {
+        "head": "Membro de Cinema",
+        "title": "Assista e Ganhe",
+        "description": "Receba carimbo a cada filme!"
+    },
+    {
+        "head": "Clube dos Fanáticos por Filmes",
+        "title": "Veja e Economize",
+        "description": "Carimbos de cinema desbloqueiam vantagens!"
+    },
+    {
+        "head": "Passaporte de Pipoca",
+        "title": "Lanche e Pontue",
+        "description": "Cada pipoca rende um carimbo!"
+    },
+    {
+        "head": "Especiais de Matinê",
+        "title": "Descontos da Tarde",
+        "description": "Sessões da tarde rendem carimbos!"
+    },
+    {
+        "head": "Festival de Cinema de Fim de Semana",
+        "title": "Ofertas de Filmes de Fim de Semana",
+        "description": "Filmes de fim de semana rendem mais carimbos!"
+    }
+]

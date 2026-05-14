@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Pass salle",
+        "title": "Semaine d'essai gratuite",
+        "description": "Essayez notre salle gratuitement pendant une semaine - tous équipements inclus !",
+        "free_product_name": "Semaine d'essai"
+    },
+    {
+        "head": "Personal Training",
+        "title": "3 séances PT gratuites",
+        "description": "Obtenez 3 séances de personal training offertes !",
+        "free_product_name": "3 séances PT"
+    },
+    {
+        "head": "Pass cours",
+        "title": "20% sur cours mensuels",
+        "description": "Économisez 20% sur les cours collectifs illimités !",
+        "free_product_name": "20% de réduction"
+    },
+    {
+        "head": "Offre adhésion",
+        "title": "50 € de réduction adhésion annuelle",
+        "description": "Inscrivez-vous pour un an et économisez 50 € sur votre adhésion !",
+        "free_product_name": "50 € de réduction"
+    },
+    {
+        "head": "Spécial yoga",
+        "title": "Tapis de yoga gratuit",
+        "description": "Recevez un tapis de yoga premium avec toute adhésion !",
+        "free_product_name": "Tapis de yoga"
+    },
+    {
+        "head": "Pack bien-être",
+        "title": "30% sur services bien-être",
+        "description": "Économisez sur massage, nutrition et services récupération !",
+        "free_product_name": "30% de réduction"
+    }
+]

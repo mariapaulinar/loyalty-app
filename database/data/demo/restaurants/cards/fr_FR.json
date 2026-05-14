@@ -1,0 +1,102 @@
+[
+    {
+        "head": "Notre marque",
+        "title": "Fidélité récompensée",
+        "description": "Commencez à cumuler des points avec nous dès aujourd'hui !"
+    },
+    {
+        "head": "Récompenses d'été",
+        "title": "Économies saisonnières",
+        "description": "Profitez de notre promotion d'été !"
+    },
+    {
+        "head": "Carte économies",
+        "title": "Gagnez en dépensant",
+        "description": "Cumulez des points à chaque repas chez nous !"
+    },
+    {
+        "head": "Club Gourmet",
+        "title": "Dînez et économisez",
+        "description": "Savourez nos spécialités et profitez de récompenses excitantes !"
+    },
+    {
+        "head": "Carte Foodie",
+        "title": "Goûtez et gagnez",
+        "description": "Récompensez votre amour de la bonne cuisine !"
+    },
+    {
+        "head": "Carte fidélité",
+        "title": "Économisez maintenant",
+        "description": "Rejoignez notre programme fidélité et économisez sur chaque achat !"
+    },
+    {
+        "head": "Spéciaux dîner",
+        "title": "Soyez récompensé",
+        "description": "Rendez vos soirées spéciales avec notre programme de récompenses !"
+    },
+    {
+        "head": "Bonanza week-end",
+        "title": "Récompenses week-end",
+        "description": "Profitez de vos week-ends avec nous et soyez récompensé !"
+    },
+    {
+        "head": "Offres festives",
+        "title": "Économies de fêtes",
+        "description": "Célébrez les fêtes avec des récompenses exclusives !"
+    },
+    {
+        "head": "Happy Hours",
+        "title": "Récompenses horaires",
+        "description": "Rejoignez-nous pendant les happy hours et gagnez le double de points !"
+    },
+    {
+        "head": "Amoureux du café",
+        "title": "Points Espresso",
+        "description": "Gagnez des points avec chaque café !"
+    },
+    {
+        "head": "Palais de la pizza",
+        "title": "Économies à la part",
+        "description": "Économies sur chaque part !"
+    },
+    {
+        "head": "Manger sain",
+        "title": "Économies salade",
+        "description": "Soyez récompensé pour vos choix sains !"
+    },
+    {
+        "head": "Bonanza burger",
+        "title": "Points burger",
+        "description": "Empilez les points avec vos burgers !"
+    },
+    {
+        "head": "Spécial fruits de mer",
+        "title": "Récompenses poisson",
+        "description": "Récompenses fraîches à chaque prise !"
+    },
+    {
+        "head": "Délices sucrés",
+        "title": "Économies sucrées",
+        "description": "Adoucissez l'affaire avec des récompenses !"
+    },
+    {
+        "head": "Cuisine asiatique",
+        "title": "Points sushi",
+        "description": "Roulez dans les récompenses !"
+    },
+    {
+        "head": "Fiesta mexicaine",
+        "title": "Tokens taco",
+        "description": "Des tacos qui rapportent !"
+    },
+    {
+        "head": "Club petit-déj",
+        "title": "Récompenses matinales",
+        "description": "Récompenses pour les lève-tôt !"
+    },
+    {
+        "head": "Spéciaux déjeuner",
+        "title": "Fidélité déjeuner",
+        "description": "Économisez à l'heure du déjeuner !"
+    }
+]

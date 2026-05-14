@@ -1,0 +1,38 @@
+[
+    {
+        "head": "film Night",
+        "title": "1 Alana 1 Bedava bilet",
+        "description": "Satın Alma bir bilet ve Bir Arkadasinizi Ücretsiz Getirin!",
+        "free_product_name": "Ücretsiz bilet"
+    },
+    {
+        "head": "patlamis misir firsat",
+        "title": "Ücretsiz Large patlamis misir",
+        "description": "alin bir large patlamis misir uzerinde us ile herhangi bilet Satın Alma!",
+        "free_product_name": "Kampanya: Large patlamis misir"
+    },
+    {
+        "head": "hafta sonu ozel",
+        "title": "$5 İndirim hafta sonu biletler",
+        "description": "tasarruf $5 uzerinde herhangi hafta sonu film showing!",
+        "free_product_name": "$5 İndirim"
+    },
+    {
+        "head": "aile paket",
+        "title": "%30 İndirim aile biletler",
+        "description": "Bring whole aile ve tasarruf 30% uzerinde 4+ biletler!",
+        "free_product_name": "%30 İndirim"
+    },
+    {
+        "head": "premium Seating",
+        "title": "Ücretsiz premium yukseltme",
+        "description": "yukseltme Bitiş premium seating de Hayır ekstra Maliyet!",
+        "free_product_name": "premium Seat"
+    },
+    {
+        "head": "Kampanya: Concession kombin",
+        "title": "$10 İndirim kombin firsat",
+        "description": "tasarruf $10 uzerinde herhangi Yiyecek ve icecek kombin!",
+        "free_product_name": "$10 İndirim"
+    }
+]

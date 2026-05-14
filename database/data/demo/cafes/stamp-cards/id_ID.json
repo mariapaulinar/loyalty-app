@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Promo: Latte suka",
+        "title": "Latte Loyalitas",
+        "description": "Classic punch Kartu, modern dan profitable."
+    },
+    {
+        "head": "Promo: Espresso Shots",
+        "title": "harian espresso",
+        "description": "rendah threshold Ke bangun harian kebiasaan."
+    },
+    {
+        "head": "pastri pasangan",
+        "title": "kopi + pastri",
+        "description": "pasangan Stempel Ke tingkatkan keranjang Ukuran."
+    },
+    {
+        "head": "Promo: Tea waktu",
+        "title": "Tea lover Kartu",
+        "description": "premium tea keuntungan tanpa heavy diskon."
+    },
+    {
+        "head": "Sabtu ganda Stempel",
+        "title": "akhir pekan 2x Stempel",
+        "description": "ganda Stempel Ke power akhir pekan."
+    },
+    {
+        "head": "musiman khusus",
+        "title": "musiman stempel rilis",
+        "description": "jalankan musim dingin, spring, Kembali-Ke-school cepat."
+    }
+]

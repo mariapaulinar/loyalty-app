@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Voucher bellezza",
+        "title": "20% di sconto su tutti i servizi",
+        "description": "Ottieni il 20% di sconto su qualsiasi trattamento bellezza nel nostro salone!",
+        "free_product_name": "20% di sconto"
+    },
+    {
+        "head": "Offerta spa",
+        "title": "30€ di sconto pacchetto spa",
+        "description": "Risparmia 30€ sul nostro pacchetto spa premium. Il relax ti aspetta!",
+        "free_product_name": "30€ di sconto"
+    },
+    {
+        "head": "Nuovo cliente",
+        "title": "Speciale prima visita",
+        "description": "I nuovi clienti ottengono il 25% di sconto sul primo appuntamento!",
+        "free_product_name": "25% di sconto"
+    },
+    {
+        "head": "Speciale capelli",
+        "title": "Servizio styling gratuito",
+        "description": "Ottieni un servizio styling in omaggio con qualsiasi taglio!",
+        "free_product_name": "Styling"
+    },
+    {
+        "head": "Offerta manicure",
+        "title": "Compra 1 prendi 1 manicure",
+        "description": "Acquista una manicure e ottieni la seconda gratis!",
+        "free_product_name": "Manicure gratis"
+    },
+    {
+        "head": "Offerta trattamento viso",
+        "title": "Trattamento viso premium - 50€ di sconto",
+        "description": "Sperimenta il nostro trattamento viso signature con 50€ di risparmio!",
+        "free_product_name": "50€ di sconto"
+    }
+]

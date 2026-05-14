@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Beauty-Gutschein",
+        "title": "20% Rabatt auf alle Services",
+        "description": "Erhalten Sie 20% Rabatt auf jede Beauty-Behandlung in unserem Salon!",
+        "free_product_name": "20% Rabatt"
+    },
+    {
+        "head": "Spa-Deal",
+        "title": "30€ Rabatt auf Spa-Paket",
+        "description": "Sparen Sie 30€ auf unser Premium-Spa-Paket. Entspannung erwartet Sie!",
+        "free_product_name": "30€ Rabatt"
+    },
+    {
+        "head": "Neukunde",
+        "title": "Erstbesuch-Special",
+        "description": "Neukunden erhalten 25% Rabatt auf ihren ersten Termin!",
+        "free_product_name": "25% Rabatt"
+    },
+    {
+        "head": "Haar-Special",
+        "title": "Gratis Styling-Service",
+        "description": "Erhalten Sie einen kostenlosen Styling-Service bei jedem Haarschnitt!",
+        "free_product_name": "Styling"
+    },
+    {
+        "head": "Maniküre-Deal",
+        "title": "Kaufe 1, bekomme 1 Maniküre gratis",
+        "description": "Kaufen Sie eine Maniküre und erhalten Sie die zweite gratis!",
+        "free_product_name": "Gratis Maniküre"
+    },
+    {
+        "head": "Gesichtsbehandlung",
+        "title": "Premium-Gesichtsbehandlung - 50€ Rabatt",
+        "description": "Erleben Sie unsere Signatur-Gesichtsbehandlung mit 50€ Ersparnis!",
+        "free_product_name": "50€ Rabatt"
+    }
+]

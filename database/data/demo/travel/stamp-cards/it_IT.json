@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Soggiorni",
+    "title": "5 soggiorni",
+    "description": "Riscatta per un upgrade."
+  },
+  {
+    "head": "Tour",
+    "title": "Carta tour",
+    "description": "Completa per sbloccare credito attività."
+  },
+  {
+    "head": "Weekend doppi timbri",
+    "title": "Weekend 2x timbri",
+    "description": "Timbri doppi sulle prenotazioni weekend."
+  },
+  {
+    "head": "Business traveler",
+    "title": "Vantaggi lounge",
+    "description": "Ciclo premium per viaggiatori frequenti."
+  },
+  {
+    "head": "Fuga festiva",
+    "title": "Carta fuga festiva",
+    "description": "Carta stagionale per campagne viaggio."
+  },
+  {
+    "head": "VIP",
+    "title": "Carta timbri VIP",
+    "description": "Riscatta late checkout o upgrade."
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "メンバー 限定",
+        "title": "15%割引 滞在",
+        "description": "期間限定 オファー 送信先 促進 予約。",
+        "free_product_name": "15%割引"
+    },
+    {
+        "head": "アップグレード",
+        "title": "無料 Room アップグレード",
+        "description": "Premium-feel 特典 (対象 送信先 利用可能状況)。",
+        "free_product_name": "Room アップグレード"
+    },
+    {
+        "head": "キャンペーン: バンドル 節約",
+        "title": "$50割引 $500",
+        "description": "Push パッケージ と より高い チケット。",
+        "free_product_name": "$50割引"
+    },
+    {
+        "head": "ポイント ブースター",
+        "title": "+500ボーナスポイント",
+        "description": "促進 再 予約 なしで heavy 割引。",
+        "free_product_name": "+500ポイント"
+    },
+    {
+        "head": "週末",
+        "title": "週末 特別",
+        "description": "Short-window 週末 オファー 対象 occupancy。",
+        "free_product_name": "週末 お得"
+    },
+    {
+        "head": "キャンペーン: VIP",
+        "title": "キャンペーン: Late チェックアウト",
+        "description": "Simple 特典 feels luxurious。",
+        "free_product_name": "キャンペーン: Late チェックアウト"
+    }
+]

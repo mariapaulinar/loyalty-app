@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Offerta ristorante",
+        "title": "25% di sconto sul conto",
+        "description": "Goditi il 25% di sconto sull'intero pasto!",
+        "free_product_name": "25% di sconto"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "Compra 1 prendi 1 drink",
+        "description": "Acquista un drink e ottieni il secondo gratis!",
+        "free_product_name": "Drink gratis"
+    },
+    {
+        "head": "Speciale pranzo",
+        "title": "10€ di sconto menu pranzo",
+        "description": "Risparmia 10€ su qualsiasi combo pranzo da lunedì a venerdì!",
+        "free_product_name": "10€ di sconto"
+    },
+    {
+        "head": "Delizia dolce",
+        "title": "Dessert gratuito",
+        "description": "Ricevi un dessert in omaggio con qualsiasi portata principale!",
+        "free_product_name": "Dessert"
+    },
+    {
+        "head": "Festa in famiglia",
+        "title": "30% di sconto pasti famiglia",
+        "description": "Porta la famiglia e risparmia il 30% sui pasti per 4+!",
+        "free_product_name": "30% di sconto"
+    },
+    {
+        "head": "Speciale dello chef",
+        "title": "20€ di sconto menu premium",
+        "description": "Sperimenta i piatti speciali del nostro chef con 20€ di risparmio!",
+        "free_product_name": "20€ di sconto"
+    }
+]

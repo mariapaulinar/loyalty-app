@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Fresh Club",
+        "title": "Rendi la spesa settimanale un'abitudine",
+        "description": "Guadagna punti su ogni carrello e sblocca vantaggi membri che incentivano visite ripetute."
+    },
+    {
+        "head": "Scelte sane",
+        "title": "Premia le scelte migliori",
+        "description": "Punti bonus su categorie più sane. Ottimo per campagne benessere."
+    },
+    {
+        "head": "Carrello famiglia",
+        "title": "Carrello più grande = premi più grandi",
+        "description": "Pensato per aumentare lo scontrino e la frequenza."
+    },
+    {
+        "head": "Prodotti stagionali",
+        "title": "Risparmi stagionali senza affaticamento sconti",
+        "description": "Ruota premi stagionali: frutta estiva, back-to-school, dispensa invernale."
+    },
+    {
+        "head": "Prezzi membri",
+        "title": "Offerte membri istantanee",
+        "description": "I membri vedono valore immediatamente. Ideale per conversione alla cassa."
+    },
+    {
+        "head": "Nuovi brand",
+        "title": "Scopri e guadagna",
+        "description": "Incentiva la prova di nuovi prodotti con trigger punti bonus."
+    }
+]

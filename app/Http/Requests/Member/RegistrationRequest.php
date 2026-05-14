@@ -1,0 +1,77 @@
+<?php
+
+namespace App\Http\Requests\Member;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class RegistrationRequest extends FormRequest
+{
+    /**
+     * Determine if the user is authorized to make this request.
+     *
+     * @return bool
+     */
+    public function authorize()
+    {
+        return true;
+    }
+
+    /**
+     * Prepare the data for validation.
+     *
+     * @return void
+     */
+    protected function prepareForValidation()
+    {
+        $this->merge([
+            'email' => strtolower($this->email),
+        ]);
+    }
+
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        return [
+            'email' => [
+                'required',
+                'email',
+                'max:96',
+                'unique:members,email',
+            ],
+            'name' => [
+                'required',
+                'max:64',
+            ],
+            'time_zone' => [
+                'nullable',
+                'max:48',
+            ],
+            'consent' => [
+                'boolean',
+                'accepted',
+            ],
+            'accepts_emails' => [
+                'boolean',
+            ],
+            'from' => [
+                'nullable',
+            ],
+        ];
+    }
+
+    /**
+     * Get custom attributes for validator errors.
+     *
+     * @return array
+     */
+    public function attributes()
+    {
+        return [
+            'consent' => strtolower(trans('common.agreement')),
+        ];
+    }
+}

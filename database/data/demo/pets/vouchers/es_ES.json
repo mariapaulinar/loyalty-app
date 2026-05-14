@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusivo miembros",
+        "title": "15% en próxima compra",
+        "description": "Oferta de conversión de corta duración.",
+        "free_product_name": "15% de descuento"
+    },
+    {
+        "head": "Estética",
+        "title": "Complemento gratis",
+        "description": "Beneficio de estética de sensación premium.",
+        "free_product_name": "Complemento"
+    },
+    {
+        "head": "Premios",
+        "title": "Pack de premios gratis",
+        "description": "Alto deleite, bajo costo.",
+        "free_product_name": "Premios"
+    },
+    {
+        "head": "Impulsor de puntos",
+        "title": "+120 puntos bonus",
+        "description": "Genera repetición sin adicción a descuentos.",
+        "free_product_name": "+120 puntos"
+    },
+    {
+        "head": "Pack ahorro",
+        "title": "$10 de descuento en $60",
+        "description": "Incentiva canastas más grandes.",
+        "free_product_name": "$10 de descuento"
+    },
+    {
+        "head": "Especial de fiestas",
+        "title": "Oferta de temporada",
+        "description": "Cupón estacional listo para campaña.",
+        "free_product_name": "Oferta de fiestas"
+    }
+]

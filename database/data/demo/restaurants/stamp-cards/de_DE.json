@@ -1,0 +1,102 @@
+[
+    {
+        "head": "Unsere Marke",
+        "title": "Treue belohnt",
+        "description": "Restaurant-Stempel für Prämien sammeln!"
+    },
+    {
+        "head": "Sommer-Prämien",
+        "title": "Saisonale Ersparnisse",
+        "description": "Sommerbesuche bringen Ihnen Stempel!"
+    },
+    {
+        "head": "Sparkarte",
+        "title": "Verdienen beim Ausgeben",
+        "description": "Bei jedem Restaurantbesuch gestempelt werden!"
+    },
+    {
+        "head": "Gourmet-Club",
+        "title": "Genießen und Sparen",
+        "description": "Köstliche Mahlzeiten bringen Stempel!"
+    },
+    {
+        "head": "Feinschmecker-Karte",
+        "title": "Probieren und Verdienen",
+        "description": "Gutes Essen verdient Stempel!"
+    },
+    {
+        "head": "Treuekarte",
+        "title": "Jetzt Sparen",
+        "description": "Stempeln Sie sich zu Restaurant-Ersparnissen!"
+    },
+    {
+        "head": "Abendessen-Specials",
+        "title": "Belohnt werden",
+        "description": "Abendbesuche verdienen besondere Stempel!"
+    },
+    {
+        "head": "Wochenend-Bonanza",
+        "title": "Wochenend-Prämien",
+        "description": "Wochenendbesuche bedeuten mehr Stempel!"
+    },
+    {
+        "head": "Festliche Angebote",
+        "title": "Feiertags-Ersparnisse",
+        "description": "Feiern Sie mit exklusiven Stempelprämien!"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "Stündliche Prämien",
+        "description": "Happy-Hour-Besuche verdienen doppelte Stempel!"
+    },
+    {
+        "head": "Kaffee-Liebhaber",
+        "title": "Espresso-Punkte",
+        "description": "Jeder Kaffee bringt einen Stempel!"
+    },
+    {
+        "head": "Pizza-Palast",
+        "title": "Stück-Ersparnisse",
+        "description": "Jedes Stück bringt einen Stempel!"
+    },
+    {
+        "head": "Gesund essen",
+        "title": "Salat-Ersparnisse",
+        "description": "Gesunde Entscheidungen bringen Stempel!"
+    },
+    {
+        "head": "Burger-Bonanza",
+        "title": "Burger-Punkte",
+        "description": "Stapeln Sie Stempel mit Ihren Burgern!"
+    },
+    {
+        "head": "Meeresfrüchte-Special",
+        "title": "Fisch-Prämien",
+        "description": "Frische Meeresfrüchte verdienen Stempel!"
+    },
+    {
+        "head": "Dessert-Freuden",
+        "title": "Süße Ersparnisse",
+        "description": "Süße Leckereien verdienen süße Stempel!"
+    },
+    {
+        "head": "Asiatische Küche",
+        "title": "Sushi-Punkte",
+        "description": "Rollen Sie die Stempelprämien ein!"
+    },
+    {
+        "head": "Mexikanische Fiesta",
+        "title": "Taco-Token",
+        "description": "Tacos verdienen Stempel!"
+    },
+    {
+        "head": "Frühstücks-Club",
+        "title": "Morgen-Prämien",
+        "description": "Frühaufsteher bekommen Stempel!"
+    },
+    {
+        "head": "Mittagessen-Specials",
+        "title": "Mittags-Treue",
+        "description": "Mittagsbesuche verdienen Stempel!"
+    }
+]

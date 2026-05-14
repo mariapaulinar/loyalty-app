@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Anggota eksklusif",
+        "title": "Diskon 15% menginap",
+        "description": "Waktu terbatas penawaran Ke dorong pemesanan.",
+        "free_product_name": "Diskon 15%"
+    },
+    {
+        "head": "upgrade",
+        "title": "Gratis Room upgrade",
+        "description": "Premium-feel keuntungan (Subjek Ke Ketersediaan).",
+        "free_product_name": "Room upgrade"
+    },
+    {
+        "head": "Promo: bundel hemat",
+        "title": "Diskon $50 $500",
+        "description": "Push paket dan lebih tinggi tiket.",
+        "free_product_name": "Diskon $50"
+    },
+    {
+        "head": "poin penguat",
+        "title": "+500 Poin bonus",
+        "description": "dorong ulang pemesanan tanpa heavy diskon.",
+        "free_product_name": "+500 Poin"
+    },
+    {
+        "head": "akhir pekan",
+        "title": "akhir pekan khusus",
+        "description": "Short-window akhir pekan penawaran Untuk occupancy.",
+        "free_product_name": "akhir pekan penawaran"
+    },
+    {
+        "head": "Promo: VIP",
+        "title": "Promo: Late checkout",
+        "description": "Simple keuntungan yang feels luxurious.",
+        "free_product_name": "Promo: Late checkout"
+    }
+]

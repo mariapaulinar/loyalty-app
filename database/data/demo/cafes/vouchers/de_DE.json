@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Mitglieder-Exklusiv",
+        "title": "20% Rabatt auf jedes Getränk",
+        "description": "Zeitlich begrenztes Angebot, um Interesse in Käufe zu verwandeln.",
+        "free_product_name": "20% Rabatt"
+    },
+    {
+        "head": "Willkommensgeschenk",
+        "title": "Gratis Größen-Upgrade",
+        "description": "Hochwertiger Vorteil für Neumitglieder.",
+        "free_product_name": "Größen-Upgrade"
+    },
+    {
+        "head": "Gebäck-Vorteil",
+        "title": "Gratis Gebäck",
+        "description": "Kombinationsverkäufe fördern und Routine aufbauen.",
+        "free_product_name": "Gebäck"
+    },
+    {
+        "head": "Bundle-Sparer",
+        "title": "5€ Rabatt auf Kaffee + Gebäck",
+        "description": "Warenkorberhöhung: Belohnt die Kombi, nicht das Einzelprodukt.",
+        "free_product_name": "5€ Rabatt"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "Kaufe 1, bekomme 1 Eiskaffee",
+        "description": "Traffic in schwachen Zeiten steigern ohne alles zu rabattieren.",
+        "free_product_name": "Gratis Eiskaffee"
+    },
+    {
+        "head": "Punkte-Booster",
+        "title": "+100 Bonuspunkte",
+        "description": "Ein treueorientierter Anreiz für Wiederholungsbesuche.",
+        "free_product_name": "+100 Punkte"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Serata cinema",
+        "title": "Compra 1 prendi 1 gratis - Biglietto",
+        "description": "Acquista un biglietto e porta un amico gratis!",
+        "free_product_name": "Biglietto gratis"
+    },
+    {
+        "head": "Offerta popcorn",
+        "title": "Popcorn grande gratuito",
+        "description": "Ricevi un popcorn grande omaggio con qualsiasi acquisto di biglietto!",
+        "free_product_name": "Popcorn grande"
+    },
+    {
+        "head": "Speciale weekend",
+        "title": "5€ di sconto biglietti weekend",
+        "description": "Risparmia 5€ su qualsiasi proiezione del weekend!",
+        "free_product_name": "5€ di sconto"
+    },
+    {
+        "head": "Pacchetto famiglia",
+        "title": "30% di sconto biglietti famiglia",
+        "description": "Porta tutta la famiglia e risparmia il 30% su 4+ biglietti!",
+        "free_product_name": "30% di sconto"
+    },
+    {
+        "head": "Posti premium",
+        "title": "Upgrade premium gratuito",
+        "description": "Passa ai posti premium senza costi aggiuntivi!",
+        "free_product_name": "Posto premium"
+    },
+    {
+        "head": "Combo bar",
+        "title": "10€ di sconto combo",
+        "description": "Risparmia 10€ su qualsiasi combo cibo e bevande!",
+        "free_product_name": "10€ di sconto"
+    }
+]

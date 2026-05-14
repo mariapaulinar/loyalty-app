@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Bonanza Blockbuster",
+        "title": "Ahorros de estreno",
+        "description": "¡Obtén descuentos exclusivos en estrenos!"
+    },
+    {
+        "head": "Membresía de cine",
+        "title": "Mira y gana",
+        "description": "¡Acumula puntos cada vez que veas una película con nosotros!"
+    },
+    {
+        "head": "Club Cinéfilos",
+        "title": "Ve y ahorra",
+        "description": "¡Sumérgete en experiencias cinematográficas y disfruta beneficios especiales!"
+    },
+    {
+        "head": "Pase Palomitas",
+        "title": "Come y gana",
+        "description": "¡Gana recompensas con cada compra de palomitas!"
+    },
+    {
+        "head": "Especiales Matinée",
+        "title": "Descuentos de tarde",
+        "description": "¡Disfruta tarifas reducidas en funciones de la tarde!"
+    },
+    {
+        "head": "Festival Cine Fin de Semana",
+        "title": "Ofertas de cine de fin de semana",
+        "description": "¡Descubre las últimas películas el fin de semana y aprovecha ofertas especiales!"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Anggota penawaran",
+        "title": "Diskon $10 $50",
+        "description": "classic basket-builder dengan Bersihkan Nilai.",
+        "free_product_name": "Diskon $10"
+    },
+    {
+        "head": "Promo: segar Picks",
+        "title": "Diskon 20% produk segar",
+        "description": "ideal Untuk musiman produk segar pushes.",
+        "free_product_name": "Diskon 20%"
+    },
+    {
+        "head": "Promo: House merek",
+        "title": "beli 2 dapatkan 1 Gratis",
+        "description": "Margin-Ramah penawaran yang feels generous.",
+        "free_product_name": "Gratis Item"
+    },
+    {
+        "head": "poin penguat",
+        "title": "+300 Poin bonus",
+        "description": "mendorong ulang Kunjungan tanpa heavy potongan harga.",
+        "free_product_name": "+300 Poin"
+    },
+    {
+        "head": "Promo: camilan hemat",
+        "title": "Diskon $5 Snacks",
+        "description": "Promo: meningkatkan add-on pembelian dan AOV.",
+        "free_product_name": "Diskon $5"
+    },
+    {
+        "head": "akhir pekan penawaran",
+        "title": "akhir pekan Anggota penawaran",
+        "description": "Promo: short window yang creates urgensi.",
+        "free_product_name": "akhir pekan penawaran"
+    }
+]

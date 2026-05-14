@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Our Brand",
+    "title": "Loyalty Rewarded",
+    "description": "Collect points with every purchase and unlock rewards."
+  },
+  {
+    "head": "Member Perks",
+    "title": "Earn as You Spend",
+    "description": "Get points automatically at checkout—no coupons needed."
+  },
+  {
+    "head": "VIP Club",
+    "title": "Exclusive Benefits",
+    "description": "Level up for better rewards, early access, and special offers."
+  },
+  {
+    "head": "Weekend Boost",
+    "title": "Bonus Points",
+    "description": "Earn extra points on weekends and peak times."
+  },
+  {
+    "head": "Limited Offer",
+    "title": "Seasonal Savings",
+    "description": "Limited-time promotions to keep members engaged."
+  },
+  {
+    "head": "Refer & Earn",
+    "title": "Bring a Friend",
+    "description": "Invite friends and get rewarded when they join."
+  }
+]

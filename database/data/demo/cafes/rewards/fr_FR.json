@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Café de spécialité gratuit",
+        "description": "Échangez contre une boisson signature et transformez un arrêt routinier en moment fort. Une récompense simple qui renforce la fidélité quotidienne."
+    },
+    {
+        "title": "Tasse réutilisable",
+        "description": "Une récompense tasse brandée qui voyage avec le client et fait votre pub. Associez-la à des jours double-points pour accélérer les retours."
+    },
+    {
+        "title": "Sachet de café",
+        "description": "Repartez avec un sachet de grains premium et gardez votre café en tête à la maison. Idéal comme échange haut niveau pour membres engagés."
+    },
+    {
+        "title": "Pâtisserie gratuite",
+        "description": "Une douce victoire qui favorise les combinaisons et les paniers plus élevés. Utilisez-la en milieu de journée quand le trafic baisse."
+    },
+    {
+        "title": "Boisson de la semaine",
+        "description": "Échange sélection barista qui garde le programme frais chaque semaine. Parfait pour introduire les saveurs saisonnières et éditions limitées."
+    },
+    {
+        "title": "Token double points",
+        "description": "Activez un jour double-points personnel pour booster la fréquence sans réduire les prix. Les membres adorent choisir quand l'utiliser."
+    }
+]

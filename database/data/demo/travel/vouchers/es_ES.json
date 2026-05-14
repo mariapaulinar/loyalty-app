@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusivo miembros",
+        "title": "15% de descuento en estadía",
+        "description": "Oferta por tiempo limitado para impulsar reservas.",
+        "free_product_name": "15% de descuento"
+    },
+    {
+        "head": "Mejora",
+        "title": "Mejora de habitación gratis",
+        "description": "Beneficio de sensación premium (sujeto a disponibilidad).",
+        "free_product_name": "Mejora de habitación"
+    },
+    {
+        "head": "Pack ahorro",
+        "title": "$50 de descuento en $500",
+        "description": "Impulsa paquetes y tickets altos.",
+        "free_product_name": "$50 de descuento"
+    },
+    {
+        "head": "Impulsor de puntos",
+        "title": "+500 puntos bonus",
+        "description": "Genera reservas repetidas sin descuentos fuertes.",
+        "free_product_name": "+500 puntos"
+    },
+    {
+        "head": "Fin de semana",
+        "title": "Especial de fin de semana",
+        "description": "Oferta de fin de semana de corta duración para ocupación.",
+        "free_product_name": "Oferta fin de semana"
+    },
+    {
+        "head": "VIP",
+        "title": "Salida tardía",
+        "description": "Beneficio simple que se siente lujoso.",
+        "free_product_name": "Salida tardía"
+    }
+]

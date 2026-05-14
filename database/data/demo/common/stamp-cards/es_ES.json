@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Sella y ahorra",
+    "title": "Colecta sellos",
+    "description": "Un sello por visita. Completa la tarjeta, reclama un beneficio."
+  },
+  {
+    "head": "Club de habituales",
+    "title": "Visita, desbloquea",
+    "description": "Ciclo corto que convierte habituales en miembros."
+  },
+  {
+    "head": "Reto semanal",
+    "title": "Día de doble sello",
+    "description": "Elige un día, activa 2x sellos, aumenta el tráfico."
+  },
+  {
+    "head": "Nuevo miembro",
+    "title": "Empieza bien",
+    "description": "Sello de bienvenida para crear el hábito."
+  },
+  {
+    "head": "Trae amigos",
+    "title": "Impulso grupal",
+    "description": "Vengan juntos, avancen más rápido."
+  },
+  {
+    "head": "Edición limitada",
+    "title": "Tarjeta de temporada",
+    "description": "Tarjeta de sellos por tiempo limitado para campañas."
+  }
+]

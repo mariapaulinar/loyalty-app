@@ -1,0 +1,38 @@
+[
+  {
+    "head": "Oferta do Membro",
+    "title": "US$ 10 de desconto em US$ 50",
+    "description": "Classico para aumentar a cesta, com valor claro.",
+    "free_product_name": "US$ 10 de desconto"
+  },
+  {
+    "head": "Escolhas Frescas",
+    "title": "20% de desconto no hortifruti",
+    "description": "Ideal para campanhas sazonais de produtos frescos.",
+    "free_product_name": "20% de desconto"
+  },
+  {
+    "head": "Marca da Casa",
+    "title": "Compre 2 e leve 1",
+    "description": "Oferta boa para margem e com cara generosa.",
+    "free_product_name": "Item gratis"
+  },
+  {
+    "head": "Acelerador de Pontos",
+    "title": "+300 pontos bonus",
+    "description": "Aumenta retorno sem desconto pesado.",
+    "free_product_name": "+300 pontos"
+  },
+  {
+    "head": "Economia em Snacks",
+    "title": "US$ 5 de desconto em snacks",
+    "description": "Aumenta add-ons e o ticket medio.",
+    "free_product_name": "US$ 5 de desconto"
+  },
+  {
+    "head": "Oferta de Fim de Semana",
+    "title": "Oferta do membro no fim de semana",
+    "description": "Janela curta que cria urgencia.",
+    "free_product_name": "Oferta de fim de semana"
+  }
+]

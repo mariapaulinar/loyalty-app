@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Fresh Club",
+        "title": "Make Weekly Shopping Stick",
+        "description": "Earn points on every basket and unlock member perks that drive repeat visits."
+    },
+    {
+        "head": "Healthy Picks",
+        "title": "Reward Better Choices",
+        "description": "Bonus points on healthier categories. Great for wellness campaigns."
+    },
+    {
+        "head": "Family Basket",
+        "title": "Bigger Cart = Bigger Rewards",
+        "description": "Designed to increase basket size and frequency."
+    },
+    {
+        "head": "Seasonal Produce",
+        "title": "Seasonal Savings Without Discount Fatigue",
+        "description": "Rotate seasonal rewards: summer fruit, back-to-school, winter pantry."
+    },
+    {
+        "head": "Member Prices",
+        "title": "Instant Member Deals",
+        "description": "Members see value immediately. Ideal for conversion at checkout."
+    },
+    {
+        "head": "New Brands",
+        "title": "Discover & Earn",
+        "description": "Drive trial of new products with bonus-point triggers."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Filmabend",
+        "title": "Kaufe 1, bekomme 1 Ticket gratis",
+        "description": "Kaufen Sie ein Ticket und bringen Sie einen Freund gratis mit!",
+        "free_product_name": "Gratis Ticket"
+    },
+    {
+        "head": "Popcorn-Deal",
+        "title": "Gratis großes Popcorn",
+        "description": "Erhalten Sie ein großes Popcorn bei jedem Ticketkauf!",
+        "free_product_name": "Großes Popcorn"
+    },
+    {
+        "head": "Wochenend-Special",
+        "title": "5€ Rabatt auf Wochenend-Tickets",
+        "description": "Sparen Sie 5€ bei jeder Wochenendvorstellung!",
+        "free_product_name": "5€ Rabatt"
+    },
+    {
+        "head": "Familienpaket",
+        "title": "30% Rabatt auf Familien-Tickets",
+        "description": "Bringen Sie die ganze Familie und sparen Sie 30% ab 4 Tickets!",
+        "free_product_name": "30% Rabatt"
+    },
+    {
+        "head": "Premium-Sitze",
+        "title": "Gratis Premium-Upgrade",
+        "description": "Upgraden Sie auf Premium-Sitze ohne Aufpreis!",
+        "free_product_name": "Premium-Sitz"
+    },
+    {
+        "head": "Snack-Combo",
+        "title": "10€ Rabatt auf Combo-Deal",
+        "description": "Sparen Sie 10€ auf jede Essen- und Getränke-Combo!",
+        "free_product_name": "10€ Rabatt"
+    }
+]

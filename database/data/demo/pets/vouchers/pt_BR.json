@@ -1,0 +1,38 @@
+[
+  {
+    "head": "Exclusivo para Membros",
+    "title": "15% de desconto na proxima compra",
+    "description": "Oferta de janela curta para conversao.",
+    "free_product_name": "15% de desconto"
+  },
+  {
+    "head": "Grooming",
+    "title": "Add-on gratis",
+    "description": "Vantagem de grooming com cara premium.",
+    "free_product_name": "Add-on"
+  },
+  {
+    "head": "Petiscos",
+    "title": "Pacote de petisco gratis",
+    "description": "Alta alegria, baixo custo.",
+    "free_product_name": "Petiscos"
+  },
+  {
+    "head": "Acelerador de Pontos",
+    "title": "+120 pontos bonus",
+    "description": "Aumente retorno sem viciar em desconto.",
+    "free_product_name": "+120 pontos"
+  },
+  {
+    "head": "Economia no Combo",
+    "title": "US$ 10 de desconto em US$ 60",
+    "description": "Incentive cestas maiores.",
+    "free_product_name": "US$ 10 de desconto"
+  },
+  {
+    "head": "Especial de Feriado",
+    "title": "Oferta sazonal",
+    "description": "Voucher sazonal pronto para campanha.",
+    "free_product_name": "Oferta de feriado"
+  }
+]

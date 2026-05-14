@@ -1,0 +1,32 @@
+[
+    {
+        "head": "キャンペーン: 私たちの ブランド",
+        "title": "ロイヤルティ 特典付与済み",
+        "description": "貯める ポイント 付き 毎 購入 と 解放 特典。"
+    },
+    {
+        "head": "メンバー 特典",
+        "title": "購入ごとにポイント獲得",
+        "description": "取得 ポイント automatically で チェックアウト—いいえ coupons needed。"
+    },
+    {
+        "head": "VIP クラブ",
+        "title": "限定 特典",
+        "description": "レベル up 対象 better 特典、先行 アクセス、と 特別 オファー。"
+    },
+    {
+        "head": "週末 強化",
+        "title": "ボーナスポイント",
+        "description": "獲得 追加 ポイント で 週末 と peak times。"
+    },
+    {
+        "head": "限定 オファー",
+        "title": "季節限定 節約",
+        "description": "期間限定 promotions 送信先 維持 メンバー engaged。"
+    },
+    {
+        "head": "紹介して獲得",
+        "title": "キャンペーン: 友達を招待",
+        "description": "招待 友達 と 特典を獲得 いつ they 参加。"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Soirée ciné",
+        "title": "1 billet acheté = 1 offert",
+        "description": "Achetez un billet et amenez un ami gratuitement !",
+        "free_product_name": "Billet gratuit"
+    },
+    {
+        "head": "Offre Popcorn",
+        "title": "Grand popcorn gratuit",
+        "description": "Recevez un grand popcorn offert avec tout achat de billet !",
+        "free_product_name": "Grand popcorn"
+    },
+    {
+        "head": "Spécial week-end",
+        "title": "5 € de réduction billets week-end",
+        "description": "Économisez 5 € sur toute séance de week-end !",
+        "free_product_name": "5 € de réduction"
+    },
+    {
+        "head": "Pack Famille",
+        "title": "30% de réduction billets famille",
+        "description": "Venez en famille et économisez 30% sur 4+ billets !",
+        "free_product_name": "30% de réduction"
+    },
+    {
+        "head": "Siège Premium",
+        "title": "Surclassement premium gratuit",
+        "description": "Passez aux sièges premium sans frais supplémentaires !",
+        "free_product_name": "Siège premium"
+    },
+    {
+        "head": "Combo Confiserie",
+        "title": "10 € de réduction combo",
+        "description": "Économisez 10 € sur tout combo nourriture et boisson !",
+        "free_product_name": "10 € de réduction"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Cupón belleza",
+        "title": "20% de descuento en todos los servicios",
+        "description": "¡Obtén 20% de descuento en cualquier tratamiento de belleza en nuestro salón!",
+        "free_product_name": "20% de descuento"
+    },
+    {
+        "head": "Oferta spa",
+        "title": "$30 de descuento en paquete spa",
+        "description": "¡Ahorra $30 en nuestro paquete spa premium. La relajación te espera!",
+        "free_product_name": "$30 de descuento"
+    },
+    {
+        "head": "Nuevo cliente",
+        "title": "Especial primera visita",
+        "description": "¡Los nuevos clientes obtienen 25% de descuento en su primera cita!",
+        "free_product_name": "25% de descuento"
+    },
+    {
+        "head": "Especial cabello",
+        "title": "Servicio de peinado gratis",
+        "description": "¡Obtén un servicio de peinado de cortesía con cualquier corte!",
+        "free_product_name": "Peinado"
+    },
+    {
+        "head": "Oferta manicura",
+        "title": "Compra 1, lleva 1 manicura",
+        "description": "¡Compra una manicura y lleva la segunda gratis!",
+        "free_product_name": "Manicura gratis"
+    },
+    {
+        "head": "Oferta facial",
+        "title": "Facial premium - $50 de descuento",
+        "description": "¡Experimenta nuestro facial signature con $50 de ahorro!",
+        "free_product_name": "$50 de descuento"
+    }
+]

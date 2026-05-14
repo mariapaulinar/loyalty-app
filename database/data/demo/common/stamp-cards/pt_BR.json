@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Carimbo & Vantagem",
+    "title": "Colete carimbos",
+    "description": "Um carimbo por visita. Complete e resgate uma vantagem."
+  },
+  {
+    "head": "Clube dos Frequentes",
+    "title": "Visite e destrave",
+    "description": "Loop curto que transforma frequencia em fidelidade."
+  },
+  {
+    "head": "Desafio Semanal",
+    "title": "Dia 2x carimbos",
+    "description": "Escolha um dia, rode 2x carimbos e aumente o movimento."
+  },
+  {
+    "head": "Novo Membro",
+    "title": "Comece forte",
+    "description": "Carimbo de boas-vindas para criar habito."
+  },
+  {
+    "head": "Traga Amigos",
+    "title": "Bonus em grupo",
+    "description": "Venham juntos e avancem mais rapido."
+  },
+  {
+    "head": "Edicao Limitada",
+    "title": "Cartao sazonal",
+    "description": "Cartao por tempo limitado para campanhas."
+  }
+]

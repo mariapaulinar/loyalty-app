@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Esclusiva membri",
+        "title": "15% di sconto sul prossimo acquisto",
+        "description": "Offerta a tempo limitato per convertire curiosi in acquirenti.",
+        "free_product_name": "15% di sconto"
+    },
+    {
+        "head": "Regalo benvenuto",
+        "title": "Accessorio gratuito",
+        "description": "Vantaggio prima visita dal gusto premium.",
+        "free_product_name": "Accessorio"
+    },
+    {
+        "head": "VIP",
+        "title": "Modifica gratuita",
+        "description": "Vantaggio dal gusto lusso che costruisce fiducia.",
+        "free_product_name": "Modifica"
+    },
+    {
+        "head": "Risparmia sul bundle",
+        "title": "20€ di sconto su 120€",
+        "description": "Booster scontrino che premia chi costruisce un look.",
+        "free_product_name": "20€ di sconto"
+    },
+    {
+        "head": "Booster punti",
+        "title": "+150 punti bonus",
+        "description": "Premia la fedeltà senza dipendenza dagli sconti.",
+        "free_product_name": "+150 punti"
+    },
+    {
+        "head": "Saldi festivi",
+        "title": "Offerta stagionale",
+        "description": "Offerta stagionale a finestra breve pensata per campagne.",
+        "free_product_name": "Offerta festiva"
+    }
+]

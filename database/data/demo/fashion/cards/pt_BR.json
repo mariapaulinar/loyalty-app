@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Clube de Estilo",
+        "title": "Ganhe em cada look",
+        "description": "Pontos em roupas e acessorios, com recompensas que parecem tratamento VIP."
+    },
+    {
+        "head": "Novo Drop",
+        "title": "Membros tem acesso antecipado",
+        "description": "Feito para drops, capsulas e colaboracoes."
+    },
+    {
+        "head": "Looks Sazonais",
+        "title": "Vantagens sazonais prontas para campanha",
+        "description": "Rode volta as aulas, presentes de feriado e liquidacao de fim de temporada com recompensas bem direcionadas."
+    },
+    {
+        "head": "Vantagens VIP",
+        "title": "Atendimento prioritario + recompensas exclusivas",
+        "description": "Camada de fidelidade com cara de luxo, feita para elevar sua marca."
+    },
+    {
+        "head": "Recompensas de Combo",
+        "title": "Monte um look e ganhe mais",
+        "description": "Recompense looks com varios itens para elevar o valor medio do pedido."
+    },
+    {
+        "head": "Presente de Aniversario",
+        "title": "Beneficio com prazo que converte",
+        "description": "Bonus de aniversario com uma janela curta para criar urgencia."
+    }
+]

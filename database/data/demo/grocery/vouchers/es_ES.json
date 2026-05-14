@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta de miembro",
+        "title": "$10 de descuento en $50",
+        "description": "Un clásico constructor de canasta con valor claro.",
+        "free_product_name": "$10 de descuento"
+    },
+    {
+        "head": "Productos frescos",
+        "title": "20% en productos",
+        "description": "Ideal para impulsos de productos estacionales.",
+        "free_product_name": "20% de descuento"
+    },
+    {
+        "head": "Marca de la casa",
+        "title": "Compra 2, lleva 1 gratis",
+        "description": "Oferta amigable con margen que se siente generosa.",
+        "free_product_name": "Artículo gratis"
+    },
+    {
+        "head": "Impulsor de puntos",
+        "title": "+300 puntos bonus",
+        "description": "Genera visitas repetidas sin descuentos fuertes.",
+        "free_product_name": "+300 puntos"
+    },
+    {
+        "head": "Ahorro en snacks",
+        "title": "$5 de descuento en snacks",
+        "description": "Aumenta compras adicionales y ticket.",
+        "free_product_name": "$5 de descuento"
+    },
+    {
+        "head": "Oferta de fin de semana",
+        "title": "Oferta de miembro fin de semana",
+        "description": "Una ventana corta que crea urgencia.",
+        "free_product_name": "Oferta fin de semana"
+    }
+]

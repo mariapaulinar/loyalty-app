@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Appena sfornato",
+        "title": "Premia il rituale",
+        "description": "Punti su pane, torte e pasticcini. Pensato per routine giornaliere e settimanali."
+    },
+    {
+        "head": "Forno del weekend",
+        "title": "Vantaggi weekend che muovono volumi",
+        "description": "Più punti sugli acquisti del weekend per aumentare lo scontrino."
+    },
+    {
+        "head": "Ordini celebrativi",
+        "title": "Rendi le occasioni più redditizie",
+        "description": "Premi pensati per compleanni e festività. Perfetti per ordini di importo elevato."
+    },
+    {
+        "head": "Pane quotidiano",
+        "title": "Essenziali che costruiscono fedeltà",
+        "description": "Trasforma i prodotti base in un motivo per sceglierti ogni giorno."
+    },
+    {
+        "head": "Dolci stagionali",
+        "title": "Edizioni limitate, riscatti veloci",
+        "description": "Pasticcini festivi + premi limitati = urgenza senza sconti pesanti."
+    },
+    {
+        "head": "Box famiglia",
+        "title": "Premi bundle",
+        "description": "Incentiva acquisti multipli con boost punti su box e bundle."
+    }
+]

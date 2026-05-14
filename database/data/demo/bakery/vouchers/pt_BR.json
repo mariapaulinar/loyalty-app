@@ -1,0 +1,38 @@
+[
+  {
+    "head": "Exclusivo para Membros",
+    "title": "15% de desconto em qualquer item",
+    "description": "Oferta por tempo limitado. Otima para dias mais fracos.",
+    "free_product_name": "15% de desconto"
+  },
+  {
+    "head": "Presente de Boas-vindas",
+    "title": "Doce gratis",
+    "description": "Vantagem da primeira visita que transforma cadastro em compra.",
+    "free_product_name": "Doce"
+  },
+  {
+    "head": "Dia de Bolo",
+    "title": "US$ 10 de desconto em bolos",
+    "description": "Impulsione pedidos de comemoracao com incentivo direcionado.",
+    "free_product_name": "US$ 10 de desconto"
+  },
+  {
+    "head": "Economia no Combo",
+    "title": "Compre 2 e leve 1",
+    "description": "Gira volume sem descontar tudo.",
+    "free_product_name": "Doce gratis"
+  },
+  {
+    "head": "Especial da Manha",
+    "title": "Cafe gratis",
+    "description": "Vantagem de combinacao para aumentar o ticket.",
+    "free_product_name": "Cafe"
+  },
+  {
+    "head": "Acelerador de Pontos",
+    "title": "+150 pontos bonus",
+    "description": "Recompense fidelidade, nao apenas sensibilidade a preco.",
+    "free_product_name": "+150 pontos"
+  }
+]

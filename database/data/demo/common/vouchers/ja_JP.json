@@ -1,0 +1,33 @@
+[
+    {
+        "head": "メンバー お得",
+        "title": "25%割引",
+        "description": "限定 節約 対象 メンバー—限定 時間。"
+    },
+    {
+        "head": "ウェルカムギフト",
+        "title": "$10割引",
+        "description": "小さい thank あなた 対象 joining。"
+    },
+    {
+        "head": "無料 アップグレード",
+        "title": "無料 追加‑で",
+        "description": "取得 無料 add-on 付き あなたの 購入。",
+        "free_product_name": "無料 追加‑で"
+    },
+    {
+        "head": "ボーナスポイント",
+        "title": "+100ポイント",
+        "description": "獲得 追加 ポイント で あなたの 次へ 購入。"
+    },
+    {
+        "head": "キャンペーン: バンドル 節約",
+        "title": "購入 さらに、お得 さらに",
+        "description": "お得 さらに いつ あなた reach 最小 spend。"
+    },
+    {
+        "head": "週末 オファー",
+        "title": "週末 特別",
+        "description": "weekend-only オファー 送信先 促進 再 訪問。"
+    }
+]

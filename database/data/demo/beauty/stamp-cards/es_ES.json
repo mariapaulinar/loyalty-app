@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Nuestro salón",
+        "title": "Recompensas de belleza",
+        "description": "¡Colecciona sellos y desbloquea beneficios de belleza!"
+    },
+    {
+        "head": "Estilos de verano",
+        "title": "Cambios de imagen estacionales",
+        "description": "¡Nuevos looks de verano con recompensas de sellos!"
+    },
+    {
+        "head": "Tarjeta estilo",
+        "title": "Gana mientras te estilizas",
+        "description": "¡Obtén un sello en cada visita al salón!"
+    },
+    {
+        "head": "Club Glamour",
+        "title": "Estilo y ahorro",
+        "description": "¡Los tratamientos de belleza te dan sellos!"
+    },
+    {
+        "head": "Tarjeta Cabello",
+        "title": "Peínate y gana",
+        "description": "¡El cabello fabuloso merece recompensas!"
+    },
+    {
+        "head": "Lealtad Belleza",
+        "title": "Ahorra en belleza",
+        "description": "¡Sella tu camino hacia los ahorros en belleza!"
+    }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Tamponnez & économisez",
+    "title": "Collectez des tampons",
+    "description": "Un tampon par visite. Complétez la carte, réclamez un avantage."
+  },
+  {
+    "head": "Club des habitués",
+    "title": "Visitez, débloquez",
+    "description": "Circuit court qui transforme les habitués en membres."
+  },
+  {
+    "head": "Défi hebdomadaire",
+    "title": "Jour double tampon",
+    "description": "Choisissez un jour, lancez 2x tampons, augmentez le trafic."
+  },
+  {
+    "head": "Nouveau membre",
+    "title": "Bien démarrer",
+    "description": "Tampon de bienvenue pour créer l'habitude."
+  },
+  {
+    "head": "Amenez des amis",
+    "title": "Boost collectif",
+    "description": "Venez ensemble, progressez plus vite."
+  },
+  {
+    "head": "Édition limitée",
+    "title": "Carte saisonnière",
+    "description": "Carte tampon à durée limitée pour les campagnes."
+  }
+]

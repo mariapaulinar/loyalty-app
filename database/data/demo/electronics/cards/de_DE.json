@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Tech-Club",
+        "title": "Upgraden & Verdienen",
+        "description": "Punkte auf Geräte + Zubehör mit Prämien, die sich wie Upgrades anfühlen, nicht wie Rabatte."
+    },
+    {
+        "head": "Launch-Zugang",
+        "title": "Frühzeitiger Zugang zu Neuheiten",
+        "description": "Für Launch-Kalender und Produkt-Drops konzipiert."
+    },
+    {
+        "head": "Inzahlungnahme-Boost",
+        "title": "Inzahlungnahmen in Treue verwandeln",
+        "description": "Bonuspunkte bei Inzahlungnahmen. Ideal für Upgrades und Kundenbindung."
+    },
+    {
+        "head": "Schutz-Vorteile",
+        "title": "Pflege belohnen, nicht nur Ausgaben",
+        "description": "Schutzpläne und Zubehör fördern. Margenfreundlich."
+    },
+    {
+        "head": "Bundle-Ersparnisse",
+        "title": "Bundles für größere Warenkörbe",
+        "description": "Mehrfachkäufe mit cleveren Anreizen belohnen."
+    },
+    {
+        "head": "VIP-Support",
+        "title": "Prioritäts-Hilfe für Mitglieder",
+        "description": "Premium-Treueebene, die Abwanderung reduziert."
+    }
+]

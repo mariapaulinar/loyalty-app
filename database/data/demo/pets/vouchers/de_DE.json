@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Mitglieder-Exklusiv",
+        "title": "15% Rabatt auf nächsten Einkauf",
+        "description": "Kurzfristiges Konversions-Angebot.",
+        "free_product_name": "15% Rabatt"
+    },
+    {
+        "head": "Fellpflege",
+        "title": "Gratis Zusatz",
+        "description": "Premium-Pflegevorvorteil.",
+        "free_product_name": "Zusatz"
+    },
+    {
+        "head": "Leckerlis",
+        "title": "Gratis Leckerli-Packung",
+        "description": "Hohe Freude, geringe Kosten.",
+        "free_product_name": "Leckerlis"
+    },
+    {
+        "head": "Punkte-Booster",
+        "title": "+120 Bonuspunkte",
+        "description": "Wiederholungsbesuche ohne Rabattsucht fördern.",
+        "free_product_name": "+120 Punkte"
+    },
+    {
+        "head": "Bundle-Sparer",
+        "title": "10€ Rabatt ab 60€",
+        "description": "Größere Warenkörbe fördern.",
+        "free_product_name": "10€ Rabatt"
+    },
+    {
+        "head": "Feiertags-Special",
+        "title": "Saisonales Angebot",
+        "description": "Kampagnenbereiter saisonaler Gutschein.",
+        "free_product_name": "Feiertagsdeal"
+    }
+]

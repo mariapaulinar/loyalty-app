@@ -1,0 +1,38 @@
+[
+    {
+        "head": "yemek firsat",
+        "title": "%25 İndirim sizin Bill",
+        "description": "Keyfini Çıkarın 25% İndirim uzerinde sizin entire ogun!",
+        "free_product_name": "%25 İndirim"
+    },
+    {
+        "head": "Kampanya: mutlu Hour",
+        "title": "satın al 1 alin 1 icecek",
+        "description": "Satın Alma bir icecek ve alin ikinci Ücretsiz!",
+        "free_product_name": "Ücretsiz icecek"
+    },
+    {
+        "head": "ogle yemegi ozel",
+        "title": "$10 İndirim ogle yemegi Menü",
+        "description": "tasarruf $10 uzerinde herhangi ogle yemegi kombin Pazartesi-Cuma!",
+        "free_product_name": "$10 İndirim"
+    },
+    {
+        "head": "Kampanya: tatli keyif",
+        "title": "Ücretsiz tatli",
+        "description": "alin bir ücretsiz tatli ile herhangi main course!",
+        "free_product_name": "Kampanya: tatli"
+    },
+    {
+        "head": "aile Feast",
+        "title": "%30 İndirim aile Meals",
+        "description": "Bring aile ve tasarruf 30% uzerinde meals İçicinde 4+!",
+        "free_product_name": "%30 İndirim"
+    },
+    {
+        "head": "sef ozel",
+        "title": "$20 İndirim premium Menü",
+        "description": "deneyim bizim sef ozel yemekler ile $20 tasarruf!",
+        "free_product_name": "$20 İndirim"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Voucher Beleza",
+        "title": "20% de Desconto em Todos os Serviços",
+        "description": "Ganhe 20% de desconto em qualquer tratamento de beleza em nosso salão!",
+        "free_product_name": "20% Off"
+    },
+    {
+        "head": "Oferta Spa",
+        "title": "$30 de Desconto no Pacote Spa",
+        "description": "Economize $30 no nosso pacote spa premium. Relaxamento espera por você!",
+        "free_product_name": "$30 Off"
+    },
+    {
+        "head": "Novo Cliente",
+        "title": "Especial Primeira Visita",
+        "description": "Novos clientes ganham 25% de desconto na primeira consulta!",
+        "free_product_name": "25% Off"
+    },
+    {
+        "head": "Especial Cabelo",
+        "title": "Serviço de Penteado Grátis",
+        "description": "Ganhe um serviço de penteado de cortesia com qualquer corte!",
+        "free_product_name": "Penteado"
+    },
+    {
+        "head": "Oferta Manicure",
+        "title": "Compre 1 Leve 2 Manicure",
+        "description": "Compre uma manicure e ganhe a segunda grátis!",
+        "free_product_name": "Manicure Grátis"
+    },
+    {
+        "head": "Oferta Facial",
+        "title": "Facial Premium - $50 de Desconto",
+        "description": "Experimente nosso facial especial com $50 de economia!",
+        "free_product_name": "$50 Off"
+    }
+]

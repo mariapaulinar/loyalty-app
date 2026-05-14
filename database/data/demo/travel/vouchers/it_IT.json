@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Esclusiva membri",
+        "title": "15% di sconto soggiorno",
+        "description": "Offerta a tempo limitato per incentivare le prenotazioni.",
+        "free_product_name": "15% di sconto"
+    },
+    {
+        "head": "Upgrade",
+        "title": "Upgrade camera gratuito",
+        "description": "Vantaggio dal gusto premium (soggetto a disponibilità).",
+        "free_product_name": "Upgrade camera"
+    },
+    {
+        "head": "Risparmia sul bundle",
+        "title": "50€ di sconto su 500€",
+        "description": "Spingi pacchetti e importi più alti.",
+        "free_product_name": "50€ di sconto"
+    },
+    {
+        "head": "Booster punti",
+        "title": "+500 punti bonus",
+        "description": "Incentiva prenotazioni ripetute senza forti sconti.",
+        "free_product_name": "+500 punti"
+    },
+    {
+        "head": "Weekend",
+        "title": "Speciale weekend",
+        "description": "Offerta weekend a finestra breve per l'occupazione.",
+        "free_product_name": "Offerta weekend"
+    },
+    {
+        "head": "VIP",
+        "title": "Late checkout",
+        "description": "Vantaggio semplice che sembra lussuoso.",
+        "free_product_name": "Late checkout"
+    }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Club Croissant",
+    "title": "Croissant matutino",
+    "description": "Ciclo simple que hace las mañanas predecibles."
+  },
+  {
+    "head": "Serie de galletas",
+    "title": "Pack de galletas gratis",
+    "description": "Pequeñas recompensas que hacen volver."
+  },
+  {
+    "head": "Porción de pastel",
+    "title": "Porción de cumpleaños",
+    "description": "Perfecto para celebraciones y ventas adicionales."
+  },
+  {
+    "head": "Lote de panes",
+    "title": "Pan fresco semanal",
+    "description": "Diseñado para familias y compradores semanales."
+  },
+  {
+    "head": "Doble sellos fin de semana",
+    "title": "Fin de semana 2x sellos",
+    "description": "Doble sellos para aumentar afluencia."
+  },
+  {
+    "head": "Tarta de temporada",
+    "title": "Recompensa tarta de temporada",
+    "description": "Impulsa pre-pedidos festivos con tarjeta limitada."
+  }
+]

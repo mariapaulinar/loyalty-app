@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Clube do Barista",
+        "title": "Transforme o cafe diario em fidelidade diaria",
+        "description": "Ganhe pontos em cada bebida e cada doce. Resgates rapidos fazem as pessoas voltarem amanha."
+    },
+    {
+        "head": "Boost da Manha",
+        "title": "Cedo = pontos extras",
+        "description": "Antes das 10h, membros ganham mais. Feito para um pico matinal previsivel."
+    },
+    {
+        "head": "Temporada Gelada",
+        "title": "Bebidas sazonais, recompensas sazonais",
+        "description": "Lance um menu de verao e conecte a recompensas por tempo limitado. Feito para aumentar recorrencia."
+    },
+    {
+        "head": "Combustivel do Expediente",
+        "title": "Recompense o habito das 14h",
+        "description": "Micro-momentos importam: mantenha as tardes movimentadas com boosts de pontos bem direcionados."
+    },
+    {
+        "head": "Novo Blend",
+        "title": "Experimente novidades e ganhe mais rapido",
+        "description": "Pontos bonus em bebidas destaque. Perfeito para lancamentos e colaboracoes."
+    },
+    {
+        "head": "Traga um Amigo",
+        "title": "Bonus de indicacao que parece imediato",
+        "description": "Convide um amigo e desbloqueie um beneficio na hora. Feito para crescimento social."
+    }
+]

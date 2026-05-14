@@ -1,0 +1,38 @@
+[
+    {
+        "head": "film Night",
+        "title": "Beli 1 Gratis 1 tiket",
+        "description": "Pembelian satu tiket dan Ajak Teman Gratis!",
+        "free_product_name": "Gratis tiket"
+    },
+    {
+        "head": "popcorn penawaran",
+        "title": "Gratis Large popcorn",
+        "description": "dapatkan large popcorn di us dengan apa pun tiket Pembelian!",
+        "free_product_name": "Promo: Large popcorn"
+    },
+    {
+        "head": "akhir pekan khusus",
+        "title": "Diskon $5 akhir pekan tiket",
+        "description": "hemat $5 di apa pun akhir pekan film showing!",
+        "free_product_name": "Diskon $5"
+    },
+    {
+        "head": "keluarga paket",
+        "title": "Diskon 30% keluarga tiket",
+        "description": "Bring whole keluarga dan hemat 30% di 4+ tiket!",
+        "free_product_name": "Diskon 30%"
+    },
+    {
+        "head": "premium Seating",
+        "title": "Gratis premium upgrade",
+        "description": "upgrade Ke premium seating di Tidak ekstra Biaya!",
+        "free_product_name": "premium Seat"
+    },
+    {
+        "head": "Promo: Concession paket",
+        "title": "Diskon $10 paket penawaran",
+        "description": "hemat $10 di apa pun Makanan dan minuman paket!",
+        "free_product_name": "Diskon $10"
+    }
+]

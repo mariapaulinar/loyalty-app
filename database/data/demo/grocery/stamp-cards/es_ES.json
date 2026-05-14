@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Compras semanales",
+    "title": "Reto de 5 semanas",
+    "description": "Ciclo de hábito que genera visitas semanales."
+  },
+  {
+    "head": "Carrera de productos",
+    "title": "Sellos de productos frescos",
+    "description": "Más viajes de productos, canastas más frescas."
+  },
+  {
+    "head": "Caja de snacks",
+    "title": "10 sellos = paquete",
+    "description": "Recompensa divertida que aumenta add-ons y ticket."
+  },
+  {
+    "head": "Marca de la casa",
+    "title": "Sellos marca propia",
+    "description": "Impulsa artículos amigables con margen con sellos."
+  },
+  {
+    "head": "Doble sellos fin de semana",
+    "title": "Fin de semana 2x sellos",
+    "description": "Más sellos para canastas más grandes."
+  },
+  {
+    "head": "Despensa de fiestas",
+    "title": "Tarjeta despensa de fiestas",
+    "description": "Ciclo estacional para campañas de despensa."
+  }
+]

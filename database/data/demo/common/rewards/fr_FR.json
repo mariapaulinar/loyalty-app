@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Cadeau gratuit",
+    "description": "Échangez contre un cadeau gratuit pour vous remercier de votre fidélité."
+  },
+  {
+    "title": "Expérience VIP",
+    "description": "Débloquez un avantage VIP exclusif réservé aux membres."
+  },
+  {
+    "title": "Mise à niveau gratuite",
+    "description": "Améliorez gratuitement votre achat — réservé aux membres."
+  },
+  {
+    "title": "Supplément gratuit",
+    "description": "Recevez un supplément gratuit avec votre prochain achat."
+  },
+  {
+    "title": "Remise membre",
+    "description": "Échangez vos points contre une remise sur votre prochaine visite."
+  },
+  {
+    "title": "Accès prioritaire",
+    "description": "Bénéficiez d'un accès anticipé aux nouveautés, sorties ou réservations."
+  }
+]

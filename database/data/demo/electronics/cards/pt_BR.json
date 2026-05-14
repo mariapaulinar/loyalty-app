@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Tech Club",
+        "title": "Faça upgrade e ganhe",
+        "description": "Pontos em aparelhos e acessorios, com recompensas que parecem upgrades, nao descontos."
+    },
+    {
+        "head": "Acesso de Lancamento",
+        "title": "Acesso antecipado a novos lancamentos",
+        "description": "Feito para calendarios de lancamento e novidades de produto."
+    },
+    {
+        "head": "Boost de Troca",
+        "title": "Transforme trocas em fidelidade",
+        "description": "Pontos bonus com trade-in. Otimo para upgrades e retencao."
+    },
+    {
+        "head": "Vantagens de Protecao",
+        "title": "Recompense cuidado, nao so gasto",
+        "description": "Incentive planos de protecao e acessorios. Bom para margem."
+    },
+    {
+        "head": "Economia em Combos",
+        "title": "Combos que aumentam o carrinho",
+        "description": "Recompense compras de varios itens com incentivos mais inteligentes."
+    },
+    {
+        "head": "Suporte VIP",
+        "title": "Ajuda prioritaria para membros",
+        "description": "Camada de fidelidade com cara premium que reduz churn."
+    }
+]

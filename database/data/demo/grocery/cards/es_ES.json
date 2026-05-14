@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Frescura",
+        "title": "Haz que las compras semanales se mantengan",
+        "description": "Gana puntos en cada canasta y desbloquea beneficios de miembro que generan visitas repetidas."
+    },
+    {
+        "head": "Elecciones saludables",
+        "title": "Recompensa mejores elecciones",
+        "description": "Puntos bonus en categorías más saludables. Ideal para campañas de bienestar."
+    },
+    {
+        "head": "Canasta familiar",
+        "title": "Carrito más grande = Más recompensas",
+        "description": "Diseñado para aumentar tamaño de canasta y frecuencia."
+    },
+    {
+        "head": "Productos de temporada",
+        "title": "Ahorros de temporada sin fatiga de descuento",
+        "description": "Rota recompensas estacionales: frutas de verano, vuelta al cole, despensa de invierno."
+    },
+    {
+        "head": "Precios de miembro",
+        "title": "Ofertas de miembro instantáneas",
+        "description": "Los miembros ven valor inmediatamente. Ideal para conversión en caja."
+    },
+    {
+        "head": "Nuevas marcas",
+        "title": "Descubre y gana",
+        "description": "Impulsa prueba de nuevos productos con disparadores de puntos bonus."
+    }
+]

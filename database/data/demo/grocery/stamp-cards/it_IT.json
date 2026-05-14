@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Spesa settimanale",
+    "title": "Sfida 5 settimane",
+    "description": "Ciclo abitudine che incentiva visite settimanali."
+  },
+  {
+    "head": "Giro ortofrutta",
+    "title": "Timbri prodotti freschi",
+    "description": "Più visite ortofrutta, carrelli più freschi."
+  },
+  {
+    "head": "Snack box",
+    "title": "10 timbri = bundle",
+    "description": "Premio divertente che aumenta gli acquisti aggiuntivi."
+  },
+  {
+    "head": "Marca del negozio",
+    "title": "Timbri marca privata",
+    "description": "Aumenta prodotti favorevoli al margine con timbri."
+  },
+  {
+    "head": "Weekend doppi timbri",
+    "title": "Weekend 2x timbri",
+    "description": "Più timbri per incentivare carrelli più grandi."
+  },
+  {
+    "head": "Dispensa festiva",
+    "title": "Carta dispensa festiva",
+    "description": "Ciclo stagionale per campagne dispensa."
+  }
+]

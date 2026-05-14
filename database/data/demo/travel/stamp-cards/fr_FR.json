@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Séjours",
+    "title": "5 séjours",
+    "description": "Échangez contre un surclassement."
+  },
+  {
+    "head": "Excursions",
+    "title": "Carte excursions",
+    "description": "Complétez pour débloquer un crédit activité."
+  },
+  {
+    "head": "Double tampons week-end",
+    "title": "Week-end 2x tampons",
+    "description": "Double tampons sur les réservations week-end."
+  },
+  {
+    "head": "Voyageur d'affaires",
+    "title": "Avantages lounge",
+    "description": "Circuit premium pour les voyageurs fréquents."
+  },
+  {
+    "head": "Escapade vacances",
+    "title": "Carte escapade vacances",
+    "description": "Carte saisonnière pour les campagnes voyage."
+  },
+  {
+    "head": "VIP",
+    "title": "Carte tampon VIP",
+    "description": "Échangez contre départ tardif ou surclassements."
+  }
+]

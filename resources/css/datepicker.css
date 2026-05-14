@@ -1,0 +1,256 @@
+/**
+ * Reward Loyalty - Proprietary Software
+ * Copyright (c) 2025 NowSquare. All rights reserved.
+ * See LICENSE file for terms.
+ *
+ * Flatpickr Date Picker Styles
+ * Premium styled date picker matching design system
+ */
+
+/* Import base flatpickr styles */
+@import 'flatpickr/dist/flatpickr.css';
+
+/* Override with design system colors */
+
+/* Calendar container */
+.flatpickr-calendar {
+    @apply bg-white dark:bg-secondary-800 border border-stone-200 dark:border-secondary-700 rounded-2xl shadow-xl;
+    font-family: inherit;
+    width: 320px;
+    padding: 1rem;
+}
+
+.flatpickr-calendar.open {
+    @apply z-[9999];
+}
+
+/* Month navigation */
+.flatpickr-months {
+    @apply mb-3;
+}
+
+.flatpickr-month {
+    @apply text-secondary-900 dark:text-white;
+    height: auto;
+}
+
+.flatpickr-current-month {
+    @apply text-base font-semibold;
+    height: auto;
+    padding: 0.5rem 0;
+}
+
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+    @apply bg-transparent text-secondary-900 dark:text-white font-semibold;
+}
+
+.flatpickr-current-month .numInputWrapper {
+    @apply text-secondary-900 dark:text-white;
+}
+
+.flatpickr-current-month input.cur-year {
+    @apply text-secondary-900 dark:text-white font-semibold;
+    padding: 0;
+}
+
+/* Navigation arrows */
+.flatpickr-prev-month,
+.flatpickr-next-month {
+ @apply text-secondary-400 hover:text-secondary-600 dark:text-secondary-400 dark:hover:text-secondary-200;
+ @apply transition-colors duration-200;
+ position: static;
+ padding: 0.5rem;
+}
+
+.flatpickr-prev-month:hover,
+.flatpickr-next-month:hover {
+ @apply bg-stone-100 dark:bg-secondary-700 rounded-lg;
+}
+
+.flatpickr-prev-month svg,
+.flatpickr-next-month svg {
+ @apply fill-current;
+}
+
+/* Weekdays */
+.flatpickr-weekdays {
+ @apply mb-2;
+ background: transparent !important;
+}
+
+.flatpickr-weekday {
+ @apply text-xs font-medium text-secondary-500 dark:text-secondary-400 uppercase;
+ color: inherit !important;
+}
+
+/* Force weekday text color in dark mode */
+.flatpickr-calendar.dark-theme .flatpickr-weekday {
+ @apply text-secondary-400;
+ color: rgb(156 163 175) !important; /* secondary-400 */
+}
+
+/* Days container */
+.flatpickr-days {
+    width: 100%;
+}
+
+.dayContainer {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+/* Individual day cells */
+.flatpickr-day {
+    @apply text-sm text-secondary-700 dark:text-secondary-300;
+    @apply border-0 rounded-lg;
+    @apply transition-all duration-200;
+    height: 38px;
+    line-height: 38px;
+    max-width: 38px;
+    margin: 2px;
+}
+
+/* Hover state */
+.flatpickr-day:hover {
+    @apply bg-stone-100 dark:bg-secondary-700 text-secondary-900 dark:text-white;
+}
+
+/* Today */
+.flatpickr-day.today {
+    @apply border border-primary-500 text-primary-600 dark:text-primary-400;
+    background: transparent;
+}
+
+.flatpickr-day.today:hover {
+    @apply bg-primary-50 dark:bg-primary-900/20 border-primary-500;
+}
+
+/* Selected date */
+.flatpickr-day.selected {
+    @apply bg-primary-600 text-white;
+    border-color: transparent;
+}
+
+.flatpickr-day.selected:hover {
+    @apply bg-primary-700 text-white;
+}
+
+/* Disabled/out of range */
+.flatpickr-day.flatpickr-disabled,
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay {
+    @apply text-secondary-300 dark:text-secondary-600;
+    cursor: not-allowed;
+}
+
+.flatpickr-day.flatpickr-disabled:hover,
+.flatpickr-day.prevMonthDay:hover,
+.flatpickr-day.nextMonthDay:hover {
+    @apply bg-transparent;
+}
+
+/* Week numbers */
+.flatpickr-weekwrapper .flatpickr-weeks {
+    @apply shadow-none;
+}
+
+.flatpickr-weekwrapper .flatpickr-weekday {
+    @apply text-secondary-500 dark:text-secondary-400;
+}
+
+/* Alternative input (the visible one) */
+.flatpickr-input[readonly] {
+    cursor: pointer;
+}
+
+/* Month dropdown */
+.flatpickr-monthDropdown-months {
+    @apply bg-white dark:bg-secondary-800 border border-stone-200 dark:border-secondary-700;
+    @apply text-secondary-900 dark:text-white;
+}
+
+.flatpickr-monthDropdown-months:hover {
+    @apply bg-stone-50 dark:bg-secondary-700;
+}
+
+/* Time picker (if ever needed) */
+.flatpickr-time {
+    @apply border-t border-stone-200 dark:border-secondary-700;
+}
+
+.flatpickr-time input {
+    @apply bg-white dark:bg-secondary-800 text-secondary-900 dark:text-white;
+}
+
+.flatpickr-time input:hover {
+    @apply bg-stone-50 dark:bg-secondary-700;
+}
+
+/* Dark theme specific adjustments */
+.flatpickr-calendar.dark-theme {
+ @apply bg-secondary-800 border-secondary-700;
+}
+
+.flatpickr-calendar.dark-theme .flatpickr-day {
+ @apply text-secondary-300;
+}
+
+.flatpickr-calendar.dark-theme .flatpickr-prev-month,
+.flatpickr-calendar.dark-theme .flatpickr-next-month {
+ @apply text-secondary-400;
+}
+
+.flatpickr-calendar.dark-theme .flatpickr-prev-month:hover,
+.flatpickr-calendar.dark-theme .flatpickr-next-month:hover {
+ @apply text-secondary-200;
+}
+
+/* Fix arrow/tip color in dark mode */
+.flatpickr-calendar.dark-theme.arrowTop:before,
+.flatpickr-calendar.dark-theme.arrowTop:after {
+ border-bottom-color: rgb(39 39 42) !important; /* secondary-800 */
+}
+
+.flatpickr-calendar.dark-theme.arrowBottom:before,
+.flatpickr-calendar.dark-theme.arrowBottom:after {
+ border-top-color: rgb(39 39 42) !important; /* secondary-800 */
+}
+
+/* RTL support */
+[dir="rtl"] .flatpickr-calendar,
+html[dir="rtl"] .flatpickr-calendar {
+ direction: rtl;
+}
+
+[dir="rtl"] .flatpickr-months,
+html[dir="rtl"] .flatpickr-months {
+ flex-direction: row-reverse;
+}
+
+[dir="rtl"] .flatpickr-current-month,
+html[dir="rtl"] .flatpickr-current-month {
+ text-align: right;
+}
+
+/* Animation */
+.flatpickr-calendar.animate {
+    animation: fpFadeInDown 300ms cubic-bezier(.23,1,.32,1);
+}
+
+@keyframes fpFadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0,-8px,0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+/* Input with calendar icon styling - RTL aware */
+input[data-datepicker] {
+ cursor: pointer;
+ padding-inline-end: 2.75rem !important;
+}

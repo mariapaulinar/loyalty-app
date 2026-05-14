@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Car Wash",
+    "title": "8 washes",
+    "description": "Redeem for a premium wash upgrade."
+  },
+  {
+    "head": "Detailing",
+    "title": "Detail card",
+    "description": "Unlock an interior upgrade."
+  },
+  {
+    "head": "Weekend Double Stamps",
+    "title": "Weekend 2x stamps",
+    "description": "Double stamps to boost throughput."
+  },
+  {
+    "head": "VIP",
+    "title": "VIP stamp card",
+    "description": "Redeem for a priority lane pass."
+  },
+  {
+    "head": "Winter Protection",
+    "title": "Winter card",
+    "description": "Seasonal card for protection packages."
+  },
+  {
+    "head": "Oil Change",
+    "title": "Service card",
+    "description": "Redeem for a service discount."
+  }
+]

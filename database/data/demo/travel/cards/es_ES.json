@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Explorador",
+        "title": "Puntos de viaje que se sienten como mejoras",
+        "description": "Gana en estadías, tours y reservas. Canjea por beneficios que mejoran la experiencia."
+    },
+    {
+        "head": "Escapada de fin de semana",
+        "title": "Impulso de reserva de fin de semana",
+        "description": "Puntos bonus en estadías de fin de semana para aumentar ocupación."
+    },
+    {
+        "head": "Madrugador",
+        "title": "Reserva temprano, gana más",
+        "description": "Incentiva reservas anticipadas con recompensas dirigidas."
+    },
+    {
+        "head": "Escapadas de temporada",
+        "title": "Ofertas estacionales listas para campaña",
+        "description": "Lanza escapadas de verano, vacaciones de invierno y temporada baja fácilmente."
+    },
+    {
+        "head": "Mejoras VIP",
+        "title": "Beneficios premium para miembros top",
+        "description": "Mejoras prioritarias y beneficios VIP que construyen lealtad."
+    },
+    {
+        "head": "Viajes familiares",
+        "title": "Recompensas diseñadas para grupos",
+        "description": "Diseñado para reservas de alto ticket y paquetes familiares."
+    }
+]

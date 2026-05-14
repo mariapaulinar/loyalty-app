@@ -1,0 +1,33 @@
+[
+  {
+    "head": "Offerta membri",
+    "title": "25% di sconto",
+    "description": "Risparmi esclusivi per i membri—tempo limitato."
+  },
+  {
+    "head": "Regalo benvenuto",
+    "title": "10€ di sconto",
+    "description": "Un piccolo grazie per esserti unito."
+  },
+  {
+    "head": "Upgrade gratuito",
+    "title": "Extra omaggio",
+    "description": "Ottieni un extra omaggio con il tuo acquisto.",
+    "free_product_name": "Extra omaggio"
+  },
+  {
+    "head": "Punti bonus",
+    "title": "+100 punti",
+    "description": "Guadagna punti extra sul tuo prossimo acquisto."
+  },
+  {
+    "head": "Risparmia di più",
+    "title": "Più compri, più risparmi",
+    "description": "Risparmia di più quando raggiungi la spesa minima."
+  },
+  {
+    "head": "Offerta weekend",
+    "title": "Speciale weekend",
+    "description": "Un'offerta solo weekend per incentivare le visite."
+  }
+]

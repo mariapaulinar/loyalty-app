@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Wieczór filmowy",
+        "title": "Kup 1 bilet, drugi gratis",
+        "description": "Kup jeden bilet i zabierz znajomego za darmo!",
+        "free_product_name": "Darmowy bilet"
+    },
+    {
+        "head": "Oferta popcornowa",
+        "title": "Darmowy duży popcorn",
+        "description": "Do dowolnego biletu odbierz od nas duży popcorn!",
+        "free_product_name": "Duży popcorn"
+    },
+    {
+        "head": "Weekendowa promocja",
+        "title": "$5 rabatu na bilety weekendowe",
+        "description": "Oszczędzaj $5 na każdym weekendowym seansie!",
+        "free_product_name": "$5 rabatu"
+    },
+    {
+        "head": "Pakiet rodzinny",
+        "title": "30% zniżki na bilety rodzinne",
+        "description": "Przyjdź całą rodziną i oszczędzaj 30% przy 4+ biletach!",
+        "free_product_name": "30% zniżki"
+    },
+    {
+        "head": "Miejsca premium",
+        "title": "Darmowe ulepszenie do premium",
+        "description": "Ulepsz miejsce do premium bez dodatkowych kosztów!",
+        "free_product_name": "Miejsce premium"
+    },
+    {
+        "head": "Zestaw kinowy",
+        "title": "$10 rabatu na zestaw",
+        "description": "Oszczędzaj $10 na dowolnym zestawie jedzenie + napój!",
+        "free_product_name": "$10 rabatu"
+    }
+]

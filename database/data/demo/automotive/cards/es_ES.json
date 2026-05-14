@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Detallado",
+        "title": "Autos limpios, clientes leales",
+        "description": "Gana puntos en lavados y detallado. Canjea por mejoras premium."
+    },
+    {
+        "head": "Protección de temporada",
+        "title": "Paquetes estacionales listos para campañas",
+        "description": "Protección invernal, brillo veraniego. Lanza promos sin caos de descuentos."
+    },
+    {
+        "head": "Carril VIP",
+        "title": "Servicio prioritario para miembros",
+        "description": "Beneficio premium que mejora la retención y ventas adicionales."
+    },
+    {
+        "head": "Flota y familia",
+        "title": "Recompensa hogares multi-vehículos",
+        "description": "Diseñado para aumentar frecuencia y valor de por vida."
+    },
+    {
+        "head": "Lavado fin de semana",
+        "title": "Impulso de fin de semana",
+        "description": "Puntos bonus los fines de semana para crear demanda predecible."
+    },
+    {
+        "head": "Mantenimiento",
+        "title": "Recompensas de servicio",
+        "description": "Recompensas por visitas de mantenimiento. Diseñado para negocios recurrentes."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Offre membre",
+        "title": "10 € de réduction sur 50 €",
+        "description": "Un classique constructeur de panier avec une valeur claire.",
+        "free_product_name": "10 € de réduction"
+    },
+    {
+        "head": "Produits frais",
+        "title": "20% sur les produits",
+        "description": "Idéal pour les poussées de produits saisonniers.",
+        "free_product_name": "20% de réduction"
+    },
+    {
+        "head": "Marque maison",
+        "title": "2 achetés = 1 offert",
+        "description": "Offre favorable aux marges qui semble généreuse.",
+        "free_product_name": "Article gratuit"
+    },
+    {
+        "head": "Booster de points",
+        "title": "+300 points bonus",
+        "description": "Génère des visites répétées sans remises lourdes.",
+        "free_product_name": "+300 points"
+    },
+    {
+        "head": "Économies snacks",
+        "title": "5 € de réduction snacks",
+        "description": "Augmente les achats additionnels et le panier.",
+        "free_product_name": "5 € de réduction"
+    },
+    {
+        "head": "Offre week-end",
+        "title": "Offre membre week-end",
+        "description": "Une courte fenêtre qui crée l'urgence.",
+        "free_product_name": "Offre week-end"
+    }
+]

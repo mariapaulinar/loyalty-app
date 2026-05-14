@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Nossa Marca",
+        "title": "Lealdade Recompensada",
+        "description": "Comece a acumular pontos conosco hoje!"
+    },
+    {
+        "head": "Recompensas de Verão",
+        "title": "Economias Sazonais",
+        "description": "Aproveite nossa promoção de verão!"
+    },
+    {
+        "head": "Cartão de Economia",
+        "title": "Ganhe ao Gastar",
+        "description": "Acumule pontos toda vez que treinar conosco!"
+    },
+    {
+        "head": "Clube de Fitness",
+        "title": "Treine e Economize",
+        "description": "Desfrute de nossos programas e obtenha recompensas emocionantes!"
+    },
+    {
+        "head": "Cartão de Atleta",
+        "title": "Treine e Ganhe",
+        "description": "Recompensando seu amor pelo esporte!"
+    },
+    {
+        "head": "Cartão de Fidelidade",
+        "title": "Economize Agora",
+        "description": "Junte-se ao nosso programa de fidelidade e economize em cada compra!"
+    }
+]

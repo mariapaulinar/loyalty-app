@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Unser Salon",
+        "title": "Beauty-Prämien",
+        "description": "Stempel sammeln und Beauty-Vorteile freischalten!"
+    },
+    {
+        "head": "Sommer-Styles",
+        "title": "Saisonale Verwandlungen",
+        "description": "Frische Sommer-Looks mit Stempel-Prämien!"
+    },
+    {
+        "head": "Style-Karte",
+        "title": "Verdienen beim Stylen",
+        "description": "Bei jedem Salonbesuch gestempelt werden!"
+    },
+    {
+        "head": "Glamour-Club",
+        "title": "Style und Sparen",
+        "description": "Beauty-Behandlungen bringen Ihnen Stempel!"
+    },
+    {
+        "head": "Haarpflege-Karte",
+        "title": "Stylen und Verdienen",
+        "description": "Fabelhaftes Haar verdient Prämien!"
+    },
+    {
+        "head": "Beauty-Treue",
+        "title": "Sparen bei Beauty",
+        "description": "Stempeln Sie sich zu Beauty-Ersparnissen!"
+    }
+]

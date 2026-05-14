@@ -1,0 +1,38 @@
+[
+    {
+        "head": "キャンペーン: Gym パス",
+        "title": "無料 週 Trial",
+        "description": "試す 私たちの gym 無料 対象 1つ 週 - all facilities included!",
+        "free_product_name": "週 Trial"
+    },
+    {
+        "head": "キャンペーン: Personal トレーニング",
+        "title": "3 無料 PT Sessions",
+        "description": "取得 3 無料 personal トレーニング sessions!",
+        "free_product_name": "キャンペーン: 3 PT Sessions"
+    },
+    {
+        "head": "キャンペーン: クラス パス",
+        "title": "20%割引 月次 Classes",
+        "description": "お得 20% で 無制限 group フィットネス classes!",
+        "free_product_name": "20%割引"
+    },
+    {
+        "head": "メンバーシップ お得",
+        "title": "$50割引 Annual メンバーシップ",
+        "description": "参加 対象 year と お得 $50 で あなたの メンバーシップ!",
+        "free_product_name": "$50割引"
+    },
+    {
+        "head": "ヨガ 特別",
+        "title": "無料 ヨガ Mat",
+        "description": "取得 プレミアム ヨガ mat 付き 任意の メンバーシップ!",
+        "free_product_name": "キャンペーン: ヨガ Mat"
+    },
+    {
+        "head": "キャンペーン: ウェルネス パッケージ",
+        "title": "30%割引 ウェルネス サービス",
+        "description": "お得 で massage、nutrition、と recovery サービス!",
+        "free_product_name": "30%割引"
+    }
+]

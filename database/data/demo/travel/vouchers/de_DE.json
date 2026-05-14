@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Mitglieder-Exklusiv",
+        "title": "15% Rabatt auf Aufenthalt",
+        "description": "Zeitlich begrenztes Angebot für Buchungen.",
+        "free_product_name": "15% Rabatt"
+    },
+    {
+        "head": "Upgrade",
+        "title": "Gratis Zimmer-Upgrade",
+        "description": "Premium-Vorteil (nach Verfügbarkeit).",
+        "free_product_name": "Zimmer-Upgrade"
+    },
+    {
+        "head": "Bundle-Sparer",
+        "title": "50€ Rabatt ab 500€",
+        "description": "Pakete und höhere Buchungswerte fördern.",
+        "free_product_name": "50€ Rabatt"
+    },
+    {
+        "head": "Punkte-Booster",
+        "title": "+500 Bonuspunkte",
+        "description": "Wiederholungsbuchungen ohne hohe Rabatte fördern.",
+        "free_product_name": "+500 Punkte"
+    },
+    {
+        "head": "Wochenende",
+        "title": "Wochenend-Special",
+        "description": "Kurzfristiges Wochenendangebot für Auslastung.",
+        "free_product_name": "Wochenend-Deal"
+    },
+    {
+        "head": "VIP",
+        "title": "Später Check-out",
+        "description": "Einfacher Vorteil, der sich luxuriös anfühlt.",
+        "free_product_name": "Später Check-out"
+    }
+]

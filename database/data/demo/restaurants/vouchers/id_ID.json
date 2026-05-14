@@ -1,0 +1,38 @@
+[
+    {
+        "head": "bersantap penawaran",
+        "title": "Diskon 25% Anda Bill",
+        "description": "Nikmati 25% Diskon di Anda entire makanan!",
+        "free_product_name": "Diskon 25%"
+    },
+    {
+        "head": "Promo: bahagia Hour",
+        "title": "beli 1 dapatkan 1 minuman",
+        "description": "Pembelian satu minuman dan dapatkan kedua Gratis!",
+        "free_product_name": "Gratis minuman"
+    },
+    {
+        "head": "makan siang khusus",
+        "title": "Diskon $10 makan siang menu",
+        "description": "hemat $10 di apa pun makan siang paket Senin-Jumat!",
+        "free_product_name": "Diskon $10"
+    },
+    {
+        "head": "Promo: hidangan penutup kesenangan",
+        "title": "Gratis hidangan penutup",
+        "description": "dapatkan gratis hidangan penutup dengan apa pun main course!",
+        "free_product_name": "Promo: hidangan penutup"
+    },
+    {
+        "head": "keluarga Feast",
+        "title": "Diskon 30% keluarga Meals",
+        "description": "Bring keluarga dan hemat 30% di meals Untuk 4+!",
+        "free_product_name": "Diskon 30%"
+    },
+    {
+        "head": "chef khusus",
+        "title": "Diskon $20 premium menu",
+        "description": "pengalaman kami chef khusus hidangan dengan $20 hemat!",
+        "free_product_name": "Diskon $20"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta dla Członków",
+        "title": "20% zniżki na detailing",
+        "description": "Oferta usługowa, która łatwo konwertuje.",
+        "free_product_name": "20% zniżki"
+    },
+    {
+        "head": "Ulepszenie",
+        "title": "Darmowe ulepszenie mycia",
+        "description": "Ulepsz do mycia premium. Wysoka wartość postrzegana.",
+        "free_product_name": "Ulepszenie mycia"
+    },
+    {
+        "head": "Pakiet oszczędnościowy",
+        "title": "$15 rabatu przy $100",
+        "description": "Zachęca do większych pakietów.",
+        "free_product_name": "$15 rabatu"
+    },
+    {
+        "head": "Booster Punktów",
+        "title": "+250 Punktów bonusowych",
+        "description": "Nagradzaj częste wizyty bez głębokich rabatów.",
+        "free_product_name": "+250 Punktów"
+    },
+    {
+        "head": "Oferta weekendowa",
+        "title": "Oferta weekendowa",
+        "description": "Krótka oferta, która pomaga wypełnić moce.",
+        "free_product_name": "Oferta weekendowa"
+    },
+    {
+        "head": "Serwis",
+        "title": "$10 rabatu na serwis",
+        "description": "Zachęca do umawiania przeglądów.",
+        "free_product_name": "$10 rabatu"
+    }
+]

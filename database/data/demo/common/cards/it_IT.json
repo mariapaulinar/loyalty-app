@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Il nostro brand",
+    "title": "Fedeltà premiata",
+    "description": "Accumula punti con ogni acquisto e sblocca premi."
+  },
+  {
+    "head": "Vantaggi membri",
+    "title": "Guadagna spendendo",
+    "description": "Ricevi punti automaticamente alla cassa—nessun coupon necessario."
+  },
+  {
+    "head": "Club VIP",
+    "title": "Vantaggi esclusivi",
+    "description": "Sali di livello per premi migliori, accesso anticipato e offerte speciali."
+  },
+  {
+    "head": "Boost weekend",
+    "title": "Punti bonus",
+    "description": "Guadagna punti extra nei weekend e negli orari di punta."
+  },
+  {
+    "head": "Offerta limitata",
+    "title": "Risparmi stagionali",
+    "description": "Promozioni a tempo limitato per coinvolgere i membri."
+  },
+  {
+    "head": "Invita e guadagna",
+    "title": "Porta un amico",
+    "description": "Invita amici e ricevi premi quando si uniscono."
+  }
+]

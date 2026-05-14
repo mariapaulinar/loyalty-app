@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusif membre",
+        "title": "15% sur prochain achat",
+        "description": "Offre de conversion courte durée.",
+        "free_product_name": "15% de réduction"
+    },
+    {
+        "head": "Toilettage",
+        "title": "Supplément gratuit",
+        "description": "Avantage toilettage premium.",
+        "free_product_name": "Supplément"
+    },
+    {
+        "head": "Friandises",
+        "title": "Pack friandises gratuit",
+        "description": "Fort plaisir, faible coût.",
+        "free_product_name": "Friandises"
+    },
+    {
+        "head": "Booster de points",
+        "title": "+120 points bonus",
+        "description": "Génère des retours sans addiction aux remises.",
+        "free_product_name": "+120 points"
+    },
+    {
+        "head": "Pack économique",
+        "title": "10 € de réduction sur 60 €",
+        "description": "Encouragez les paniers plus gros.",
+        "free_product_name": "10 € de réduction"
+    },
+    {
+        "head": "Spécial fêtes",
+        "title": "Offre saisonnière",
+        "description": "Bon saisonnier prêt pour campagne.",
+        "free_product_name": "Offre fêtes"
+    }
+]

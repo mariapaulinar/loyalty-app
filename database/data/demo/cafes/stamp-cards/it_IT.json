@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Amore Latte",
+    "title": "Fedeltà latte",
+    "description": "Carta timbri classica, moderna e redditizia."
+  },
+  {
+    "head": "Shot di Espresso",
+    "title": "Espresso quotidiano",
+    "description": "Soglia bassa per costruire un'abitudine quotidiana."
+  },
+  {
+    "head": "Abbinamento dolce",
+    "title": "Caffè + pasticcino",
+    "description": "Timbri abbinamento per aumentare lo scontrino."
+  },
+  {
+    "head": "Ora del tè",
+    "title": "Carta amanti del tè",
+    "description": "Vantaggio tè premium senza forti sconti."
+  },
+  {
+    "head": "Sabato doppi timbri",
+    "title": "Weekend 2x timbri",
+    "description": "Timbri doppi per potenziare i weekend."
+  },
+  {
+    "head": "Speciale stagionale",
+    "title": "Carta timbri stagionale",
+    "description": "Lancia inverno, primavera, back-to-school velocemente."
+  }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Mycie auta",
+        "title": "8 myć",
+        "description": "Wymień na ulepszenie do mycia premium."
+    },
+    {
+        "head": "Detailing auta",
+        "title": "Karta detailingu",
+        "description": "Odblokuj ulepszenie wnętrza."
+    },
+    {
+        "head": "Podwójne Pieczątki w weekend",
+        "title": "Weekendowe Pieczątki 2x",
+        "description": "Podwójne Pieczątki zwiększają przepustowość."
+    },
+    {
+        "head": "VIP",
+        "title": "Karta Pieczątek VIP",
+        "description": "Wymień na przepustkę priorytetowego pasa."
+    },
+    {
+        "head": "Ochrona zimowa",
+        "title": "Karta zimowa",
+        "description": "Sezonowa Karta na pakiety ochronne."
+    },
+    {
+        "head": "Wymiana oleju",
+        "title": "Karta serwisowa",
+        "description": "Wymień na zniżkę serwisową."
+    }
+]

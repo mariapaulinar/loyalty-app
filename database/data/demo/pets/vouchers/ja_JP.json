@@ -1,0 +1,38 @@
+[
+    {
+        "head": "メンバー 限定",
+        "title": "15%割引 次へ 購入",
+        "description": "Short-window conversion オファー。",
+        "free_product_name": "15%割引"
+    },
+    {
+        "head": "キャンペーン: ケア",
+        "title": "無料 Add-On",
+        "description": "Premium-feel ケア 特典。",
+        "free_product_name": "キャンペーン: Add-On"
+    },
+    {
+        "head": "キャンペーン: ご褒美",
+        "title": "無料 特典 パック",
+        "description": "高い 喜び、低い 必要ポイント。",
+        "free_product_name": "キャンペーン: ご褒美"
+    },
+    {
+        "head": "ポイント ブースター",
+        "title": "+120ボーナスポイント",
+        "description": "促進 再来 なしで 割引 addiction。",
+        "free_product_name": "+120ポイント"
+    },
+    {
+        "head": "キャンペーン: バンドル 節約",
+        "title": "$10割引 $60",
+        "description": "キャンペーン: Encourage より大きい baskets。",
+        "free_product_name": "$10割引"
+    },
+    {
+        "head": "ホリデー 特別",
+        "title": "季節限定 お得",
+        "description": "キャンペーン-ready 季節限定 クーポン。",
+        "free_product_name": "ホリデー お得"
+    }
+]

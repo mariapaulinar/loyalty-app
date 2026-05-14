@@ -1,0 +1,38 @@
+[
+    {
+        "head": "kecantikan voucher",
+        "title": "Diskon 20% All Layanan",
+        "description": "dapatkan 20% Diskon di apa pun kecantikan treatment di kami salon!",
+        "free_product_name": "Diskon 20%"
+    },
+    {
+        "head": "spa penawaran",
+        "title": "Diskon $30 spa paket",
+        "description": "hemat $30 di kami premium spa paket. Relaxation awaits!",
+        "free_product_name": "Diskon $30"
+    },
+    {
+        "head": "baru Client",
+        "title": "pertama Kunjungi khusus",
+        "description": "baru clients dapatkan Diskon 25% their pertama appointment!",
+        "free_product_name": "Diskon 25%"
+    },
+    {
+        "head": "rambut khusus",
+        "title": "Gratis penataan layanan",
+        "description": "dapatkan gratis penataan layanan dengan apa pun haircut!",
+        "free_product_name": "Promo: penataan"
+    },
+    {
+        "head": "manikur penawaran",
+        "title": "beli 1 dapatkan 1 manikur",
+        "description": "Pembelian satu manikur dan dapatkan kedua satu Gratis!",
+        "free_product_name": "Gratis manikur"
+    },
+    {
+        "head": "perawatan wajah penawaran",
+        "title": "premium perawatan wajah - Diskon $50",
+        "description": "pengalaman kami signature perawatan wajah dengan $50 hemat!",
+        "free_product_name": "Diskon $50"
+    }
+]

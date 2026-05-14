@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Pase de gimnasio",
+        "title": "Semana de prueba gratis",
+        "description": "¡Prueba nuestro gimnasio gratis por una semana - todas las instalaciones incluidas!",
+        "free_product_name": "Semana de prueba"
+    },
+    {
+        "head": "Entrenamiento personal",
+        "title": "3 sesiones PT gratis",
+        "description": "¡Obtén 3 sesiones de entrenamiento personal de cortesía!",
+        "free_product_name": "3 sesiones PT"
+    },
+    {
+        "head": "Pase de clases",
+        "title": "20% de descuento en clases mensuales",
+        "description": "¡Ahorra 20% en clases grupales de fitness ilimitadas!",
+        "free_product_name": "20% de descuento"
+    },
+    {
+        "head": "Oferta de membresía",
+        "title": "$50 de descuento en membresía anual",
+        "description": "¡Únete por un año y ahorra $50 en tu membresía!",
+        "free_product_name": "$50 de descuento"
+    },
+    {
+        "head": "Especial yoga",
+        "title": "Tapete de yoga gratis",
+        "description": "¡Obtén un tapete de yoga premium con cualquier membresía!",
+        "free_product_name": "Tapete de yoga"
+    },
+    {
+        "head": "Paquete bienestar",
+        "title": "30% de descuento en servicios de bienestar",
+        "description": "¡Ahorra en masajes, nutrición y servicios de recuperación!",
+        "free_product_name": "30% de descuento"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "head": "Nuestra marca",
+        "title": "Lealtad recompensada",
+        "description": "¡Colecciona sellos de comida para recompensas!"
+    },
+    {
+        "head": "Recompensas de verano",
+        "title": "Ahorros de temporada",
+        "description": "¡Las comidas de verano te ganan sellos!"
+    },
+    {
+        "head": "Tarjeta de ahorros",
+        "title": "Gana mientras gastas",
+        "description": "¡Obtén un sello cada vez que comas!"
+    },
+    {
+        "head": "Club Gourmet",
+        "title": "Come y ahorra",
+        "description": "¡Las comidas deliciosas ganan sellos!"
+    },
+    {
+        "head": "Tarjeta Foodie",
+        "title": "Prueba y gana",
+        "description": "¡La buena comida merece sellos!"
+    },
+    {
+        "head": "Tarjeta de lealtad",
+        "title": "Ahorra ahora",
+        "description": "¡Sella tu camino hacia ahorros en comida!"
+    },
+    {
+        "head": "Especiales de cena",
+        "title": "Sé recompensado",
+        "description": "¡Las cenas de noche ganan sellos especiales!"
+    },
+    {
+        "head": "Bonanza de fin de semana",
+        "title": "Recompensas de fin de semana",
+        "description": "¡Visitas de fin de semana = más sellos!"
+    },
+    {
+        "head": "Ofertas festivas",
+        "title": "Ahorros de fiestas",
+        "description": "¡Celebra con recompensas de sellos exclusivas!"
+    },
+    {
+        "head": "Happy Hours",
+        "title": "Recompensas por hora",
+        "description": "¡Las visitas de happy hour ganan el doble!"
+    },
+    {
+        "head": "Amantes del café",
+        "title": "Puntos Espresso",
+        "description": "¡Cada café gana un sello!"
+    },
+    {
+        "head": "Palacio de la pizza",
+        "title": "Ahorros por rebanada",
+        "description": "¡Cada rebanada gana un sello!"
+    },
+    {
+        "head": "Comida saludable",
+        "title": "Ahorros en ensalada",
+        "description": "¡Las elecciones saludables ganan sellos!"
+    },
+    {
+        "head": "Bonanza de hamburguesas",
+        "title": "Puntos de hamburguesa",
+        "description": "¡Apila sellos con tus hamburguesas!"
+    },
+    {
+        "head": "Especial mariscos",
+        "title": "Recompensas de pescado",
+        "description": "¡Los mariscos frescos ganan sellos!"
+    },
+    {
+        "head": "Delicias de postre",
+        "title": "Ahorros dulces",
+        "description": "¡Los postres ganan sellos dulces!"
+    },
+    {
+        "head": "Cocina asiática",
+        "title": "Puntos de sushi",
+        "description": "¡Rueda en las recompensas de sellos!"
+    },
+    {
+        "head": "Fiesta mexicana",
+        "title": "Tokens de taco",
+        "description": "¡Los tacos te ganan sellos!"
+    },
+    {
+        "head": "Club del desayuno",
+        "title": "Recompensas matutinas",
+        "description": "¡Los madrugadores obtienen sellos!"
+    },
+    {
+        "head": "Especiales de almuerzo",
+        "title": "Lealtad de almuerzo",
+        "description": "¡Las visitas de almuerzo ganan sellos!"
+    }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Pflege-Besuche",
+    "title": "6 Besuche",
+    "description": "Einlösen für einen Pflege-Zusatz."
+  },
+  {
+    "head": "Leckerli-Packungen",
+    "title": "9+1 Leckerlis",
+    "description": "Spaßige Wiederholungskauf-Schleife."
+  },
+  {
+    "head": "Futter-Käufe",
+    "title": "Futter-Karte",
+    "description": "Einlösen für gezielten Rabatt."
+  },
+  {
+    "head": "Wochenend-Doppelstempel",
+    "title": "Wochenende 2x Stempel",
+    "description": "Doppelstempel für mehr Wochenendbesuche."
+  },
+  {
+    "head": "Feiertags-Leckerlis",
+    "title": "Feiertags-Leckerli-Karte",
+    "description": "Saisonale Karte für Geschenke."
+  },
+  {
+    "head": "VIP-Buchung",
+    "title": "VIP-Buchung",
+    "description": "Einlösen für Prioritätsbuchung."
+  }
+]

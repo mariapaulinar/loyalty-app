@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Zbieraj pieczątki i oszczędzaj",
+        "title": "Zbieraj pieczątki",
+        "description": "Jedna pieczątka za wizytę. Uzupełnij kartę i odbierz korzyść."
+    },
+    {
+        "head": "Klub stałych klientów",
+        "title": "Odwiedzaj i odblokowuj",
+        "description": "Krótka ścieżka, która zamienia stałych klientów w członków."
+    },
+    {
+        "head": "Wyzwanie tygodnia",
+        "title": "Dzień podwójnych pieczątek",
+        "description": "Wybierz dzień, uruchom 2x pieczątki i zwiększ ruch."
+    },
+    {
+        "head": "Nowy członek",
+        "title": "Dobry start",
+        "description": "Pieczątka powitalna na dobry start nawyku."
+    },
+    {
+        "head": "Przyprowadź znajomych",
+        "title": "Boost grupowy",
+        "description": "Przyjdźcie razem i przyspieszcie postęp."
+    },
+    {
+        "head": "Edycja limitowana",
+        "title": "Karta sezonowa",
+        "description": "Limitowana karta pieczątek do kampanii."
+    }
+]

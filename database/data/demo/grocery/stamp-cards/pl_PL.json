@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Cotygodniowe zakupy",
+        "title": "Wyzwanie 5 tygodni",
+        "description": "Pętla nawyku, która napędza cotygodniowe wizyty."
+    },
+    {
+        "head": "Zakupy warzyw i owoców",
+        "title": "Pieczątki za świeże produkty",
+        "description": "Więcej wizyt po świeże produkty, świeższe koszyki."
+    },
+    {
+        "head": "Pudełko przekąsek",
+        "title": "10 Pieczątek = pakiet",
+        "description": "Przyjemna Nagroda, która zwiększa sprzedaż dodatków i AOV."
+    },
+    {
+        "head": "Marka własna",
+        "title": "Pieczątki za markę własną",
+        "description": "Wzmacnia sprzedaż produktów przyjaznych marży dzięki Pieczątkom."
+    },
+    {
+        "head": "Podwójne Pieczątki w weekend",
+        "title": "Weekendowe Pieczątki 2x",
+        "description": "Więcej Pieczątek, by zwiększać wartość koszyka."
+    },
+    {
+        "head": "Świąteczna spiżarnia",
+        "title": "Karta świątecznej spiżarni",
+        "description": "Sezonowa pętla pod kampanie spiżarniowe."
+    }
+]

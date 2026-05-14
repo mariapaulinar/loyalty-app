@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Cesta saudavel",
+        "description": "Uma cesta selecionada de itens saudaveis que faz o membro se sentir recompensado por escolhas melhores. Otima para campanhas de bem-estar e resets sazonais."
+    },
+    {
+        "title": "Caixa de snacks",
+        "description": "Um resgate divertido que parece abrir um presente. Use para incentivar add-ons e aumentar o tamanho da cesta."
+    },
+    {
+        "title": "Item premium de despensa",
+        "description": "Resgate por um item premium como azeite, cafe ou snacks especiais. Recompensa inteligente que parece luxuosa e pratica."
+    },
+    {
+        "title": "Bundle de frutas frescas",
+        "description": "Um bundle sazonal que apoia campanhas de hortifruti e viagens recorrentes a loja. Perfeito para verao, volta as aulas e feriados."
+    },
+    {
+        "title": "Cartao presente do membro",
+        "description": "Um pequeno credito na loja que parece flexivel e motivador. Otimo para manter membros de alto valor engajados."
+    },
+    {
+        "title": "Mes de entrega gratis",
+        "description": "Um beneficio premium que aumenta frequencia e reduz churn. Ideal para transformar compradores ocasionais em compradores semanais."
+    }
+]

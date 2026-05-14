@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Member Exclusive",
+        "title": "15% Off Next Purchase",
+        "description": "Short-window conversion offer.",
+        "free_product_name": "15% Off"
+    },
+    {
+        "head": "Grooming",
+        "title": "Free Add-On",
+        "description": "Premium-feel grooming perk.",
+        "free_product_name": "Add-On"
+    },
+    {
+        "head": "Treats",
+        "title": "Free Treat Pack",
+        "description": "High delight, low cost.",
+        "free_product_name": "Treats"
+    },
+    {
+        "head": "Points Booster",
+        "title": "+120 Bonus Points",
+        "description": "Drive repeats without discount addiction.",
+        "free_product_name": "+120 Points"
+    },
+    {
+        "head": "Bundle Saver",
+        "title": "$10 Off $60",
+        "description": "Encourage bigger baskets.",
+        "free_product_name": "$10 Off"
+    },
+    {
+        "head": "Holiday Special",
+        "title": "Seasonal Deal",
+        "description": "Campaign-ready seasonal voucher.",
+        "free_product_name": "Holiday Deal"
+    }
+]

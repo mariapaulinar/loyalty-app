@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Lavagem premium",
+        "description": "Resgate por um upgrade de lavagem premium que deixa o carro com cara de novo. Otimo para criar rotinas de servico recorrentes."
+    },
+    {
+        "title": "Upgrade interno",
+        "description": "Upgrade para limpeza interna e transforme uma visita padrao em um momento uau. Ideal para upsell e retencao."
+    },
+    {
+        "title": "Kit de detailing",
+        "description": "Um kit pratico de cuidados que deixa sua marca no porta-luvas. Otimo como resgate de nivel intermediario."
+    },
+    {
+        "title": "Desconto em servico",
+        "description": "Token de desconto para manutencao que gera novas marcacoes. Use para aumentar valor de vida, nao para descontar tudo."
+    },
+    {
+        "title": "Passe da faixa VIP",
+        "description": "Token de fila prioritaria que parece premium e economiza tempo. Um beneficio de fidelidade que as pessoas valorizam de verdade."
+    },
+    {
+        "title": "Pacote de add-ons",
+        "description": "Um pequeno pacote (aromatizador, lencos, etc.) que adiciona encanto com baixo custo. Otimo para ativar horarios de baixa."
+    }
+]

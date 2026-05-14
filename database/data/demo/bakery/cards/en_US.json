@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Freshly Baked",
+        "title": "Reward the Ritual",
+        "description": "Points on breads, cakes, and pastries. Built for daily and weekly routines."
+    },
+    {
+        "head": "Weekend Oven",
+        "title": "Weekend Perks That Move Volume",
+        "description": "More points on weekend purchases to drive peak basket size."
+    },
+    {
+        "head": "Celebration Orders",
+        "title": "Make Occasions More Profitable",
+        "description": "Rewards tuned for birthdays and holidays. Perfect for bigger ticket orders."
+    },
+    {
+        "head": "Daily Bread",
+        "title": "Essentials That Build Loyalty",
+        "description": "Turn staples into a reason to choose you every day."
+    },
+    {
+        "head": "Seasonal Treats",
+        "title": "Limited Drops, Fast Redemptions",
+        "description": "Holiday pastries + limited rewards = urgency without heavy discounting."
+    },
+    {
+        "head": "Family Box",
+        "title": "Bundle Rewards",
+        "description": "Incentivize multi-item purchases with points boosts on boxes and bundles."
+    }
+]

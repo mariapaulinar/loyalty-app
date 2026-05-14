@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Patounes",
+        "title": "Récompensez chaque remuement de queue",
+        "description": "Gagnez des points sur nourriture, toilettage et jouets. Conçu pour créer des routines heureuses."
+    },
+    {
+        "head": "Toilettez & économisez",
+        "title": "Transformez le toilettage en habitude",
+        "description": "Récompenses conçues pour remplir les agendas de toilettage."
+    },
+    {
+        "head": "Avantages animal sain",
+        "title": "Récompensez les achats bien-être",
+        "description": "Points bonus sur les articles bien-être. Parfait pour les campagnes santé saisonnières."
+    },
+    {
+        "head": "Avantages VIP animal",
+        "title": "Réservation prioritaire + récompenses premium",
+        "description": "Programme premium pour vos meilleurs clients."
+    },
+    {
+        "head": "Friandises saisonnières",
+        "title": "Campagnes saisonnières simplifiées",
+        "description": "Friandises de fêtes, équipement d'été, soins d'hiver. Rotez les offres sans reconstruire."
+    },
+    {
+        "head": "Bonus anniversaire animal",
+        "title": "Avantage anniversaire qui génère des visites",
+        "description": "Avantage anniversaire temporisé. Parfait pour toilettage ou lots de friandises."
+    }
+]

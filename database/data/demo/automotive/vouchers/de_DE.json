@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Mitglieder-Exklusiv",
+        "title": "20% Rabatt auf Aufbereitung",
+        "description": "Konversionsfreundliches Service-Angebot.",
+        "free_product_name": "20% Rabatt"
+    },
+    {
+        "head": "Upgrade",
+        "title": "Kostenloses Wäsche-Upgrade",
+        "description": "Upgrade zur Premium-Wäsche. Hoher wahrgenommener Wert.",
+        "free_product_name": "Wäsche-Upgrade"
+    },
+    {
+        "head": "Bundle-Sparer",
+        "title": "15€ Rabatt ab 100€",
+        "description": "Größere Pakete fördern.",
+        "free_product_name": "15€ Rabatt"
+    },
+    {
+        "head": "Punkte-Booster",
+        "title": "+250 Bonuspunkte",
+        "description": "Frequenz belohnen ohne hohe Rabatte.",
+        "free_product_name": "+250 Punkte"
+    },
+    {
+        "head": "Wochenende",
+        "title": "Wochenend-Special",
+        "description": "Kurzfristiges Angebot zur Kapazitätsauslastung.",
+        "free_product_name": "Wochenend-Deal"
+    },
+    {
+        "head": "Wartung",
+        "title": "10€ Rabatt auf Service",
+        "description": "Wartungsbuchungen fördern.",
+        "free_product_name": "10€ Rabatt"
+    }
+]

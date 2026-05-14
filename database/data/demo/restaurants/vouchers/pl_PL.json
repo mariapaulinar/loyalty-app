@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta gastronomiczna",
+        "title": "25% zniżki na rachunek",
+        "description": "Skorzystaj z 25% zniżki na całe zamówienie!",
+        "free_product_name": "25% zniżki"
+    },
+    {
+        "head": "Godziny promocyjne",
+        "title": "Kup 1 napój, drugi gratis",
+        "description": "Kup jeden napój i odbierz drugi za darmo!",
+        "free_product_name": "Darmowy napój"
+    },
+    {
+        "head": "Oferta lunchowa",
+        "title": "$10 rabatu na menu lunchowe",
+        "description": "Oszczędzaj $10 na dowolnym zestawie lunchowym od poniedziałku do piątku!",
+        "free_product_name": "$10 rabatu"
+    },
+    {
+        "head": "Deserowa przyjemność",
+        "title": "Darmowy deser",
+        "description": "Otrzymaj darmowy deser do dania głównego!",
+        "free_product_name": "Deser"
+    },
+    {
+        "head": "Uczta rodzinna",
+        "title": "30% zniżki na posiłki rodzinne",
+        "description": "Przyjdź z rodziną i oszczędzaj 30% przy posiłkach dla 4+ osób!",
+        "free_product_name": "30% zniżki"
+    },
+    {
+        "head": "Specjał szefa",
+        "title": "$20 rabatu na menu premium",
+        "description": "Spróbuj dań szefa kuchni i oszczędź $20!",
+        "free_product_name": "$20 rabatu"
+    }
+]

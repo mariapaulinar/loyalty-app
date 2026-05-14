@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Stays",
+    "title": "5 stays",
+    "description": "Redeem for an upgrade."
+  },
+  {
+    "head": "Tours",
+    "title": "Tour card",
+    "description": "Finish to unlock activity credit."
+  },
+  {
+    "head": "Weekend Double Stamps",
+    "title": "Weekend 2x stamps",
+    "description": "Double stamps on weekend bookings."
+  },
+  {
+    "head": "Business Traveler",
+    "title": "Lounge perks",
+    "description": "Premium loop for frequent travelers."
+  },
+  {
+    "head": "Holiday Escape",
+    "title": "Holiday escape card",
+    "description": "Seasonal card for travel campaigns."
+  },
+  {
+    "head": "VIP",
+    "title": "VIP stamp card",
+    "description": "Redeem late checkout or upgrades."
+  }
+]

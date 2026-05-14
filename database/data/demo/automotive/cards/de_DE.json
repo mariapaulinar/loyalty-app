@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Pflege-Club",
+        "title": "Saubere Autos, treue Kunden",
+        "description": "Sammeln Sie Punkte bei Wäschen und Aufbereitung. Einlösen für Premium-Upgrades."
+    },
+    {
+        "head": "Saisonaler Schutz",
+        "title": "Kampagnenbereite Saisonpakete",
+        "description": "Winterschutz, Sommerglanz. Aktionen ohne Rabattchaos durchführen."
+    },
+    {
+        "head": "VIP-Spur",
+        "title": "Prioritäts-Service für Mitglieder",
+        "description": "Premium-Vorteil, der Kundenbindung und Upsells verbessert."
+    },
+    {
+        "head": "Flotte & Familie",
+        "title": "Mehrfach-Auto-Haushalte belohnen",
+        "description": "Entwickelt, um Frequenz und Kundenwert zu steigern."
+    },
+    {
+        "head": "Wochenend-Wäsche",
+        "title": "Wochenend-Boost",
+        "description": "Bonuspunkte am Wochenende für planbare Nachfrage."
+    },
+    {
+        "head": "Wartung",
+        "title": "Service-Prämien",
+        "description": "Prämien für Wartungsbesuche. Für Stammkunden konzipiert."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusif membre",
+        "title": "20% sur toute boisson",
+        "description": "Offre limitée conçue pour convertir la navigation en achat.",
+        "free_product_name": "20% de réduction"
+    },
+    {
+        "head": "Cadeau de bienvenue",
+        "title": "Taille supérieure gratuite",
+        "description": "Avantage à forte valeur perçue pour les nouveaux membres.",
+        "free_product_name": "Taille supérieure"
+    },
+    {
+        "head": "Avantage pâtisserie",
+        "title": "Pâtisserie gratuite",
+        "description": "Boostez les ventes combo et créez une routine.",
+        "free_product_name": "Pâtisserie"
+    },
+    {
+        "head": "Pack économique",
+        "title": "5 € sur café + pâtisserie",
+        "description": "Booster de panier : récompense le combo, pas l'article seul.",
+        "free_product_name": "5 € de réduction"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "1 acheté = 1 offert café glacé",
+        "description": "Générez du trafic en heures creuses sans tout réduire.",
+        "free_product_name": "Café glacé gratuit"
+    },
+    {
+        "head": "Booster de points",
+        "title": "+100 points bonus",
+        "description": "Une incitation fidélité pour les visites répétées.",
+        "free_product_name": "+100 points"
+    }
+]

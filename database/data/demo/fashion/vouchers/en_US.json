@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Member Exclusive",
+        "title": "15% Off Your Next Purchase",
+        "description": "Limited-time offer to convert browsers into buyers.",
+        "free_product_name": "15% Off"
+    },
+    {
+        "head": "Welcome Gift",
+        "title": "Free Accessory",
+        "description": "First-visit perk that feels premium.",
+        "free_product_name": "Accessory"
+    },
+    {
+        "head": "VIP",
+        "title": "Free Alteration",
+        "description": "Luxury-feel perk that builds trust.",
+        "free_product_name": "Alteration"
+    },
+    {
+        "head": "Bundle Saver",
+        "title": "$20 Off $120",
+        "description": "AOV booster that rewards building a look.",
+        "free_product_name": "$20 Off"
+    },
+    {
+        "head": "Points Booster",
+        "title": "+150 Bonus Points",
+        "description": "Rewards loyalty without discount addiction.",
+        "free_product_name": "+150 Points"
+    },
+    {
+        "head": "Holiday Sale",
+        "title": "Seasonal Deal",
+        "description": "Short-window seasonal offer built for campaigns.",
+        "free_product_name": "Holiday Deal"
+    }
+]

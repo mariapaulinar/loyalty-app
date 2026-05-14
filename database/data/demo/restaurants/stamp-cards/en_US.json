@@ -1,0 +1,102 @@
+[
+    {
+        "head": "Our Brand",
+        "title": "Loyalty Rewarded",
+        "description": "Collect dining stamps for rewards!"
+    },
+    {
+        "head": "Summer Rewards",
+        "title": "Seasonal Savings",
+        "description": "Summer dining earns you stamps!"
+    },
+    {
+        "head": "Savings Card",
+        "title": "Earn as You Spend",
+        "description": "Get stamped every time you dine!"
+    },
+    {
+        "head": "Gourmet Club",
+        "title": "Dine and Save",
+        "description": "Delicious meals earn stamps!"
+    },
+    {
+        "head": "Foodie Card",
+        "title": "Taste and Earn",
+        "description": "Good food deserves stamps!"
+    },
+    {
+        "head": "Loyalty Card",
+        "title": "Save Now",
+        "description": "Stamp your way to dining savings!"
+    },
+    {
+        "head": "Dinner Specials",
+        "title": "Get Rewarded",
+        "description": "Evening dining earns special stamps!"
+    },
+    {
+        "head": "Weekend Bonanza",
+        "title": "Weekend Rewards",
+        "description": "Weekend visits mean more stamps!"
+    },
+    {
+        "head": "Festive Offers",
+        "title": "Holiday Savings",
+        "description": "Celebrate with exclusive stamp rewards!"
+    },
+    {
+        "head": "Happy Hours",
+        "title": "Hourly Rewards",
+        "description": "Happy hour visits earn double stamps!"
+    },
+    {
+        "head": "Coffee Lovers",
+        "title": "Espresso Points",
+        "description": "Every coffee earns a stamp!"
+    },
+    {
+        "head": "Pizza Palace",
+        "title": "Slice Savings",
+        "description": "Every slice gets a stamp!"
+    },
+    {
+        "head": "Healthy Eats",
+        "title": "Salad Savings",
+        "description": "Healthy choices earn stamps!"
+    },
+    {
+        "head": "Burger Bonanza",
+        "title": "Burger Points",
+        "description": "Stack stamps with your burgers!"
+    },
+    {
+        "head": "Seafood Special",
+        "title": "Fish Rewards",
+        "description": "Fresh seafood earns stamps!"
+    },
+    {
+        "head": "Dessert Delights",
+        "title": "Sweet Savings",
+        "description": "Sweet treats earn sweet stamps!"
+    },
+    {
+        "head": "Asian Cuisine",
+        "title": "Sushi Points",
+        "description": "Roll in the stamp rewards!"
+    },
+    {
+        "head": "Mexican Fiesta",
+        "title": "Taco Tokens",
+        "description": "Tacos earn you stamps!"
+    },
+    {
+        "head": "Breakfast Club",
+        "title": "Morning Rewards",
+        "description": "Early birds get stamps!"
+    },
+    {
+        "head": "Lunch Specials",
+        "title": "Lunch Loyalty",
+        "description": "Lunchtime visits earn stamps!"
+    }
+]

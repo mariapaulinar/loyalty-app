@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Beauty Voucher",
+        "title": "20% Off All Services",
+        "description": "Get 20% discount on any beauty treatment at our salon!",
+        "free_product_name": "20% Off"
+    },
+    {
+        "head": "Spa Deal",
+        "title": "$30 Off Spa Package",
+        "description": "Save $30 on our premium spa package. Relaxation awaits!",
+        "free_product_name": "$30 Off"
+    },
+    {
+        "head": "New Client",
+        "title": "First Visit Special",
+        "description": "New clients get 25% off their first appointment!",
+        "free_product_name": "25% Off"
+    },
+    {
+        "head": "Hair Special",
+        "title": "Free Styling Service",
+        "description": "Get a complimentary styling service with any haircut!",
+        "free_product_name": "Styling"
+    },
+    {
+        "head": "Manicure Deal",
+        "title": "Buy 1 Get 1 Manicure",
+        "description": "Purchase one manicure and get the second one free!",
+        "free_product_name": "Free Manicure"
+    },
+    {
+        "head": "Facial Offer",
+        "title": "Premium Facial - $50 Off",
+        "description": "Experience our signature facial with $50 savings!",
+        "free_product_name": "$50 Off"
+    }
+]

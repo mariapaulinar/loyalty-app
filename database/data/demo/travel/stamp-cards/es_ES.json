@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Estadías",
+    "title": "5 estadías",
+    "description": "Canjea por una mejora."
+  },
+  {
+    "head": "Tours",
+    "title": "Tarjeta de tours",
+    "description": "Completa para desbloquear crédito de actividad."
+  },
+  {
+    "head": "Doble sellos fin de semana",
+    "title": "Fin de semana 2x sellos",
+    "description": "Doble sellos en reservas de fin de semana."
+  },
+  {
+    "head": "Viajero de negocios",
+    "title": "Beneficios de lounge",
+    "description": "Ciclo premium para viajeros frecuentes."
+  },
+  {
+    "head": "Escapada de vacaciones",
+    "title": "Tarjeta escapada de vacaciones",
+    "description": "Tarjeta estacional para campañas de viaje."
+  },
+  {
+    "head": "VIP",
+    "title": "Tarjeta de sellos VIP",
+    "description": "Canjea por salida tardía o mejoras."
+  }
+]

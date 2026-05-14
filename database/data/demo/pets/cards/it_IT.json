@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Zampe",
+        "title": "Premia ogni scodinzolio",
+        "description": "Guadagna punti su cibo, toelettatura e giochi. Pensato per creare routine felici."
+    },
+    {
+        "head": "Toeletta e risparmia",
+        "title": "Trasforma la toelettatura in un'abitudine",
+        "description": "Premi pensati per tenere pieni i calendari toelettatura."
+    },
+    {
+        "head": "Vantaggi pet sani",
+        "title": "Premia gli acquisti benessere",
+        "description": "Punti bonus su articoli benessere. Ottimo per campagne salute stagionali."
+    },
+    {
+        "head": "Vantaggi pet VIP",
+        "title": "Prenotazione prioritaria + premi premium",
+        "description": "Programma dal gusto premium per i tuoi migliori clienti."
+    },
+    {
+        "head": "Snack stagionali",
+        "title": "Campagne stagionali facili",
+        "description": "Snack festivi, attrezzatura estiva, cura invernale. Ruota offerte senza ricostruire."
+    },
+    {
+        "head": "Bonus compleanno pet",
+        "title": "Vantaggio compleanno che incentiva le visite",
+        "description": "Vantaggio compleanno temporizzato. Perfetto per toelettatura o bundle snack."
+    }
+]

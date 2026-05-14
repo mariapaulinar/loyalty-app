@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Üye ozel",
+        "title": "%15 İndirim sizin Sonraki Satın Alma",
+        "description": "Sınırlı sureli teklif Bitiş convert browsers ... haline büyers.",
+        "free_product_name": "%15 İndirim"
+    },
+    {
+        "head": "Hoş Geldin Hediyesi",
+        "title": "Ücretsiz aksesuar",
+        "description": "First-Ziyaret Edin ayrıcalık ki feels premium.",
+        "free_product_name": "Kampanya: aksesuar"
+    },
+    {
+        "head": "Kampanya: VIP",
+        "title": "Ücretsiz Alteration",
+        "description": "Luxury-feel ayrıcalık ki insa eder trust.",
+        "free_product_name": "Kampanya: Alteration"
+    },
+    {
+        "head": "Kampanya: paket tasarrufcu",
+        "title": "$20 İndirim $120",
+        "description": "AOV guclendirici ki Ödüller building bir gorunum.",
+        "free_product_name": "$20 İndirim"
+    },
+    {
+        "head": "puan guclendirici",
+        "title": "+150 bonus Puan",
+        "description": "Ödüller Sadakat olmadan İndirim addiction.",
+        "free_product_name": "+150 Puan"
+    },
+    {
+        "head": "tatil Sale",
+        "title": "sezonluk firsat",
+        "description": "Short-window sezonluk teklif tasarlandi İçicinde Kampanyalar.",
+        "free_product_name": "tatil firsat"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta dla Członków",
+        "title": "15% zniżki na następny zakup",
+        "description": "Krótka oferta konwersyjna z ograniczonym oknem.",
+        "free_product_name": "15% zniżki"
+    },
+    {
+        "head": "Pielęgnacja",
+        "title": "Darmowy dodatek",
+        "description": "Korzyść groomingowa premium.",
+        "free_product_name": "Dodatek"
+    },
+    {
+        "head": "Przysmaki",
+        "title": "Darmowy pakiet przysmaków",
+        "description": "Wysoka radość, niski koszt.",
+        "free_product_name": "Przysmaki"
+    },
+    {
+        "head": "Booster Punktów",
+        "title": "+120 Punktów bonusowych",
+        "description": "Napędza powroty bez uzależniania od rabatów.",
+        "free_product_name": "+120 Punktów"
+    },
+    {
+        "head": "Pakiet oszczędnościowy",
+        "title": "$10 rabatu przy $60",
+        "description": "Zachęca do większych koszyków.",
+        "free_product_name": "$10 rabatu"
+    },
+    {
+        "head": "Oferta świąteczna",
+        "title": "Oferta sezonowa",
+        "description": "Sezonowy Voucher gotowy do kampanii.",
+        "free_product_name": "Oferta świąteczna"
+    }
+]

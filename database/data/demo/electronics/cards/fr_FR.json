@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Tech",
+        "title": "Améliorez & gagnez",
+        "description": "Points sur appareils + accessoires avec des récompenses qui ressemblent à des mises à niveau, pas des remises."
+    },
+    {
+        "head": "Accès lancement",
+        "title": "Accès anticipé aux nouveautés",
+        "description": "Conçu pour les calendriers de lancement et sorties produits."
+    },
+    {
+        "head": "Boost reprise",
+        "title": "Transformez les reprises en fidélité",
+        "description": "Points bonus avec les reprises. Idéal pour les mises à niveau et la rétention."
+    },
+    {
+        "head": "Avantages protection",
+        "title": "Récompensez le soin, pas juste la dépense",
+        "description": "Incitez les plans de protection et accessoires. Favorable aux marges."
+    },
+    {
+        "head": "Économies pack",
+        "title": "Packs qui augmentent le panier",
+        "description": "Récompensez les achats multi-articles avec des incitations plus intelligentes."
+    },
+    {
+        "head": "Support VIP",
+        "title": "Aide prioritaire pour les membres",
+        "description": "Couche de fidélité premium qui réduit le churn."
+    }
+]

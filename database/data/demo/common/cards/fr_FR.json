@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Notre marque",
+    "title": "Fidélité récompensée",
+    "description": "Cumulez des points à chaque achat et débloquez des récompenses."
+  },
+  {
+    "head": "Avantages membres",
+    "title": "Gagnez en dépensant",
+    "description": "Recevez des points automatiquement en caisse — sans coupon nécessaire."
+  },
+  {
+    "head": "Club VIP",
+    "title": "Avantages exclusifs",
+    "description": "Montez en niveau pour de meilleures récompenses, un accès anticipé et des offres spéciales."
+  },
+  {
+    "head": "Bonus week-end",
+    "title": "Points bonus",
+    "description": "Gagnez des points supplémentaires le week-end et aux heures de pointe."
+  },
+  {
+    "head": "Offre limitée",
+    "title": "Économies saisonnières",
+    "description": "Promotions à durée limitée pour fidéliser les membres."
+  },
+  {
+    "head": "Parrainez & gagnez",
+    "title": "Invitez un ami",
+    "description": "Invitez vos amis et soyez récompensé quand ils s'inscrivent."
+  }
+]

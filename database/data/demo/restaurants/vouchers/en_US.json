@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Dining Deal",
+        "title": "25% Off Your Bill",
+        "description": "Enjoy 25% discount on your entire meal!",
+        "free_product_name": "25% Off"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "Buy 1 Get 1 Drink",
+        "description": "Purchase one drink and get the second free!",
+        "free_product_name": "Free Drink"
+    },
+    {
+        "head": "Lunch Special",
+        "title": "$10 Off Lunch Menu",
+        "description": "Save $10 on any lunch combo Monday-Friday!",
+        "free_product_name": "$10 Off"
+    },
+    {
+        "head": "Dessert Delight",
+        "title": "Free Dessert",
+        "description": "Get a complimentary dessert with any main course!",
+        "free_product_name": "Dessert"
+    },
+    {
+        "head": "Family Feast",
+        "title": "30% Off Family Meals",
+        "description": "Bring the family and save 30% on meals for 4+!",
+        "free_product_name": "30% Off"
+    },
+    {
+        "head": "Chef's Special",
+        "title": "$20 Off Premium Menu",
+        "description": "Experience our chef's special dishes with $20 savings!",
+        "free_product_name": "$20 Off"
+    }
+]

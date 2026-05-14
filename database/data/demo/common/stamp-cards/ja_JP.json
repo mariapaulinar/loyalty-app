@@ -1,0 +1,32 @@
+[
+    {
+        "head": "スタンプ & お得",
+        "title": "スタンプを集める",
+        "description": "1つ スタンプ per 見つける。Finish カード、受け取る 特典。"
+    },
+    {
+        "head": "Regulars クラブ",
+        "title": "見つける、解放",
+        "description": "Short ループ turns regulars にする メンバー。"
+    },
+    {
+        "head": "キャンペーン: 毎週 Challenge",
+        "title": "Double-スタンプ 日",
+        "description": "Pick 日、実行 2x スタンプ、上げる traffic。"
+    },
+    {
+        "head": "新規 メンバー",
+        "title": "キャンペーン: 開始 strong",
+        "description": "Welcome スタンプ 送信先 kick 割引 習慣。"
+    },
+    {
+        "head": "キャンペーン: Bring 友達",
+        "title": "キャンペーン: Group 強化",
+        "description": "Come together、進捗 より速く。"
+    },
+    {
+        "head": "限定 実行",
+        "title": "季節限定 カード",
+        "description": "期間限定 スタンプカード 対象 キャンペーン。"
+    }
+]

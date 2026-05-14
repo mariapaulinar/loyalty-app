@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Member Exclusive",
+        "title": "15% Off Stay",
+        "description": "Limited-time offer to drive bookings.",
+        "free_product_name": "15% Off"
+    },
+    {
+        "head": "Upgrade",
+        "title": "Free Room Upgrade",
+        "description": "Premium-feel perk (subject to availability).",
+        "free_product_name": "Room Upgrade"
+    },
+    {
+        "head": "Bundle Saver",
+        "title": "$50 Off $500",
+        "description": "Push packages and higher tickets.",
+        "free_product_name": "$50 Off"
+    },
+    {
+        "head": "Points Booster",
+        "title": "+500 Bonus Points",
+        "description": "Drive repeat bookings without heavy discounts.",
+        "free_product_name": "+500 Points"
+    },
+    {
+        "head": "Weekend",
+        "title": "Weekend Special",
+        "description": "Short-window weekend offer for occupancy.",
+        "free_product_name": "Weekend Deal"
+    },
+    {
+        "head": "VIP",
+        "title": "Late Checkout",
+        "description": "Simple perk that feels luxurious.",
+        "free_product_name": "Late Checkout"
+    }
+]

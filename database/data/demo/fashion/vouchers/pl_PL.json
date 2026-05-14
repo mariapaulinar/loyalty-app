@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta dla Członków",
+        "title": "15% zniżki na następny zakup",
+        "description": "Oferta limitowana, która zamienia oglądających w kupujących.",
+        "free_product_name": "15% zniżki"
+    },
+    {
+        "head": "Prezent powitalny",
+        "title": "Darmowe akcesorium",
+        "description": "Korzyść na pierwszą wizytę o premium charakterze.",
+        "free_product_name": "Akcesorium"
+    },
+    {
+        "head": "VIP",
+        "title": "Darmowa poprawka",
+        "description": "Korzyść premium, która buduje zaufanie.",
+        "free_product_name": "Poprawka"
+    },
+    {
+        "head": "Pakiet oszczędnościowy",
+        "title": "$20 rabatu przy $120",
+        "description": "Booster AOV, który nagradza budowanie pełnej stylizacji.",
+        "free_product_name": "$20 rabatu"
+    },
+    {
+        "head": "Booster Punktów",
+        "title": "+150 Punktów bonusowych",
+        "description": "Nagradza lojalność bez uzależniania od rabatów.",
+        "free_product_name": "+150 Punktów"
+    },
+    {
+        "head": "Wyprzedaż świąteczna",
+        "title": "Oferta sezonowa",
+        "description": "Krótka sezonowa oferta zbudowana pod kampanie.",
+        "free_product_name": "Oferta świąteczna"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Blockbuster-Bonanza",
+        "title": "Premieren-Ersparnisse",
+        "description": "Stempeln Sie sich zu Film-Deals!"
+    },
+    {
+        "head": "Film-Mitgliedschaft",
+        "title": "Schauen und Verdienen",
+        "description": "Erhalten Sie bei jedem Film einen Stempel!"
+    },
+    {
+        "head": "Filmfans-Club",
+        "title": "Sehen und Sparen",
+        "description": "Kino-Stempel schalten besondere Vorteile frei!"
+    },
+    {
+        "head": "Popcorn-Pass",
+        "title": "Snacken und Punkten",
+        "description": "Jedes Popcorn bringt einen Stempel!"
+    },
+    {
+        "head": "Matinee-Specials",
+        "title": "Nachmittags-Rabatte",
+        "description": "Nachmittagsvorstellungen verdienen Stempel!"
+    },
+    {
+        "head": "Wochenend-Filmfest",
+        "title": "Wochenend-Film-Deals",
+        "description": "Wochenendfilme bedeuten mehr Stempel!"
+    }
+]

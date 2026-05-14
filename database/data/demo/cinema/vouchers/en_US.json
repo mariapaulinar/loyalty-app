@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Movie Night",
+        "title": "Buy 1 Get 1 Free Ticket",
+        "description": "Purchase one ticket and bring a friend for free!",
+        "free_product_name": "Free Ticket"
+    },
+    {
+        "head": "Popcorn Deal",
+        "title": "Free Large Popcorn",
+        "description": "Get a large popcorn on us with any ticket purchase!",
+        "free_product_name": "Large Popcorn"
+    },
+    {
+        "head": "Weekend Special",
+        "title": "$5 Off Weekend Tickets",
+        "description": "Save $5 on any weekend movie showing!",
+        "free_product_name": "$5 Off"
+    },
+    {
+        "head": "Family Pack",
+        "title": "30% Off Family Tickets",
+        "description": "Bring the whole family and save 30% on 4+ tickets!",
+        "free_product_name": "30% Off"
+    },
+    {
+        "head": "Premium Seating",
+        "title": "Free Premium Upgrade",
+        "description": "Upgrade to premium seating at no extra cost!",
+        "free_product_name": "Premium Seat"
+    },
+    {
+        "head": "Concession Combo",
+        "title": "$10 Off Combo Deal",
+        "description": "Save $10 on any food and drink combo!",
+        "free_product_name": "$10 Off"
+    }
+]

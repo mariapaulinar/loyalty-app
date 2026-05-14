@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Anggota eksklusif",
+        "title": "Diskon 15% Berikutnya Pembelian",
+        "description": "Short-window conversion penawaran.",
+        "free_product_name": "Diskon 15%"
+    },
+    {
+        "head": "Promo: perawatan",
+        "title": "Gratis Add-On",
+        "description": "Premium-feel perawatan keuntungan.",
+        "free_product_name": "Promo: Add-On"
+    },
+    {
+        "head": "Promo: camilan",
+        "title": "Gratis hadiah paket",
+        "description": "tinggi kesenangan, rendah Biaya.",
+        "free_product_name": "Promo: camilan"
+    },
+    {
+        "head": "poin penguat",
+        "title": "+120 Poin bonus",
+        "description": "dorong ulang tanpa Diskon addiction.",
+        "free_product_name": "+120 Poin"
+    },
+    {
+        "head": "Promo: bundel hemat",
+        "title": "Diskon $10 $60",
+        "description": "Promo: Encourage lebih besar baskets.",
+        "free_product_name": "Diskon $10"
+    },
+    {
+        "head": "liburan khusus",
+        "title": "musiman penawaran",
+        "description": "Kampanye-ready musiman voucher.",
+        "free_product_name": "liburan penawaran"
+    }
+]

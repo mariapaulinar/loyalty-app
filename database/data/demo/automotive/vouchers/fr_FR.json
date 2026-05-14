@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusif membre",
+        "title": "20% sur le detailing",
+        "description": "Offre service favorable à la conversion.",
+        "free_product_name": "20% de réduction"
+    },
+    {
+        "head": "Mise à niveau",
+        "title": "Lavage premium gratuit",
+        "description": "Passez au lavage premium. Forte valeur perçue.",
+        "free_product_name": "Mise à niveau lavage"
+    },
+    {
+        "head": "Pack économique",
+        "title": "15 € de réduction sur 100 €",
+        "description": "Poussez les gros forfaits.",
+        "free_product_name": "15 € de réduction"
+    },
+    {
+        "head": "Booster de points",
+        "title": "+250 points bonus",
+        "description": "Récompensez la fréquence sans remises lourdes.",
+        "free_product_name": "+250 points"
+    },
+    {
+        "head": "Week-end",
+        "title": "Spécial week-end",
+        "description": "Offre courte durée pour remplir la capacité.",
+        "free_product_name": "Offre week-end"
+    },
+    {
+        "head": "Entretien",
+        "title": "10 € de réduction service",
+        "description": "Incitez les réservations d'entretien.",
+        "free_product_name": "10 € de réduction"
+    }
+]

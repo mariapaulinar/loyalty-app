@@ -1,0 +1,2 @@
+*.sqlite*
+!iso-countries.sqlite

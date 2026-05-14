@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Acessorios",
+    "title": "10 carimbos",
+    "description": "Resgate por um bundle de acessorios."
+  },
+  {
+    "head": "Cuidado de Tela",
+    "title": "Carimbos do kit",
+    "description": "Destrave pelicula ou kit premium."
+  },
+  {
+    "head": "Ajuda na Config",
+    "title": "Cartao de servico",
+    "description": "Complete e ganhe uma sessao de setup."
+  },
+  {
+    "head": "Fim de Semana 2x",
+    "title": "2x carimbos",
+    "description": "Dobre carimbos para aumentar visitas."
+  },
+  {
+    "head": "Cartao de Lancamento",
+    "title": "Cartao do drop",
+    "description": "Cartao por tempo limitado para lancamentos."
+  },
+  {
+    "head": "Fones",
+    "title": "5 compras = vantagem",
+    "description": "Loop para compradores recorrentes de acessorios."
+  }
+]

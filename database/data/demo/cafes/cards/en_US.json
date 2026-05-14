@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Barista Club",
+        "title": "Turn Daily Coffee Into Daily Loyalty",
+        "description": "Earn points on every cup and pastry. Fast redemptions keep people coming back tomorrow."
+    },
+    {
+        "head": "Morning Boost",
+        "title": "Early Bird = Extra Points",
+        "description": "Before 10am, members earn more. Built for predictable morning rush."
+    },
+    {
+        "head": "Iced Season",
+        "title": "Seasonal Drinks, Seasonal Rewards",
+        "description": "Launch a summer menu and tie it to limited rewards. Built to drive repeats."
+    },
+    {
+        "head": "Workday Fuel",
+        "title": "Reward the 2pm Habit",
+        "description": "Micro-moments matter: keep afternoons busy with targeted point boosts."
+    },
+    {
+        "head": "New Blend Drop",
+        "title": "Try New Items, Earn Faster",
+        "description": "Bonus points on featured drinks. Perfect for launches and collaborations."
+    },
+    {
+        "head": "Bring a Friend",
+        "title": "Referral Bonus That Feels Instant",
+        "description": "Invite a friend and unlock an immediate perk. Built for social growth."
+    }
+]

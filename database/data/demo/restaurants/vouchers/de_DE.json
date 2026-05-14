@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Restaurant-Deal",
+        "title": "25% Rabatt auf Ihre Rechnung",
+        "description": "Genießen Sie 25% Rabatt auf Ihre gesamte Mahlzeit!",
+        "free_product_name": "25% Rabatt"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "Kaufe 1, bekomme 1 Getränk gratis",
+        "description": "Kaufen Sie ein Getränk und erhalten Sie das zweite gratis!",
+        "free_product_name": "Gratis Getränk"
+    },
+    {
+        "head": "Mittagessen-Special",
+        "title": "10€ Rabatt auf Mittagsmenü",
+        "description": "Sparen Sie 10€ auf jedes Mittagsmenü Mo-Fr!",
+        "free_product_name": "10€ Rabatt"
+    },
+    {
+        "head": "Dessert-Freude",
+        "title": "Gratis Dessert",
+        "description": "Erhalten Sie ein gratis Dessert zu jedem Hauptgericht!",
+        "free_product_name": "Dessert"
+    },
+    {
+        "head": "Familien-Festmahl",
+        "title": "30% Rabatt auf Familienessen",
+        "description": "Bringen Sie die Familie und sparen Sie 30% ab 4 Personen!",
+        "free_product_name": "30% Rabatt"
+    },
+    {
+        "head": "Chef's Special",
+        "title": "20€ Rabatt auf Premium-Menü",
+        "description": "Erleben Sie Chef's Special Gerichte mit 20€ Ersparnis!",
+        "free_product_name": "20€ Rabatt"
+    }
+]

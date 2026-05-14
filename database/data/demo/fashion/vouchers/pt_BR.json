@@ -1,0 +1,38 @@
+[
+  {
+    "head": "Exclusivo para Membros",
+    "title": "15% de desconto na proxima compra",
+    "description": "Oferta por tempo limitado para transformar interesse em compra.",
+    "free_product_name": "15% de desconto"
+  },
+  {
+    "head": "Presente de Boas-vindas",
+    "title": "Acessorio gratis",
+    "description": "Vantagem da primeira visita com cara premium.",
+    "free_product_name": "Acessorio"
+  },
+  {
+    "head": "VIP",
+    "title": "Ajuste gratis",
+    "description": "Vantagem com toque de luxo que aumenta confianca.",
+    "free_product_name": "Ajuste"
+  },
+  {
+    "head": "Economia no Combo",
+    "title": "US$ 20 de desconto em US$ 120",
+    "description": "Aumenta o ticket: recompensa montar um look.",
+    "free_product_name": "US$ 20 de desconto"
+  },
+  {
+    "head": "Acelerador de Pontos",
+    "title": "+150 pontos bonus",
+    "description": "Recompensa fidelidade sem viciar em desconto.",
+    "free_product_name": "+150 pontos"
+  },
+  {
+    "head": "Sale de Feriado",
+    "title": "Oferta sazonal",
+    "description": "Oferta sazonal de janela curta, pronta para campanhas.",
+    "free_product_name": "Oferta de feriado"
+  }
+]

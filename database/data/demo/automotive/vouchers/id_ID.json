@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Anggota eksklusif",
+        "title": "Diskon 20% Detailing",
+        "description": "Conversion-Ramah layanan penawaran.",
+        "free_product_name": "Diskon 20%"
+    },
+    {
+        "head": "upgrade",
+        "title": "Gratis cuci upgrade",
+        "description": "upgrade Ke premium cuci. tinggi perceived Nilai.",
+        "free_product_name": "cuci upgrade"
+    },
+    {
+        "head": "Promo: bundel hemat",
+        "title": "Diskon $15 $100",
+        "description": "Promo: Push lebih besar paket.",
+        "free_product_name": "Diskon $15"
+    },
+    {
+        "head": "poin penguat",
+        "title": "+250 Poin bonus",
+        "description": "Hadiah frekuensi tanpa deep diskon.",
+        "free_product_name": "+250 Poin"
+    },
+    {
+        "head": "akhir pekan",
+        "title": "akhir pekan khusus",
+        "description": "Short-window penawaran dirancang Ke fill capacity.",
+        "free_product_name": "akhir pekan penawaran"
+    },
+    {
+        "head": "Promo: perawatan",
+        "title": "Diskon $10 layanan",
+        "description": "Incentivize perawatan pemesanan.",
+        "free_product_name": "Diskon $10"
+    }
+]

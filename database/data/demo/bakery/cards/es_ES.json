@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Recién horneado",
+        "title": "Recompensa el ritual",
+        "description": "Puntos en panes, pasteles y bollería. Diseñado para rutinas diarias y semanales."
+    },
+    {
+        "head": "Horno de fin de semana",
+        "title": "Beneficios de fin de semana que mueven",
+        "description": "Más puntos en compras de fin de semana para aumentar el ticket promedio."
+    },
+    {
+        "head": "Pedidos de celebración",
+        "title": "Haz las ocasiones más rentables",
+        "description": "Recompensas adaptadas para cumpleaños y fiestas. Perfecto para pedidos grandes."
+    },
+    {
+        "head": "Pan diario",
+        "title": "Esenciales que fidelizan",
+        "description": "Convierte los básicos en una razón para elegirte cada día."
+    },
+    {
+        "head": "Delicias de temporada",
+        "title": "Lanzamientos limitados, canjes rápidos",
+        "description": "Bollería festiva + recompensas limitadas = urgencia sin fatiga de descuentos."
+    },
+    {
+        "head": "Caja familiar",
+        "title": "Recompensas por lotes",
+        "description": "Incentiva compras multi-artículo con bonus de puntos en cajas y paquetes."
+    }
+]

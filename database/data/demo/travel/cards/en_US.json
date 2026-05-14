@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Explorer Club",
+        "title": "Travel Points That Feel Like Upgrades",
+        "description": "Earn on stays, tours, and bookings. Redeem for perks that upgrade the experience."
+    },
+    {
+        "head": "Weekend Getaway",
+        "title": "Weekend Booking Boost",
+        "description": "Bonus points on weekend stays to increase occupancy."
+    },
+    {
+        "head": "Early Bird",
+        "title": "Book Early, Earn More",
+        "description": "Incentivize early reservations with targeted rewards."
+    },
+    {
+        "head": "Seasonal Escapes",
+        "title": "Campaign-Ready Seasonal Offers",
+        "description": "Run summer escapes, winter holidays, and shoulder season pushes easily."
+    },
+    {
+        "head": "VIP Upgrades",
+        "title": "Premium Perks for Top Members",
+        "description": "Priority upgrades and VIP benefits that build loyalty."
+    },
+    {
+        "head": "Family Trips",
+        "title": "Rewards Built for Groups",
+        "description": "Designed for higher ticket bookings and family packages."
+    }
+]

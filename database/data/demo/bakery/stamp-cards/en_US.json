@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Croissant Club",
+    "title": "Morning croissant",
+    "description": "Simple loop that makes mornings predictable."
+  },
+  {
+    "head": "Cookie Run",
+    "title": "Free cookie pack",
+    "description": "Small rewards that keep people coming back."
+  },
+  {
+    "head": "Cake Slice",
+    "title": "Birthday slice",
+    "description": "Perfect for celebrations and upsells."
+  },
+  {
+    "head": "Bread Bundle",
+    "title": "Fresh bread weekly",
+    "description": "Built for families and weekly shoppers."
+  },
+  {
+    "head": "Weekend Double Stamps",
+    "title": "Weekend 2x stamps",
+    "description": "Double stamps to boost footfall."
+  },
+  {
+    "head": "Seasonal Pie",
+    "title": "Seasonal pie reward",
+    "description": "Drive holiday pre-orders with a limited card."
+  }
+]

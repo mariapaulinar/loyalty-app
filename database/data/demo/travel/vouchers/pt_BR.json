@@ -1,0 +1,38 @@
+[
+  {
+    "head": "Exclusivo para Membros",
+    "title": "15% de desconto na estadia",
+    "description": "Oferta por tempo limitado para aumentar reservas.",
+    "free_product_name": "15% de desconto"
+  },
+  {
+    "head": "Upgrade",
+    "title": "Upgrade de quarto gratis",
+    "description": "Vantagem premium (sujeito a disponibilidade).",
+    "free_product_name": "Upgrade de quarto"
+  },
+  {
+    "head": "Economia no Pacote",
+    "title": "US$ 50 de desconto em US$ 500",
+    "description": "Impulsione pacotes e tickets maiores.",
+    "free_product_name": "US$ 50 de desconto"
+  },
+  {
+    "head": "Acelerador de Pontos",
+    "title": "+500 pontos bonus",
+    "description": "Aumente reservas recorrentes sem desconto pesado.",
+    "free_product_name": "+500 pontos"
+  },
+  {
+    "head": "Fim de Semana",
+    "title": "Especial de fim de semana",
+    "description": "Oferta de janela curta para ocupacao.",
+    "free_product_name": "Oferta de fim de semana"
+  },
+  {
+    "head": "VIP",
+    "title": "Late checkout",
+    "description": "Vantagem simples com cara luxuosa.",
+    "free_product_name": "Late checkout"
+  }
+]

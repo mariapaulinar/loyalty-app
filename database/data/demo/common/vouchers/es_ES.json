@@ -1,0 +1,33 @@
+[
+  {
+    "head": "Oferta de miembro",
+    "title": "25% de descuento",
+    "description": "Ahorros exclusivos para miembros — tiempo limitado."
+  },
+  {
+    "head": "Regalo de bienvenida",
+    "title": "$10 de descuento",
+    "description": "Un pequeño agradecimiento por unirte."
+  },
+  {
+    "head": "Mejora gratis",
+    "title": "Complemento gratis",
+    "description": "Recibe un complemento gratis con tu compra.",
+    "free_product_name": "Complemento gratis"
+  },
+  {
+    "head": "Puntos bonus",
+    "title": "+100 puntos",
+    "description": "Gana puntos extra en tu próxima compra."
+  },
+  {
+    "head": "Pack ahorro",
+    "title": "Compra más, ahorra más",
+    "description": "Ahorra más al alcanzar el monto mínimo."
+  },
+  {
+    "head": "Oferta de fin de semana",
+    "title": "Especial de fin de semana",
+    "description": "Una oferta exclusiva de fin de semana para fidelizar."
+  }
+]

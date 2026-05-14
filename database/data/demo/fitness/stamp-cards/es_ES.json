@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Nuestra marca fitness",
+        "title": "Lealtad recompensada",
+        "description": "¡Colecciona sellos de entrenamiento para recompensas!"
+    },
+    {
+        "head": "Fitness de verano",
+        "title": "Entrenamientos de temporada",
+        "description": "¡Los desafíos fitness de verano ganan sellos!"
+    },
+    {
+        "head": "Tarjeta de membresía",
+        "title": "Gana mientras entrenas",
+        "description": "¡Obtén un sello con cada entrenamiento!"
+    },
+    {
+        "head": "Club Fitness Élite",
+        "title": "Entrena y ahorra",
+        "description": "¡Instalaciones premium, sellos exclusivos!"
+    },
+    {
+        "head": "Guerreros del entrenamiento",
+        "title": "Suda y gana",
+        "description": "¡Tu dedicación gana sellos!"
+    },
+    {
+        "head": "Membresía de lealtad",
+        "title": "Ahorra en suscripciones",
+        "description": "¡Sella tu camino hacia ahorros en membresía!"
+    }
+]

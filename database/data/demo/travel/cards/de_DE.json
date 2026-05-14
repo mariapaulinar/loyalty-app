@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Entdecker-Club",
+        "title": "Reisepunkte, die sich wie Upgrades anfühlen",
+        "description": "Verdienen Sie bei Übernachtungen, Touren und Buchungen. Einlösen für Vorteile, die das Erlebnis aufwerten."
+    },
+    {
+        "head": "Wochenend-Ausflug",
+        "title": "Wochenend-Buchungs-Boost",
+        "description": "Bonuspunkte auf Wochenendaufenthalte für höhere Auslastung."
+    },
+    {
+        "head": "Frühbucher",
+        "title": "Früh buchen, mehr verdienen",
+        "description": "Frühzeitige Reservierungen mit gezielten Prämien fördern."
+    },
+    {
+        "head": "Saisonale Ausflüge",
+        "title": "Kampagnenreife saisonale Angebote",
+        "description": "Sommer-Ausflüge, Winterurlaub und Nebensaison-Aktionen einfach durchführen."
+    },
+    {
+        "head": "VIP-Upgrades",
+        "title": "Premium-Vorteile für Top-Mitglieder",
+        "description": "Prioritäts-Upgrades und VIP-Vorteile, die Treue aufbauen."
+    },
+    {
+        "head": "Familienreisen",
+        "title": "Prämien für Gruppen konzipiert",
+        "description": "Für höhere Buchungswerte und Familienpakete entwickelt."
+    }
+]

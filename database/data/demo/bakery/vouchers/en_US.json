@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Member Exclusive",
+        "title": "15% Off Any Bake",
+        "description": "Limited-time member deal. Great for slow days.",
+        "free_product_name": "15% Off"
+    },
+    {
+        "head": "Welcome Gift",
+        "title": "Free Pastry",
+        "description": "A first-visit perk that converts signups into purchases.",
+        "free_product_name": "Pastry"
+    },
+    {
+        "head": "Cake Day",
+        "title": "$10 Off Cakes",
+        "description": "Drive celebration orders with a targeted incentive.",
+        "free_product_name": "$10 Off"
+    },
+    {
+        "head": "Bundle Saver",
+        "title": "Buy 2 Get 1 Free",
+        "description": "Moves volume without discounting everything.",
+        "free_product_name": "Free Pastry"
+    },
+    {
+        "head": "Morning Special",
+        "title": "Free Coffee",
+        "description": "A pairing perk designed to lift AOV.",
+        "free_product_name": "Coffee"
+    },
+    {
+        "head": "Points Booster",
+        "title": "+150 Bonus Points",
+        "description": "Reward loyalty, not just price sensitivity.",
+        "free_product_name": "+150 Points"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Patitas",
+        "title": "Recompensa cada movimiento de cola",
+        "description": "Gana puntos en comida, estética y juguetes. Diseñado para crear rutinas felices."
+    },
+    {
+        "head": "Estética y ahorro",
+        "title": "Convierte la estética en hábito",
+        "description": "Recompensas diseñadas para llenar calendarios de estética."
+    },
+    {
+        "head": "Beneficios mascota sana",
+        "title": "Recompensa compras de bienestar",
+        "description": "Puntos bonus en artículos de bienestar. Ideal para campañas de salud estacionales."
+    },
+    {
+        "head": "Beneficios VIP mascota",
+        "title": "Reserva prioritaria + recompensas premium",
+        "description": "Programa de sensación premium para tus mejores clientes."
+    },
+    {
+        "head": "Premios de temporada",
+        "title": "Campañas estacionales simplificadas",
+        "description": "Premios de fiestas, equipamiento de verano, cuidado de invierno. Rota ofertas sin reconstruir."
+    },
+    {
+        "head": "Bonus cumpleaños mascota",
+        "title": "Beneficio de cumpleaños que genera visitas",
+        "description": "Beneficio de cumpleaños temporizado. Perfecto para estética o paquetes de premios."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Mitglieder-Exklusiv",
+        "title": "10% Rabatt auf Zubehör",
+        "description": "Zubehörverkäufe steigern ohne Geräterabatte.",
+        "free_product_name": "10% Rabatt"
+    },
+    {
+        "head": "Willkommensgeschenk",
+        "title": "Gratis Bildschirmschutz",
+        "description": "Vorteil mit hohem wahrgenommenem Wert.",
+        "free_product_name": "Schutzfolie"
+    },
+    {
+        "head": "Bundle-Sparer",
+        "title": "25€ Rabatt ab 200€",
+        "description": "Bundles und größere Warenkörbe fördern.",
+        "free_product_name": "25€ Rabatt"
+    },
+    {
+        "head": "Inzahlungnahme",
+        "title": "+300 Bonuspunkte",
+        "description": "Upgrades mit Punkten belohnen, nicht Preissenkungen.",
+        "free_product_name": "+300 Punkte"
+    },
+    {
+        "head": "VIP",
+        "title": "Gratis Setup-Hilfe",
+        "description": "Premium-Service-Vorteil, der Vertrauen aufbaut.",
+        "free_product_name": "Setup"
+    },
+    {
+        "head": "Wochenende",
+        "title": "Kaufe 1, bekomme 1 Kabel gratis",
+        "description": "Teilbarer, günstiger Vorteil, der Besuche fördert.",
+        "free_product_name": "Gratis Kabel"
+    }
+]

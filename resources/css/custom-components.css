@@ -1,0 +1,497 @@
+@layer components {
+    .is-invalid {
+        @apply !bg-primary-50 !border !border-primary-500 !text-primary-900 !placeholder-primary-700;
+    }
+
+    .is-invalid:focus {
+        @apply !ring-primary-500 !border-primary-500;
+    }
+
+    :is(.dark .is-invalid) {
+        @apply !placeholder-primary-400 !bg-gray-700 !text-primary-200 !border-primary-400;
+    }
+
+    .is-invalid-label {
+        @apply !text-primary-700;
+    }
+
+    :is(.dark .is-invalid-label) {
+        @apply !text-primary-400;
+    }
+
+    .invalid-feedback,
+    .invalid-msg {
+        @apply mt-2 text-sm text-primary-700 dark:text-primary-400;
+    }
+
+    .text {
+        @apply text-sm font-medium text-gray-900;
+    }
+
+    .text-link {
+        @apply font-medium text-primary-600 dark:text-primary-500 hover:underline;
+    }
+
+    .btn {
+        @apply text-center inline-flex justify-center items-center text-gray-500 bg-gray-50 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-primary-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600;
+    }
+
+    .btn:disabled {
+        @apply text-gray-500 focus:outline-none bg-white rounded-lg border border-gray-200 dark:bg-gray-800 dark:text-gray-500 dark:border-gray-700 cursor-not-allowed;
+    }
+
+    .btn-xs {
+        @apply !px-12 !py-2 !text-xs !font-medium;
+    }
+
+    .btn-sm {
+        @apply !px-2.5 !py-1 !text-xs !font-medium;
+    }
+
+    @media (min-width: 640px) {
+        .btn-sm {
+            @apply !py-2.5;
+        }
+    }
+
+    .btn-lg {
+        @apply !px-5 !py-1 !text-lg !font-medium;
+    }
+
+    @media (min-width: 640px) {
+        .btn-lg {
+            @apply !py-2;
+        }
+    }
+
+    .btn-primary {
+        @apply items-center justify-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800;
+    }
+
+    .btn-primary:disabled {
+        @apply text-white dark:text-gray-400 bg-primary-400 dark:bg-primary-700 cursor-not-allowed;
+    }
+
+    .btn-secondary {
+        @apply text-white bg-secondary-700 hover:bg-secondary-800 focus:ring-4 focus:ring-secondary-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-secondary-600 dark:hover:bg-secondary-700 focus:outline-none dark:focus:ring-secondary-800;
+    }
+
+    .btn-secondary:disabled {
+        @apply text-white bg-secondary-400 dark:bg-secondary-400;
+    }
+
+    .btn-dark {
+        @apply inline-flex justify-center items-center font-medium rounded-lg text-sm px-5 py-2.5 text-center text-gray-600 hover:text-white border border-gray-500 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:border-gray-500 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800;
+    }
+
+    .btn-danger {
+        @apply text-red-600 inline-flex justify-center items-center hover:text-white border border-red-600 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900;
+    }
+
+    .btn-info {
+        @apply inline-flex justify-center items-center font-medium rounded-lg text-sm px-5 py-2.5 text-center text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800;
+    }
+
+    .btn-warning {
+        @apply inline-flex justify-center items-center focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center text-yellow-400 hover:text-white border border-yellow-400 hover:bg-yellow-500 focus:ring-yellow-300 dark:border-yellow-300 dark:text-yellow-300 dark:hover:text-white dark:hover:bg-yellow-400 dark:focus:ring-yellow-900;
+    }
+
+    .form-help-text {
+        @apply mt-2 text-sm text-gray-500 dark:text-gray-400;
+    }
+
+    .input-label {
+        @apply inline-flex items-center mb-2 text-sm font-medium text-gray-900 dark:text-white;
+    }
+
+    .input-icon {
+        @apply w-5 h-5 text-gray-500 dark:text-gray-400;
+    }
+
+    .input-btn-right {
+        @apply text-center items-center absolute top-0 right-0 p-2.5 text-sm font-medium border rounded-r-lg text-gray-900 focus:outline-none bg-gray-50 border-gray-300 focus:ring-primary-600 focus:border-primary-600 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500;
+    }
+
+    .input-text {
+        @apply bg-white border border-stone-200 text-secondary-900 text-sm rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 block w-full p-3 dark:bg-secondary-800/50 dark:border-secondary-700 dark:placeholder-secondary-500 dark:text-white dark:focus:ring-primary-500/30 dark:focus:border-primary-500 shadow-sm transition-all duration-200 hover:border-stone-300 dark:hover:border-secondary-600 hover:shadow-md focus:shadow-md focus:shadow-primary-500/5;
+    }
+
+    .input-select {
+        @apply appearance-none bg-white border border-stone-200 text-secondary-900 text-sm rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 block p-3 pr-10 dark:bg-secondary-800/50 dark:border-secondary-700 dark:placeholder-secondary-500 dark:text-white dark:focus:ring-primary-500/30 dark:focus:border-primary-500 shadow-sm transition-all duration-200 cursor-pointer hover:border-stone-300 dark:hover:border-secondary-600 hover:shadow-md focus:shadow-md focus:shadow-primary-500/5;
+    }
+
+    /* ═══════════════════════════════════════════════════════════════════════════
+       Premium Checkbox — Linear/Stripe-inspired with delightful animations
+       "This is not a checkbox. This is infrastructure for the future."
+       ═══════════════════════════════════════════════════════════════════════════ */
+
+    .input-checkbox {
+        @apply w-4 h-4 bg-gray-100 rounded border-gray-300 text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600;
+    }
+
+    /* Premium Checkbox Container — Wrapper for custom checkbox */
+    .premium-checkbox {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    /* Hide the native checkbox but keep it accessible */
+    .premium-checkbox input[type="checkbox"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 10;
+        margin: 0;
+    }
+
+    /* Custom checkbox visual */
+    .premium-checkbox .checkbox-box {
+        position: absolute;
+        inset: 0;
+        border-radius: 5px;
+        border: 1.5px solid oklch(0.85 0.008 250);
+        background: white;
+        transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+        box-shadow: 0 1px 2px oklch(0 0 0 / 0.04);
+    }
+
+    .dark .premium-checkbox .checkbox-box {
+        border-color: oklch(0.35 0.006 250);
+        background: oklch(0.20 0.006 250);
+    }
+
+    /* Hover state — subtle lift */
+    .premium-checkbox:hover .checkbox-box {
+        border-color: oklch(0.60 0.16 240);
+        box-shadow: 0 2px 8px oklch(0.60 0.16 240 / 0.15);
+        transform: scale(1.05);
+    }
+
+    .dark .premium-checkbox:hover .checkbox-box {
+        border-color: oklch(0.65 0.14 240);
+        box-shadow: 0 2px 8px oklch(0.65 0.14 240 / 0.2);
+    }
+
+    /* Focus state — visible ring */
+    .premium-checkbox input:focus-visible + .checkbox-box {
+        outline: none;
+        border-color: oklch(0.60 0.16 240);
+        box-shadow: 
+            0 0 0 3px oklch(0.60 0.16 240 / 0.12),
+            0 2px 4px oklch(0 0 0 / 0.05);
+    }
+
+    .dark .premium-checkbox input:focus-visible + .checkbox-box {
+        box-shadow: 
+            0 0 0 3px oklch(0.65 0.14 240 / 0.25),
+            0 2px 4px oklch(0 0 0 / 0.2);
+    }
+
+    /* Checked state — primary color with pop animation */
+    .premium-checkbox input:checked + .checkbox-box {
+        background: linear-gradient(135deg, oklch(0.60 0.16 240), oklch(0.52 0.14 240));
+        border-color: oklch(0.52 0.14 240);
+        animation: checkbox-pop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        box-shadow: 
+            0 2px 8px oklch(0.60 0.16 240 / 0.25),
+            0 0 0 1px oklch(0.52 0.14 240);
+    }
+
+    .dark .premium-checkbox input:checked + .checkbox-box {
+        background: linear-gradient(135deg, oklch(0.65 0.14 240), oklch(0.55 0.12 240));
+        border-color: oklch(0.55 0.12 240);
+        box-shadow: 
+            0 2px 12px oklch(0.65 0.14 240 / 0.35),
+            0 0 0 1px oklch(0.55 0.12 240);
+    }
+
+    /* Checkmark SVG */
+    .premium-checkbox .checkbox-check {
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        pointer-events: none;
+        opacity: 0;
+        transform: scale(0.5);
+        transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+        color: white;
+    }
+
+    .premium-checkbox input:checked ~ .checkbox-check {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    /* Checkmark path animation */
+    .premium-checkbox .checkbox-check path {
+        stroke-dasharray: 16;
+        stroke-dashoffset: 16;
+        transition: stroke-dashoffset 0.25s ease-out 0.05s;
+    }
+
+    .premium-checkbox input:checked ~ .checkbox-check path {
+        stroke-dashoffset: 0;
+    }
+
+    /* Pop animation keyframes */
+    @keyframes checkbox-pop {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.15);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    /* Active/pressed state */
+    .premium-checkbox:active .checkbox-box {
+        transform: scale(0.95);
+    }
+
+    /* Indeterminate state (for select-all) */
+    .premium-checkbox input:indeterminate + .checkbox-box {
+        background: linear-gradient(135deg, oklch(0.60 0.16 240), oklch(0.52 0.14 240));
+        border-color: oklch(0.52 0.14 240);
+    }
+
+    .premium-checkbox .checkbox-minus {
+        position: absolute;
+        width: 10px;
+        height: 2px;
+        background: white;
+        border-radius: 1px;
+        pointer-events: none;
+        opacity: 0;
+        transform: scaleX(0);
+        transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .premium-checkbox input:indeterminate ~ .checkbox-minus {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+
+    /* ─────────────────────────────────────────────────────────────────────────
+       Table Row Checkbox — Optimized for data lists
+       ───────────────────────────────────────────────────────────────────────── */
+    
+    .table-checkbox {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+
+    .table-checkbox input[type="checkbox"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 10;
+        margin: 0;
+    }
+
+    .table-checkbox .checkbox-box {
+        position: absolute;
+        inset: 0;
+        border-radius: 4px;
+        border: 1.5px solid oklch(0.78 0.008 250);
+        background: oklch(0.97 0.003 80);
+        transition: all 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .dark .table-checkbox .checkbox-box {
+        border-color: oklch(0.40 0.006 250);
+        background: oklch(0.22 0.005 250);
+    }
+
+    .table-checkbox:hover .checkbox-box {
+        border-color: oklch(0.60 0.16 240);
+        background: oklch(0.96 0.02 240);
+        transform: scale(1.08);
+    }
+
+    .dark .table-checkbox:hover .checkbox-box {
+        border-color: oklch(0.65 0.14 240);
+        background: oklch(0.25 0.02 240);
+    }
+
+    .table-checkbox input:checked + .checkbox-box {
+        background: oklch(0.60 0.16 240);
+        border-color: oklch(0.55 0.14 240);
+        animation: checkbox-pop 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+        box-shadow: 0 1px 4px oklch(0.60 0.16 240 / 0.3);
+    }
+
+    .dark .table-checkbox input:checked + .checkbox-box {
+        background: oklch(0.65 0.14 240);
+        border-color: oklch(0.60 0.12 240);
+        box-shadow: 0 1px 6px oklch(0.65 0.14 240 / 0.4);
+    }
+
+    .table-checkbox .checkbox-check {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        pointer-events: none;
+        opacity: 0;
+        transform: scale(0.3) rotate(-10deg);
+        transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+        color: white;
+    }
+
+    .table-checkbox input:checked ~ .checkbox-check {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+    }
+
+    .table-checkbox .checkbox-check path {
+        stroke-dasharray: 14;
+        stroke-dashoffset: 14;
+        transition: stroke-dashoffset 0.2s ease-out 0.08s;
+    }
+
+    .table-checkbox input:checked ~ .checkbox-check path {
+        stroke-dashoffset: 0;
+    }
+
+    .table-checkbox:active .checkbox-box {
+        transform: scale(0.92);
+    }
+
+    /* Indeterminate for header "select all" */
+    .table-checkbox input:indeterminate + .checkbox-box {
+        background: oklch(0.60 0.16 240);
+        border-color: oklch(0.55 0.14 240);
+    }
+
+    .dark .table-checkbox input:indeterminate + .checkbox-box {
+        background: oklch(0.65 0.14 240);
+        border-color: oklch(0.60 0.12 240);
+    }
+
+    .table-checkbox .checkbox-minus {
+        position: absolute;
+        width: 8px;
+        height: 2px;
+        background: white;
+        border-radius: 1px;
+        pointer-events: none;
+        opacity: 0;
+        transform: scaleX(0);
+        transition: all 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .table-checkbox input:indeterminate ~ .checkbox-minus {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+
+    /* Row selection highlight sync */
+    tr:has(.table-checkbox input:checked) {
+        background: oklch(0.60 0.16 240 / 0.04) !important;
+    }
+
+    .dark tr:has(.table-checkbox input:checked) {
+        background: oklch(0.65 0.14 240 / 0.08) !important;
+    }
+
+    .tabs {
+        @apply text-sm font-medium text-center text-gray-500 sm:divide-x divide-y sm:divide-y-0 divide-gray-200 rounded-lg shadow sm:flex dark:divide-gray-500 dark:text-gray-600;
+    }
+
+    .tabs li {
+        @apply w-full;
+    }
+
+    .tabs li a {
+        @apply relative inline-block w-full p-4 bg-white hover:text-gray-800 hover:bg-gray-50 dark:bg-gray-600 dark:hover:bg-[#434c59] dark:text-gray-300 dark:hover:text-white;
+    }
+
+    .tabs li a.active {
+        @apply z-10 bg-primary-600 hover:bg-primary-500 dark:hover:bg-primary-700 hover:text-white text-white;
+    }
+
+    .tabs li:first-child a {
+        @apply sm:rounded-l-lg sm:rounded-tr-none rounded-t-lg;
+    }
+
+    .tabs li:last-child a {
+        @apply sm:rounded-r-lg sm:rounded-l-none rounded-b-lg;
+    }
+
+    .tabs-underline {
+        @apply text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700 flex flex-wrap -mb-px;
+    }
+
+    .tabs-underline li {
+        @apply mr-2;
+    }
+
+    .tabs-underline li a {
+        @apply inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300;
+    }
+
+    .tabs-underline li a.active {
+        @apply z-10 text-primary-600 border-primary-600 dark:text-primary-500 dark:border-primary-500;
+    }
+
+    .tabs-underline-full-width {
+        @apply text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700 flex -mb-px;
+    }
+
+    .tabs-underline-full-width li {
+        @apply w-full;
+    }
+
+    .tabs-underline-full-width li a {
+        @apply inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300;
+    }
+
+    .tabs-underline-full-width li a.active {
+        @apply z-10 text-primary-600 border-primary-600 dark:text-primary-500 dark:border-primary-500;
+    }
+
+    .alert-danger {
+        @apply p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400;
+    }
+
+    .alert-info {
+        @apply p-4 mb-4 text-sm text-blue-700 bg-blue-100 rounded-lg dark:bg-blue-200 dark:text-blue-800;
+    }
+
+    .alert-success {
+        @apply p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800;
+    }
+
+    .site-drawer-nav a {
+        @apply flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700;
+    }
+
+    .site-drawer-nav svg {
+        @apply flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white;
+    }
+
+    .site-drawer-nav span {
+        @apply flex-1 ml-3 whitespace-nowrap;
+    }
+
+    .site-drawer-nav .active a {
+        @apply bg-gray-100 dark:bg-gray-700;
+    }
+
+}

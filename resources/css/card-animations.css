@@ -1,0 +1,416 @@
+/**
+ * Reward Loyalty - Proprietary Software
+ * Copyright (c) 2025 NowSquare. All rights reserved.
+ * See LICENSE file for terms.
+ *
+ * Premium Card Animation System
+ * 
+ * Philosophy: Cards should feel like physical objects responding to user intent.
+ * Not just CSS properties changing—actual physics.
+ * 
+ * Design Principles:
+ * - **Anticipation**: Slight compression before lift (Apple Watch app icons)
+ * - **Snap**: Fast initial response (< 200ms) for perceived performance
+ * - **Settle**: Smooth deceleration into final state (Pixar's animation curves)
+ * - **Depth**: Multi-layer shadows that evolve independently (Stripe dashboard)
+ * - **Performance**: GPU-only properties (transform, opacity)
+ * 
+ * Inspired by:
+ * - Apple Card in Apple Wallet (subtle parallax, refined lift)
+ * - Stripe Dashboard cards (shadow choreography)
+ * - Linear app (snappy, instant feedback)
+ * - Revolut cards (premium feel, minimal motion)
+ * 
+ * Technical Details:
+ * - Uses custom cubic-bezier curves tuned to feel "springy" but controlled
+ * - Multi-layer shadow system creates realistic depth perception
+ * - will-change hints for optimal GPU acceleration
+ * - transform3d for hardware acceleration
+ * - Respects prefers-reduced-motion for accessibility
+ */
+
+/* ============================================================================
+   UNIVERSAL CARD BASE
+   Applied to all card types for consistent foundation
+   ============================================================================ */
+
+.premium-card,
+.voucher-card,
+[class*="bgColor_"] {
+    /* Performance hints - tells browser to prepare GPU layer */
+    will-change: transform, box-shadow;
+    
+    /* Force GPU acceleration with 3D transform context */
+    transform: translate3d(0, 0, 0);
+    transform-style: preserve-3d;
+    
+    /* Default state - resting on surface */
+    transition: 
+        transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),    /* Snappy spring */
+        box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),         /* Smooth shadow */
+        filter 0.3s cubic-bezier(0.4, 0, 0.2, 1);             /* Subtle blur */
+    
+    /* Resting state shadow - subtle, close to surface */
+    box-shadow: 
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+/* ============================================================================
+   HOVER STATE - THE MAGIC HAPPENS HERE
+   Multi-dimensional response to user interaction
+   ============================================================================ */
+
+.premium-card:hover,
+.voucher-card:hover,
+[class*="bgColor_"]:hover {
+    /* Lift: Move up with slight forward tilt for depth
+       - translateY: Primary lift effect (8px up)
+       - translateZ: Creates depth in 3D space
+       - scale: Subtle size increase for "closer to screen" effect
+    */
+    transform:
+        translate3d(0, -8px, 0)
+        scale3d(1.015, 1.015, 1)
+        rotateX(calc(2deg + var(--tilt-dx, 0deg)))
+        rotateY(var(--tilt-dy, 0deg));
+    
+    /* Shadow Choreography: Three-layer system
+       Layer 1 (close): Sharp, dark shadow near card base
+       Layer 2 (medium): Soft diffusion for depth
+       Layer 3 (far): Ambient shadow for environmental grounding
+       Layer 4 (rim): Subtle highlight for premium feel
+    */
+    box-shadow:
+        0 5px 10px rgba(0, 0, 0, 0.11),                  /* Close shadow */
+        0 14px 28px rgba(0, 0, 0, 0.12),                 /* Medium diffusion */
+        0 28px 56px rgba(0, 0, 0, 0.085),                /* Far ambient */
+        0 0 0 1px rgba(255, 255, 255, 0.03) inset !important; /* Rim light */
+    
+    /* Subtle backdrop blur for premium depth effect */
+    filter: brightness(1.02) contrast(1.01);
+    
+    /* Faster snap on hover enter for instant feedback */
+    transition: 
+        transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+        filter 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ============================================================================
+   ACTIVE STATE - PRESS FEEDBACK
+   Subtle compression when clicking for tactile response
+   ============================================================================ */
+
+.premium-card:active,
+.voucher-card:active,
+[class*="bgColor_"]:active {
+    /* Slight compression (like pressing a physical card) */
+    transform: 
+        translate3d(0, -2px, 0)
+        scale3d(1.006, 1.006, 1)
+        rotateX(0deg)
+        rotateY(0deg);
+    
+    /* Shadow collapses (card pressed closer to surface) */
+    box-shadow: 
+        0 1px 2px rgba(0, 0, 0, 0.12),
+        0 1px 1px rgba(0, 0, 0, 0.08),
+        0 0 0 1px rgba(255, 255, 255, 0.04) inset !important;
+    
+    /* Instant feedback - no delay */
+    transition: 
+        transform 0.1s cubic-bezier(0.4, 0, 0.6, 1),
+        box-shadow 0.1s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+/* ============================================================================
+   FOCUS STATE - KEYBOARD NAVIGATION
+   Accessible, visible focus for keyboard users
+   ============================================================================ */
+
+.premium-card:focus-within,
+.voucher-card:focus-within,
+[class*="bgColor_"]:focus-within {
+    /* Prominent focus ring with premium styling */
+    outline: 2px solid rgba(var(--card-accent-rgb, 59, 130, 246), 0.85);
+    outline-offset: 4px;
+    
+    /* Subtle lift to indicate focused state */
+    transform: 
+        translate3d(0, -4px, 0) 
+        scale3d(1.01, 1.01, 1);
+    
+    /* Enhanced shadow for focused state */
+    box-shadow: 
+        0 2px 4px rgba(0, 0, 0, 0.08),
+        0 8px 16px rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgba(var(--card-accent-rgb, 59, 130, 246), 0.22) !important;
+}
+
+/* ============================================================================
+   INNER CONTENT ANIMATIONS
+   Subtle choreography of card elements during hover
+   ============================================================================ */
+
+.premium-card:hover .bgColorOverlay_*,
+.voucher-card:hover .bgColorOverlay_* {
+    /* Background subtly scales up for depth parallax */
+    transform: scale(1.03);
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Disable parallax on voucher cards to prevent border jitter */
+.voucher-card:hover .bgColorOverlay_* {
+    transform: scale(1);
+}
+
+/* Badge/button elements get extra spring on hover */
+.premium-card:hover [class*="group/earn"],
+.premium-card:hover [class*="bg-white/20"] {
+    transform: scale(1.05) translateY(-1px);
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Earn Points glimmer: richer highlight sweep on badge hover */
+.premium-card [class*="group/earn"] [class*="bg-linear-to-r"] {
+    opacity: 0.9;
+    filter: blur(0.25px);
+}
+
+.premium-card [class*="group/earn"]:hover [class*="bg-linear-to-r"] {
+    opacity: 1;
+}
+
+/* Overlay-link click support (and JS fallback via data-pressed) */
+.premium-card:has(.card-hit:active),
+.voucher-card:has(.card-hit:active),
+[class*="bgColor_"]:has(.card-hit:active),
+.premium-card[data-pressed="true"],
+.voucher-card[data-pressed="true"],
+[class*="bgColor_"][data-pressed="true"] {
+    transform:
+        translate3d(0, -2px, 0)
+        scale3d(1.006, 1.006, 1)
+        rotateX(0deg)
+        rotateY(0deg);
+
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.12),
+        0 1px 1px rgba(0, 0, 0, 0.08),
+        0 0 0 1px rgba(255, 255, 255, 0.04) inset !important;
+
+    transition:
+        transform 0.1s cubic-bezier(0.4, 0, 0.6, 1),
+        box-shadow 0.1s cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+/* ============================================================================
+   CURSOR INTERACTION - POINTER CHANGES
+   Visual feedback that card is interactive
+   ============================================================================ */
+
+.premium-card[class*="cursor-pointer"],
+.voucher-card,
+[class*="bgColor_"][class*="cursor-pointer"] {
+    cursor: pointer;
+}
+
+/* Hover cursor for link elements inside cards */
+.premium-card a,
+.voucher-card a,
+[class*="bgColor_"] a {
+    cursor: pointer;
+}
+
+/* ============================================================================
+   MOBILE & TOUCH OPTIMIZATION
+   Different behavior for touch devices
+   ============================================================================ */
+
+@media (hover: none) and (pointer: coarse) {
+    /* On mobile, reduce motion intensity (avoid janky animations) */
+    .premium-card:hover,
+    .voucher-card:hover,
+    [class*="bgColor_"]:hover {
+        transform: translate3d(0, -4px, 0) scale3d(1.01, 1.01, 1);
+    }
+    
+    /* Faster transitions on mobile for snappier feel */
+    .premium-card,
+    .voucher-card,
+    [class*="bgColor_"] {
+        transition: 
+            transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+/* ============================================================================
+   ACCESSIBILITY - RESPECT USER PREFERENCES
+   Honor prefers-reduced-motion for users with vestibular disorders
+   ============================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+    .premium-card,
+    .voucher-card,
+    [class*="bgColor_"],
+    .premium-card *,
+    .voucher-card *,
+    [class*="bgColor_"] * {
+        /* Remove all animations */
+        animation: none !important;
+        
+        /* Instant transitions only */
+        transition: none !important;
+        
+        /* No transforms */
+        transform: none !important;
+    }
+    
+    /* Still provide visual feedback, just no motion */
+    .premium-card:hover,
+    .voucher-card:hover,
+    [class*="bgColor_"]:hover {
+        /* Only change shadow and border */
+        box-shadow: 
+            0 8px 16px rgba(0, 0, 0, 0.15),
+            0 0 0 2px rgba(59, 130, 246, 0.4);
+        
+        /* Subtle opacity change instead of movement */
+        opacity: 0.95;
+    }
+}
+
+/* ============================================================================
+   DARK MODE ADJUSTMENTS
+   Shadows need to be adjusted for dark backgrounds
+   ============================================================================ */
+
+@media (prefers-color-scheme: dark) {
+    .premium-card,
+    .voucher-card,
+    [class*="bgColor_"] {
+        /* Lighter shadows for dark mode */
+        box-shadow: 
+            0 1px 3px rgba(0, 0, 0, 0.3),
+            0 1px 2px rgba(0, 0, 0, 0.2);
+        
+        /* Enhanced anti-aliasing in dark mode */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .premium-card:hover,
+    .voucher-card:hover,
+    [class*="bgColor_"]:hover {
+        /* More pronounced shadows in dark mode for depth */
+        box-shadow: 
+            0 4px 8px rgba(0, 0, 0, 0.4),
+            0 12px 24px rgba(0, 0, 0, 0.3),
+            0 24px 48px rgba(0, 0, 0, 0.2),
+            0 0 0 1px rgba(255, 255, 255, 0.08) inset;
+    }
+}
+
+/* ============================================================================
+   HIGH CONTRAST MODE
+   Ensure visibility in high contrast scenarios
+   ============================================================================ */
+
+@media (prefers-contrast: high) {
+    .premium-card:focus-within,
+    .voucher-card:focus-within,
+    [class*="bgColor_"]:focus-within {
+        /* Stronger focus indicator */
+        outline: 3px solid currentColor;
+        outline-offset: 3px;
+    }
+}
+
+/* ============================================================================
+   PERFORMANCE OPTIMIZATION
+   Remove will-change after animation completes
+   ============================================================================ */
+
+.premium-card,
+.voucher-card,
+[class*="bgColor_"] {
+    /* Remove will-change on rest to free GPU resources */
+    transition: 
+        transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+        filter 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        will-change 0s 0.5s;  /* Remove hint after animation */
+}
+
+.premium-card:hover,
+.voucher-card:hover,
+[class*="bgColor_"]:hover {
+    will-change: transform, box-shadow;
+    transition-delay: 0s;  /* Immediately add hint on hover */
+}
+
+/* ============================================================================
+   GRID/CAROUSEL CONTEXT
+   Subtle adjustments when cards are in different layouts
+   ============================================================================ */
+
+/* Cards in grids get slightly reduced hover lift to avoid layout chaos */
+[class*="grid"] > .premium-card:hover,
+[class*="grid"] > .voucher-card:hover {
+    transform:
+        translate3d(0, -6px, 0)
+        scale3d(1.012, 1.012, 1)
+        rotateX(calc(2deg + var(--tilt-dx, 0deg)))
+        rotateY(var(--tilt-dy, 0deg));
+}
+
+/* Cards in carousels get enhanced spring for playfulness */
+[class*="carousel"] .premium-card:hover,
+[class*="carousel"] .voucher-card:hover {
+    transform:
+        translate3d(0, -10px, 0)
+        scale3d(1.02, 1.02, 1)
+        rotateX(calc(3deg + var(--tilt-dx, 0deg)))
+        rotateY(var(--tilt-dy, 0deg));
+}
+
+/* ============================================================================
+   LOADING STATE
+   Subtle pulse when card is loading/updating
+   ============================================================================ */
+
+.premium-card[data-loading="true"],
+.voucher-card[data-loading="true"],
+[class*="bgColor_"][data-loading="true"] {
+    animation: cardLoadingPulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    pointer-events: none;
+}
+
+@keyframes cardLoadingPulse {
+    0%, 100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: translate3d(0, 0, 0) scale3d(0.98, 0.98, 1);
+    }
+}
+
+/* ============================================================================
+   PRINT STYLES
+   Remove shadows and transforms for printing
+   ============================================================================ */
+
+@media print {
+    .premium-card,
+    .voucher-card,
+    [class*="bgColor_"] {
+        transform: none !important;
+        box-shadow: none !important;
+        filter: none !important;
+        page-break-inside: avoid;
+    }
+}

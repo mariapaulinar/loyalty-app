@@ -1,0 +1,102 @@
+[
+    {
+        "head": "Nossa Marca",
+        "title": "Lealdade Recompensada",
+        "description": "Colete carimbos de refeições para recompensas!"
+    },
+    {
+        "head": "Recompensas de Verão",
+        "title": "Economia Sazonal",
+        "description": "Refeições de verão rendem carimbos!"
+    },
+    {
+        "head": "Cartão de Economia",
+        "title": "Ganhe ao Gastar",
+        "description": "Receba carimbo a cada refeição!"
+    },
+    {
+        "head": "Clube Gourmet",
+        "title": "Jantar e Economizar",
+        "description": "Refeições deliciosas rendem carimbos!"
+    },
+    {
+        "head": "Cartão Foodie",
+        "title": "Deguste e Ganhe",
+        "description": "Boa comida merece carimbos!"
+    },
+    {
+        "head": "Cartão de Fidelidade",
+        "title": "Economize Agora",
+        "description": "Carimbos para economia em refeições!"
+    },
+    {
+        "head": "Especiais para Jantar",
+        "title": "Seja Recompensado",
+        "description": "Jantar à noite rende carimbos especiais!"
+    },
+    {
+        "head": "Bônus de Fim de Semana",
+        "title": "Recompensas de Fim de Semana",
+        "description": "Visitas de fim de semana rendem mais carimbos!"
+    },
+    {
+        "head": "Ofertas Festivas",
+        "title": "Economias de Feriado",
+        "description": "Celebre com recompensas de carimbos exclusivas!"
+    },
+    {
+        "head": "Happy Hours",
+        "title": "Recompensas por Hora",
+        "description": "Happy hour rende carimbos em dobro!"
+    },
+    {
+        "head": "Amantes do Café",
+        "title": "Pontos Espresso",
+        "description": "Cada café rende um carimbo!"
+    },
+    {
+        "head": "Palácio da Pizza",
+        "title": "Economia em Fatias",
+        "description": "Cada fatia recebe um carimbo!"
+    },
+    {
+        "head": "Comidas Saudáveis",
+        "title": "Economia em Salada",
+        "description": "Escolhas saudáveis rendem carimbos!"
+    },
+    {
+        "head": "Bonança de Hambúrguer",
+        "title": "Pontos de Hambúrguer",
+        "description": "Acumule carimbos com seus hambúrgueres!"
+    },
+    {
+        "head": "Especial de Frutos do Mar",
+        "title": "Recompensas de Peixe",
+        "description": "Frutos do mar frescos rendem carimbos!"
+    },
+    {
+        "head": "Delícias de Sobremesa",
+        "title": "Economia Doce",
+        "description": "Doces rendem carimbos doces!"
+    },
+    {
+        "head": "Cozinha Asiática",
+        "title": "Pontos de Sushi",
+        "description": "Acumule recompensas de carimbos!"
+    },
+    {
+        "head": "Festa Mexicana",
+        "title": "Tokens de Taco",
+        "description": "Tacos rendem carimbos!"
+    },
+    {
+        "head": "Clube do Café da Manhã",
+        "title": "Recompensas Matinais",
+        "description": "Madrugadores ganham carimbos!"
+    },
+    {
+        "head": "Especiais de Almoço",
+        "title": "Fidelidade no Almoço",
+        "description": "Visitas no almoço rendem carimbos!"
+    }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "head": "Exclusivo para Membros",
+    "title": "20% de desconto em detailing",
+    "description": "Oferta de servico amigavel para conversao.",
+    "free_product_name": "20% de desconto"
+  },
+  {
+    "head": "Upgrade",
+    "title": "Upgrade de lavagem gratis",
+    "description": "Upgrade para lavagem premium. Alto valor percebido.",
+    "free_product_name": "Upgrade de lavagem"
+  },
+  {
+    "head": "Economia no Pacote",
+    "title": "US$ 15 de desconto em US$ 100",
+    "description": "Impulsione pacotes maiores.",
+    "free_product_name": "US$ 15 de desconto"
+  },
+  {
+    "head": "Acelerador de Pontos",
+    "title": "+250 pontos bonus",
+    "description": "Recompense frequencia sem desconto pesado.",
+    "free_product_name": "+250 pontos"
+  },
+  {
+    "head": "Fim de Semana",
+    "title": "Especial de fim de semana",
+    "description": "Oferta de janela curta para preencher capacidade.",
+    "free_product_name": "Oferta de fim de semana"
+  },
+  {
+    "head": "Manutencao",
+    "title": "US$ 10 de desconto em servico",
+    "description": "Incentive agendamentos de manutencao.",
+    "free_product_name": "US$ 10 de desconto"
+  }
+]

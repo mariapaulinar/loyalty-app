@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Recem-Assado",
+        "title": "Recompense o ritual",
+        "description": "Pontos em paes, bolos e doces. Feito para rotinas diarias e semanais."
+    },
+    {
+        "head": "Forno de Fim de Semana",
+        "title": "Vantagens que aumentam o volume",
+        "description": "Mais pontos nas compras do fim de semana para elevar o tamanho do carrinho no pico."
+    },
+    {
+        "head": "Pedidos de Celebracao",
+        "title": "Deixe ocasioes mais lucrativas",
+        "description": "Recompensas pensadas para aniversarios e feriados. Perfeito para pedidos de maior valor."
+    },
+    {
+        "head": "Pao do Dia",
+        "title": "Essenciais que criam fidelidade",
+        "description": "Transforme itens do dia a dia em um motivo para escolher voce sempre."
+    },
+    {
+        "head": "Doces Sazonais",
+        "title": "Drops limitados, resgates rapidos",
+        "description": "Doces de feriado + recompensas por tempo limitado = urgencia sem desconto pesado."
+    },
+    {
+        "head": "Caixa da Familia",
+        "title": "Recompensas de combo",
+        "description": "Incentive compras com varios itens com boosts de pontos em caixas e combos."
+    }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Amor por el latte",
+    "title": "Fidelidad latte",
+    "description": "Tarjeta de sellos clásica, moderna y rentable."
+  },
+  {
+    "head": "Shots de espresso",
+    "title": "Espresso diario",
+    "description": "Umbral bajo para crear hábito diario."
+  },
+  {
+    "head": "Combo pastelería",
+    "title": "Café + pastelería",
+    "description": "Sellos de combinación para aumentar el ticket."
+  },
+  {
+    "head": "Hora del té",
+    "title": "Tarjeta amante del té",
+    "description": "Beneficio de té premium sin descuentos fuertes."
+  },
+  {
+    "head": "Doble sellos sábado",
+    "title": "Fin de semana 2x sellos",
+    "description": "Doble sellos para impulsar fines de semana."
+  },
+  {
+    "head": "Especial de temporada",
+    "title": "Edición de sellos de temporada",
+    "description": "Lanza invierno, primavera, vuelta al cole rápido."
+  }
+]

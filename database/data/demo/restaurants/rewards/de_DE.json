@@ -1,0 +1,146 @@
+[
+    {
+        "title": "Gratis köstlicher Kaffee",
+        "description": "Starten Sie Ihren Tag oder tanken Sie nachmittags Kraft mit unserem besten Kaffee. Aus den besten Plantagen weltweit bezogen."
+    },
+    {
+        "title": "Zweite Pizza gratis",
+        "description": "Nichts bringt Menschen zusammen wie eine gute Pizza! Kaufen Sie eine unserer Signatur-Pizzen und erhalten Sie die zweite gratis."
+    },
+    {
+        "title": "Abendessen für Zwei",
+        "description": "Genießen Sie einen besonderen Abend und schaffen Sie unvergessliche Momente mit einem Abendessen für zwei."
+    },
+    {
+        "title": "Gratis Dessert",
+        "description": "Gönnen Sie sich etwas Süßes mit unserer Dessertkarte. Von Schokolade über Fruchtaromen bis cremigem Gebäck - auf uns!"
+    },
+    {
+        "title": "VIP-Tischreservierung",
+        "description": "Erleben Sie das Beste mit einer VIP-Tischreservierung. Genießen Sie Prioritätssitzplätze und persönlichen Service."
+    },
+    {
+        "title": "Chef's Special Gericht",
+        "description": "Gönnen Sie sich ein kulinarisches Abenteuer mit unserem Chef's Special, inspiriert von saisonalen Zutaten."
+    },
+    {
+        "title": "Kaufe 1, bekomme 1 Burger gratis",
+        "description": "Unsere Burger sind Publikumslieblinge mit Gourmet-Toppings und unserer Geheimsoße. Doppelte Köstlichkeit!"
+    },
+    {
+        "title": "Exklusive Weinverkostung",
+        "description": "Reisen Sie durch Weinregionen, ohne Ihren Platz zu verlassen. Verkosten Sie feine Weine aus renommierten Weingütern."
+    },
+    {
+        "title": "Gratis Vorspeise",
+        "description": "Starten Sie Ihre Mahlzeit perfekt mit einer kostenlosen Vorspeise. Wählen Sie aus warmen und kalten Startern."
+    },
+    {
+        "title": "25% Rabatt auf Ihren nächsten Besuch",
+        "description": "Als Dank für Ihre Treue bieten wir 25% Rabatt auf Ihre gesamte Rechnung beim nächsten Besuch."
+    },
+    {
+        "title": "Geburtstags-Special",
+        "description": "Feiern Sie Ihren Geburtstag stilvoll bei uns mit einem kostenlosen Essen und einer besonderen Überraschung."
+    },
+    {
+        "title": "Kinder essen gratis",
+        "description": "Familienessen werden besser! Mit 'Kinder essen gratis' kann Ihr Kleines sein Lieblingsgericht kostenlos genießen."
+    },
+    {
+        "title": "Gratis Kochkurs",
+        "description": "Entdecken Sie Ihr kulinarisches Potenzial mit unserem kostenlosen Kochkurs. Lernen Sie von unseren Köchen."
+    },
+    {
+        "title": "Rabatt auf Catering-Services",
+        "description": "Planen Sie eine Party? Erhalten Sie einen exklusiven Rabatt auf unseren Catering-Service."
+    },
+    {
+        "title": "Prioritäts-Zugang zu Events",
+        "description": "Erhalten Sie exklusiven Prioritäts-Zugang zu unseren Sonderveranstaltungen wie Weinverkostungen."
+    },
+    {
+        "title": "Frühbucher-Special",
+        "description": "Schlagen Sie die Masse und erhalten Sie einen speziellen Rabatt mit unserem Frühbucher-Special!"
+    },
+    {
+        "title": "Gratis Flasche Wein",
+        "description": "Ergänzen Sie Ihre Mahlzeit mit einer kostenlosen Flasche unseres ausgewählten Weins."
+    },
+    {
+        "title": "Halber Preis auf ausgewählte Gerichte",
+        "description": "Erleben Sie das Beste unserer Speisekarte zum halben Preis. Jede Woche neue Auswahl!"
+    },
+    {
+        "title": "Gratis Nachfüllungen bei Softdrinks",
+        "description": "Bleiben Sie erfrischt! Genießen Sie gratis Nachfüllungen bei unseren Softdrinks."
+    },
+    {
+        "title": "Exklusives Saisonangebot",
+        "description": "Feiern Sie die Saison mit unserem exklusiven saisonalen Angebot und kuratiertem Menü."
+    },
+    {
+        "title": "Abendessen für Zwei",
+        "description": "Genießen Sie ein intimes Abendessen für zwei mit einem 4-Gänge-Menü."
+    },
+    {
+        "title": "Chef's Special",
+        "description": "Genießen Sie ein speziell von unserem Chefkoch zubereitetes Gericht."
+    },
+    {
+        "title": "Gratis Vorspeise",
+        "description": "Starten Sie perfekt in Ihre Mahlzeit. Wählen Sie eine Vorspeise auf's Haus."
+    },
+    {
+        "title": "Gratis Dessert",
+        "description": "Gönnen Sie sich etwas Süßes auf uns. Beenden Sie Ihre Mahlzeit mit kostenlosem Dessert."
+    },
+    {
+        "title": "Wochenend-Brunch-Special",
+        "description": "Machen Sie Ihre Wochenenden besonders mit unserem kostenlosen Brunch."
+    },
+    {
+        "title": "Gratis Eintritt zur Gourmet-Nacht",
+        "description": "Erleben Sie einen Abend voller Gourmet-Köstlichkeiten mit freiem Eintritt."
+    },
+    {
+        "title": "Gratis Salatbar",
+        "description": "Genießen Sie eine gesunde, frische Auswahl von unserer Salatbar kostenlos."
+    },
+    {
+        "title": "Weinverkostungs-Event",
+        "description": "Werden Sie zu unseren exklusiven Weinverkostungen eingeladen."
+    },
+    {
+        "title": "Feiertags-Special",
+        "description": "Feiern Sie die Feiertagssaison mit unserem exklusiven Feiertagsmenü."
+    },
+    {
+        "title": "Gratis Softdrink",
+        "description": "Bleiben Sie erfrischt mit einem kostenlosen Softdrink Ihrer Wahl."
+    },
+    {
+        "title": "Bierverkostungs-Erlebnis",
+        "description": "Genießen Sie eine Auswahl unserer besten Biere - ideal für Bierliebhaber."
+    },
+    {
+        "title": "Gratis Pizza",
+        "description": "Wer liebt keine gratis Pizza? Genießen Sie eine köstliche, heiße Pizza aus unserem Ofen."
+    },
+    {
+        "title": "Gratis Frühstück",
+        "description": "Starten Sie Ihren Tag richtig mit einem kostenlosen Frühstück."
+    },
+    {
+        "title": "Mittagessen-Special",
+        "description": "Machen Sie Pause und genießen Sie unser Mittagessen-Special."
+    },
+    {
+        "title": "Exklusives Degustationsmenü",
+        "description": "Gönnen Sie sich ein exklusives Degustationsmenü von unserem Chefkoch."
+    },
+    {
+        "title": "Gratis Craft-Cocktail",
+        "description": "Genießen Sie einen kostenlosen Craft-Cocktail, perfekt gemixt von unseren Bartendern."
+    }
+]

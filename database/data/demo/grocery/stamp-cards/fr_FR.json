@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Courses hebdo",
+    "title": "Défi 5 semaines",
+    "description": "Circuit d'habitude qui génère des visites hebdo."
+  },
+  {
+    "head": "Rayon produits",
+    "title": "Tampons produits frais",
+    "description": "Plus de passages produits, paniers plus frais."
+  },
+  {
+    "head": "Boîte snacks",
+    "title": "10 tampons = lot",
+    "description": "Récompense fun qui augmente les ajouts et le panier."
+  },
+  {
+    "head": "Marque maison",
+    "title": "Tampons marque maison",
+    "description": "Boostez les articles favorables aux marges avec des tampons."
+  },
+  {
+    "head": "Double tampons week-end",
+    "title": "Week-end 2x tampons",
+    "description": "Plus de tampons pour des paniers plus gros."
+  },
+  {
+    "head": "Garde-manger fêtes",
+    "title": "Carte garde-manger fêtes",
+    "description": "Circuit saisonnier pour campagnes garde-manger."
+  }
+]

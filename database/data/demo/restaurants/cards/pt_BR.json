@@ -1,0 +1,102 @@
+[
+    {
+        "head": "Nossa Marca",
+        "title": "Lealdade Recompensada",
+        "description": "Comece a coletar pontos conosco hoje!"
+    },
+    {
+        "head": "Recompensas de Verão",
+        "title": "Economia Sazonal",
+        "description": "Aproveite nossa promoção de verão!"
+    },
+    {
+        "head": "Cartão de Economia",
+        "title": "Ganhe ao Gastar",
+        "description": "Acumule pontos toda vez que jantar conosco!"
+    },
+    {
+        "head": "Clube Gourmet",
+        "title": "Jantar e Economizar",
+        "description": "Saboreie nossas iguarias e aproveite recompensas emocionantes!"
+    },
+    {
+        "head": "Cartão Foodie",
+        "title": "Deguste e Ganhe",
+        "description": "Recompensando seu amor por boa comida!"
+    },
+    {
+        "head": "Cartão de Fidelidade",
+        "title": "Economize Agora",
+        "description": "Participe do nosso programa de fidelidade e economize em cada compra!"
+    },
+    {
+        "head": "Especiais para Jantar",
+        "title": "Seja Recompensado",
+        "description": "Torne suas noites especiais com nosso programa de recompensas!"
+    },
+    {
+        "head": "Bônus de Fim de Semana",
+        "title": "Recompensas de Fim de Semana",
+        "description": "Aproveite seus finais de semana conosco e seja recompensado!"
+    },
+    {
+        "head": "Ofertas Festivas",
+        "title": "Economias de Feriado",
+        "description": "Celebre a temporada festiva com recompensas exclusivas!"
+    },
+    {
+        "head": "Happy Hours",
+        "title": "Recompensas por Hora",
+        "description": "Junte-se a nós durante o happy hour e ganhe pontos em dobro!"
+    },
+    {
+        "head": "Amantes do Café",
+        "title": "Pontos Espresso",
+        "description": "Ganhe pontos com cada café!"
+    },
+    {
+        "head": "Palácio da Pizza",
+        "title": "Economia em Fatias",
+        "description": "Economia em cada fatia!"
+    },
+    {
+        "head": "Comidas Saudáveis",
+        "title": "Economia em Salada",
+        "description": "Seja recompensado por escolhas saudáveis!"
+    },
+    {
+        "head": "Bonança de Hambúrguer",
+        "title": "Pontos de Hambúrguer",
+        "description": "Acumule pontos com seus hambúrgueres!"
+    },
+    {
+        "head": "Especial de Frutos do Mar",
+        "title": "Recompensas de Peixe",
+        "description": "Recompensas frescas com cada pescaria!"
+    },
+    {
+        "head": "Delícias de Sobremesa",
+        "title": "Economia Doce",
+        "description": "Adoce o negócio com recompensas!"
+    },
+    {
+        "head": "Cozinha Asiática",
+        "title": "Pontos de Sushi",
+        "description": "Acumule as recompensas!"
+    },
+    {
+        "head": "Festa Mexicana",
+        "title": "Tokens de Taco",
+        "description": "Tacos que recompensam!"
+    },
+    {
+        "head": "Clube do Café da Manhã",
+        "title": "Recompensas Matinais",
+        "description": "Recompensas para os madrugadores!"
+    },
+    {
+        "head": "Especiais de Almoço",
+        "title": "Fidelidade no Almoço",
+        "description": "Economize na hora do almoço!"
+    }
+]

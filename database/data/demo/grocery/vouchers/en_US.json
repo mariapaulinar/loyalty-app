@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Member Deal",
+        "title": "$10 Off $50",
+        "description": "A classic basket-builder with clear value.",
+        "free_product_name": "$10 Off"
+    },
+    {
+        "head": "Fresh Picks",
+        "title": "20% Off Produce",
+        "description": "Ideal for seasonal produce pushes.",
+        "free_product_name": "20% Off"
+    },
+    {
+        "head": "House Brand",
+        "title": "Buy 2 Get 1 Free",
+        "description": "Margin-friendly offer that feels generous.",
+        "free_product_name": "Free Item"
+    },
+    {
+        "head": "Points Booster",
+        "title": "+300 Bonus Points",
+        "description": "Drives repeat visits without heavy discounting.",
+        "free_product_name": "+300 Points"
+    },
+    {
+        "head": "Snack Saver",
+        "title": "$5 Off Snacks",
+        "description": "Increases add-on purchases and AOV.",
+        "free_product_name": "$5 Off"
+    },
+    {
+        "head": "Weekend Offer",
+        "title": "Weekend Member Deal",
+        "description": "A short window that creates urgency.",
+        "free_product_name": "Weekend Deal"
+    }
+]

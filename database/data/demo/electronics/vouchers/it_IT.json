@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Esclusiva membri",
+        "title": "10% di sconto accessori",
+        "description": "Aumenta il tasso di accessori senza scontare i dispositivi.",
+        "free_product_name": "10% di sconto"
+    },
+    {
+        "head": "Regalo benvenuto",
+        "title": "Pellicola protettiva gratuita",
+        "description": "Vantaggio ad alto valore percepito.",
+        "free_product_name": "Pellicola"
+    },
+    {
+        "head": "Risparmia sul bundle",
+        "title": "25€ di sconto su 200€",
+        "description": "Incoraggia bundle e carrelli più grandi.",
+        "free_product_name": "25€ di sconto"
+    },
+    {
+        "head": "Permuta",
+        "title": "+300 punti bonus",
+        "description": "Premia gli upgrade con punti, non tagli di prezzo.",
+        "free_product_name": "+300 punti"
+    },
+    {
+        "head": "VIP",
+        "title": "Aiuto setup gratuito",
+        "description": "Vantaggio servizio premium che costruisce fiducia.",
+        "free_product_name": "Setup"
+    },
+    {
+        "head": "Weekend",
+        "title": "BOGO cavo",
+        "description": "Vantaggio a basso costo condivisibile che incentiva le visite.",
+        "free_product_name": "Cavo gratis"
+    }
+]

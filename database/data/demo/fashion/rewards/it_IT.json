@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Accessorio regalo",
+        "description": "Riscatta per un accessorio riservato ai membri che completa un look. Pensato per incentivare acquisti aggiuntivi e aumentare lo scontrino medio."
+    },
+    {
+        "title": "Credito sartoria",
+        "description": "Credito per modifiche base gratuito che aumenta la sicurezza nell'acquisto. Un vantaggio dal gusto premium che riduce i resi e costruisce fiducia."
+    },
+    {
+        "title": "Sessione styling VIP",
+        "description": "Una mini sessione di styling che trasforma lo shopping in un'esperienza. Perfetta per lanci, rinnovi stagionali e membri di alto valore."
+    },
+    {
+        "title": "Accesso esclusivo nuove collezioni",
+        "description": "Accesso anticipato a una nuova collezione che crea urgenza ed entusiasmo. Pensato per lanci capsule e collaborazioni."
+    },
+    {
+        "title": "Credito shopping",
+        "description": "Un premio flessibile come credito negozio che sembra significativo e incentiva le visite di ritorno. Ideale come riscatto per traguardi."
+    },
+    {
+        "title": "Token spedizione gratuita",
+        "description": "Vantaggio spedizione gratuita che rimuove l'attrito all'acquisto e aumenta le conversioni. Ottimo per membri online-first e campagne stagionali."
+    }
+]

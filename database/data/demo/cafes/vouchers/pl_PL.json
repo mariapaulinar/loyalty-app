@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta dla Członków",
+        "title": "20% zniżki na dowolny napój",
+        "description": "Oferta ograniczona czasowo, która zamienia zainteresowanie w zakup.",
+        "free_product_name": "20% zniżki"
+    },
+    {
+        "head": "Prezent powitalny",
+        "title": "Darmowe zwiększenie rozmiaru",
+        "description": "Korzyść o wysokiej wartości postrzeganej dla nowych Członków.",
+        "free_product_name": "Zwiększenie rozmiaru"
+    },
+    {
+        "head": "Benefit z ciastkiem",
+        "title": "Darmowe ciastko",
+        "description": "Zwiększa sprzedaż zestawów i buduje nawyk powrotów.",
+        "free_product_name": "Ciastko"
+    },
+    {
+        "head": "Pakiet oszczędnościowy",
+        "title": "$5 rabatu na kawę + ciastko",
+        "description": "Booster AOV: nagradza zestaw, a nie pojedynczy produkt.",
+        "free_product_name": "$5 rabatu"
+    },
+    {
+        "head": "Godziny promocyjne",
+        "title": "Kup 1, drugą mrożoną kawę dostaniesz gratis",
+        "description": "Zwiększaj ruch poza szczytem bez przeceniania całej oferty.",
+        "free_product_name": "Darmowa mrożona kawa"
+    },
+    {
+        "head": "Booster Punktów",
+        "title": "+100 Punktów bonusowych",
+        "description": "Bodziec oparty na lojalności, który zwiększa powroty.",
+        "free_product_name": "+100 Punktów"
+    }
+]

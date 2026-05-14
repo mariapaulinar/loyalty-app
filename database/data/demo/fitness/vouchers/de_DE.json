@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Gym-Pass",
+        "title": "Gratis Probewoche",
+        "description": "Testen Sie unser Gym eine Woche gratis - alle Einrichtungen inklusive!",
+        "free_product_name": "Probewoche"
+    },
+    {
+        "head": "Personal Training",
+        "title": "3 Gratis PT-Sessions",
+        "description": "Erhalten Sie 3 kostenlose Personal Training Sessions!",
+        "free_product_name": "3 PT-Sessions"
+    },
+    {
+        "head": "Kurs-Pass",
+        "title": "20% Rabatt auf monatliche Kurse",
+        "description": "Sparen Sie 20% auf unbegrenzte Gruppen-Fitnesskurse!",
+        "free_product_name": "20% Rabatt"
+    },
+    {
+        "head": "Mitgliedschafts-Deal",
+        "title": "50€ Rabatt auf Jahresmitgliedschaft",
+        "description": "Werden Sie Jahresmitglied und sparen Sie 50€!",
+        "free_product_name": "50€ Rabatt"
+    },
+    {
+        "head": "Yoga-Special",
+        "title": "Gratis Yogamatte",
+        "description": "Erhalten Sie eine Premium-Yogamatte bei jeder Mitgliedschaft!",
+        "free_product_name": "Yogamatte"
+    },
+    {
+        "head": "Wellness-Paket",
+        "title": "30% Rabatt auf Wellness-Services",
+        "description": "Sparen Sie bei Massage, Ernährungsberatung und Regeneration!",
+        "free_product_name": "30% Rabatt"
+    }
+]

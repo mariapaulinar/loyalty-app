@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusivo miembros",
+        "title": "15% en cualquier horneado",
+        "description": "Oferta de miembro por tiempo limitado. Ideal para días lentos.",
+        "free_product_name": "15% de descuento"
+    },
+    {
+        "head": "Regalo de bienvenida",
+        "title": "Pastel gratis",
+        "description": "Beneficio de primera visita que convierte registros en compras.",
+        "free_product_name": "Pastel"
+    },
+    {
+        "head": "Día del pastel",
+        "title": "$10 de descuento en pasteles",
+        "description": "Impulsa pedidos de celebración con incentivo dirigido.",
+        "free_product_name": "$10 de descuento"
+    },
+    {
+        "head": "Pack ahorro",
+        "title": "Compra 2, lleva 1 gratis",
+        "description": "Mueve volumen sin descontar todo.",
+        "free_product_name": "Pastel gratis"
+    },
+    {
+        "head": "Especial mañanero",
+        "title": "Café gratis",
+        "description": "Beneficio de acompañamiento diseñado para aumentar ticket.",
+        "free_product_name": "Café"
+    },
+    {
+        "head": "Impulsor de puntos",
+        "title": "+150 puntos bonus",
+        "description": "Recompensa lealtad, no solo sensibilidad al precio.",
+        "free_product_name": "+150 puntos"
+    }
+]

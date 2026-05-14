@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Lavage auto",
+    "title": "8 lavages",
+    "description": "Échangez contre une mise à niveau premium."
+  },
+  {
+    "head": "Detailing",
+    "title": "Carte détail",
+    "description": "Débloquez une mise à niveau intérieur."
+  },
+  {
+    "head": "Double tampons week-end",
+    "title": "Week-end 2x tampons",
+    "description": "Double tampons pour booster le flux."
+  },
+  {
+    "head": "VIP",
+    "title": "Carte tampon VIP",
+    "description": "Échangez contre un pass voie prioritaire."
+  },
+  {
+    "head": "Protection hivernale",
+    "title": "Carte hiver",
+    "description": "Carte saisonnière pour les forfaits protection."
+  },
+  {
+    "head": "Vidange",
+    "title": "Carte service",
+    "description": "Échangez contre une remise service."
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Passe Academia",
+        "title": "Teste Grátis de Uma Semana",
+        "description": "Experimente nossa academia grátis por uma semana - todas as instalações incluídas!",
+        "free_product_name": "Teste Semana"
+    },
+    {
+        "head": "Treino Personal",
+        "title": "3 Sessões PT Grátis",
+        "description": "Ganhe 3 sessões de personal training de cortesia!",
+        "free_product_name": "3 Sessões PT"
+    },
+    {
+        "head": "Passe Aulas",
+        "title": "20% de Desconto em Aulas Mensais",
+        "description": "Economize 20% em aulas de fitness em grupo ilimitadas!",
+        "free_product_name": "20% Off"
+    },
+    {
+        "head": "Oferta Membership",
+        "title": "$50 de Desconto na Membership Anual",
+        "description": "Junte-se por um ano e economize $50 na sua membership!",
+        "free_product_name": "$50 Off"
+    },
+    {
+        "head": "Especial Yoga",
+        "title": "Tapete de Yoga Grátis",
+        "description": "Ganhe um tapete de yoga premium com qualquer membership!",
+        "free_product_name": "Tapete Yoga"
+    },
+    {
+        "head": "Pacote Bem-Estar",
+        "title": "30% de Desconto em Serviços Bem-Estar",
+        "description": "Economize em massagem, nutrição e serviços de recuperação!",
+        "free_product_name": "30% Off"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta dla Członków",
+        "title": "15% zniżki na dowolny wypiek",
+        "description": "Oferta członkowska na ograniczony czas. Świetna na spokojniejsze dni.",
+        "free_product_name": "15% zniżki"
+    },
+    {
+        "head": "Prezent powitalny",
+        "title": "Darmowe ciastko",
+        "description": "Korzyść na pierwszą wizytę, która zamienia rejestracje w zakupy.",
+        "free_product_name": "Ciastko"
+    },
+    {
+        "head": "Dzień ciasta",
+        "title": "$10 rabatu na ciasta",
+        "description": "Zwiększaj zamówienia okolicznościowe dzięki precyzyjnej zachęcie.",
+        "free_product_name": "$10 rabatu"
+    },
+    {
+        "head": "Pakiet oszczędnościowy",
+        "title": "Kup 2, odbierz 1 gratis",
+        "description": "Zwiększa wolumen bez przeceniania całej oferty.",
+        "free_product_name": "Darmowe ciastko"
+    },
+    {
+        "head": "Poranna promocja",
+        "title": "Darmowa kawa",
+        "description": "Korzyść do zakupów łączonych zaprojektowana pod wzrost AOV.",
+        "free_product_name": "Kawa"
+    },
+    {
+        "head": "Booster Punktów",
+        "title": "+150 Punktów bonusowych",
+        "description": "Nagradzaj lojalność, a nie tylko wrażliwość cenową.",
+        "free_product_name": "+150 Punktów"
+    }
+]

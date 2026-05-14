@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Nossa Marca",
+        "title": "Lealdade Recompensada",
+        "description": "Colete carimbos de treino para recompensas!"
+    },
+    {
+        "head": "Recompensas de Verão",
+        "title": "Economias Sazonais",
+        "description": "Desafios de verão rendem carimbos!"
+    },
+    {
+        "head": "Cartão de Economia",
+        "title": "Ganhe ao Gastar",
+        "description": "Receba carimbo a cada treino!"
+    },
+    {
+        "head": "Clube de Fitness",
+        "title": "Treine e Economize",
+        "description": "Instalações premium, carimbos exclusivos!"
+    },
+    {
+        "head": "Cartão de Atleta",
+        "title": "Treine e Ganhe",
+        "description": "Sua dedicação rende carimbos!"
+    },
+    {
+        "head": "Cartão de Fidelidade",
+        "title": "Economize Agora",
+        "description": "Carimbos para economia na assinatura!"
+    }
+]

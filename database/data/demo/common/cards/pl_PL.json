@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Nasza marka",
+        "title": "Lojalność się opłaca",
+        "description": "Zbieraj Punkty przy każdym zakupie i odblokowuj Nagrody."
+    },
+    {
+        "head": "Korzyści dla Członków",
+        "title": "Zbieraj podczas zakupów",
+        "description": "Punkty naliczają się automatycznie przy kasie, bez kuponów."
+    },
+    {
+        "head": "Klub VIP",
+        "title": "Ekskluzywne korzyści",
+        "description": "Awansuj na wyższy Poziom i odbieraj lepsze Nagrody, wcześniejszy dostęp oraz oferty specjalne."
+    },
+    {
+        "head": "Weekendowy boost",
+        "title": "Punkty bonusowe",
+        "description": "Zbieraj dodatkowe Punkty w weekendy i godzinach szczytu."
+    },
+    {
+        "head": "Oferta ograniczona czasowo",
+        "title": "Sezonowe oszczędności",
+        "description": "Promocje czasowe, które utrzymują zaangażowanie Członków."
+    },
+    {
+        "head": "Poleć i zyskaj",
+        "title": "Zaproś znajomego",
+        "description": "Zaproś znajomych i odbieraj Nagrody, gdy dołączą."
+    }
+]

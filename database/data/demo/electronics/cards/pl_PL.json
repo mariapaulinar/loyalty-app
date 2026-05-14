@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Klub Tech",
+        "title": "Ulepszaj i zbieraj",
+        "description": "Zbieraj Punkty za urządzenia i akcesoria, a wymieniaj je na Nagrody, które wyglądają jak ulepszenia, nie przeceny."
+    },
+    {
+        "head": "Dostęp premierowy",
+        "title": "Wcześniejszy dostęp do nowości",
+        "description": "Stworzone pod kalendarz premier i dropów produktowych."
+    },
+    {
+        "head": "Bonus za odkup",
+        "title": "Zamień odkup w lojalność",
+        "description": "Dodatkowe Punkty za odkup urządzeń. Świetne dla retencji i upgrade'ów."
+    },
+    {
+        "head": "Korzyści ochronne",
+        "title": "Nagradzaj ochronę, nie tylko wydatki",
+        "description": "Zachęcaj do planów ochronnych i akcesoriów. Przyjazne dla marży."
+    },
+    {
+        "head": "Oszczędności pakietowe",
+        "title": "Pakiety, które zwiększają wartość koszyka",
+        "description": "Nagradzaj zakupy wielopozycyjne mądrzejszymi zachętami."
+    },
+    {
+        "head": "Wsparcie VIP",
+        "title": "Priorytetowa pomoc dla Członków",
+        "description": "Warstwa lojalności premium, która zmniejsza odpływ klientów."
+    }
+]

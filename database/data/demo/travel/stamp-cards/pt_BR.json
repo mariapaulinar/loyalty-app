@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Estadias",
+    "title": "5 estadias",
+    "description": "Resgate por um upgrade."
+  },
+  {
+    "head": "Passeios",
+    "title": "Cartao de tour",
+    "description": "Complete e destrave credito de atividade."
+  },
+  {
+    "head": "Fim de Semana 2x",
+    "title": "2x carimbos",
+    "description": "2x carimbos em reservas de fim de semana."
+  },
+  {
+    "head": "Viajante a Trabalho",
+    "title": "Vantagens lounge",
+    "description": "Loop premium para viajantes frequentes."
+  },
+  {
+    "head": "Escape de Feriado",
+    "title": "Cartao de feriado",
+    "description": "Cartao sazonal para campanhas de viagem."
+  },
+  {
+    "head": "VIP",
+    "title": "Cartao VIP",
+    "description": "Resgate late checkout ou upgrades."
+  }
+]

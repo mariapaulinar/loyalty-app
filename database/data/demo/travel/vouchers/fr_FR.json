@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusif membre",
+        "title": "15% sur le séjour",
+        "description": "Offre limitée pour générer des réservations.",
+        "free_product_name": "15% de réduction"
+    },
+    {
+        "head": "Surclassement",
+        "title": "Surclassement chambre gratuit",
+        "description": "Avantage premium (selon disponibilité).",
+        "free_product_name": "Surclassement chambre"
+    },
+    {
+        "head": "Pack économique",
+        "title": "50 € de réduction sur 500 €",
+        "description": "Poussez les forfaits et gros tickets.",
+        "free_product_name": "50 € de réduction"
+    },
+    {
+        "head": "Booster de points",
+        "title": "+500 points bonus",
+        "description": "Générez des réservations répétées sans remises lourdes.",
+        "free_product_name": "+500 points"
+    },
+    {
+        "head": "Week-end",
+        "title": "Spécial week-end",
+        "description": "Offre week-end courte durée pour l'occupation.",
+        "free_product_name": "Offre week-end"
+    },
+    {
+        "head": "VIP",
+        "title": "Départ tardif",
+        "description": "Avantage simple qui semble luxueux.",
+        "free_product_name": "Départ tardif"
+    }
+]

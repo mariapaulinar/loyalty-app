@@ -1,0 +1,38 @@
+[
+  {
+    "head": "Exclusivo para Membros",
+    "title": "20% de desconto em qualquer bebida",
+    "description": "Oferta por tempo limitado para transformar interesse em compra.",
+    "free_product_name": "20% de desconto"
+  },
+  {
+    "head": "Presente de Boas-vindas",
+    "title": "Upgrade de tamanho gratis",
+    "description": "Vantagem de alto valor percebido para novos membros.",
+    "free_product_name": "Upgrade de tamanho"
+  },
+  {
+    "head": "Vantagem do Doce",
+    "title": "Doce gratis",
+    "description": "Aumente combinacoes e crie rotina.",
+    "free_product_name": "Doce"
+  },
+  {
+    "head": "Economia no Combo",
+    "title": "US$ 5 de desconto em cafe + doce",
+    "description": "Aumenta o ticket: recompensa o combo, nao o item unico.",
+    "free_product_name": "US$ 5 de desconto"
+  },
+  {
+    "head": "Happy Hour",
+    "title": "Compre 1 e leve 1 cafe gelado",
+    "description": "Aumente o movimento fora do pico sem descontar tudo.",
+    "free_product_name": "Cafe gelado gratis"
+  },
+  {
+    "head": "Acelerador de Pontos",
+    "title": "+100 pontos bonus",
+    "description": "Incentivo focado em fidelidade para visitas recorrentes.",
+    "free_product_name": "+100 pontos"
+  }
+]

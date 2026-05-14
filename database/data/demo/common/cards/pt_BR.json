@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Nossa Marca",
+    "title": "Fidelidade Premiada",
+    "description": "Acumule pontos a cada compra e desbloqueie recompensas."
+  },
+  {
+    "head": "Vantagens do Membro",
+    "title": "Ganhe ao Comprar",
+    "description": "Pontos automaticos no caixa, sem precisar de cupons."
+  },
+  {
+    "head": "Clube VIP",
+    "title": "Beneficios Exclusivos",
+    "description": "Suba de nivel para recompensas melhores, acesso antecipado e ofertas especiais."
+  },
+  {
+    "head": "Boost de Fim de Semana",
+    "title": "Pontos Bonus",
+    "description": "Ganhe pontos extras nos fins de semana e nos horarios de pico."
+  },
+  {
+    "head": "Oferta Limitada",
+    "title": "Economia Sazonal",
+    "description": "Promocoes por tempo limitado para manter os membros engajados."
+  },
+  {
+    "head": "Indique e Ganhe",
+    "title": "Traga um Amigo",
+    "description": "Convide amigos e seja recompensado quando eles entrarem."
+  }
+]

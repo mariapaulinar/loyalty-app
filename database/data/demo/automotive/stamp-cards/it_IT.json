@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Autolavaggio",
+    "title": "8 lavaggi",
+    "description": "Riscatta per un upgrade lavaggio premium."
+  },
+  {
+    "head": "Detailing",
+    "title": "Carta detailing",
+    "description": "Sblocca un upgrade interni."
+  },
+  {
+    "head": "Weekend doppi timbri",
+    "title": "Weekend 2x timbri",
+    "description": "Timbri doppi per aumentare il flusso."
+  },
+  {
+    "head": "VIP",
+    "title": "Carta timbri VIP",
+    "description": "Riscatta per un pass corsia prioritaria."
+  },
+  {
+    "head": "Protezione invernale",
+    "title": "Carta invernale",
+    "description": "Carta stagionale per pacchetti protezione."
+  },
+  {
+    "head": "Cambio olio",
+    "title": "Carta servizio",
+    "description": "Riscatta per uno sconto servizio."
+  }
+]

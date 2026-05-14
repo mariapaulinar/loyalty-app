@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Notre salon",
+        "title": "Récompenses beauté",
+        "description": "Cumulez des tampons et débloquez des avantages beauté !"
+    },
+    {
+        "head": "Styles d'été",
+        "title": "Relooking saisonnier",
+        "description": "Nouveaux looks d'été avec récompenses tampons !"
+    },
+    {
+        "head": "Carte style",
+        "title": "Gagnez en vous coiffant",
+        "description": "Obtenez un tampon à chaque visite au salon !"
+    },
+    {
+        "head": "Club Glamour",
+        "title": "Style et économies",
+        "description": "Les soins beauté vous rapportent des tampons !"
+    },
+    {
+        "head": "Carte Cheveux",
+        "title": "Coiffure et gains",
+        "description": "Les beaux cheveux méritent des récompenses !"
+    },
+    {
+        "head": "Fidélité Beauté",
+        "title": "Économisez sur la beauté",
+        "description": "Tamponnez votre chemin vers les économies beauté !"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Mitglieder-Exklusiv",
+        "title": "15% Rabatt auf Ihren nächsten Einkauf",
+        "description": "Zeitlich begrenztes Angebot, um Interessenten zu Käufern zu machen.",
+        "free_product_name": "15% Rabatt"
+    },
+    {
+        "head": "Willkommensgeschenk",
+        "title": "Gratis Accessoire",
+        "description": "Erstbesuch-Vorteil, der sich premium anfühlt.",
+        "free_product_name": "Accessoire"
+    },
+    {
+        "head": "VIP",
+        "title": "Gratis Änderung",
+        "description": "Luxuriöser Vorteil, der Vertrauen aufbaut.",
+        "free_product_name": "Änderung"
+    },
+    {
+        "head": "Bundle-Sparer",
+        "title": "20€ Rabatt ab 120€",
+        "description": "Warenkorberhöhung, die den Aufbau eines Looks belohnt.",
+        "free_product_name": "20€ Rabatt"
+    },
+    {
+        "head": "Punkte-Booster",
+        "title": "+150 Bonuspunkte",
+        "description": "Treue belohnen ohne Rabattsucht.",
+        "free_product_name": "+150 Punkte"
+    },
+    {
+        "head": "Feiertags-Sale",
+        "title": "Saisonales Angebot",
+        "description": "Kurzfristiges saisonales Angebot für Kampagnen.",
+        "free_product_name": "Feiertagsdeal"
+    }
+]

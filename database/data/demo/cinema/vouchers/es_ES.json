@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Noche de cine",
+        "title": "Compra 1, lleva 1 boleto gratis",
+        "description": "¡Compra un boleto y trae a un amigo gratis!",
+        "free_product_name": "Boleto gratis"
+    },
+    {
+        "head": "Oferta Palomitas",
+        "title": "Palomitas grandes gratis",
+        "description": "¡Recibe palomitas grandes gratis con cualquier compra de boleto!",
+        "free_product_name": "Palomitas grandes"
+    },
+    {
+        "head": "Especial fin de semana",
+        "title": "$5 de descuento boletos fin de semana",
+        "description": "¡Ahorra $5 en cualquier función de fin de semana!",
+        "free_product_name": "$5 de descuento"
+    },
+    {
+        "head": "Pack Familiar",
+        "title": "30% de descuento boletos familiares",
+        "description": "¡Trae a toda la familia y ahorra 30% en 4+ boletos!",
+        "free_product_name": "30% de descuento"
+    },
+    {
+        "head": "Asiento Premium",
+        "title": "Mejora premium gratis",
+        "description": "¡Mejora a asientos premium sin costo adicional!",
+        "free_product_name": "Asiento premium"
+    },
+    {
+        "head": "Combo Dulcería",
+        "title": "$10 de descuento en combo",
+        "description": "¡Ahorra $10 en cualquier combo de comida y bebida!",
+        "free_product_name": "$10 de descuento"
+    }
+]

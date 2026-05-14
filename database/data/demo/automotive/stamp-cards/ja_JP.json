@@ -1,0 +1,32 @@
+[
+    {
+        "head": "キャンペーン: Car 洗浄",
+        "title": "キャンペーン: 8 washes",
+        "description": "交換 対象 プレミアム 洗浄 アップグレード。"
+    },
+    {
+        "head": "キャンペーン: Detailing",
+        "title": "Detail カード",
+        "description": "解放 interior アップグレード。"
+    },
+    {
+        "head": "週末 2倍 スタンプ",
+        "title": "週末 2x スタンプ",
+        "description": "2倍 スタンプ 送信先 強化 throughput。"
+    },
+    {
+        "head": "キャンペーン: VIP",
+        "title": "VIP スタンプカード",
+        "description": "交換 対象 優先順位 lane パス。"
+    },
+    {
+        "head": "冬 保護",
+        "title": "冬 カード",
+        "description": "季節限定 カード 対象 保護 パッケージ。"
+    },
+    {
+        "head": "Oil 変更",
+        "title": "サービス カード",
+        "description": "交換 対象 サービス 割引。"
+    }
+]

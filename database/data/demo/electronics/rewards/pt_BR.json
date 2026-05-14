@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Bundle de acessorios",
+        "description": "Resgate por um bundle selecionado de acessorios que melhora a experiencia do dispositivo. Perfeito para aumentar attach-rate e satisfacao do cliente."
+    },
+    {
+        "title": "Pelicula gratis",
+        "description": "Uma recompensa pratica que as pessoas realmente querem, com valor claro no dia a dia. Use para gerar visitas na loja e vendas de add-ons."
+    },
+    {
+        "title": "Sessao de configuracao VIP",
+        "description": "Uma sessao guiada de configuracao que gera confianca e reduz devolucoes. Ideal para novos clientes e compras premium."
+    },
+    {
+        "title": "Desconto em garantia",
+        "description": "Token de desconto para cobertura estendida que protege margem e aumenta confianca. Uma recompensa inteligente que apoia upsell."
+    },
+    {
+        "title": "Desconto em fones premium",
+        "description": "Desconto em fones premium com cara aspiracional, sem virar promocao geral. Otimo para calendarios de lancamento e presentes sazonais."
+    },
+    {
+        "title": "Credito na loja",
+        "description": "Um pequeno credito de loja tech que parece flexivel e motivador. Perfeito como recompensa de marco para membros mais engajados."
+    }
+]

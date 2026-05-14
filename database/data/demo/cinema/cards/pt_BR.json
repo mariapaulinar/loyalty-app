@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Bonança de Blockbusters",
+        "title": "Economias de Estreia",
+        "description": "Obtenha descontos exclusivos em exibições de estreia!"
+    },
+    {
+        "head": "Membro de Cinema",
+        "title": "Assista e Ganhe",
+        "description": "Acumule pontos toda vez que assistir a um filme conosco!"
+    },
+    {
+        "head": "Clube dos Fanáticos por Filmes",
+        "title": "Veja e Economize",
+        "description": "Mergulhe em experiências cinematográficas e desfrute de vantagens especiais!"
+    },
+    {
+        "head": "Passaporte de Pipoca",
+        "title": "Lanche e Pontue",
+        "description": "Ganhe recompensas a cada compra de pipoca!"
+    },
+    {
+        "head": "Especiais de Matinê",
+        "title": "Descontos da Tarde",
+        "description": "Desfrute de tarifas com desconto para exibições à tarde!"
+    },
+    {
+        "head": "Festival de Cinema de Fim de Semana",
+        "title": "Ofertas de Filmes de Fim de Semana",
+        "description": "Assista aos filmes mais recentes nos finais de semana e aproveite ofertas especiais!"
+    }
+]

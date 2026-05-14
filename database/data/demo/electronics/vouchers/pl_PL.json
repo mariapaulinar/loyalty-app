@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta dla Członków",
+        "title": "10% zniżki na akcesoria",
+        "description": "Zwiększaj attach-rate bez przeceniania urządzeń.",
+        "free_product_name": "10% zniżki"
+    },
+    {
+        "head": "Prezent powitalny",
+        "title": "Darmowe szkło ochronne",
+        "description": "Benefit o wysokiej wartości postrzeganej.",
+        "free_product_name": "Szkło ochronne"
+    },
+    {
+        "head": "Pakiet oszczędnościowy",
+        "title": "$25 rabatu przy $200",
+        "description": "Zachęca do pakietów i większych koszyków.",
+        "free_product_name": "$25 rabatu"
+    },
+    {
+        "head": "Odkup",
+        "title": "+300 Punktów bonusowych",
+        "description": "Nagradzaj upgrade'y Punktami, nie obniżkami cen.",
+        "free_product_name": "+300 Punktów"
+    },
+    {
+        "head": "VIP",
+        "title": "Darmowa pomoc przy konfiguracji",
+        "description": "Korzyść premium, która buduje zaufanie.",
+        "free_product_name": "Konfiguracja"
+    },
+    {
+        "head": "Oferta weekendowa",
+        "title": "Kabel gratis (BOGO)",
+        "description": "Niski koszt i wysoka chęć udostępniania, co zwiększa wizyty.",
+        "free_product_name": "Darmowy kabel"
+    }
+]

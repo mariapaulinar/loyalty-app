@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Barista",
+        "title": "Convierte el café diario en lealtad diaria",
+        "description": "Gana puntos en cada taza y pastelería. Canjes rápidos para que vuelvan mañana."
+    },
+    {
+        "head": "Impulso matutino",
+        "title": "Madrugador = Puntos extra",
+        "description": "Antes de las 10am, los miembros ganan más. Diseñado para un rush matutino predecible."
+    },
+    {
+        "head": "Temporada helada",
+        "title": "Bebidas de temporada, recompensas de temporada",
+        "description": "Lanza un menú de verano y vincúlalo a recompensas limitadas. Diseñado para repetición."
+    },
+    {
+        "head": "Combustible del día",
+        "title": "Recompensa el hábito de las 2pm",
+        "description": "Los micro-momentos importan: mantén las tardes ocupadas con bonus de puntos dirigidos."
+    },
+    {
+        "head": "Nueva mezcla",
+        "title": "Prueba lo nuevo, gana más rápido",
+        "description": "Puntos bonus en bebidas destacadas. Perfecto para lanzamientos y colaboraciones."
+    },
+    {
+        "head": "Trae un amigo",
+        "title": "Bonus de referido instantáneo",
+        "description": "Invita a un amigo y desbloquea un beneficio inmediato. Diseñado para crecimiento social."
+    }
+]

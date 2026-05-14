@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusivo miembros",
+        "title": "10% en accesorios",
+        "description": "Impulsa tasa de adjuntos sin descontar dispositivos.",
+        "free_product_name": "10% de descuento"
+    },
+    {
+        "head": "Regalo de bienvenida",
+        "title": "Protector de pantalla gratis",
+        "description": "Beneficio de alta percepción de valor.",
+        "free_product_name": "Protector"
+    },
+    {
+        "head": "Pack ahorro",
+        "title": "$25 de descuento en $200",
+        "description": "Incentiva paquetes y carritos más grandes.",
+        "free_product_name": "$25 de descuento"
+    },
+    {
+        "head": "Intercambio",
+        "title": "+300 puntos bonus",
+        "description": "Recompensa mejoras con puntos, no recortes de precio.",
+        "free_product_name": "+300 puntos"
+    },
+    {
+        "head": "VIP",
+        "title": "Ayuda de configuración gratis",
+        "description": "Beneficio de servicio premium que genera confianza.",
+        "free_product_name": "Configuración"
+    },
+    {
+        "head": "Fin de semana",
+        "title": "2x1 Cable",
+        "description": "Beneficio compartible de bajo costo que genera visitas.",
+        "free_product_name": "Cable gratis"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Darmowa konsultacja fryzjerska",
+        "description": "Odkryj fryzurę idealnie dopasowaną do kształtu twarzy i stylu życia. Nasi eksperci przeprowadzą szczegółową konsultację, aby pomóc Ci wybrać najlepszy look."
+    },
+    {
+        "title": "Drugi zabieg na włosy 50% taniej",
+        "description": "Przywróć włosom blask. Zarezerwuj dowolny zabieg na włosy i odbierz drugi o połowę taniej - dla siebie lub bliskiej osoby."
+    },
+    {
+        "title": "Dzień spa dla dwojga",
+        "description": "Zrelaksuj się i zregeneruj podczas wyjątkowego dnia spa dla dwóch osób. Różnorodne zabiegi w spokojnym otoczeniu sprawią, że ten dzień zostanie z Tobą na długo."
+    },
+    {
+        "title": "Darmowe zdobienie paznokci",
+        "description": "Dodaj kreatywny akcent swoim paznokciom. Umów manicure i odbierz darmowe zdobienie z naszej kolekcji modnych wzorów."
+    },
+    {
+        "title": "Pakiet beauty VIP",
+        "description": "Zanurz się w luksusowym doświadczeniu beauty z pakietem VIP. Otrzymaj priorytetowe terminy, specjalne zabiegi i spersonalizowaną opiekę."
+    },
+    {
+        "title": "Specjalna stylizacja stylisty",
+        "description": "Odmień swój wygląd dzięki propozycji specjalnej naszego stylisty. To wyjątkowe połączenie fryzury i makijażu inspirowane najnowszymi trendami."
+    },
+    {
+        "title": "Kup jeden zabieg twarzy, drugi gratis",
+        "description": "Zadbaj o skórę z naszymi profesjonalnymi zabiegami. Przy tej ofercie rezerwujesz jeden zabieg twarzy, a drugi otrzymujesz za darmo."
+    },
+    {
+        "title": "Ekskluzywne warsztaty makijażu",
+        "description": "Poznaj sekrety profesjonalnego makijażu na naszych ekskluzywnych warsztatach. Naucz się technik i trików od ekspertów."
+    },
+    {
+        "title": "Darmowy masaż głowy",
+        "description": "Zrelaksuj się dzięki darmowemu masażowi głowy przy dowolnej usłudze fryzjerskiej. Idealny sposób na odprężenie i chwilę dla siebie."
+    },
+    {
+        "title": "20% zniżki przy następnej wizycie",
+        "description": "Doceniamy Twoją lojalność. Otrzymujesz 20% zniżki przy kolejnej wizycie jako wyraz naszego podziękowania."
+    },
+    {
+        "title": "Urodzinowa promocja beauty",
+        "description": "Świętuj wyjątkowy dzień z nami. Odbierz darmową usługę beauty według własnego wyboru i poczuj się wyjątkowo w swoje urodziny."
+    },
+    {
+        "title": "Specjalne strzyżenie dziecięce",
+        "description": "Stylizacja dla najmłodszych. Przyprowadź dziecko na strzyżenie i skorzystaj z kreatywnych stylizacji w przyjaznej atmosferze."
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "head": "güzellik Kupon",
+        "title": "%20 İndirim All Hizmetler",
+        "description": "alin 20% İndirim uzerinde herhangi güzellik treatment de bizim salon!",
+        "free_product_name": "%20 İndirim"
+    },
+    {
+        "head": "spa firsat",
+        "title": "$30 İndirim spa paket",
+        "description": "tasarruf $30 uzerinde bizim premium spa paket. Relaxation awaits!",
+        "free_product_name": "$30 İndirim"
+    },
+    {
+        "head": "yeni Client",
+        "title": "ilk Ziyaret Edin ozel",
+        "description": "yeni clients alin %25 İndirim their ilk appointment!",
+        "free_product_name": "%25 İndirim"
+    },
+    {
+        "head": "sac ozel",
+        "title": "Ücretsiz stil hizmet",
+        "description": "alin bir ücretsiz stil hizmet ile herhangi haircut!",
+        "free_product_name": "Kampanya: stil"
+    },
+    {
+        "head": "manikur firsat",
+        "title": "satın al 1 alin 1 manikur",
+        "description": "Satın Alma bir manikur ve alin ikinci bir Ücretsiz!",
+        "free_product_name": "Ücretsiz manikur"
+    },
+    {
+        "head": "yuz bakimi teklif",
+        "title": "premium yuz bakimi - $50 İndirim",
+        "description": "deneyim bizim signature yuz bakimi ile $50 tasarruf!",
+        "free_product_name": "$50 İndirim"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Détail",
+        "title": "Voitures propres, clients fidèles",
+        "description": "Gagnez des points sur les lavages et le detailing. Échangez contre des options premium."
+    },
+    {
+        "head": "Protection saisonnière",
+        "title": "Forfaits saisonniers prêts à l'emploi",
+        "description": "Protection hivernale, brillance estivale. Lancez des promos sans chaos de remises."
+    },
+    {
+        "head": "Voie VIP",
+        "title": "Service prioritaire pour les membres",
+        "description": "Avantage premium qui améliore la rétention et les ventes additionnelles."
+    },
+    {
+        "head": "Flotte & Famille",
+        "title": "Récompensez les foyers multi-véhicules",
+        "description": "Conçu pour augmenter la fréquence et la valeur à vie."
+    },
+    {
+        "head": "Lavage week-end",
+        "title": "Boost week-end",
+        "description": "Points bonus le week-end pour créer une demande prévisible."
+    },
+    {
+        "head": "Entretien",
+        "title": "Récompenses service",
+        "description": "Récompenses pour les visites d'entretien. Conçu pour les affaires récurrentes."
+    }
+]

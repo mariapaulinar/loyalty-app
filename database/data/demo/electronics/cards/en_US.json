@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Tech Club",
+        "title": "Upgrade & Earn",
+        "description": "Points on devices + accessories with rewards that feel like upgrades, not discounts."
+    },
+    {
+        "head": "Launch Access",
+        "title": "Early Access to New Releases",
+        "description": "Built for launch calendars and product drops."
+    },
+    {
+        "head": "Trade-In Boost",
+        "title": "Turn Trade-Ins Into Loyalty",
+        "description": "Bonus points with trade-ins. Great for upgrades and retention."
+    },
+    {
+        "head": "Protection Perks",
+        "title": "Reward Care, Not Just Spend",
+        "description": "Incentivize protection plans and accessories. Margin-friendly."
+    },
+    {
+        "head": "Bundle Savings",
+        "title": "Bundles That Build Basket Size",
+        "description": "Reward multi-item purchases with smarter incentives."
+    },
+    {
+        "head": "VIP Support",
+        "title": "Priority Help for Members",
+        "description": "Premium-feel loyalty layer that reduces churn."
+    }
+]

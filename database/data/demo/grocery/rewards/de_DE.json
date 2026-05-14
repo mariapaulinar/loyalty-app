@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Gesunder Korb",
+        "description": "Ein kuratierter Korb mit gesunden Basics, der Mitglieder für bessere Entscheidungen belohnt. Ideal für Wellness-Kampagnen und saisonale Neuausrichtungen."
+    },
+    {
+        "title": "Snack-Box",
+        "description": "Eine spaßige Einlösung, die sich wie ein Geschenk anfühlt. Fördert Zusatzkäufe und größere Warenkörbe."
+    },
+    {
+        "title": "Premium-Vorrats-Artikel",
+        "description": "Einlösen für ein Premium-Produkt wie Olivenöl, Kaffee oder Spezialitäten-Snacks. Eine clevere Prämie, die sich luxuriös und praktisch anfühlt."
+    },
+    {
+        "title": "Frisches Obst-Bundle",
+        "description": "Ein saisonales Obst-Bundle für Obst-Kampagnen und wiederkehrende Besuche. Perfekt für Sommer, Back-to-School und Feiertage."
+    },
+    {
+        "title": "Mitglieder-Gutschein",
+        "description": "Ein kleines Ladenguthaben, das sich flexibel und motivierend anfühlt. Ideal für hochwertige Mitglieder."
+    },
+    {
+        "title": "Gratis Liefermonat",
+        "description": "Ein Premium-Vorteil, der Frequenz steigert und Abwanderung reduziert. Ideal für gelegentliche Käufer zu Stammkunden."
+    }
+]

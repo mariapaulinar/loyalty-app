@@ -1,0 +1,146 @@
+[
+    {
+        "title": "Café delicioso gratis",
+        "description": "Empieza tu día con energía o recarga tu tarde con nuestro mejor café. Nuestro café proviene de las mejores plantaciones del mundo, ofreciendo un sabor rico y profundo en cada taza."
+    },
+    {
+        "title": "Segunda pizza gratis",
+        "description": "¡Nada une a la gente como una buena pizza! Compra cualquiera de nuestras pizzas signature y obtén la segunda gratis. Comparte con un amigo o date un gusto - ¡te lo mereces!"
+    },
+    {
+        "title": "Cena para dos",
+        "description": "Disfruta de una noche especial y crea momentos memorables con una cena para dos en nuestro lugar. Experimenta una amplia variedad de platos cuidadosamente preparados por nuestros chefs expertos, todo en un ambiente acogedor."
+    },
+    {
+        "title": "Postre de cortesía",
+        "description": "Consiente tu lado dulce con nuestro menú de postres. Ya seas fanático del chocolate, sabores frutales o pasteles cremosos, tenemos algo para hacer tu comida perfecta. ¡Y es cortesía nuestra!"
+    },
+    {
+        "title": "Reservación de mesa VIP",
+        "description": "Experimenta lo mejor que ofrecemos con una reservación de mesa VIP. Disfruta asientos prioritarios, servicio personalizado y un menú VIP especial."
+    },
+    {
+        "title": "Plato especial del chef",
+        "description": "Date el gusto de una aventura culinaria con nuestro plato especial del chef. Esta creación única cambia regularmente y se inspira en ingredientes de temporada y la creatividad del chef."
+    },
+    {
+        "title": "Compra 1 hamburguesa, lleva 1 gratis",
+        "description": "Nuestras hamburguesas son las favoritas, con toppings gourmet y nuestra salsa secreta. Con nuestra oferta especial, compra una hamburguesa y lleva otra gratis. ¡Doble delicia!"
+    },
+    {
+        "title": "Cata de vinos exclusiva",
+        "description": "Haz un viaje por el país del vino sin dejar tu asiento. Nuestra cata de vinos exclusiva te da la oportunidad de probar una variedad de vinos finos, cuidadosamente seleccionados."
+    },
+    {
+        "title": "Entrada de cortesía",
+        "description": "Comienza tu comida con buen pie con una entrada de cortesía. Elige de nuestra selección de entradas frías y calientes, diseñadas para abrir tu apetito."
+    },
+    {
+        "title": "25% de descuento en tu próxima visita",
+        "description": "Como muestra de nuestro agradecimiento por tu apoyo continuo, te ofrecemos 25% de descuento en toda tu cuenta la próxima vez que comas con nosotros. ¡Es nuestra forma de decir gracias!"
+    },
+    {
+        "title": "Especial de cumpleaños",
+        "description": "Celebra tu cumpleaños con estilo con nosotros. Disfruta de una comida de cortesía y una sorpresa especial de nuestro equipo. Haz tu cumpleaños inolvidable."
+    },
+    {
+        "title": "Los niños comen gratis",
+        "description": "¡Las comidas familiares mejoraron! Con nuestra oferta 'Los niños comen gratis', tu pequeño puede disfrutar su plato favorito por cuenta de la casa."
+    },
+    {
+        "title": "Clase de cocina gratis",
+        "description": "Desbloquea tu potencial culinario con nuestra clase de cocina de cortesía. Aprende de nuestros chefs expertos, descubre nuevas recetas y lleva tus habilidades al siguiente nivel."
+    },
+    {
+        "title": "Descuento en servicio de catering",
+        "description": "¿Organizas una fiesta o evento? Te tenemos cubierto. Obtén un descuento exclusivo en nuestros servicios de catering y haz de tu evento un éxito culinario."
+    },
+    {
+        "title": "Acceso prioritario a eventos",
+        "description": "Obtén acceso exclusivo y prioritario a nuestros eventos especiales. Desde catas de vino hasta festivales gourmet, disfruta lo mejor que tenemos antes que nadie."
+    },
+    {
+        "title": "Especial madrugador",
+        "description": "Adelántate a la multitud y obtén un descuento especial con nuestro especial madrugador. ¡El primero en llegar se lleva la oferta!"
+    },
+    {
+        "title": "Botella de vino gratis",
+        "description": "Complementa tu comida con una botella gratis de nuestro vino seleccionado. Cuidadosamente elegido por nuestro sommelier, es el acompañamiento perfecto para una experiencia gastronómica exquisita."
+    },
+    {
+        "title": "Mitad de precio en platos selectos",
+        "description": "Experimenta lo mejor de nuestro menú a mitad de precio. Platos seleccionados con descuento cada semana. ¡Una oferta deliciosa que no puedes resistir!"
+    },
+    {
+        "title": "Refills de bebidas gratis",
+        "description": "¡Mantente refrescado! Disfruta refills gratis en nuestra gama de refrescos. El acompañamiento perfecto para tu comida."
+    },
+    {
+        "title": "Oferta de temporada exclusiva",
+        "description": "Celebra la temporada con nuestra oferta de temporada exclusiva. Disfruta un menú curado con ingredientes de temporada a un precio especial."
+    },
+    {
+        "title": "Cena para dos",
+        "description": "Disfruta una cena íntima para dos con nuestra recompensa especial. Degusta una comida de cuatro tiempos y crea recuerdos duraderos con tu ser querido."
+    },
+    {
+        "title": "Especial del chef",
+        "description": "Disfruta un plato especialmente preparado por nuestro chef principal. Una experiencia culinaria única que no querrás perderte."
+    },
+    {
+        "title": "Entrada de cortesía",
+        "description": "Empieza tu comida bien. Elige cualquier entrada de la casa con esta recompensa especial."
+    },
+    {
+        "title": "Postre gratis",
+        "description": "Date un dulce gusto por nuestra cuenta. Termina tu comida con una nota dulce con nuestra oferta de postre de cortesía."
+    },
+    {
+        "title": "Especial brunch de fin de semana",
+        "description": "Haz tus fines de semana especiales con nuestro brunch de cortesía. Disfruta una selección de tus platos favoritos en un ambiente relajado y amigable."
+    },
+    {
+        "title": "Entrada gratis a noche gourmet",
+        "description": "Experimenta una velada de delicias gourmet con entrada gratis a nuestra noche gourmet mensual. Prueba una variedad de platos exóticos creados por nuestros talentosos chefs."
+    },
+    {
+        "title": "Barra de ensaladas gratis",
+        "description": "Disfruta una selección fresca y saludable de nuestra barra de ensaladas gratis. Un complemento perfecto para cualquier comida o una elección abundante por sí sola."
+    },
+    {
+        "title": "Evento de cata de vinos",
+        "description": "Recibe invitación a nuestros eventos exclusivos de cata de vinos. Descubre una variedad de vinos finos guiado por nuestro sommelier experimentado."
+    },
+    {
+        "title": "Especial de fiestas",
+        "description": "Celebra la temporada festiva con nuestro especial de fiestas exclusivo. Disfruta un menú festivo especialmente curado para la temporada."
+    },
+    {
+        "title": "Refresco de cortesía",
+        "description": "Mantente refrescado con un refresco de cortesía de tu elección. Perfecto para esos cálidos días de verano."
+    },
+    {
+        "title": "Experiencia de cata de cerveza",
+        "description": "Disfruta una selección de nuestras mejores cervezas con nuestra experiencia de cata de cerveza. Una recompensa ideal para los amantes de la cerveza."
+    },
+    {
+        "title": "Pizza gratis",
+        "description": "¿A quién no le encanta una pizza gratis? Disfruta una deliciosa pizza caliente directo de nuestro horno con esta recompensa."
+    },
+    {
+        "title": "Desayuno de cortesía",
+        "description": "Empieza tu día bien con un desayuno de cortesía. Elige de nuestro menú de artículos de desayuno tradicionales y modernos."
+    },
+    {
+        "title": "Especial de almuerzo",
+        "description": "Toma un descanso de tu día y disfruta nuestro especial de almuerzo. Una selección de platos elegidos a mano para satisfacer tu hambre del mediodía."
+    },
+    {
+        "title": "Menú degustación exclusivo",
+        "description": "Déjate llevar por un menú degustación exclusivo curado por nuestro chef principal. Un viaje culinario que no querrás perderte."
+    },
+    {
+        "title": "Cóctel artesanal de cortesía",
+        "description": "Disfruta un cóctel artesanal de cortesía, mezclado a la perfección por nuestros bartenders experimentados. La forma perfecta de empezar o terminar tu comida."
+    }
+]

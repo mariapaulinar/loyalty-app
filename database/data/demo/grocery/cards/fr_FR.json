@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Fraîcheur",
+        "title": "Fidélisez les courses hebdo",
+        "description": "Gagnez des points sur chaque panier et débloquez des avantages membres qui font revenir."
+    },
+    {
+        "head": "Choix santé",
+        "title": "Récompensez les meilleurs choix",
+        "description": "Points bonus sur les catégories plus saines. Parfait pour les campagnes bien-être."
+    },
+    {
+        "head": "Panier familial",
+        "title": "Plus gros panier = Plus de récompenses",
+        "description": "Conçu pour augmenter la taille du panier et la fréquence."
+    },
+    {
+        "head": "Produits de saison",
+        "title": "Économies saisonnières sans fatigue remise",
+        "description": "Rotez les récompenses saisonnières : fruits d'été, rentrée, garde-manger d'hiver."
+    },
+    {
+        "head": "Prix membres",
+        "title": "Offres membres instantanées",
+        "description": "Les membres voient la valeur immédiatement. Idéal pour conversion en caisse."
+    },
+    {
+        "head": "Nouvelles marques",
+        "title": "Découvrez & gagnez",
+        "description": "Encouragez l'essai de nouveaux produits avec des déclencheurs points bonus."
+    }
+]

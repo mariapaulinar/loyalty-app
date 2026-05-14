@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Accesorios",
+    "title": "10 sellos",
+    "description": "Canjea por un pack de accesorios."
+  },
+  {
+    "head": "Cuidado de pantalla",
+    "title": "Sellos de kit de cuidado",
+    "description": "Desbloquea un protector o kit de pantalla."
+  },
+  {
+    "head": "Ayuda configuración",
+    "title": "Tarjeta de servicio",
+    "description": "Completa para una sesión de configuración gratis."
+  },
+  {
+    "head": "Doble sellos fin de semana",
+    "title": "Fin de semana 2x sellos",
+    "description": "Doble sellos para aumentar afluencia."
+  },
+  {
+    "head": "Tarjeta lanzamiento",
+    "title": "Tarjeta lanzamiento",
+    "description": "Tarjeta limitada para drops de productos."
+  },
+  {
+    "head": "Audífonos",
+    "title": "5 compras = beneficio",
+    "description": "Ciclo para compradores de accesorios recurrentes."
+  }
+]

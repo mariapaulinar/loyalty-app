@@ -1,0 +1,38 @@
+[
+    {
+        "head": "食事 お得",
+        "title": "25%割引 あなたの Bill",
+        "description": "使う 25% 割引 で あなたの entire 食事!",
+        "free_product_name": "25%割引"
+    },
+    {
+        "head": "キャンペーン: ハッピー Hour",
+        "title": "購入 1 取得 1 ドリンク",
+        "description": "購入 1つ ドリンク と 取得 2番目 無料!",
+        "free_product_name": "無料 ドリンク"
+    },
+    {
+        "head": "ランチ 特別",
+        "title": "$10割引 ランチ メニュー",
+        "description": "お得 $10 で 任意の ランチ コンボ 月曜日-金曜日!",
+        "free_product_name": "$10割引"
+    },
+    {
+        "head": "キャンペーン: デザート 喜び",
+        "title": "無料 デザート",
+        "description": "取得 無料 デザート 付き 任意の main course!",
+        "free_product_name": "キャンペーン: デザート"
+    },
+    {
+        "head": "ファミリー Feast",
+        "title": "30%割引 ファミリー Meals",
+        "description": "Bring ファミリー と お得 30% で meals 対象 4+!",
+        "free_product_name": "30%割引"
+    },
+    {
+        "head": "シェフ 特別",
+        "title": "$20割引 プレミアム メニュー",
+        "description": "体験 私たちの シェフ 特別 料理 付き $20 節約!",
+        "free_product_name": "$20割引"
+    }
+]

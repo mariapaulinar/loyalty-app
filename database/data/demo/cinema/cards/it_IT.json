@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Festa dei blockbuster",
+        "title": "Risparmi sulle anteprime",
+        "description": "Ottieni sconti esclusivi sulle proiezioni in anteprima!"
+    },
+    {
+        "head": "Membership cinema",
+        "title": "Guarda e guadagna",
+        "description": "Accumula punti ogni volta che guardi un film con noi!"
+    },
+    {
+        "head": "Club cinefili",
+        "title": "Guarda e risparmia",
+        "description": "Immergiti nelle esperienze cinematografiche e goditi vantaggi speciali!"
+    },
+    {
+        "head": "Pass popcorn",
+        "title": "Sgranocchia e guadagna",
+        "description": "Guadagna premi con ogni acquisto di popcorn!"
+    },
+    {
+        "head": "Speciali pomeridiani",
+        "title": "Sconti pomeridiani",
+        "description": "Goditi tariffe scontate per le proiezioni pomeridiane!"
+    },
+    {
+        "head": "Festival film weekend",
+        "title": "Offerte cinema weekend",
+        "description": "Guarda gli ultimi film nei weekend e approfitta di offerte speciali!"
+    }
+]

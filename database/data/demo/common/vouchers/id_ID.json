@@ -1,0 +1,33 @@
+[
+    {
+        "head": "Anggota penawaran",
+        "title": "Diskon 25%",
+        "description": "eksklusif hemat Untuk Anggota—terbatas waktu."
+    },
+    {
+        "head": "Hadiah Sambutan",
+        "title": "Diskon $10",
+        "description": "kecil thank Anda Untuk joining."
+    },
+    {
+        "head": "Gratis upgrade",
+        "title": "Gratis tambah‑di",
+        "description": "dapatkan gratis add-on dengan Anda Pembelian.",
+        "free_product_name": "Gratis tambah‑di"
+    },
+    {
+        "head": "Poin bonus",
+        "title": "+100 Poin",
+        "description": "Dapatkan ekstra poin di Anda Berikutnya Pembelian."
+    },
+    {
+        "head": "Promo: bundel hemat",
+        "title": "beli lagi, hemat lagi",
+        "description": "hemat lagi ketika Anda reach Minimum spend."
+    },
+    {
+        "head": "akhir pekan penawaran",
+        "title": "akhir pekan khusus",
+        "description": "weekend-only penawaran Ke dorong ulang Kunjungan."
+    }
+]

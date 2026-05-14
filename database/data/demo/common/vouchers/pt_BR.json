@@ -1,0 +1,33 @@
+[
+  {
+    "head": "Oferta do Membro",
+    "title": "25% de desconto",
+    "description": "Economia exclusiva para membros - por tempo limitado."
+  },
+  {
+    "head": "Presente de Boas-vindas",
+    "title": "US$ 10 de desconto",
+    "description": "Um obrigado por se juntar."
+  },
+  {
+    "head": "Upgrade Gratis",
+    "title": "Add-on gratis",
+    "description": "Ganhe um add-on gratuito na sua compra.",
+    "free_product_name": "Add-on gratis"
+  },
+  {
+    "head": "Pontos Bonus",
+    "title": "+100 pontos",
+    "description": "Ganhe pontos extras na proxima compra."
+  },
+  {
+    "head": "Economia no Combo",
+    "title": "Compre mais, economize mais",
+    "description": "Economize ao atingir o valor minimo."
+  },
+  {
+    "head": "Oferta de Fim de Semana",
+    "title": "Especial de fim de semana",
+    "description": "Oferta so no fim de semana para aumentar o retorno."
+  }
+]

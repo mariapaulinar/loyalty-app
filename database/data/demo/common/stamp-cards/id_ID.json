@@ -1,0 +1,32 @@
+[
+    {
+        "head": "stempel & hemat",
+        "title": "Kumpulkan Stempel",
+        "description": "satu stempel per Kunjungi. Finish Kartu, Klaim keuntungan."
+    },
+    {
+        "head": "Regulars Klub",
+        "title": "Kunjungi, buka",
+        "description": "Short siklus yang turns regulars menjadi Anggota."
+    },
+    {
+        "head": "Promo: mingguan Challenge",
+        "title": "Double-stempel hari",
+        "description": "Pick hari, jalankan 2x Stempel, tingkatkan traffic."
+    },
+    {
+        "head": "baru Anggota",
+        "title": "Promo: mulai strong",
+        "description": "Welcome stempel Ke kick Diskon kebiasaan."
+    },
+    {
+        "head": "Promo: Bring teman",
+        "title": "Promo: Group dorongan",
+        "description": "Come together, Progres lebih cepat."
+    },
+    {
+        "head": "terbatas jalankan",
+        "title": "musiman Kartu",
+        "description": "Waktu terbatas Kartu Stempel Untuk Kampanye."
+    }
+]

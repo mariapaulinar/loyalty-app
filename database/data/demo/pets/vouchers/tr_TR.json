@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Üye ozel",
+        "title": "%15 İndirim Sonraki Satın Alma",
+        "description": "Short-window conversion teklif.",
+        "free_product_name": "%15 İndirim"
+    },
+    {
+        "head": "Kampanya: bakim",
+        "title": "Ücretsiz Add-On",
+        "description": "Premium-feel bakim ayrıcalık.",
+        "free_product_name": "Kampanya: Add-On"
+    },
+    {
+        "head": "Kampanya: ikramlar",
+        "title": "Ücretsiz ikram paket",
+        "description": "yuksek keyif, dusuk Maliyet.",
+        "free_product_name": "Kampanya: ikramlar"
+    },
+    {
+        "head": "puan guclendirici",
+        "title": "+120 bonus Puan",
+        "description": "artir tekrarlar olmadan İndirim addiction.",
+        "free_product_name": "+120 Puan"
+    },
+    {
+        "head": "Kampanya: paket tasarrufcu",
+        "title": "$10 İndirim $60",
+        "description": "Kampanya: Encourage daha buyuk baskets.",
+        "free_product_name": "$10 İndirim"
+    },
+    {
+        "head": "tatil ozel",
+        "title": "sezonluk firsat",
+        "description": "Kampanya-ready sezonluk Kupon.",
+        "free_product_name": "tatil firsat"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "head": "Nasza marka",
+        "title": "Lojalność się opłaca",
+        "description": "Zbieraj Pieczątki za Nagrody kulinarne!"
+    },
+    {
+        "head": "Letnie Nagrody",
+        "title": "Sezonowe oszczędności",
+        "description": "Latem zbierasz Pieczątki szybciej!"
+    },
+    {
+        "head": "Karta oszczędności",
+        "title": "Zbieraj podczas zakupów",
+        "description": "Otrzymuj Pieczątkę przy każdej wizycie!"
+    },
+    {
+        "head": "Klub Gourmet",
+        "title": "Jedz i oszczędzaj",
+        "description": "Pyszne posiłki nagradzamy Pieczątkami!"
+    },
+    {
+        "head": "Karta smakosza",
+        "title": "Smakuj i zbieraj",
+        "description": "Dobre jedzenie zasługuje na Pieczątki!"
+    },
+    {
+        "head": "Karta lojalnościowa",
+        "title": "Oszczędzaj teraz",
+        "description": "Zbieraj Pieczątki i odbieraj zniżki kulinarne!"
+    },
+    {
+        "head": "Specjały obiadowe",
+        "title": "Odbieraj Nagrody",
+        "description": "Wieczorne wizyty dają dodatkowe Pieczątki!"
+    },
+    {
+        "head": "Weekendowa bonanza",
+        "title": "Nagrody weekendowe",
+        "description": "W weekend Pieczątki wpadają szybciej!"
+    },
+    {
+        "head": "Oferty świąteczne",
+        "title": "Świąteczne oszczędności",
+        "description": "Świętuj i zbieraj wyjątkowe Pieczątki!"
+    },
+    {
+        "head": "Szczęśliwe godziny",
+        "title": "Nagrody godzinowe",
+        "description": "W happy hours otrzymujesz podwójne Pieczątki!"
+    },
+    {
+        "head": "Miłośnicy kawy",
+        "title": "Punkty za espresso",
+        "description": "Każda kawa to kolejna Pieczątka!"
+    },
+    {
+        "head": "Królestwo pizzy",
+        "title": "Oszczędności na kawałkach",
+        "description": "Każdy kawałek to nowa Pieczątka!"
+    },
+    {
+        "head": "Zdrowe jedzenie",
+        "title": "Oszczędności na sałatkach",
+        "description": "Zdrowe wybory też zbierają Pieczątki!"
+    },
+    {
+        "head": "Burgerowa bonanza",
+        "title": "Punkty za burgery",
+        "description": "Do burgerów dorzucamy Pieczątki!"
+    },
+    {
+        "head": "Promocja na owoce morza",
+        "title": "Nagrody za ryby",
+        "description": "Świeże owoce morza = kolejne Pieczątki!"
+    },
+    {
+        "head": "Deserowe przyjemności",
+        "title": "Słodkie oszczędności",
+        "description": "Słodkie desery dają słodkie Pieczątki!"
+    },
+    {
+        "head": "Kuchnia azjatycka",
+        "title": "Punkty za sushi",
+        "description": "Roluj po Pieczątki z każdym sushi!"
+    },
+    {
+        "head": "Meksykańska fiesta",
+        "title": "Tokeny taco",
+        "description": "Taco także zbiera Pieczątki!"
+    },
+    {
+        "head": "Klub śniadaniowy",
+        "title": "Poranne Nagrody",
+        "description": "Ranne ptaszki zbierają Pieczątki szybciej!"
+    },
+    {
+        "head": "Promocje lunchowe",
+        "title": "Lojalność lunchowa",
+        "description": "W porze lunchu łatwiej o Pieczątki!"
+    }
+]

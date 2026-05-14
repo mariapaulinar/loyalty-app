@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Esclusiva membri",
+        "title": "20% di sconto detailing",
+        "description": "Offerta servizio che converte.",
+        "free_product_name": "20% di sconto"
+    },
+    {
+        "head": "Upgrade",
+        "title": "Upgrade lavaggio gratuito",
+        "description": "Upgrade a lavaggio premium. Alto valore percepito.",
+        "free_product_name": "Upgrade lavaggio"
+    },
+    {
+        "head": "Risparmia sul bundle",
+        "title": "15€ di sconto su 100€",
+        "description": "Spingi pacchetti più grandi.",
+        "free_product_name": "15€ di sconto"
+    },
+    {
+        "head": "Booster punti",
+        "title": "+250 punti bonus",
+        "description": "Premia la frequenza senza sconti profondi.",
+        "free_product_name": "+250 punti"
+    },
+    {
+        "head": "Weekend",
+        "title": "Speciale weekend",
+        "description": "Offerta a finestra breve pensata per riempire la capacità.",
+        "free_product_name": "Offerta weekend"
+    },
+    {
+        "head": "Manutenzione",
+        "title": "10€ di sconto servizio",
+        "description": "Incentiva le prenotazioni manutenzione.",
+        "free_product_name": "10€ di sconto"
+    }
+]

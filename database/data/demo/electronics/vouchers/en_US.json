@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Member Exclusive",
+        "title": "10% Off Accessories",
+        "description": "Drive attach-rate without discounting devices.",
+        "free_product_name": "10% Off"
+    },
+    {
+        "head": "Welcome Gift",
+        "title": "Free Screen Protector",
+        "description": "High value-perception perk.",
+        "free_product_name": "Protector"
+    },
+    {
+        "head": "Bundle Saver",
+        "title": "$25 Off $200",
+        "description": "Encourage bundles and bigger carts.",
+        "free_product_name": "$25 Off"
+    },
+    {
+        "head": "Trade-In",
+        "title": "+300 Bonus Points",
+        "description": "Reward upgrades with points, not price cuts.",
+        "free_product_name": "+300 Points"
+    },
+    {
+        "head": "VIP",
+        "title": "Free Setup Help",
+        "description": "Premium service perk that builds trust.",
+        "free_product_name": "Setup"
+    },
+    {
+        "head": "Weekend",
+        "title": "BOGO Cable",
+        "description": "Shareable low-cost perk that drives visits.",
+        "free_product_name": "Free Cable"
+    }
+]

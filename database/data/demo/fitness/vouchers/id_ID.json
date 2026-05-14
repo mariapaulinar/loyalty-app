@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Promo: Gym akses",
+        "title": "Gratis Minggu Trial",
+        "description": "coba kami gym Gratis Untuk satu Minggu - all facilities included!",
+        "free_product_name": "Minggu Trial"
+    },
+    {
+        "head": "Promo: Personal pelatihan",
+        "title": "3 Gratis PT Sessions",
+        "description": "dapatkan 3 gratis personal pelatihan sessions!",
+        "free_product_name": "Promo: 3 PT Sessions"
+    },
+    {
+        "head": "Promo: kelas akses",
+        "title": "Diskon 20% bulanan Classes",
+        "description": "hemat 20% di Tanpa Batas group fitness classes!",
+        "free_product_name": "Diskon 20%"
+    },
+    {
+        "head": "keanggotaan penawaran",
+        "title": "Diskon $50 Annual keanggotaan",
+        "description": "gabung Untuk year dan hemat $50 di Anda keanggotaan!",
+        "free_product_name": "Diskon $50"
+    },
+    {
+        "head": "yoga khusus",
+        "title": "Gratis yoga Mat",
+        "description": "dapatkan premium yoga mat dengan apa pun keanggotaan!",
+        "free_product_name": "Promo: yoga Mat"
+    },
+    {
+        "head": "Promo: kesehatan paket",
+        "title": "Diskon 30% kesehatan Layanan",
+        "description": "hemat di massage, nutrition, dan recovery Layanan!",
+        "free_product_name": "Diskon 30%"
+    }
+]

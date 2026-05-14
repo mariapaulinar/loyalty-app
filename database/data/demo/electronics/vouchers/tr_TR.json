@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Üye ozel",
+        "title": "%10 İndirim aksesuarlar",
+        "description": "artir attach-Oran olmadan indirimleme devices.",
+        "free_product_name": "%10 İndirim"
+    },
+    {
+        "head": "Hoş Geldin Hediyesi",
+        "title": "Ücretsiz Screen Protector",
+        "description": "yuksek Değer-perception ayrıcalık.",
+        "free_product_name": "Kampanya: Protector"
+    },
+    {
+        "head": "Kampanya: paket tasarrufcu",
+        "title": "$25 İndirim $200",
+        "description": "Kampanya: Encourage bundles ve daha buyuk carts.",
+        "free_product_name": "$25 İndirim"
+    },
+    {
+        "head": "Kampanya: Trade-In",
+        "title": "+300 bonus Puan",
+        "description": "Ödül yukseltmeler ile puan, not fiyat cuts.",
+        "free_product_name": "+300 Puan"
+    },
+    {
+        "head": "Kampanya: VIP",
+        "title": "Ücretsiz kurulum yardim",
+        "description": "premium hizmet ayrıcalık ki insa eder trust.",
+        "free_product_name": "Kampanya: kurulum"
+    },
+    {
+        "head": "hafta sonu",
+        "title": "Kampanya: BOGO Cable",
+        "description": "Shareable low-Maliyet ayrıcalık ki surukler Ziyaret.",
+        "free_product_name": "Ücretsiz Cable"
+    }
+]

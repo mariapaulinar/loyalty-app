@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Premium-Wäsche",
+        "description": "Einlösen für ein Premium-Wäsche-Upgrade, das das Auto wie neu erstrahlen lässt. Ideal für wiederkehrende Serviceroutinen."
+    },
+    {
+        "title": "Innenraum-Upgrade",
+        "description": "Upgrade zur Innenraumaufbereitung und verwandeln Sie einen Standardbesuch in ein Wow-Erlebnis. Ideal für Upselling und Kundenbindung."
+    },
+    {
+        "title": "Pflege-Set",
+        "description": "Ein praktisches Autopflege-Set, das Ihre Marke im Handschuhfach präsent hält. Ideal als mittlere Einlösungsoption."
+    },
+    {
+        "title": "Service-Rabatt",
+        "description": "Rabatt-Token für Wartung, der zukünftige Buchungen fördert. Zur Steigerung des Kundenwerts, nicht für Generalrabatte."
+    },
+    {
+        "title": "VIP-Spur-Pass",
+        "description": "Prioritätsspur-Token, der sich premium anfühlt und Zeit spart. Ein Treuevorteil, den Kunden wirklich schätzen."
+    },
+    {
+        "title": "Zusatz-Paket",
+        "description": "Ein kleines Zusatzpaket (Lufterfrischer, Tücher, etc.), das mit geringen Kosten Freude bereitet. Ideal für schwächere Zeiten."
+    }
+]

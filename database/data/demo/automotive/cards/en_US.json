@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Detail Club",
+        "title": "Clean Cars, Loyal Customers",
+        "description": "Earn points on washes and detailing. Redeem for premium upgrades."
+    },
+    {
+        "head": "Seasonal Protection",
+        "title": "Campaign-Ready Seasonal Packages",
+        "description": "Winter protection, summer shine. Run promos without discount chaos."
+    },
+    {
+        "head": "VIP Lane",
+        "title": "Priority Service for Members",
+        "description": "Premium perk that improves retention and upsells."
+    },
+    {
+        "head": "Fleet & Family",
+        "title": "Reward Multi-Car Households",
+        "description": "Designed to increase frequency and lifetime value."
+    },
+    {
+        "head": "Weekend Wash",
+        "title": "Weekend Boost",
+        "description": "Bonus points on weekends to create predictable demand."
+    },
+    {
+        "head": "Maintenance",
+        "title": "Service Rewards",
+        "description": "Rewards for maintenance visits. Built for repeat business."
+    }
+]

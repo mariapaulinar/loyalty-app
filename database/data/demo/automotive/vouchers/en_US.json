@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Member Exclusive",
+        "title": "20% Off Detailing",
+        "description": "Conversion-friendly service offer.",
+        "free_product_name": "20% Off"
+    },
+    {
+        "head": "Upgrade",
+        "title": "Free Wash Upgrade",
+        "description": "Upgrade to premium wash. High perceived value.",
+        "free_product_name": "Wash Upgrade"
+    },
+    {
+        "head": "Bundle Saver",
+        "title": "$15 Off $100",
+        "description": "Push bigger packages.",
+        "free_product_name": "$15 Off"
+    },
+    {
+        "head": "Points Booster",
+        "title": "+250 Bonus Points",
+        "description": "Reward frequency without deep discounts.",
+        "free_product_name": "+250 Points"
+    },
+    {
+        "head": "Weekend",
+        "title": "Weekend Special",
+        "description": "Short-window offer designed to fill capacity.",
+        "free_product_name": "Weekend Deal"
+    },
+    {
+        "head": "Maintenance",
+        "title": "$10 Off Service",
+        "description": "Incentivize maintenance bookings.",
+        "free_product_name": "$10 Off"
+    }
+]

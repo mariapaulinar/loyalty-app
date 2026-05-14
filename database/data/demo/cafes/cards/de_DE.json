@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Barista-Club",
+        "title": "Täglichen Kaffee in tägliche Treue verwandeln",
+        "description": "Verdienen Sie Punkte bei jeder Tasse und jedem Gebäck. Schnelle Einlösungen bringen Kunden morgen wieder."
+    },
+    {
+        "head": "Morgen-Boost",
+        "title": "Frühaufsteher = Extra-Punkte",
+        "description": "Vor 10 Uhr verdienen Mitglieder mehr. Für planbaren Morgenansturm konzipiert."
+    },
+    {
+        "head": "Eis-Saison",
+        "title": "Saisonale Getränke, saisonale Prämien",
+        "description": "Starten Sie ein Sommermenü mit limitierten Prämien. Für Wiederholungsbesuche konzipiert."
+    },
+    {
+        "head": "Arbeitstag-Energie",
+        "title": "Die 14-Uhr-Gewohnheit belohnen",
+        "description": "Mikro-Momente zählen: Nachmittage mit gezielten Punkteboosts beschäftigt halten."
+    },
+    {
+        "head": "Neue Mischung",
+        "title": "Neues probieren, schneller verdienen",
+        "description": "Bonuspunkte auf vorgestellte Getränke. Perfekt für Neueinführungen und Kooperationen."
+    },
+    {
+        "head": "Freunde einladen",
+        "title": "Empfehlungsbonus, der sich sofort anfühlt",
+        "description": "Laden Sie einen Freund ein und schalten Sie sofort einen Vorteil frei. Für soziales Wachstum konzipiert."
+    }
+]

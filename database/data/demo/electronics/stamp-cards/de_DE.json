@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Zubehör",
+    "title": "10 Stempel",
+    "description": "Einlösen für ein Zubehör-Bundle."
+  },
+  {
+    "head": "Bildschirmpflege",
+    "title": "Pflege-Set-Stempel",
+    "description": "Bildschirmschutz oder Set freischalten."
+  },
+  {
+    "head": "Setup-Hilfe",
+    "title": "Service-Karte",
+    "description": "Abschließen für gratis Setup-Session."
+  },
+  {
+    "head": "Wochenend-Doppelstempel",
+    "title": "Wochenende 2x Stempel",
+    "description": "Doppelstempel für mehr Kundenfrequenz."
+  },
+  {
+    "head": "Launch-Karte",
+    "title": "Launch-Karte",
+    "description": "Zeitlich begrenzte Karte für Produkt-Drops."
+  },
+  {
+    "head": "Kopfhörer",
+    "title": "5 Käufe = Vorteil",
+    "description": "Kreislauf für wiederkehrende Zubehör-Käufer."
+  }
+]

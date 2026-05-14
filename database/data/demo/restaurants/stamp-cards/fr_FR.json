@@ -1,0 +1,102 @@
+[
+    {
+        "head": "Notre marque",
+        "title": "Fidélité récompensée",
+        "description": "Cumulez des tampons repas pour des récompenses !"
+    },
+    {
+        "head": "Récompenses d'été",
+        "title": "Économies saisonnières",
+        "description": "Les repas d'été vous rapportent des tampons !"
+    },
+    {
+        "head": "Carte économies",
+        "title": "Gagnez en dépensant",
+        "description": "Obtenez un tampon à chaque repas !"
+    },
+    {
+        "head": "Club Gourmet",
+        "title": "Dînez et économisez",
+        "description": "Les repas délicieux rapportent des tampons !"
+    },
+    {
+        "head": "Carte Foodie",
+        "title": "Goûtez et gagnez",
+        "description": "La bonne cuisine mérite des tampons !"
+    },
+    {
+        "head": "Carte fidélité",
+        "title": "Économisez maintenant",
+        "description": "Tamponnez votre chemin vers les économies repas !"
+    },
+    {
+        "head": "Spéciaux dîner",
+        "title": "Soyez récompensé",
+        "description": "Les dîners du soir rapportent des tampons spéciaux !"
+    },
+    {
+        "head": "Bonanza week-end",
+        "title": "Récompenses week-end",
+        "description": "Les visites week-end = plus de tampons !"
+    },
+    {
+        "head": "Offres festives",
+        "title": "Économies de fêtes",
+        "description": "Célébrez avec des récompenses tampons exclusives !"
+    },
+    {
+        "head": "Happy Hours",
+        "title": "Récompenses horaires",
+        "description": "Les visites happy hour rapportent le double !"
+    },
+    {
+        "head": "Amoureux du café",
+        "title": "Points Espresso",
+        "description": "Chaque café rapporte un tampon !"
+    },
+    {
+        "head": "Palais de la pizza",
+        "title": "Économies à la part",
+        "description": "Chaque part rapporte un tampon !"
+    },
+    {
+        "head": "Manger sain",
+        "title": "Économies salade",
+        "description": "Les choix sains rapportent des tampons !"
+    },
+    {
+        "head": "Bonanza burger",
+        "title": "Points burger",
+        "description": "Empilez les tampons avec vos burgers !"
+    },
+    {
+        "head": "Spécial fruits de mer",
+        "title": "Récompenses poisson",
+        "description": "Les fruits de mer frais rapportent des tampons !"
+    },
+    {
+        "head": "Délices sucrés",
+        "title": "Économies sucrées",
+        "description": "Les douceurs rapportent des tampons sucrés !"
+    },
+    {
+        "head": "Cuisine asiatique",
+        "title": "Points sushi",
+        "description": "Roulez dans les récompenses tampons !"
+    },
+    {
+        "head": "Fiesta mexicaine",
+        "title": "Tokens taco",
+        "description": "Les tacos vous rapportent des tampons !"
+    },
+    {
+        "head": "Club petit-déj",
+        "title": "Récompenses matinales",
+        "description": "Les lève-tôt obtiennent des tampons !"
+    },
+    {
+        "head": "Spéciaux déjeuner",
+        "title": "Fidélité déjeuner",
+        "description": "Les visites déjeuner rapportent des tampons !"
+    }
+]

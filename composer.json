@@ -1,0 +1,106 @@
+{
+    "name": "reward-loyalty/app",
+    "type": "project",
+    "description": "Enterprise Customer Loyalty Platform - Digital Savings Cards, Points, Stamps, Tiers & More",
+    "keywords": [
+        "loyalty",
+        "rewards",
+        "points",
+        "stamps",
+        "membership",
+        "customer-engagement"
+    ],
+    "license": "proprietary",
+    "require": {
+        "php": "^8.3",
+        "aws/aws-sdk-php": "^3.363",
+        "blade-ui-kit/blade-heroicons": "^2.0",
+        "blade-ui-kit/blade-icons": "^1.0",
+        "darkaonline/l5-swagger": "^11.0",
+        "doctrine/annotations": "^2.0",
+        "ezyang/htmlpurifier": "^4.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/cashier": "^16.5",
+        "laravel/framework": "^13.0",
+        "laravel/horizon": "^5.0",
+        "laravel/pulse": "^1.0",
+        "laravel/sanctum": "^4.0",
+        "laravel/tinker": "^3.0",
+        "laravolt/avatar": "^6.0",
+        "league/flysystem-aws-s3-v3": "^3.30",
+        "moneyphp/money": "^4.0",
+        "openai-php/client": "^0.19",
+        "resend/resend-laravel": "^1.0",
+        "spatie/laravel-activitylog": "^4.10",
+        "spatie/laravel-medialibrary": "^11.0",
+        "spatie/laravel-translatable": "^6.0",
+        "symfony/http-client": "^8.0",
+        "symfony/mailgun-mailer": "^8.0",
+        "symfony/postmark-mailer": "^8.0"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.0",
+        "laravel/boost": "^2.0",
+        "laravel/pint": "^1.0",
+        "laravel/sail": "^1.0",
+        "mockery/mockery": "^1.0",
+        "nunomaduro/collision": "^8.0",
+        "pestphp/pest": "^4.0",
+        "pestphp/pest-plugin-laravel": "^4.0",
+        "spatie/laravel-ignition": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        },
+        "files": [
+            "app/Helpers/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force",
+            "echo Delete all unwanted files in vendor.",
+            "find vendor -type d -name .git -exec rm -rf {} +"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi",
+            "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+            "@php artisan migrate --graceful --ansi"
+        ],
+        "post-install-cmd": [
+            "echo Delete all .git directories in vendor.",
+            "find vendor -type d -name .git -exec rm -rf {} +"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

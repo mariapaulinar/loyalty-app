@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Blockbuster Bonanza",
+        "title": "Premiere Savings",
+        "description": "Get exclusive discounts on premiere showings!"
+    },
+    {
+        "head": "Movie Membership",
+        "title": "Watch and Earn",
+        "description": "Accumulate points every time you watch a movie with us!"
+    },
+    {
+        "head": "Film Fanatics Club",
+        "title": "View and Save",
+        "description": "Dive into cinematic experiences and enjoy special perks!"
+    },
+    {
+        "head": "Popcorn Pass",
+        "title": "Snack and Score",
+        "description": "Earn rewards with every popcorn purchase!"
+    },
+    {
+        "head": "Matinee Specials",
+        "title": "Afternoon Discounts",
+        "description": "Enjoy discounted rates for afternoon showings!"
+    },
+    {
+        "head": "Weekend Film Fest",
+        "title": "Weekend Movie Deals",
+        "description": "Catch the latest movies on weekends and avail special offers!"
+    }
+]

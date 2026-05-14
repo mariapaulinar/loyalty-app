@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Klub Łapek",
+        "title": "Nagradzaj każdy merdnięty ogon",
+        "description": "Zbieraj Punkty za karmę, grooming i zabawki. Stworzone, by budować dobre nawyki."
+    },
+    {
+        "head": "Pielęgnuj i oszczędzaj",
+        "title": "Zamień grooming w nawyk",
+        "description": "Nagrody zaprojektowane tak, by kalendarz groomingu był zawsze pełny."
+    },
+    {
+        "head": "Korzyści dla zdrowia pupila",
+        "title": "Nagradzaj zakupy prozdrowotne",
+        "description": "Bonusowe Punkty za produkty prozdrowotne. Świetne do sezonowych kampanii zdrowotnych."
+    },
+    {
+        "head": "Korzyści VIP dla pupili",
+        "title": "Priorytetowe rezerwacje + Nagrody premium",
+        "description": "Program premium dla Twoich najlepszych klientów."
+    },
+    {
+        "head": "Sezonowe przysmaki",
+        "title": "Sezonowe kampanie bez wysiłku",
+        "description": "Świąteczne przysmaki, letnie akcesoria i zimowa pielęgnacja. Rotuj oferty bez przebudowy programu."
+    },
+    {
+        "head": "Urodzinowy bonus pupila",
+        "title": "Urodzinowa korzyść, która zwiększa wizyty",
+        "description": "Czasowa korzyść urodzinowa. Idealna do groomingu lub pakietów przysmaków."
+    }
+]

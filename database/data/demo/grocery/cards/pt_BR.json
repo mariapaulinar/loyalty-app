@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Clube Fresco",
+        "title": "Faca a compra semanal virar habito",
+        "description": "Ganhe pontos em cada cesta e destrave vantagens para membros que aumentam visitas recorrentes."
+    },
+    {
+        "head": "Escolhas Saudaveis",
+        "title": "Recompense escolhas melhores",
+        "description": "Pontos bonus em categorias mais saudaveis. Otimo para campanhas de bem-estar."
+    },
+    {
+        "head": "Cesta da Familia",
+        "title": "Carrinho maior = recompensas maiores",
+        "description": "Projetado para aumentar o tamanho da cesta e a frequencia."
+    },
+    {
+        "head": "Sazonal do Hortifruti",
+        "title": "Economia sazonal sem cansar de desconto",
+        "description": "Gire recompensas por estacao: frutas de verao, volta as aulas, despensa de inverno."
+    },
+    {
+        "head": "Precos para Membros",
+        "title": "Ofertas imediatas para membros",
+        "description": "Membros veem valor na hora. Ideal para conversao no caixa."
+    },
+    {
+        "head": "Novas Marcas",
+        "title": "Descubra e ganhe",
+        "description": "Incentive teste de novos produtos com gatilhos de pontos bonus."
+    }
+]

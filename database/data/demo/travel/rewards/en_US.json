@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Room Upgrade",
+        "description": "Redeem for a room upgrade and turn a booking into a memorable experience. Perfect for VIP tiers and special occasions."
+    },
+    {
+        "title": "Late Checkout",
+        "description": "Enjoy extra time with a perk that feels luxurious and costs little. Great for weekend getaways and loyalty milestones."
+    },
+    {
+        "title": "Breakfast for Two",
+        "description": "A classic reward that upgrades the stay and increases satisfaction. Ideal for family and couples campaigns."
+    },
+    {
+        "title": "Tour Credit",
+        "description": "Credit toward a tour or activity that makes the trip feel bigger. Use it to upsell experiences and increase repeat bookings."
+    },
+    {
+        "title": "Transfer Discount",
+        "description": "Discount on airport transfer that removes friction and improves the full journey. Great for premium positioning."
+    },
+    {
+        "title": "Booking Credit",
+        "description": "A small travel credit that motivates the next booking sooner. Best as a milestone redemption for frequent travelers."
+    }
+]

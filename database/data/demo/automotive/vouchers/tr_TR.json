@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Üye ozel",
+        "title": "%20 İndirim Detailing",
+        "description": "Conversion-Samimi hizmet teklif.",
+        "free_product_name": "%20 İndirim"
+    },
+    {
+        "head": "yukseltme",
+        "title": "Ücretsiz yikama yukseltme",
+        "description": "yukseltme Bitiş premium yikama. yuksek perceived Değer.",
+        "free_product_name": "yikama yukseltme"
+    },
+    {
+        "head": "Kampanya: paket tasarrufcu",
+        "title": "$15 İndirim $100",
+        "description": "Kampanya: Push daha buyuk paketler.",
+        "free_product_name": "$15 İndirim"
+    },
+    {
+        "head": "puan guclendirici",
+        "title": "+250 bonus Puan",
+        "description": "Ödül siklik olmadan deep indirimler.",
+        "free_product_name": "+250 Puan"
+    },
+    {
+        "head": "hafta sonu",
+        "title": "hafta sonu ozel",
+        "description": "Short-window teklif tasarlandi Bitiş fill capacity.",
+        "free_product_name": "hafta sonu firsat"
+    },
+    {
+        "head": "Kampanya: bakim",
+        "title": "$10 İndirim hizmet",
+        "description": "Incentivize bakim rezervasyonlar.",
+        "free_product_name": "$10 İndirim"
+    }
+]

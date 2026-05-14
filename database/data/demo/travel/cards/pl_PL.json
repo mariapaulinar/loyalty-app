@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Klub Odkrywcy",
+        "title": "Punkty podróżne, które działają jak ulepszenia",
+        "description": "Zbieraj Punkty za noclegi, wycieczki i rezerwacje. Wymieniaj je na korzyści, które ulepszają cały wyjazd."
+    },
+    {
+        "head": "Weekendowy wyjazd",
+        "title": "Weekendowy wzrost rezerwacji",
+        "description": "Bonusowe Punkty za pobyty weekendowe, aby zwiększać obłożenie."
+    },
+    {
+        "head": "Wcześniejsza rezerwacja",
+        "title": "Rezerwuj wcześniej, zbieraj więcej",
+        "description": "Zachęcaj do wcześniejszych rezerwacji dzięki precyzyjnym Nagrodom."
+    },
+    {
+        "head": "Sezonowe wyjazdy",
+        "title": "Sezonowe oferty gotowe do kampanii",
+        "description": "Uruchamiaj letnie wyjazdy, zimowe ferie i działania na niski sezon bez komplikacji."
+    },
+    {
+        "head": "Ulepszenia VIP",
+        "title": "Korzyści premium dla najlepszych Członków",
+        "description": "Priorytetowe ulepszenia i benefity VIP, które budują lojalność."
+    },
+    {
+        "head": "Wyjazdy rodzinne",
+        "title": "Nagrody stworzone dla grup",
+        "description": "Zaprojektowane dla rezerwacji o wyższej wartości i pakietów rodzinnych."
+    }
+]

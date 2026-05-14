@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Oferta Jantar",
+        "title": "25% de Desconto na Conta",
+        "description": "Aproveite 25% de desconto na sua refeição completa!",
+        "free_product_name": "25% Off"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "Compre 1 Leve 2 Drinks",
+        "description": "Compre uma bebida e ganhe a segunda grátis!",
+        "free_product_name": "Drink Grátis"
+    },
+    {
+        "head": "Especial Almoço",
+        "title": "$10 de Desconto no Menu Almoço",
+        "description": "Economize $10 em qualquer combo de almoço segunda-sexta!",
+        "free_product_name": "$10 Off"
+    },
+    {
+        "head": "Delícia Sobremesa",
+        "title": "Sobremesa Grátis",
+        "description": "Ganhe uma sobremesa de cortesia com qualquer prato principal!",
+        "free_product_name": "Sobremesa"
+    },
+    {
+        "head": "Banquete Família",
+        "title": "30% de Desconto em Refeições Família",
+        "description": "Traga a família e economize 30% em refeições para 4+!",
+        "free_product_name": "30% Off"
+    },
+    {
+        "head": "Especial do Chef",
+        "title": "$20 de Desconto no Menu Premium",
+        "description": "Experimente os pratos especiais do chef com $20 de economia!",
+        "free_product_name": "$20 Off"
+    }
+]

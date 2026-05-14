@@ -1,0 +1,146 @@
+[
+    {
+        "title": "Café délicieux gratuit",
+        "description": "Démarrez votre journée avec énergie ou rechargez l'après-midi avec notre meilleur café. Notre café est sourcé des meilleures plantations du monde, offrant une saveur riche et profonde dans chaque tasse."
+    },
+    {
+        "title": "Deuxième pizza gratuite",
+        "description": "Rien ne réunit les gens comme une bonne pizza ! Achetez l'une de nos pizzas signature et obtenez la seconde gratuitement. Partagez avec un ami ou faites-vous plaisir - vous le méritez !"
+    },
+    {
+        "title": "Dîner pour deux",
+        "description": "Profitez d'une soirée spéciale et créez des moments mémorables avec un dîner pour deux chez nous. Découvrez une large gamme de plats soigneusement préparés par nos chefs experts, dans une atmosphère chaleureuse."
+    },
+    {
+        "title": "Dessert offert",
+        "description": "Laissez-vous tenter par notre carte des desserts. Que vous aimiez le chocolat, les saveurs fruitées ou les pâtisseries crémeuses, nous avons de quoi parfaire votre repas. Et c'est offert !"
+    },
+    {
+        "title": "Réservation table VIP",
+        "description": "Vivez le meilleur de ce que nous offrons avec une réservation table VIP. Profitez d'un placement prioritaire, d'un service personnalisé et d'un menu VIP spécial."
+    },
+    {
+        "title": "Plat spécial du chef",
+        "description": "Offrez-vous une aventure culinaire avec notre plat spécial du chef. Cette création unique change régulièrement et s'inspire des ingrédients de saison et de la créativité du chef."
+    },
+    {
+        "title": "1 burger acheté = 1 offert",
+        "description": "Nos burgers sont un favori du public, avec des garnitures gourmet et notre sauce secrète. Avec notre offre spéciale, achetez un burger et obtenez-en un autre gratuit. Double délice !"
+    },
+    {
+        "title": "Dégustation de vins exclusive",
+        "description": "Partez en voyage dans les vignobles sans quitter votre siège. Notre dégustation de vins exclusive vous permet de goûter une variété de vins fins, soigneusement sélectionnés."
+    },
+    {
+        "title": "Entrée offerte",
+        "description": "Démarrez votre repas du bon pied avec une entrée offerte. Choisissez parmi notre sélection d'entrées chaudes et froides, conçues pour ouvrir l'appétit."
+    },
+    {
+        "title": "25% sur votre prochaine visite",
+        "description": "En remerciement de votre fidélité, nous vous offrons 25% de réduction sur l'addition lors de votre prochaine visite. C'est notre façon de vous dire merci !"
+    },
+    {
+        "title": "Spécial anniversaire",
+        "description": "Célébrez votre anniversaire avec style chez nous. Profitez d'un repas offert et d'une surprise spéciale de notre équipe. Rendez votre anniversaire inoubliable."
+    },
+    {
+        "title": "Les enfants mangent gratuit",
+        "description": "Les repas en famille viennent de s'améliorer ! Avec notre offre 'Les enfants mangent gratuit', votre enfant peut déguster son plat préféré gratuitement."
+    },
+    {
+        "title": "Cours de cuisine gratuit",
+        "description": "Libérez votre potentiel culinaire avec notre cours de cuisine offert. Apprenez de nos chefs qualifiés, découvrez de nouvelles recettes et élevez vos talents."
+    },
+    {
+        "title": "Remise sur traiteur",
+        "description": "Vous organisez une fête ou un événement ? Nous vous couvrons. Bénéficiez d'une remise exclusive sur nos services traiteur et faites de votre événement un succès culinaire."
+    },
+    {
+        "title": "Accès prioritaire aux événements",
+        "description": "Obtenez un accès exclusif et prioritaire à nos événements spéciaux. Des dégustations de vin aux festivals gastronomiques, profitez du meilleur avant tout le monde."
+    },
+    {
+        "title": "Spécial lève-tôt",
+        "description": "Battez la foule et obtenez une remise spéciale avec notre offre lève-tôt. Le premier arrivé profite de l'offre !"
+    },
+    {
+        "title": "Bouteille de vin gratuite",
+        "description": "Accompagnez votre repas d'une bouteille gratuite de notre vin sélectionné. Soigneusement choisi par notre sommelier, c'est l'accord parfait pour une expérience gastronomique exquise."
+    },
+    {
+        "title": "Moitié prix sur plats sélectionnés",
+        "description": "Découvrez le meilleur de notre menu à moitié prix. Plats sélectionnés en réduction chaque semaine. Une offre délicieuse irrésistible !"
+    },
+    {
+        "title": "Recharges boissons gratuites",
+        "description": "Restez rafraîchi ! Profitez de recharges gratuites sur notre gamme de boissons soft. L'accompagnement parfait pour votre repas."
+    },
+    {
+        "title": "Offre saisonnière exclusive",
+        "description": "Célébrez la saison avec notre offre saisonnière exclusive. Profitez d'un menu curé avec des ingrédients de saison à un prix spécial."
+    },
+    {
+        "title": "Dîner pour deux",
+        "description": "Savourez un dîner intime pour deux avec notre récompense spéciale. Dégustez un repas quatre services et créez des souvenirs durables avec votre proche."
+    },
+    {
+        "title": "Spécial du chef",
+        "description": "Dégustez un plat spécialement préparé par notre chef. Une expérience culinaire unique à ne pas manquer."
+    },
+    {
+        "title": "Entrée offerte",
+        "description": "Démarrez bien votre repas. Choisissez une entrée gratuitement parmi notre sélection avec cette récompense spéciale."
+    },
+    {
+        "title": "Dessert gratuit",
+        "description": "Faites-vous plaisir avec une douceur offerte. Terminez votre repas sur une note sucrée avec notre offre dessert gratuit."
+    },
+    {
+        "title": "Spécial brunch week-end",
+        "description": "Rendez vos week-ends spéciaux avec notre brunch offert. Savourez une sélection de vos plats préférés dans une atmosphère détendue et conviviale."
+    },
+    {
+        "title": "Entrée gratuite soirée gastronomique",
+        "description": "Vivez une soirée de délices gastronomiques avec une entrée gratuite à notre soirée gastronomique mensuelle. Goûtez une gamme de plats exotiques créés par nos talentueux chefs."
+    },
+    {
+        "title": "Bar à salades gratuit",
+        "description": "Profitez d'une sélection fraîche et saine de notre bar à salades gratuitement. Un accompagnement parfait pour tout repas ou un choix copieux seul."
+    },
+    {
+        "title": "Événement dégustation de vins",
+        "description": "Soyez invité à nos événements exclusifs de dégustation de vins. Découvrez une variété de vins fins guidé par notre sommelier expérimenté."
+    },
+    {
+        "title": "Spécial fêtes",
+        "description": "Célébrez les fêtes avec notre spécial fêtes exclusif. Profitez d'un menu festif spécialement conçu pour la saison."
+    },
+    {
+        "title": "Boisson soft offerte",
+        "description": "Restez rafraîchi avec une boisson soft offerte de votre choix. Parfait pour les chaudes journées d'été."
+    },
+    {
+        "title": "Expérience dégustation bières",
+        "description": "Profitez d'une sélection de nos meilleures bières avec notre expérience dégustation bières. Une récompense idéale pour les amateurs de bière."
+    },
+    {
+        "title": "Pizza gratuite",
+        "description": "Qui n'aime pas une pizza gratuite ? Dégustez une délicieuse pizza chaude sortie de notre four avec cette récompense."
+    },
+    {
+        "title": "Petit-déjeuner offert",
+        "description": "Démarrez bien votre journée avec un petit-déjeuner offert. Choisissez parmi notre menu de classiques traditionnels et modernes."
+    },
+    {
+        "title": "Spécial déjeuner",
+        "description": "Faites une pause et profitez de notre spécial déjeuner. Une sélection de plats choisis pour satisfaire votre faim de midi."
+    },
+    {
+        "title": "Menu dégustation exclusif",
+        "description": "Laissez-vous tenter par un menu dégustation exclusif conçu par notre chef. Un voyage culinaire à ne pas manquer."
+    },
+    {
+        "title": "Cocktail artisanal offert",
+        "description": "Profitez d'un cocktail artisanal offert, mixé à la perfection par nos barmans expérimentés. La façon parfaite de commencer ou terminer votre repas."
+    }
+]

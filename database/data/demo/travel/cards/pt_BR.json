@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Clube Explorer",
+        "title": "Pontos de viagem com cara de upgrade",
+        "description": "Ganhe em estadias, passeios e reservas. Resgate por vantagens que elevam a experiencia."
+    },
+    {
+        "head": "Escapada de Fim de Semana",
+        "title": "Boost de reservas no fim de semana",
+        "description": "Pontos bonus em estadias de fim de semana para aumentar ocupacao."
+    },
+    {
+        "head": "Early Bird",
+        "title": "Reserve cedo e ganhe mais",
+        "description": "Incentive reservas antecipadas com recompensas bem direcionadas."
+    },
+    {
+        "head": "Escapadas Sazonais",
+        "title": "Ofertas sazonais prontas para campanha",
+        "description": "Rode ferias de verao, feriados de inverno e periodos de baixa com facilidade."
+    },
+    {
+        "head": "Upgrades VIP",
+        "title": "Vantagens premium para top membros",
+        "description": "Upgrades prioritarios e beneficios VIP que constroem fidelidade."
+    },
+    {
+        "head": "Viagens em Familia",
+        "title": "Recompensas feitas para grupos",
+        "description": "Projetado para reservas de maior valor e pacotes para familia."
+    }
+]

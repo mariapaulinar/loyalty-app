@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Paws Club",
+        "title": "Reward Every Tail Wag",
+        "description": "Earn points on food, grooming, and toys. Built to create happy routines."
+    },
+    {
+        "head": "Groom & Save",
+        "title": "Turn Grooming Into a Habit",
+        "description": "Rewards designed to keep grooming calendars full."
+    },
+    {
+        "head": "Healthy Pet Perks",
+        "title": "Reward Wellness Purchases",
+        "description": "Bonus points on wellness items. Great for seasonal health campaigns."
+    },
+    {
+        "head": "VIP Pet Perks",
+        "title": "Priority Booking + Premium Rewards",
+        "description": "Premium-feel program for your best customers."
+    },
+    {
+        "head": "Seasonal Treats",
+        "title": "Seasonal Campaigns Made Easy",
+        "description": "Holiday treats, summer gear, winter care. Rotate offers without rebuilding."
+    },
+    {
+        "head": "Pet Birthday Bonus",
+        "title": "Birthday Perk That Drives Visits",
+        "description": "Timed birthday perk. Perfect for grooming or treat bundles."
+    }
+]

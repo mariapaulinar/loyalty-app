@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Stempeln & Sparen",
+    "title": "Stempel sammeln",
+    "description": "Ein Stempel pro Besuch. Karte voll, Vorteil sichern."
+  },
+  {
+    "head": "Stammkunden-Club",
+    "title": "Besuchen, freischalten",
+    "description": "Kurzer Kreislauf, der Stammkunden zu Mitgliedern macht."
+  },
+  {
+    "head": "Wochen-Challenge",
+    "title": "Doppel-Stempel-Tag",
+    "description": "Wählen Sie einen Tag, vergeben Sie 2x Stempel, steigern Sie den Besucherstrom."
+  },
+  {
+    "head": "Neues Mitglied",
+    "title": "Stark starten",
+    "description": "Willkommensstempel zum Start der Gewohnheit."
+  },
+  {
+    "head": "Freunde mitbringen",
+    "title": "Gruppen-Boost",
+    "description": "Gemeinsam kommen, schneller vorankommen."
+  },
+  {
+    "head": "Limitierte Aktion",
+    "title": "Saisonale Karte",
+    "description": "Zeitlich begrenzte Stempelkarte für Kampagnen."
+  }
+]

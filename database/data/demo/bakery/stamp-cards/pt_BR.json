@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Clube do Croissant",
+    "title": "Croissant da manhã",
+    "description": "Loop simples que deixa as manhas previsiveis."
+  },
+  {
+    "head": "Corrida do Cookie",
+    "title": "Pacote gratis",
+    "description": "Recompensas pequenas que trazem a pessoa de volta."
+  },
+  {
+    "head": "Fatia de Bolo",
+    "title": "Fatia de aniversario",
+    "description": "Perfeito para celebracoes e upsell."
+  },
+  {
+    "head": "Combo de Paes",
+    "title": "Pão fresco semanal",
+    "description": "Feito para familias e compras semanais."
+  },
+  {
+    "head": "Fim de Semana 2x",
+    "title": "Fim de semana 2x carimbos",
+    "description": "Dobre carimbos para aumentar o fluxo."
+  },
+  {
+    "head": "Torta Sazonal",
+    "title": "Recompensa sazonal",
+    "description": "Cartao limitado para impulsionar pre-encomendas de feriado."
+  }
+]

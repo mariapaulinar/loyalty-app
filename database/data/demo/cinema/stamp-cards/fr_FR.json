@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Bonanza Blockbuster",
+        "title": "Économies avant-première",
+        "description": "Tamponnez votre chemin vers les offres ciné !"
+    },
+    {
+        "head": "Adhésion Cinéma",
+        "title": "Regardez et gagnez",
+        "description": "Obtenez un tampon avec chaque film !"
+    },
+    {
+        "head": "Club Cinéphiles",
+        "title": "Visionnez et économisez",
+        "description": "Les tampons ciné débloquent des avantages spéciaux !"
+    },
+    {
+        "head": "Pass Popcorn",
+        "title": "Grignotez et gagnez",
+        "description": "Chaque popcorn rapporte un tampon !"
+    },
+    {
+        "head": "Spéciaux Matinée",
+        "title": "Réductions après-midi",
+        "description": "Les séances de l'après-midi rapportent des tampons !"
+    },
+    {
+        "head": "Fest Ciné Week-end",
+        "title": "Offres ciné week-end",
+        "description": "Films du week-end = plus de tampons !"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Accessory Bundle",
+        "description": "Redeem for a curated accessory bundle that upgrades the device experience. Perfect for increasing attach-rate and customer satisfaction."
+    },
+    {
+        "title": "Free Screen Protector",
+        "description": "A practical reward customers actually want, with clear everyday value. Use it to drive in-store visits and add-on sales."
+    },
+    {
+        "title": "VIP Setup Session",
+        "description": "A guided setup session that builds trust and reduces returns. Ideal for new customers and premium device purchases."
+    },
+    {
+        "title": "Warranty Discount",
+        "description": "Discount token for extended coverage that protects margin and boosts confidence. A smart reward that supports upsell."
+    },
+    {
+        "title": "Headphones Discount",
+        "description": "Discount on premium headphones that feels aspirational without being a blanket sale. Great for launch calendars and seasonal gifting."
+    },
+    {
+        "title": "Member Gift Card",
+        "description": "A small tech store credit that feels flexible and motivating. Perfect as a milestone reward for high-engagement members."
+    }
+]

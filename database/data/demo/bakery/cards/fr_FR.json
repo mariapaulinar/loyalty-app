@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Fraîchement cuit",
+        "title": "Récompensez le rituel",
+        "description": "Points sur les pains, gâteaux et pâtisseries. Conçu pour les routines quotidiennes et hebdomadaires."
+    },
+    {
+        "head": "Four du week-end",
+        "title": "Avantages week-end qui font bouger",
+        "description": "Plus de points sur les achats du week-end pour augmenter le panier moyen."
+    },
+    {
+        "head": "Commandes célébration",
+        "title": "Rendez les occasions plus rentables",
+        "description": "Récompenses adaptées aux anniversaires et fêtes. Parfait pour les grosses commandes."
+    },
+    {
+        "head": "Pain quotidien",
+        "title": "Les essentiels qui fidélisent",
+        "description": "Transformez les produits de base en raison de vous choisir chaque jour."
+    },
+    {
+        "head": "Gourmandises saisonnières",
+        "title": "Éditions limitées, échanges rapides",
+        "description": "Pâtisseries de fêtes + récompenses limitées = urgence sans remises lourdes."
+    },
+    {
+        "head": "Boîte familiale",
+        "title": "Récompenses lot",
+        "description": "Incitez les achats multi-articles avec des bonus points sur les boîtes et lots."
+    }
+]

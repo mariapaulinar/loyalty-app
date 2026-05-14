@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Lavado de auto",
+    "title": "8 lavados",
+    "description": "Canjea por una mejora de lavado premium."
+  },
+  {
+    "head": "Detallado",
+    "title": "Tarjeta detallado",
+    "description": "Desbloquea una mejora interior."
+  },
+  {
+    "head": "Doble sello fin de semana",
+    "title": "Fin de semana 2x sellos",
+    "description": "Doble sellos para aumentar el flujo."
+  },
+  {
+    "head": "VIP",
+    "title": "Tarjeta de sellos VIP",
+    "description": "Canjea por un pase de carril prioritario."
+  },
+  {
+    "head": "Protección invernal",
+    "title": "Tarjeta invierno",
+    "description": "Tarjeta de temporada para paquetes de protección."
+  },
+  {
+    "head": "Cambio de aceite",
+    "title": "Tarjeta servicio",
+    "description": "Canjea por un descuento en servicio."
+  }
+]

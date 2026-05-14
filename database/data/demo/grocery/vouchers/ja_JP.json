@@ -1,0 +1,38 @@
+[
+    {
+        "head": "メンバー お得",
+        "title": "$10割引 $50",
+        "description": "classic basket-builder 付き クリア 値。",
+        "free_product_name": "$10割引"
+    },
+    {
+        "head": "キャンペーン: 新鮮 Picks",
+        "title": "20%割引 生鮮品",
+        "description": "最適 対象 季節限定 生鮮品 pushes。",
+        "free_product_name": "20%割引"
+    },
+    {
+        "head": "キャンペーン: House ブランド",
+        "title": "購入 2 取得 1 無料",
+        "description": "Margin-フレンドリー オファー feels generous。",
+        "free_product_name": "無料 項目"
+    },
+    {
+        "head": "ポイント ブースター",
+        "title": "+300ボーナスポイント",
+        "description": "促進する 再 訪問 なしで heavy 割引適用。",
+        "free_product_name": "+300ポイント"
+    },
+    {
+        "head": "キャンペーン: スナック 節約",
+        "title": "$5割引 Snacks",
+        "description": "キャンペーン: 増加する add-on 購入 と AOV。",
+        "free_product_name": "$5割引"
+    },
+    {
+        "head": "週末 オファー",
+        "title": "週末 メンバー お得",
+        "description": "キャンペーン: short window creates 緊急性。",
+        "free_product_name": "週末 お得"
+    }
+]

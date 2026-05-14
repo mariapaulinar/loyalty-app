@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Explorateur",
+        "title": "Des points voyage qui ressemblent à des surclassements",
+        "description": "Gagnez sur séjours, visites et réservations. Échangez contre des avantages qui améliorent l'expérience."
+    },
+    {
+        "head": "Escapade week-end",
+        "title": "Boost réservation week-end",
+        "description": "Points bonus sur les séjours week-end pour augmenter l'occupation."
+    },
+    {
+        "head": "Lève-tôt",
+        "title": "Réservez tôt, gagnez plus",
+        "description": "Incitez les réservations anticipées avec des récompenses ciblées."
+    },
+    {
+        "head": "Escapades saisonnières",
+        "title": "Offres saisonnières prêtes pour campagne",
+        "description": "Lancez escapades d'été, vacances d'hiver et haute saison facilement."
+    },
+    {
+        "head": "Surclassements VIP",
+        "title": "Avantages premium pour les meilleurs membres",
+        "description": "Surclassements prioritaires et avantages VIP qui fidélisent."
+    },
+    {
+        "head": "Voyages en famille",
+        "title": "Récompenses conçues pour les groupes",
+        "description": "Conçu pour les réservations à gros ticket et forfaits familiaux."
+    }
+]

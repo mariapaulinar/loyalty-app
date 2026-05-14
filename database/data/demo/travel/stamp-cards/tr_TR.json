@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Kampanya: Stays",
+        "title": "Kampanya: 5 stays",
+        "description": "kullan İçicinde bir yukseltme."
+    },
+    {
+        "head": "Kampanya: Tours",
+        "title": "Tour Kart",
+        "description": "Finish Bitiş ac Etkinlik kredi."
+    },
+    {
+        "head": "hafta sonu cift Damgalar",
+        "title": "hafta sonu 2x Damgalar",
+        "description": "cift Damgalar uzerinde hafta sonu rezervasyonlar."
+    },
+    {
+        "head": "Kampanya: Business Traveler",
+        "title": "Lounge ayrıcalıklar",
+        "description": "premium dongu İçicinde frequent travelers."
+    },
+    {
+        "head": "tatil Escape",
+        "title": "tatil escape Kart",
+        "description": "sezonluk Kart İçicinde seyahat Kampanyalar."
+    },
+    {
+        "head": "Kampanya: VIP",
+        "title": "VIP Damga Kartı",
+        "description": "kullan late odeme veya yukseltmeler."
+    }
+]

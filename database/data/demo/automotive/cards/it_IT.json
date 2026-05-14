@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Detailing",
+        "title": "Auto pulite, clienti fedeli",
+        "description": "Guadagna punti su lavaggi e detailing. Riscatta per upgrade premium."
+    },
+    {
+        "head": "Protezione stagionale",
+        "title": "Pacchetti stagionali per campagne",
+        "description": "Protezione invernale, lucentezza estiva. Lancia promo senza caos sconti."
+    },
+    {
+        "head": "Corsia VIP",
+        "title": "Servizio prioritario per membri",
+        "description": "Vantaggio premium che migliora la retention e gli upsell."
+    },
+    {
+        "head": "Flotta e famiglia",
+        "title": "Premia famiglie multi-auto",
+        "description": "Pensato per aumentare frequenza e valore nel tempo."
+    },
+    {
+        "head": "Lavaggio weekend",
+        "title": "Boost weekend",
+        "description": "Punti bonus nei weekend per creare domanda prevedibile."
+    },
+    {
+        "head": "Manutenzione",
+        "title": "Premi servizio",
+        "description": "Premi per visite di manutenzione. Pensato per il business ripetuto."
+    }
+]

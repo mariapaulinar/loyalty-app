@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Festa dei blockbuster",
+        "title": "Risparmi sulle anteprime",
+        "description": "Timbra la tua strada verso offerte cinema!"
+    },
+    {
+        "head": "Membership cinema",
+        "title": "Guarda e guadagna",
+        "description": "Ricevi un timbro con ogni film!"
+    },
+    {
+        "head": "Club cinefili",
+        "title": "Guarda e risparmia",
+        "description": "I timbri cinema sbloccano vantaggi speciali!"
+    },
+    {
+        "head": "Pass popcorn",
+        "title": "Sgranocchia e guadagna",
+        "description": "Ogni popcorn guadagna un timbro!"
+    },
+    {
+        "head": "Speciali pomeridiani",
+        "title": "Sconti pomeridiani",
+        "description": "Le proiezioni pomeridiane guadagnano timbri!"
+    },
+    {
+        "head": "Festival film weekend",
+        "title": "Offerte cinema weekend",
+        "description": "Film nel weekend significa più timbri!"
+    }
+]

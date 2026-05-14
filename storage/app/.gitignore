@@ -1,0 +1,4 @@
+*
+!public/
+!manual-update/
+!.gitignore

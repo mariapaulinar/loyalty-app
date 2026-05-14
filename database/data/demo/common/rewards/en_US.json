@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Free Gift",
+    "description": "Redeem for a free gift as a thank you for your loyalty."
+  },
+  {
+    "title": "VIP Experience",
+    "description": "Unlock an exclusive VIP perk only members can claim."
+  },
+  {
+    "title": "Free Upgrade",
+    "description": "Upgrade your purchase for free—members only."
+  },
+  {
+    "title": "Free Add‑On",
+    "description": "Get a complimentary add-on with your next purchase."
+  },
+  {
+    "title": "Member-Only Discount",
+    "description": "Redeem points for a discount on your next visit."
+  },
+  {
+    "title": "Priority Access",
+    "description": "Get early access to new arrivals, releases, or bookings."
+  }
+]

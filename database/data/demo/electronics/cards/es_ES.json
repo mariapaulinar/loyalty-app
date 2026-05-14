@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Tech",
+        "title": "Mejora y gana",
+        "description": "Puntos en dispositivos + accesorios con recompensas que se sienten como mejoras, no descuentos."
+    },
+    {
+        "head": "Acceso a lanzamientos",
+        "title": "Acceso anticipado a nuevos lanzamientos",
+        "description": "Diseñado para calendarios de lanzamiento y drops de productos."
+    },
+    {
+        "head": "Impulso de intercambio",
+        "title": "Convierte intercambios en lealtad",
+        "description": "Puntos bonus con intercambios. Ideal para mejoras y retención."
+    },
+    {
+        "head": "Beneficios de protección",
+        "title": "Recompensa el cuidado, no solo el gasto",
+        "description": "Incentiva planes de protección y accesorios. Amigable con márgenes."
+    },
+    {
+        "head": "Ahorros en paquetes",
+        "title": "Paquetes que aumentan el ticket",
+        "description": "Recompensa compras multi-artículo con incentivos más inteligentes."
+    },
+    {
+        "head": "Soporte VIP",
+        "title": "Ayuda prioritaria para miembros",
+        "description": "Capa de lealtad de sensación premium que reduce la rotación."
+    }
+]

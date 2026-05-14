@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Amor por Latte",
+    "title": "Fidelidade latte",
+    "description": "Cartao classico, execucao moderna e lucrativa."
+  },
+  {
+    "head": "Doses de Espresso",
+    "title": "Espresso diário",
+    "description": "Meta baixa para criar habito diario."
+  },
+  {
+    "head": "Combo com Doce",
+    "title": "Cafe + doce",
+    "description": "Carimbos por combinacao para aumentar o ticket."
+  },
+  {
+    "head": "Hora do Cha",
+    "title": "Cartao do cha",
+    "description": "Vantagem premium sem desconto pesado."
+  },
+  {
+    "head": "Sabado 2x",
+    "title": "Fim de semana 2x carimbos",
+    "description": "Dobre carimbos para turbinar o fim de semana."
+  },
+  {
+    "head": "Especial Sazonal",
+    "title": "Drop sazonal",
+    "description": "Rode inverno, primavera e volta as aulas rapidinho."
+  }
+]

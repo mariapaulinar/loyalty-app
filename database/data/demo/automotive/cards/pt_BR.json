@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Clube de Detailing",
+        "title": "Carros limpos, clientes fieis",
+        "description": "Ganhe pontos em lavagens e detailing. Resgate por upgrades premium."
+    },
+    {
+        "head": "Protecao Sazonal",
+        "title": "Pacotes sazonais prontos para campanha",
+        "description": "Protecao no inverno, brilho no verao. Rode promocoes sem caos de desconto."
+    },
+    {
+        "head": "Faixa VIP",
+        "title": "Servico prioritario para membros",
+        "description": "Beneficio premium que melhora retencao e aumenta upsell."
+    },
+    {
+        "head": "Frota e Familia",
+        "title": "Recompense casas com mais de um carro",
+        "description": "Projetado para aumentar frequencia e valor de vida do cliente."
+    },
+    {
+        "head": "Lavagem de Fim de Semana",
+        "title": "Boost no fim de semana",
+        "description": "Pontos bonus nos fins de semana para criar demanda previsivel."
+    },
+    {
+        "head": "Manutencao",
+        "title": "Recompensas de servico",
+        "description": "Recompensas para visitas de manutencao. Feito para recorrencia."
+    }
+]

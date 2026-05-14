@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Accessory Gift",
+        "description": "Redeem for a member-only accessory that completes a look. Designed to drive add-on behavior and higher average order value."
+    },
+    {
+        "title": "Alteration Credit",
+        "description": "Free basic alteration credit that increases confidence to buy. A premium-feel perk that reduces returns and builds trust."
+    },
+    {
+        "title": "VIP Styling Session",
+        "description": "A mini styling session that turns shopping into an experience. Perfect for launches, seasonal refreshes, and high-value members."
+    },
+    {
+        "title": "Exclusive Drop Access",
+        "description": "Early access to a new collection that creates urgency and excitement. Built for capsule drops and collaborations."
+    },
+    {
+        "title": "Shopping Credit",
+        "description": "A flexible store credit reward that feels meaningful and drives return visits. Best used as a milestone redemption."
+    },
+    {
+        "title": "Free Shipping Token",
+        "description": "Free shipping perk that removes purchase friction and lifts conversion. Great for online-first members and seasonal campaigns."
+    }
+]

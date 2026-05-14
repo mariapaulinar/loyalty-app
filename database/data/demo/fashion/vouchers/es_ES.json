@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusivo miembros",
+        "title": "15% en tu próxima compra",
+        "description": "Oferta por tiempo limitado para convertir visitantes en compradores.",
+        "free_product_name": "15% de descuento"
+    },
+    {
+        "head": "Regalo de bienvenida",
+        "title": "Accesorio gratis",
+        "description": "Beneficio de primera visita que se siente premium.",
+        "free_product_name": "Accesorio"
+    },
+    {
+        "head": "VIP",
+        "title": "Arreglo gratis",
+        "description": "Beneficio de lujo que genera confianza.",
+        "free_product_name": "Arreglo"
+    },
+    {
+        "head": "Pack ahorro",
+        "title": "$20 de descuento en $120",
+        "description": "Impulsor de ticket que recompensa crear un look.",
+        "free_product_name": "$20 de descuento"
+    },
+    {
+        "head": "Impulsor de puntos",
+        "title": "+150 puntos bonus",
+        "description": "Recompensa lealtad sin adicción a descuentos.",
+        "free_product_name": "+150 puntos"
+    },
+    {
+        "head": "Venta de fiestas",
+        "title": "Oferta de temporada",
+        "description": "Oferta estacional de corta duración diseñada para campañas.",
+        "free_product_name": "Oferta de fiestas"
+    }
+]

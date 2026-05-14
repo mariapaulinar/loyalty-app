@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Akcesoria",
+        "title": "10 Pieczątek",
+        "description": "Wymień na pakiet akcesoriów."
+    },
+    {
+        "head": "Ochrona ekranu",
+        "title": "Pieczątki za zestaw ochronny",
+        "description": "Odblokuj szkło ochronne lub zestaw."
+    },
+    {
+        "head": "Pomoc przy konfiguracji",
+        "title": "Karta serwisowa",
+        "description": "Dokończ, aby odblokować darmową sesję konfiguracji."
+    },
+    {
+        "head": "Podwójne Pieczątki w weekend",
+        "title": "Weekendowe Pieczątki 2x",
+        "description": "Podwójne Pieczątki zwiększają ruch w sklepie."
+    },
+    {
+        "head": "Karta premierowa",
+        "title": "Karta premierowa",
+        "description": "Limitowana Karta na premiery produktów."
+    },
+    {
+        "head": "Słuchawki",
+        "title": "5 zakupów = benefit",
+        "description": "Pętla dla klientów regularnie kupujących akcesoria."
+    }
+]

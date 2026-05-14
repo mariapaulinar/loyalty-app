@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Weekly Shop",
+    "title": "5-week challenge",
+    "description": "Habit loop that drives weekly visits."
+  },
+  {
+    "head": "Produce Run",
+    "title": "Fresh picks stamps",
+    "description": "More produce trips, fresher baskets."
+  },
+  {
+    "head": "Snack Box",
+    "title": "10 stamps = bundle",
+    "description": "Fun reward that lifts add-ons and AOV."
+  },
+  {
+    "head": "House Brand",
+    "title": "Store-brand stamps",
+    "description": "Boost margin-friendly items with stamps."
+  },
+  {
+    "head": "Weekend Double Stamps",
+    "title": "Weekend 2x stamps",
+    "description": "More stamps to drive bigger baskets."
+  },
+  {
+    "head": "Holiday Pantry",
+    "title": "Holiday pantry card",
+    "description": "Seasonal loop for pantry campaigns."
+  }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Regalo de accesorio",
+        "description": "Canjea por un accesorio solo para miembros que completa un look. Diseñado para impulsar comportamiento de add-on y mayor ticket promedio."
+    },
+    {
+        "title": "Crédito de arreglo",
+        "description": "Crédito de arreglo básico gratuito que aumenta la confianza de compra. Un beneficio de sensación premium que reduce devoluciones y genera confianza."
+    },
+    {
+        "title": "Sesión de styling VIP",
+        "description": "Una mini sesión de styling que transforma las compras en experiencia. Perfecto para lanzamientos, renovaciones de temporada y miembros de alto valor."
+    },
+    {
+        "title": "Acceso exclusivo a nueva colección",
+        "description": "Acceso anticipado a nueva colección que crea urgencia y emoción. Diseñado para drops de cápsula y colaboraciones."
+    },
+    {
+        "title": "Crédito de compras",
+        "description": "Una recompensa de crédito de tienda flexible que se siente significativa e impulsa visitas de retorno. Ideal como canje de hito."
+    },
+    {
+        "title": "Token de envío gratis",
+        "description": "Beneficio de envío gratis que elimina fricción de compra y aumenta conversión. Ideal para miembros online y campañas estacionales."
+    }
+]

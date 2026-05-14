@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Nuestra marca",
+    "title": "Lealtad recompensada",
+    "description": "Acumula puntos con cada compra y desbloquea recompensas."
+  },
+  {
+    "head": "Beneficios de miembro",
+    "title": "Gana mientras gastas",
+    "description": "Recibe puntos automáticamente al pagar — sin cupones necesarios."
+  },
+  {
+    "head": "Club VIP",
+    "title": "Beneficios exclusivos",
+    "description": "Sube de nivel para mejores recompensas, acceso anticipado y ofertas especiales."
+  },
+  {
+    "head": "Bonus de fin de semana",
+    "title": "Puntos bonus",
+    "description": "Gana puntos extra los fines de semana y en horas pico."
+  },
+  {
+    "head": "Oferta limitada",
+    "title": "Ahorros de temporada",
+    "description": "Promociones por tiempo limitado para mantener a los miembros activos."
+  },
+  {
+    "head": "Refiere y gana",
+    "title": "Invita a un amigo",
+    "description": "Invita amigos y recibe recompensas cuando se unan."
+  }
+]

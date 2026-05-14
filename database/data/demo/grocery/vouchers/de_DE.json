@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Mitglieder-Deal",
+        "title": "10€ Rabatt ab 50€",
+        "description": "Ein klassischer Korb-Booster mit klarem Wert.",
+        "free_product_name": "10€ Rabatt"
+    },
+    {
+        "head": "Frische Auswahl",
+        "title": "20% Rabatt auf Obst & Gemüse",
+        "description": "Ideal für saisonale Obst-Aktionen.",
+        "free_product_name": "20% Rabatt"
+    },
+    {
+        "head": "Eigenmarke",
+        "title": "Kaufe 2, bekomme 1 gratis",
+        "description": "Margenfreundliches Angebot, das sich großzügig anfühlt.",
+        "free_product_name": "Gratis Artikel"
+    },
+    {
+        "head": "Punkte-Booster",
+        "title": "+300 Bonuspunkte",
+        "description": "Fördert Wiederholungsbesuche ohne hohe Rabatte.",
+        "free_product_name": "+300 Punkte"
+    },
+    {
+        "head": "Snack-Sparer",
+        "title": "5€ Rabatt auf Snacks",
+        "description": "Steigert Zusatzkäufe und Warenkorb.",
+        "free_product_name": "5€ Rabatt"
+    },
+    {
+        "head": "Wochenend-Angebot",
+        "title": "Wochenend-Mitglieder-Deal",
+        "description": "Kurzes Zeitfenster für Dringlichkeit.",
+        "free_product_name": "Wochenend-Deal"
+    }
+]

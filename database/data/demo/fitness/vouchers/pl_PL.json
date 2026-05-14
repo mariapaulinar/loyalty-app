@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Karnet siłowni",
+        "title": "Darmowy tydzień próbny",
+        "description": "Przetestuj siłownię przez tydzień za darmo - pełny dostęp do wszystkich stref!",
+        "free_product_name": "Tydzień próbny"
+    },
+    {
+        "head": "Trening personalny",
+        "title": "3 darmowe sesje PT",
+        "description": "Otrzymaj 3 darmowe sesje treningu personalnego!",
+        "free_product_name": "3 sesje PT"
+    },
+    {
+        "head": "Karnet na zajęcia",
+        "title": "20% zniżki na zajęcia miesięczne",
+        "description": "Oszczędzaj 20% na nielimitowanych zajęciach grupowych!",
+        "free_product_name": "20% zniżki"
+    },
+    {
+        "head": "Oferta członkostwa",
+        "title": "$50 rabatu na roczny abonament",
+        "description": "Dołącz na rok i oszczędź $50 na członkostwie!",
+        "free_product_name": "$50 rabatu"
+    },
+    {
+        "head": "Oferta jogi",
+        "title": "Darmowa mata do jogi",
+        "description": "Odbierz matę premium do jogi przy dowolnym członkostwie!",
+        "free_product_name": "Mata do jogi"
+    },
+    {
+        "head": "Pakiet wellness",
+        "title": "30% zniżki na usługi wellness",
+        "description": "Oszczędzaj na masażu, konsultacji żywieniowej i regeneracji!",
+        "free_product_name": "30% zniżki"
+    }
+]

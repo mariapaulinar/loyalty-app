@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusif membre",
+        "title": "15% sur votre prochain achat",
+        "description": "Offre limitée pour convertir les visiteurs en acheteurs.",
+        "free_product_name": "15% de réduction"
+    },
+    {
+        "head": "Cadeau de bienvenue",
+        "title": "Accessoire gratuit",
+        "description": "Avantage première visite qui semble premium.",
+        "free_product_name": "Accessoire"
+    },
+    {
+        "head": "VIP",
+        "title": "Retouche gratuite",
+        "description": "Avantage haut de gamme qui renforce la confiance.",
+        "free_product_name": "Retouche"
+    },
+    {
+        "head": "Pack économique",
+        "title": "20 € de réduction sur 120 €",
+        "description": "Booster de panier qui récompense la création de look.",
+        "free_product_name": "20 € de réduction"
+    },
+    {
+        "head": "Booster de points",
+        "title": "+150 points bonus",
+        "description": "Récompense la fidélité sans addiction aux remises.",
+        "free_product_name": "+150 points"
+    },
+    {
+        "head": "Vente de fêtes",
+        "title": "Offre saisonnière",
+        "description": "Offre saisonnière courte durée conçue pour les campagnes.",
+        "free_product_name": "Offre fêtes"
+    }
+]

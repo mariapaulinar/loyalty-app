@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Club Barista",
+        "title": "Transformez le café quotidien en fidélité quotidienne",
+        "description": "Gagnez des points sur chaque tasse et pâtisserie. Des échanges rapides pour faire revenir les clients."
+    },
+    {
+        "head": "Boost matinal",
+        "title": "Lève-tôt = Plus de points",
+        "description": "Avant 10h, les membres gagnent plus. Conçu pour un rush matinal prévisible."
+    },
+    {
+        "head": "Saison glacée",
+        "title": "Boissons saisonnières, récompenses saisonnières",
+        "description": "Lancez un menu d'été et liez-le à des récompenses limitées. Conçu pour les retours."
+    },
+    {
+        "head": "Carburant journée",
+        "title": "Récompensez l'habitude de 14h",
+        "description": "Les micro-moments comptent : gardez les après-midis actifs avec des bonus points ciblés."
+    },
+    {
+        "head": "Nouveau mélange",
+        "title": "Essayez les nouveautés, gagnez plus vite",
+        "description": "Points bonus sur les boissons vedettes. Parfait pour les lancements et collaborations."
+    },
+    {
+        "head": "Amenez un ami",
+        "title": "Bonus parrainage instantané",
+        "description": "Invitez un ami et débloquez un avantage immédiat. Conçu pour la croissance sociale."
+    }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "head": "Mitglieder-Deal",
+    "title": "25% Rabatt",
+    "description": "Exklusive Ersparnisse für Mitglieder – nur für begrenzte Zeit."
+  },
+  {
+    "head": "Willkommensgeschenk",
+    "title": "10€ Rabatt",
+    "description": "Ein kleines Dankeschön fürs Beitreten."
+  },
+  {
+    "head": "Kostenloses Upgrade",
+    "title": "Kostenloses Extra",
+    "description": "Erhalten Sie ein kostenloses Extra zu Ihrem Einkauf.",
+    "free_product_name": "Kostenloses Extra"
+  },
+  {
+    "head": "Bonuspunkte",
+    "title": "+100 Punkte",
+    "description": "Verdienen Sie zusätzliche Punkte bei Ihrem nächsten Einkauf."
+  },
+  {
+    "head": "Bundle-Sparer",
+    "title": "Mehr kaufen, mehr sparen",
+    "description": "Sparen Sie mehr, wenn Sie den Mindestbetrag erreichen."
+  },
+  {
+    "head": "Wochenend-Angebot",
+    "title": "Wochenend-Special",
+    "description": "Ein Wochenend-Angebot für wiederkehrende Besuche."
+  }
+]

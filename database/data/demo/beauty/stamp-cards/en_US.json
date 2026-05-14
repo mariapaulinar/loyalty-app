@@ -1,0 +1,32 @@
+[
+    {
+        "head": "Our Salon",
+        "title": "Beauty Rewards",
+        "description": "Collect stamps and unlock beauty perks!"
+    },
+    {
+        "head": "Summer Styles",
+        "title": "Seasonal Makeovers",
+        "description": "Fresh summer looks with stamp rewards!"
+    },
+    {
+        "head": "Style Card",
+        "title": "Earn as You Style",
+        "description": "Get stamped every salon visit!"
+    },
+    {
+        "head": "Glamour Club",
+        "title": "Style and Save",
+        "description": "Beauty treatments earn you stamps!"
+    },
+    {
+        "head": "Haircare Card",
+        "title": "Style and Earn",
+        "description": "Fabulous hair deserves rewards!"
+    },
+    {
+        "head": "Beauty Loyalty",
+        "title": "Save on Beauty",
+        "description": "Stamp your way to beauty savings!"
+    }
+]

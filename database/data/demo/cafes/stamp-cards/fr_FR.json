@@ -1,0 +1,32 @@
+[
+  {
+    "head": "Amour du latte",
+    "title": "Fidélité latte",
+    "description": "Carte à tampons classique, moderne et rentable."
+  },
+  {
+    "head": "Shots expresso",
+    "title": "Expresso quotidien",
+    "description": "Seuil bas pour créer une habitude quotidienne."
+  },
+  {
+    "head": "Accompagnement pâtisserie",
+    "title": "Café + pâtisserie",
+    "description": "Tampons combo pour augmenter le panier."
+  },
+  {
+    "head": "L'heure du thé",
+    "title": "Carte amateur de thé",
+    "description": "Avantage thé premium sans grosses remises."
+  },
+  {
+    "head": "Double tampons samedi",
+    "title": "Week-end 2x tampons",
+    "description": "Double tampons pour booster les week-ends."
+  },
+  {
+    "head": "Spécial saisonnier",
+    "title": "Édition tampon saisonnière",
+    "description": "Lancez hiver, printemps, rentrée rapidement."
+  }
+]

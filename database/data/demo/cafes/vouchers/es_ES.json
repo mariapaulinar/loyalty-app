@@ -1,0 +1,38 @@
+[
+    {
+        "head": "Exclusivo miembros",
+        "title": "20% en cualquier bebida",
+        "description": "Oferta por tiempo limitado diseñada para convertir navegación en compra.",
+        "free_product_name": "20% de descuento"
+    },
+    {
+        "head": "Regalo de bienvenida",
+        "title": "Tamaño superior gratis",
+        "description": "Beneficio de alto valor percibido para nuevos miembros.",
+        "free_product_name": "Tamaño superior"
+    },
+    {
+        "head": "Beneficio pastelería",
+        "title": "Pastelería gratis",
+        "description": "Impulsa ventas de combo y crea rutina.",
+        "free_product_name": "Pastelería"
+    },
+    {
+        "head": "Pack ahorro",
+        "title": "$5 en café + pastelería",
+        "description": "Impulsor de ticket: recompensa el combo, no el artículo solo.",
+        "free_product_name": "$5 de descuento"
+    },
+    {
+        "head": "Happy Hour",
+        "title": "2x1 café helado",
+        "description": "Genera tráfico en horas bajas sin descontar todo.",
+        "free_product_name": "Café helado gratis"
+    },
+    {
+        "head": "Impulsor de puntos",
+        "title": "+100 puntos bonus",
+        "description": "Un incentivo de lealtad para visitas repetidas.",
+        "free_product_name": "+100 puntos"
+    }
+]

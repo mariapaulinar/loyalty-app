@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Cadeau accessoire",
+        "description": "Échangez contre un accessoire réservé aux membres qui complète un look. Conçu pour favoriser les comportements d'ajout et augmenter le panier moyen."
+    },
+    {
+        "title": "Crédit retouche",
+        "description": "Crédit retouche de base gratuit qui augmente la confiance d'achat. Un avantage premium qui réduit les retours et renforce la confiance."
+    },
+    {
+        "title": "Session styling VIP",
+        "description": "Une mini session styling qui transforme le shopping en expérience. Parfait pour les lancements, renouvellements saisonniers et membres de valeur."
+    },
+    {
+        "title": "Accès exclusif nouvelle collection",
+        "description": "Accès anticipé à une nouvelle collection qui crée urgence et excitation. Conçu pour les drops capsule et collaborations."
+    },
+    {
+        "title": "Crédit shopping",
+        "description": "Un crédit magasin flexible qui semble significatif et encourage les retours. Idéal comme échange de palier."
+    },
+    {
+        "title": "Token livraison gratuite",
+        "description": "Avantage livraison gratuite qui élimine les frictions d'achat et augmente la conversion. Parfait pour les membres en ligne et campagnes saisonnières."
+    }
+]

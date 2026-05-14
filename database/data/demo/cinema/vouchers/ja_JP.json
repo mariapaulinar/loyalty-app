@@ -1,0 +1,38 @@
+[
+    {
+        "head": "映画 Night",
+        "title": "1つ買うと1つ無料 チケット",
+        "description": "購入 1つ チケット と 友達を無料で招待!",
+        "free_product_name": "無料 チケット"
+    },
+    {
+        "head": "ポップコーン お得",
+        "title": "無料 Large ポップコーン",
+        "description": "取得 large ポップコーン で us 付き 任意の チケット 購入!",
+        "free_product_name": "キャンペーン: Large ポップコーン"
+    },
+    {
+        "head": "週末 特別",
+        "title": "$5割引 週末 チケット",
+        "description": "お得 $5 で 任意の 週末 映画 showing!",
+        "free_product_name": "$5割引"
+    },
+    {
+        "head": "ファミリー パック",
+        "title": "30%割引 ファミリー チケット",
+        "description": "Bring whole ファミリー と お得 30% で 4+ チケット!",
+        "free_product_name": "30%割引"
+    },
+    {
+        "head": "プレミアム Seating",
+        "title": "無料 プレミアム アップグレード",
+        "description": "アップグレード 送信先 プレミアム seating で いいえ 追加 必要ポイント!",
+        "free_product_name": "プレミアム Seat"
+    },
+    {
+        "head": "キャンペーン: Concession コンボ",
+        "title": "$10割引 コンボ お得",
+        "description": "お得 $10 で 任意の フード と ドリンク コンボ!",
+        "free_product_name": "$10割引"
+    }
+]
