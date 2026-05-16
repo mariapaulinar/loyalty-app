@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Redirect only external requests from /public/... to /...
+  RewriteCond %{THE_REQUEST} \s/+public/([^\s?]+) [NC]
+  RewriteRule ^public/(.*)$ /$1 [R=301,L,NC]
+
+  # Remove trailing slash (but not for real directories)
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)/$ $1 [R=301,L]
+
+  # Internally rewrite requests to /public
+  RewriteCond %{REQUEST_URI} !^/public/ [NC]
+  RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

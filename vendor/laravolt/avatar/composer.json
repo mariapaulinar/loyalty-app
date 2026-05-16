@@ -1,0 +1,69 @@
+{
+    "name": "laravolt/avatar",
+    "description": "Turn name, email, and any other string into initial-based avatar or gravatar.",
+    "keywords": [
+        "laravel",
+        "laravolt",
+        "avatar",
+        "gravatar"
+    ],
+    "homepage": "https://github.com/laravolt/avatar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bayu Hendra Winata",
+            "email": "uyab.exe@gmail.com",
+            "homepage": "https://laravolt.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/cache": "^10.0|^11.0|^12.0|^13.0",
+        "intervention/image": "^3.4"
+    },
+    "suggest": {
+        "ext-gd": "Needed to support image manipulation",
+        "ext-imagick": "Needed to support image manipulation, better than GD"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^11.5.3",
+        "mockery/mockery": "^1.6.7",
+        "php-coveralls/php-coveralls": "^2.1",
+        "pestphp/pest": "^2.34|^3.7",
+        "pestphp/pest-plugin-type-coverage": "^2.8|^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laravolt\\Avatar\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Laravolt\\Avatar\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "6.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Laravolt\\Avatar\\ServiceProvider"
+            ],
+            "aliases": {
+                "Avatar": "Laravolt\\Avatar\\Facade"
+            }
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
