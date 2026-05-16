@@ -86,6 +86,8 @@ class IconPickerConfig
             'pizza' => '🍕 Pizza',
             'burger' => '🍔 Burger',
             'cake' => '🍰 Cake',
+            'waffle' => '🧇 Waffle',
+            'hot-dog' => '🌭 Hot Dog',
         ];
     }
 
@@ -110,6 +112,9 @@ class IconPickerConfig
             'utensils' => '🍴 Utensils',
             'chef-hat' => '👨‍🍳 Chef',
             'restaurant' => '🍽️ Restaurant',
+            'waffle' => '🧇 Waffle',
+            'donut' => '🍩 Donut',
+            'hot-dog' => '🌭 Hot Dog',
         ];
     }
 
