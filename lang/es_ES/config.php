@@ -6,6 +6,6 @@
  */
 
 return [
-    'active' => false,
+    'active' => true,
     'dir' => 'ltr',
 ];
