@@ -5,6 +5,7 @@
 /public/update-progress.html
 /public/update-progress.php
 /public/update-status.json
+/public/files
 /storage/*.key
 .env
 *.env
