@@ -36,17 +36,17 @@ Beautiful animations, consistent UX, Jony Ive approved.
             ]" />
         </div>
         {{-- Primary Action: Show QR Code --}}
-            @if(auth('member')->check() && (!$stampCard->valid_until || !now()->isAfter($stampCard->valid_until)))
-                <div class="animate-fade-in-up delay-100">
-                    <x-member.action-button
-                        icon="qr-code"
-                        :title="trans('common.show_qr_code')"
-                        :subtitle="trans('common.collect_stamp_from_staff')"
-                        color="primary"
-                        click="showQr = true"
-                    />
-                </div>
-            @endif
+        @if(auth('member')->check() && (!$stampCard->valid_until || !now()->isAfter($stampCard->valid_until)))
+            <div class="animate-fade-in-up delay-100">
+                <x-member.action-button
+                    icon="qr-code"
+                    :title="trans('common.show_qr_code')"
+                    :subtitle="trans('common.collect_stamp_from_staff')"
+                    color="primary"
+                    click="showQr = true"
+                />
+            </div>
+        @endif
         
         {{-- Premium Stamp Card Display --}}
         <x-member.stamp-card 
