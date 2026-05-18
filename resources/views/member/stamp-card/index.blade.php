@@ -35,19 +35,7 @@ Beautiful animations, consistent UX, Jony Ive approved.
                 ['text' => $stampCard->title]
             ]" />
         </div>
-        
-        
-        {{-- Premium Stamp Card Display --}}
-        <x-member.stamp-card 
-            :stampCard="$stampCard" 
-            :member="auth('member')->user()"
-            :detail-view="true" 
-            class="card-stagger" />
-        
-        {{-- Actions Section - Unified group --}}
-        <div class="w-full max-w-lg mx-auto space-y-4">
-            
-            {{-- Primary Action: Show QR Code --}}
+        {{-- Primary Action: Show QR Code --}}
             @if(auth('member')->check() && (!$stampCard->valid_until || !now()->isAfter($stampCard->valid_until)))
                 <div class="animate-fade-in-up delay-100">
                     <x-member.action-button
@@ -59,7 +47,16 @@ Beautiful animations, consistent UX, Jony Ive approved.
                     />
                 </div>
             @endif
-            
+        
+        {{-- Premium Stamp Card Display --}}
+        <x-member.stamp-card 
+            :stampCard="$stampCard" 
+            :member="auth('member')->user()"
+            :detail-view="true" 
+            class="card-stagger" />
+        
+        {{-- Actions Section - Unified group --}}
+        <div class="w-full max-w-lg mx-auto space-y-4">
             {{-- Collect Reward Button (for completed cards with physical rewards) --}}
             @if(auth('member')->check() && $enrollment && $enrollment->pending_rewards > 0 && $stampCard->requires_physical_claim)
                 <div class="animate-fade-in-up delay-150" x-data="{ showRewardQr: false }">
