@@ -188,3 +188,7 @@ local.settings.json
 /vendor/**/CONTRIBUTING.md
 /vendor/**/Contributing.md
 /vendor/**/CONTRIBUTING
+
+# Docker
+/docker-compose.yml
+/data/
