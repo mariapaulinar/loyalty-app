@@ -587,7 +587,7 @@ class AgentToolService
     private function toGenericFormat(array $tools): array
     {
         return [
-            'api_name' => 'Reward Loyalty Agent API',
+            'api_name' => 'Lealmi Agent API',
             'api_version' => '1.0.0',
             'base_url' => self::BASE_PATH,
             'auth' => [

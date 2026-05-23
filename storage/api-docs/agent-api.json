@@ -1,8 +1,8 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "Reward Loyalty Agent API",
-        "description": "Machine-to-machine API for AI agents, POS systems, and automation platforms. Authenticate with X-Agent-Key header. See https://rewardloyalty.co/docs/agent-api/overview for full documentation.",
+        "title": "Lealmi Agent API",
+        "description": "Machine-to-machine API for AI agents, POS systems, and automation platforms. Authenticate with X-Agent-Key header. ",
         "version": "1.0.0"
     },
     "servers": [

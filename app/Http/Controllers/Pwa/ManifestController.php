@@ -49,13 +49,13 @@ class ManifestController extends Controller
         // Get settings from database with config fallbacks
         $appName = $this->settingsService->get(
             'pwa_app_name',
-            config('default.pwa_app_name', config('default.app_name', 'Reward Loyalty'))
-        ) ?? 'Reward Loyalty';
+            config('default.pwa_app_name', config('default.app_name', 'Lealmi'))
+        ) ?? 'Lealmi';
 
         $shortName = $this->settingsService->get(
             'pwa_short_name',
             config('default.pwa_short_name', $this->truncateShortName($appName))
-        ) ?? 'Rewards';
+        ) ?? 'Lealmi';
 
         // Get icon URLs from uploaded media or fallback to default files
         // Ensure absolute URLs for iOS/Android compatibility
@@ -138,7 +138,7 @@ class ManifestController extends Controller
     {
         // Handle null or empty string
         if (empty($name)) {
-            return 'Rewards';
+            return 'Lealmi';
         }
 
         if (mb_strlen($name) <= 12) {

@@ -1,11 +1,11 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "Reward Loyalty API",
-        "description": "The Reward Loyalty API provides programmatic access to the Reward Loyalty platform, enabling integration with external systems, mobile apps, and custom workflows. This RESTful API supports authentication, loyalty card management, member operations, partner operations, and transaction processing.\n\n## Authentication\n\nAll authenticated endpoints use Bearer token authentication via Laravel Sanctum. Include your token in the Authorization header.\n\nTokens are obtained by calling the login endpoints for each user type (Admin, Partner, or Member).\n\n## Rate Limiting\n\nAPI requests are rate-limited to ensure fair usage. Standard limits apply per authenticated user.\n\n## Response Format\n\nAll responses are returned in JSON format. Successful responses include the requested data, while errors include a message field describing the issue.",
+        "title": "Lealmi API",
+        "description": "The Lealmi API provides programmatic access to the Reward Loyalty platform, enabling integration with external systems, mobile apps, and custom workflows. This RESTful API supports authentication, loyalty card management, member operations, partner operations, and transaction processing.\n\n## Authentication\n\nAll authenticated endpoints use Bearer token authentication via Laravel Sanctum. Include your token in the Authorization header.\n\nTokens are obtained by calling the login endpoints for each user type (Admin, Partner, or Member).\n\n## Rate Limiting\n\nAPI requests are rate-limited to ensure fair usage. Standard limits apply per authenticated user.\n\n## Response Format\n\nAll responses are returned in JSON format. Successful responses include the requested data, while errors include a message field describing the issue.",
         "contact": {
-            "name": "Reward Loyalty Website",
-            "url": "https://rewardloyalty.co"
+            "name": "Lealmi Website",
+            "url": "https://lealmi.com"
         },
         "license": {
             "name": "Proprietary"

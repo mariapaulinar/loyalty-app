@@ -18,7 +18,7 @@ Usage:
     $settingsService = app(SettingsService::class);
     $themeColor = $settingsService->get('pwa_theme_color', config('default.pwa_theme_color', '#4F46E5'));
     $backgroundColor = $settingsService->get('pwa_background_color', config('default.pwa_background_color', '#ffffff'));
-    $shortName = $settingsService->get('pwa_short_name', config('default.pwa_short_name', 'Rewards'));
+    $shortName = $settingsService->get('pwa_short_name', config('default.pwa_short_name', 'Lealmi'));
     
     // Get icon URLs from uploaded media or fallback - ensure absolute URLs
     $pwaSetting = \App\Models\Setting::where('key', 'pwa_app_name')->first();

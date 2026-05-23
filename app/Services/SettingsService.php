@@ -314,7 +314,7 @@ class SettingsService
             ],
             [
                 'key' => 'pwa_short_name',
-                'value' => 'Rewards',
+                'value' => 'Lealmi',
                 'type' => 'string',
                 'category' => 'pwa',
                 'label' => 'PWA Short Name',
@@ -470,7 +470,7 @@ class SettingsService
             // ─────────────────────────────────────────────────────────────────
             [
                 'key' => 'integrations.shopify.widget.program_name',
-                'value' => 'Rewards',
+                'value' => 'Lealmi',
                 'type' => 'string',
                 'category' => 'integrations',
                 'label' => 'Widget Program Name',

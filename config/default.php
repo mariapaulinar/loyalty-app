@@ -33,7 +33,7 @@ return [
      |--------------------------------------------------------------------------
      */
 
-    'app_name' => env('APP_NAME', 'Reward Loyalty'),
+    'app_name' => env('APP_NAME', 'Lealmi'),
     'app_logo' => env('APP_LOGO', ''),
     'app_logo_dark' => env('APP_LOGO_DARK', ''),
     'app_url' => env('APP_URL', 'https://localhost'),
@@ -78,8 +78,8 @@ return [
      | This allows independent branding for the installed PWA app.
      */
 
-    'pwa_app_name' => env('PWA_APP_NAME', env('APP_NAME', 'Reward Loyalty')),
-    'pwa_short_name' => env('PWA_SHORT_NAME', 'Rewards'),
+    'pwa_app_name' => env('PWA_APP_NAME', env('APP_NAME', 'Lealmi')),
+    'pwa_short_name' => env('PWA_SHORT_NAME', 'Lealmi'),
     'pwa_description' => env('PWA_DESCRIPTION', 'Your digital loyalty cards'),
     'pwa_theme_color' => env('PWA_THEME_COLOR', '#F39C12'),
     'pwa_background_color' => env('PWA_BACKGROUND_COLOR', '#ffffff'),
@@ -99,7 +99,7 @@ return [
      */
 
     'registration_email_link' => env('APP_REGISTRATION_EMAIL_LINK', true),
-    'mail_from_name' => env('MAIL_FROM_NAME', 'Reward Loyalty'),
+    'mail_from_name' => env('MAIL_FROM_NAME', 'Lealmi'),
     'mail_from_address' => env('MAIL_FROM_ADDRESS', 'noreply@example.com'),
 
     /*

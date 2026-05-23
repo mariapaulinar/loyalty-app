@@ -53,7 +53,7 @@ return [
 
     'product' => [
         'id' => env('REWARD_LOYALTY_PRODUCT_ID', '46120964'),
-        'name' => 'Reward Loyalty',
+        'name' => 'Lealmi',
     ],
 
     /*

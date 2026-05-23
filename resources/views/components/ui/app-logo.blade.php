@@ -36,7 +36,7 @@ Supports:
     $logoDarkUrl = $uploadedLogoDark ?: config('default.app_logo_dark', '');
     
     // App name for alt text and fallback display
-    $appName = config('default.app_name', 'Reward Loyalty');
+    $appName = config('default.app_name', 'Lealmi');
     
     // Get initial for fallback badge
     $initial = mb_substr($appName, 0, 1);

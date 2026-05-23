@@ -6,8 +6,8 @@ use OpenApi\Attributes as OA;
 
 #[OA\Info(
     version: '2.0.0',
-    title: 'Reward Loyalty API',
-    description: 'The Reward Loyalty API provides programmatic access to the Reward Loyalty platform, enabling integration with external systems, mobile apps, and custom workflows. This RESTful API supports authentication, loyalty card management, member operations, partner operations, and transaction processing.
+    title: 'Lealmi API',
+    description: 'The Lealmi API provides programmatic access to the Reward Loyalty platform, enabling integration with external systems, mobile apps, and custom workflows. This RESTful API supports authentication, loyalty card management, member operations, partner operations, and transaction processing.
 
 ## Authentication
 
@@ -22,7 +22,7 @@ API requests are rate-limited to ensure fair usage. Standard limits apply per au
 ## Response Format
 
 All responses are returned in JSON format. Successful responses include the requested data, while errors include a message field describing the issue.',
-    contact: new OA\Contact(name: 'Reward Loyalty Website', url: 'https://rewardloyalty.co'),
+    contact: new OA\Contact(name: 'Lealmi Website', url: 'https://lealmi.com'),
     license: new OA\License(name: 'Proprietary')
 )]
 #[OA\Server(url: '/api', description: 'Current Server')]

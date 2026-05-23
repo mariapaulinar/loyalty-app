@@ -26,11 +26,10 @@ use OpenApi\Attributes as OA;
 
 #[OA\OpenApi(
     info: new OA\Info(
-        title: 'Reward Loyalty Agent API',
+        title: 'Lealmi Agent API',
         version: '1.0.0',
         description: 'Machine-to-machine API for AI agents, POS systems, and automation platforms. '
-            . 'Authenticate with X-Agent-Key header. '
-            . 'See https://rewardloyalty.co/docs/agent-api/overview for full documentation.',
+            . 'Authenticate with X-Agent-Key header. ',
     ),
     servers: [
         new OA\Server(url: '/api/agent/v1', description: 'Agent API v1'),

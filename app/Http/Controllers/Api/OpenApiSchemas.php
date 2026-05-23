@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Api;
 /**
  * OpenAPI Schema Definitions
  *
- * This file contains all reusable schema definitions for the Reward Loyalty API.
+ * This file contains all reusable schema definitions for the Lealmi API.
  * Schemas are organized by category: Security, Errors, Users, Entities, and Requests.
  *
  * @OA\SecurityScheme(

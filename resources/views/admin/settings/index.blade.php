@@ -81,7 +81,7 @@ Design Philosophy:
                             <x-forms.input
                                 name="app_name"
                                 :label="trans('common.settings_page.app_name')"
-                                :value="old('app_name', $getSetting('branding', 'app_name', 'Reward Loyalty'))"
+                                :value="old('app_name', $getSetting('branding', 'app_name', 'Lealmi'))"
                                 :text="trans('common.settings_page.app_name_desc')"
                                 icon="type"
                                 required
@@ -752,7 +752,7 @@ Design Philosophy:
                         
                         {{-- Email Preview --}}
                         @php
-                            $fromName = old('mail_from_name', $getSetting('email', 'mail_from_name', config('mail.from.name', 'Reward Loyalty')));
+                            $fromName = old('mail_from_name', $getSetting('email', 'mail_from_name', config('mail.from.name', 'Lealmi')));
                             $fromAddress = old('mail_from_address', $getSetting('email', 'mail_from_address', config('mail.from.address', 'noreply@example.com')));
                         @endphp
                         <div class="mt-6 p-4 bg-secondary-50 dark:bg-secondary-800/50 rounded-xl">
@@ -937,7 +937,7 @@ Design Philosophy:
                                 <x-forms.input
                                     name="pwa_short_name"
                                     :label="trans('common.settings_page.pwa_short_name')"
-                                    :value="old('pwa_short_name', $getSetting('pwa', 'pwa_short_name', 'Rewards'))"
+                                    :value="old('pwa_short_name', $getSetting('pwa', 'pwa_short_name', 'Lealmi'))"
                                     :text="trans('common.settings_page.pwa_short_name_desc')"
                                     icon="tag"
                                     maxlength="12"
