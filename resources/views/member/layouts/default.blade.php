@@ -284,7 +284,7 @@
                                         {{ trans('common.my_account') }}
                                     </a>
 
-                                    <div class="my-1 border-t border-secondary-100 dark:border-secondary-700"></div>
+                                    <!-- <div class="my-1 border-t border-secondary-100 dark:border-secondary-700"></div> -->
 
                                     {{-- Request Points --}}
                                     <!--<a href="{{ route('member.data.list', ['name' => 'request-links']) }}"

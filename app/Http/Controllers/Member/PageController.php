@@ -381,24 +381,24 @@ class PageController extends Controller
                 'title' => trans('common.account_settings'),
                 'desc' => trans('common.memberDashboardBlocks.account_settings'),
             ],
-            [
-                'link' => route('member.data.list', ['name' => 'request-links']),
-                'icon' => 'send',  // Request/send - action-oriented
-                'title' => trans('common.request_points'),
-                'desc' => trans('common.memberDashboardBlocks.request_points'),
-            ],
-            [
-                'link' => route('member.code.enter'),
-                'icon' => 'hash',  // Code/hash - represents alphanumeric input
-                'title' => trans('common.enter_code'),
-                'desc' => trans('common.memberDashboardBlocks.enter_code'),
-            ],
-            [
-                'link' => route('member.referrals'),
-                'icon' => 'user-plus',  // Referrals - adding friends
-                'title' => trans('common.referral.refer_friend'),
-                'desc' => trans('common.share_love'),
-            ],
+            // [
+            //     'link' => route('member.data.list', ['name' => 'request-links']),
+            //     'icon' => 'send',  // Request/send - action-oriented
+            //     'title' => trans('common.request_points'),
+            //     'desc' => trans('common.memberDashboardBlocks.request_points'),
+            // ],
+            // [
+            //     'link' => route('member.code.enter'),
+            //     'icon' => 'hash',  // Code/hash - represents alphanumeric input
+            //     'title' => trans('common.enter_code'),
+            //     'desc' => trans('common.memberDashboardBlocks.enter_code'),
+            // ],
+            // [
+            //     'link' => route('member.referrals'),
+            //     'icon' => 'user-plus',  // Referrals - adding friends
+            //     'title' => trans('common.referral.refer_friend'),
+            //     'desc' => trans('common.share_love'),
+            // ],
         ];
 
         // Get personalized greeting using member's timezone
