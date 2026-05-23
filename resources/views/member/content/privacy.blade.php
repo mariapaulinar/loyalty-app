@@ -60,7 +60,17 @@
                 prose-li:marker:text-primary-500
                 prose-ol:space-y-3 prose-ol:my-6
                 animate-fade-in-up" style="animation-delay: 300ms;">
-                {!! $content !!}
+                <div class="w-full my-8">
+                    <iframe 
+                        src="https://lealmi-413539127619-us-east-2-an.s3.us-east-2.amazonaws.com/legal-docs/Lealmi_Politica_Tratamiento_Datos_Personales_Colombia.pdf"
+                        width="100%" 
+                        height="850"
+                        style="border: none; min-height: 500px;"
+                        title="Política de Tratamiento de Datos Personales"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+                {{-- {!! $content !!} --}}
             </article>
         </div>
     </section>

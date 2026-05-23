@@ -33,27 +33,56 @@ Card visual centered with CTA below.
              x-transition:enter-start="opacity-0 translate-y-4"
              x-transition:enter-end="opacity-100 translate-y-0">
             
-            {{-- Card Visual --}}
+            {{-- Card Visual — stamp card (minimal) --}}
+            @php
+                $portalStampsRequired = 8;
+                $portalStampsCollected = 6;
+            @endphp
             <div class="relative h-[320px] md:h-[380px] flex items-center justify-center mb-8">
                 
                 {{-- Central Card --}}
-                <div class="w-[280px] h-[175px] md:w-[320px] md:h-[200px] rounded-2xl shadow-2xl overflow-hidden"
+                <div class="relative w-[280px] h-[175px] md:w-[320px] md:h-[200px] rounded-2xl shadow-2xl overflow-hidden"
                      style="background: linear-gradient(135deg, #202E44 0%, #1A2537 50%, #141D2B 100%); transform: rotate(-6deg); border: 1px solid rgba(255,255,255,0.1);">
                     {{-- Card Glow --}}
-                    <div class="absolute inset-0 bg-gradient-to-tr from-white/5 via-transparent to-white/10"></div>
+                    <div class="absolute inset-0 bg-gradient-to-tr from-white/5 via-transparent to-white/10 pointer-events-none"></div>
                     {{-- Card Content --}}
                     <div class="relative h-full p-5 md:p-6 flex flex-col justify-between">
                         <div class="flex justify-between items-start">
                             <div class="w-9 h-9 md:w-10 md:h-10 rounded-full bg-white/15 flex items-center justify-center" style="backdrop-filter: blur(8px);">
-                                <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                <x-ui.icon icon="stamp" class="w-5 h-5 md:w-6 md:h-6 text-emerald-300" />
                             </div>
-                            <div class="text-white/70 font-mono text-xs uppercase tracking-wider">{{ trans('common.premium_member') }}</div>
+                            <div class="text-white/70 font-mono text-[10px] md:text-xs uppercase tracking-wider text-end">{{ trans('common.stamp_card') }}</div>
                         </div>
                         <div>
-                            <div class="text-white/60 text-sm mb-1">{{ trans('common.balance') }}</div>
-                            <div class="text-white text-xl md:text-2xl font-bold tracking-wider flex items-center gap-2">
-                                24,500
-                                <x-ui.icon icon="coins" class="w-5 h-5 text-amber-400" />
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="text-white/60 text-xs md:text-sm">{{ trans('common.stamps_collected') }}</span>
+                                <span class="text-white/90 text-xs md:text-sm font-semibold tabular-nums">{{ $portalStampsCollected }}/{{ $portalStampsRequired }}</span>
+                            </div>
+                            <div class="flex items-center justify-between gap-1.5">
+                                @for ($i = 1; $i <= $portalStampsRequired; $i++)
+                                    @php
+                                        $isFilled = $i <= $portalStampsCollected;
+                                        $isRewardSlot = $i === $portalStampsRequired;
+                                    @endphp
+                                    <div class="w-5 h-5 md:w-6 md:h-6 rounded-full flex items-center justify-center shrink-0
+                                        @if($isFilled)
+                                            bg-amber-400 ring-1 ring-amber-200/80 shadow-sm shadow-amber-900/20
+                                        @elseif($isRewardSlot)
+                                            bg-white/10 ring-1 ring-amber-400/50
+                                        @else
+                                            bg-white/5 ring-1 ring-white/20
+                                        @endif">
+                                        @if($isFilled && $isRewardSlot)
+                                            <x-ui.icon icon="gift" class="w-2.5 h-2.5 md:w-3 md:h-3 text-amber-950 stroke-amber-950" />
+                                        @elseif($isFilled)
+                                            <span class="portal-stamp-star flex items-center justify-center">
+                                                <x-ui.icon icon="star" class="w-2.5 h-2.5 md:w-3 md:h-3" />
+                                            </span>
+                                        @elseif($isRewardSlot)
+                                            <x-ui.icon icon="gift" class="w-2.5 h-2.5 md:w-3 md:h-3 text-amber-300 stroke-amber-300" />
+                                        @endif
+                                    </div>
+                                @endfor
                             </div>
                         </div>
                     </div>
@@ -61,7 +90,7 @@ Card visual centered with CTA below.
 
                 {{-- Floating Icons --}}
                 <div class="absolute top-4 right-2 md:right-6 w-11 h-11 md:w-14 md:h-14 bg-white dark:bg-secondary-800 rounded-2xl shadow-lg flex items-center justify-center portal-float">
-                    <x-ui.icon icon="coins" class="w-5 h-5 md:w-7 md:h-7 text-amber-500" />
+                    <x-ui.icon icon="stamp" class="w-5 h-5 md:w-7 md:h-7 text-emerald-500" />
                 </div>
 
                 <div class="absolute bottom-10 left-2 md:left-6 w-14 h-14 md:w-16 md:h-16 bg-white dark:bg-secondary-800 rounded-full shadow-xl flex items-center justify-center portal-float portal-delay-2">
@@ -69,7 +98,7 @@ Card visual centered with CTA below.
                 </div>
 
                 <div class="absolute top-1/4 left-4 md:left-10 w-10 h-10 md:w-12 md:h-12 bg-white dark:bg-secondary-800 rounded-xl shadow-md flex items-center justify-center portal-float portal-delay-4">
-                    <x-ui.icon icon="credit-card" class="w-4 h-4 md:w-5 md:h-5 text-blue-500" />
+                    <x-ui.icon icon="stamp" class="w-4 h-4 md:w-5 md:h-5 text-emerald-500/60" />
                 </div>
 
                 <div class="absolute bottom-6 right-6 md:right-14 w-11 h-11 md:w-14 md:h-14 bg-white dark:bg-secondary-800 rounded-2xl shadow-lg flex items-center justify-center portal-float portal-delay-1">
@@ -141,5 +170,10 @@ Card visual centered with CTA below.
     .portal-delay-2 { animation-delay: 2s; }
     .portal-delay-3 { animation-delay: 3s; }
     .portal-delay-4 { animation-delay: 4s; }
+    .portal-stamp-star svg {
+        fill: #fff;
+        stroke: #fff;
+        color: #fff;
+    }
 </style>
 @endsection

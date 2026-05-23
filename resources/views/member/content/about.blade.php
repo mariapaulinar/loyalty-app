@@ -62,7 +62,7 @@
                 prose-li:marker:text-primary-500
                 prose-ol:space-y-3 prose-ol:my-6
                 animate-fade-in-up" style="animation-delay: 300ms;">
-                {!! $content !!}
+                {{-- {!! $content !!} --}}
             </article>
         </div>
     </section>
