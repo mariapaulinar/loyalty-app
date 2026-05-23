@@ -795,8 +795,8 @@
                         "required": true,
                         "schema": {
                             "type": "string",
-                            "maxLength": 64,
-                            "example": "John Doe"
+                            "example": "John Doe",
+                            "maxLength": 64
                         }
                     },
                     {
@@ -806,9 +806,9 @@
                         "required": false,
                         "schema": {
                             "type": "string",
+                            "example": "password123",
                             "maxLength": 48,
-                            "minLength": 6,
-                            "example": "password123"
+                            "minLength": 6
                         }
                     },
                     {
@@ -828,9 +828,9 @@
                         "required": false,
                         "schema": {
                             "type": "string",
+                            "example": "en_US",
                             "maxLength": 12,
-                            "minLength": 5,
-                            "example": "en_US"
+                            "minLength": 5
                         }
                     },
                     {
@@ -840,9 +840,9 @@
                         "required": false,
                         "schema": {
                             "type": "string",
+                            "example": "USD",
                             "maxLength": 3,
-                            "minLength": 3,
-                            "example": "USD"
+                            "minLength": 3
                         }
                     },
                     {
@@ -852,11 +852,11 @@
                         "required": false,
                         "schema": {
                             "type": "integer",
+                            "example": 0,
                             "enum": [
                                 0,
                                 1
-                            ],
-                            "example": 0
+                            ]
                         }
                     },
                     {
@@ -866,11 +866,11 @@
                         "required": false,
                         "schema": {
                             "type": "integer",
+                            "example": 0,
                             "enum": [
                                 0,
                                 1
-                            ],
-                            "example": 0
+                            ]
                         }
                     }
                 ],
@@ -5716,8 +5716,8 @@
                     "name": {
                         "description": "Display name",
                         "type": "string",
-                        "maxLength": 64,
-                        "example": "John Admin"
+                        "example": "John Admin",
+                        "maxLength": 64
                     },
                     "email": {
                         "description": "Email address",
@@ -5796,8 +5796,8 @@
                     "name": {
                         "description": "Business name",
                         "type": "string",
-                        "maxLength": 64,
-                        "example": "Coffee Corner"
+                        "example": "Coffee Corner",
+                        "maxLength": 64
                     },
                     "email": {
                         "description": "Contact email",
@@ -5887,8 +5887,8 @@
                     "name": {
                         "description": "Business name",
                         "type": "string",
-                        "maxLength": 64,
-                        "example": "Coffee Corner"
+                        "example": "Coffee Corner",
+                        "maxLength": 64
                     },
                     "email": {
                         "description": "Contact email",
@@ -5973,8 +5973,8 @@
                     "name": {
                         "description": "Member name",
                         "type": "string",
-                        "maxLength": 64,
-                        "example": "Jane Customer"
+                        "example": "Jane Customer",
+                        "maxLength": 64
                     },
                     "email": {
                         "description": "Email address",
@@ -6057,8 +6057,8 @@
                     "name": {
                         "description": "Member name",
                         "type": "string",
-                        "maxLength": 64,
-                        "example": "New Member"
+                        "example": "New Member",
+                        "maxLength": 64
                     },
                     "password": {
                         "description": "Generated password (only returned if auto-generated)",
@@ -6171,8 +6171,8 @@
                     "name": {
                         "description": "Club name",
                         "type": "string",
-                        "maxLength": 120,
-                        "example": "Coffee Lovers Club"
+                        "example": "Coffee Lovers Club",
+                        "maxLength": 120
                     },
                     "is_active": {
                         "description": "Whether the club is active",

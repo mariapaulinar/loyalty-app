@@ -5,7 +5,7 @@ return [
     'documentations' => [
         'default' => [
             'api' => [
-                'title' => 'Reward Loyalty API',
+                'title' => 'Lealmi API',
             ],
 
             'routes' => [
@@ -13,6 +13,8 @@ return [
                  * Route for accessing api documentation interface
                 */
                 'api' => 'api/documentation',
+                'docs' => 'api/documentation.json',
+                'oauth2_callback' => 'api/oauth2-callback',
             ],
             'paths' => [
                 /*
@@ -70,12 +72,13 @@ return [
         */
         'agent' => [
             'api' => [
-                'title' => 'Reward Loyalty Agent API',
+                'title' => 'Lealmi Agent API',
             ],
 
             'routes' => [
                 'api' => 'api/agent/docs',
                 'docs' => 'api/agent/docs.json',
+                'oauth2_callback' => 'api/agent/oauth2-callback',
             ],
 
             'paths' => [
