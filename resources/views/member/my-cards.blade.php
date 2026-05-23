@@ -185,6 +185,29 @@ Every pixel matters. Every interaction delights.
         </div>
     @endif
 
+    {{-- Your Stamp Cards Section --}}
+    @if(isset($stampCards) && $stampCards->isNotEmpty())
+        <div class="animate-fade-in-up delay-300">
+            <div class="mb-6">
+                <h2 class="text-xl font-bold text-secondary-900 dark:text-white flex items-center gap-2">
+                    <x-ui.icon icon="badge-check" class="w-5 h-5 text-green-600 dark:text-green-400" />
+                    {{ trans('common.your_stamp_cards') }}
+                </h2>
+            </div>
+
+            {{-- Stamp Cards Grid --}}
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                @foreach($stampCards->take(100) as $index => $stampCard)
+                    <div class="animate-slide-in-up" style="animation-delay: {{ $index * 80 }}ms;">
+                        <x-member.stamp-card 
+                            :stamp-card="$stampCard"
+                            :member="auth('member')->user()" />
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    @endif
+
     {{-- Your Loyalty Cards Section --}}
     @if($cards->isNotEmpty())
         <div class="animate-fade-in-up delay-200">
@@ -238,29 +261,6 @@ Every pixel matters. Every interaction delights.
         </div>
     @endif
 
-    {{-- Your Stamp Cards Section --}}
-    @if(isset($stampCards) && $stampCards->isNotEmpty())
-        <div class="animate-fade-in-up delay-300">
-            <div class="mb-6">
-                <h2 class="text-xl font-bold text-secondary-900 dark:text-white flex items-center gap-2">
-                    <x-ui.icon icon="badge-check" class="w-5 h-5 text-green-600 dark:text-green-400" />
-                    {{ trans('common.your_stamp_cards') }}
-                </h2>
-            </div>
-
-            {{-- Stamp Cards Grid --}}
-            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-                @foreach($stampCards->take(100) as $index => $stampCard)
-                    <div class="animate-slide-in-up" style="animation-delay: {{ $index * 80 }}ms;">
-                        <x-member.stamp-card 
-                            :stamp-card="$stampCard"
-                            :member="auth('member')->user()" />
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    @endif
-
     {{-- Your Vouchers Section --}}
     @if(isset($vouchers) && $vouchers->isNotEmpty())
         <div class="animate-fade-in-up delay-375">
@@ -285,7 +285,7 @@ Every pixel matters. Every interaction delights.
     @endif
 
     {{-- Quick Actions - Mobile Optimized Tap Targets --}}
-    <div class="animate-fade-in-up delay-350">
+    <!--<div class="animate-fade-in-up delay-350">
         <h2 class="text-lg font-bold text-secondary-900 dark:text-white mb-4 flex items-center gap-2">
             <x-ui.icon icon="zap" class="w-4 h-4 text-primary-600 dark:text-primary-400" />
             {{ trans('common.quick_actions') }}
@@ -329,7 +329,7 @@ Every pixel matters. Every interaction delights.
                 </a>
             @endforeach
         </div>
-    </div>
+    </div> -->
 </div>
 </div>
 @stop
