@@ -287,7 +287,7 @@
                                     <div class="my-1 border-t border-secondary-100 dark:border-secondary-700"></div>
 
                                     {{-- Request Points --}}
-                                    <a href="{{ route('member.data.list', ['name' => 'request-links']) }}"
+                                    <!--<a href="{{ route('member.data.list', ['name' => 'request-links']) }}"
                                         class="flex items-center gap-3 px-4 py-2.5 text-sm text-secondary-700 dark:text-secondary-300 hover:bg-secondary-50 dark:hover:bg-secondary-700/50 transition-all cursor-pointer">
                                         <x-ui.icon icon="send" class="w-4 h-4" />
                                         {{ trans('common.request_points') }}
@@ -305,7 +305,7 @@
                                         class="flex items-center gap-3 px-4 py-2.5 text-sm text-secondary-700 dark:text-secondary-300 hover:bg-secondary-50 dark:hover:bg-secondary-700/50 transition-all cursor-pointer">
                                         <x-ui.icon icon="user-plus" class="w-4 h-4" />
                                         {{ trans('common.referrals') }}
-                                    </a>
+                                    </a>-->
 
                                     {{-- Agent Keys (only for registered members when feature is enabled) --}}
                                     @if(config('default.feature_agent_api') && auth('member')->user()?->isRegistered())
