@@ -35,10 +35,6 @@ Beautiful animations, consistent UX, Jony Ive approved.
                 ['text' => $stampCard->title]
             ]" />
         </div>
-        {{-- Add/Remove Card Button - Below tabs, above share --}}
-        <div class="w-full max-w-lg mx-auto animate-fade-in-up delay-400">
-            <x-member.enroll-stamp-card :stampCard="$stampCard" />
-        </div>
         {{-- Primary Action: Show QR Code --}}
         @if(auth('member')->check() && (!$stampCard->valid_until || !now()->isAfter($stampCard->valid_until)))
             <div class="animate-fade-in-up delay-100">
@@ -94,13 +90,11 @@ Beautiful animations, consistent UX, Jony Ive approved.
                                     <h3 class="text-2xl font-bold text-secondary-900 dark:text-white">{{ trans('common.collect_reward') }}</h3>
                                     <p class="text-secondary-500 dark:text-secondary-400 mt-2">{{ trans('common.show_qr_to_staff') }}</p>
                                 </div>
-                                <div class="bg-white p-4 rounded-2xl shadow-inner border border-secondary-100 inline-block"
-                                    style="color-scheme: light; forced-color-adjust: none; -webkit-filter: none; filter: none;">
+                                <div class="bg-white p-4 rounded-2xl shadow-inner border border-secondary-100 inline-block">
                                     <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
                                         class="w-64 h-64 object-contain" data-qr-url="{{ route('staff.stamps.claim.show', ['member_identifier' => auth('member')->user()->unique_identifier, 'stamp_card_id' => $stampCard->id]) }}"
-                                        data-qr-color-light="#FFFFFF"
-                                        data-qr-color-dark="#000000"
-                                        alt="Reward QR Code" />
+                                        data-qr-color-light="#FCFCFC"
+                                        data-qr-color-dark="#1F1F1F" />
                                 </div>
                                 <div class="space-y-1.5 text-center">
                                     <div class="font-bold text-lg text-secondary-900 dark:text-white">
@@ -169,8 +163,8 @@ Beautiful animations, consistent UX, Jony Ive approved.
         :title="trans('common.show_qr_code')"
         :subtitle="trans('common.collect_stamp_from_staff')"
         :qr-url="$urlToCollectStamp"
-        qr-color-light="#FFFFFF"
-        qr-color-dark="#000000"
+        qr-color-light="#FCFCFC"
+        qr-color-dark="#1F1F1F"
         :identifier="$stampCard->title"
         identifier-label="card"
         icon-color="primary"

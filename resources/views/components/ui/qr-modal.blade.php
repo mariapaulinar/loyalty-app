@@ -11,8 +11,8 @@ Approved by Steve Jobs and Jony Ive (in spirit)
 - title: Modal title
 - subtitle: Modal subtitle
 - qrUrl: URL to encode in QR
-- qrColorLight: Light theme QR color (default: '#FFFFFF')
-- qrColorDark: Dark theme QR color (default: '#000000')
+- qrColorLight: Light theme QR color (default: '#FCFCFC')
+- qrColorDark: Dark theme QR color (default: '#1F1F1F')
 - identifier: Optional identifier text to show below QR
 - identifierLabel: Label for identifier (default: 'Identifier')
 - iconColor: Gradient color for icon badge (default: 'primary')
@@ -27,8 +27,8 @@ Approved by Steve Jobs and Jony Ive (in spirit)
     'title',
     'subtitle',
     'qrUrl',
-    'qrColorLight' => '#FFFFFF',
-    'qrColorDark' => '#000000',
+    'qrColorLight' => '#FCFCFC',
+    'qrColorDark' => '#1F1F1F',
     'identifier' => null,
     'identifierLabel' => 'Identifier',
     'iconColor' => 'primary',
@@ -88,7 +88,6 @@ Approved by Steve Jobs and Jony Ive (in spirit)
 
             {{-- QR Code Container - Clean & Minimal --}}
             <div class="bg-white dark:bg-white p-6 rounded-2xl shadow-inner border border-secondary-200 dark:border-secondary-300 inline-block"
-                 style="color-scheme: light; forced-color-adjust: none; -webkit-filter: none; filter: none;"
                  @if($enableCache && ($cardName || $cardBalance))
                      data-card-info
                      @if($cardName) data-card-name="{{ $cardName }}" @endif
