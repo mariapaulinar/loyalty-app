@@ -101,7 +101,7 @@ $subtitleCopied = $subtitleCopied ?? __('common.paste_at_checkout');
     {{-- Button surface --}}
     <button 
         type="button"
-        class="relative w-full flex items-center gap-4 px-5 py-4 cursor-pointer rounded-2xl
+        class="theme-surface-lock relative w-full flex items-center gap-4 px-5 py-4 cursor-pointer rounded-2xl
                bg-white dark:bg-secondary-900
                border border-secondary-200/50 dark:border-secondary-700/50
                shadow-sm

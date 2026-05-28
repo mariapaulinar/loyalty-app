@@ -275,6 +275,14 @@
 
 @layer components {
 
+    /* Critical interactive surfaces: prevent browser-level forced color rewriting
+       (not global) to keep app theme consistent in Samsung Internet dark mode. */
+    .theme-surface-lock {
+        forced-color-adjust: none;
+        -webkit-filter: none;
+        filter: none;
+    }
+
     /* Card Container - Provides 3D perspective */
     .premium-card-container {
         perspective: 1200px;

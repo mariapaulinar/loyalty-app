@@ -11,8 +11,8 @@ Approved by Steve Jobs and Jony Ive (in spirit)
 - title: Modal title
 - subtitle: Modal subtitle
 - qrUrl: URL to encode in QR
-- qrColorLight: Light theme QR color (default: '#FCFCFC')
-- qrColorDark: Dark theme QR color (default: '#1F1F1F')
+- qrColorLight: Light theme QR color (default: '#FFFFFF')
+- qrColorDark: Dark theme QR color (default: '#000000')
 - identifier: Optional identifier text to show below QR
 - identifierLabel: Label for identifier (default: 'Identifier')
 - iconColor: Gradient color for icon badge (default: 'primary')
@@ -27,8 +27,8 @@ Approved by Steve Jobs and Jony Ive (in spirit)
     'title',
     'subtitle',
     'qrUrl',
-    'qrColorLight' => '#FCFCFC',
-    'qrColorDark' => '#1F1F1F',
+    'qrColorLight' => '#FFFFFF',
+    'qrColorDark' => '#000000',
     'identifier' => null,
     'identifierLabel' => 'Identifier',
     'iconColor' => 'primary',
@@ -59,7 +59,7 @@ Approved by Steve Jobs and Jony Ive (in spirit)
      x-transition:leave-end="opacity-0">
 
     <div @click.away="{{ $show }} = false"
-         class="relative bg-white dark:bg-secondary-900 w-full max-w-sm rounded-3xl p-8 shadow-2xl transform"
+         class="theme-surface-lock relative bg-white dark:bg-secondary-900 w-full max-w-sm rounded-3xl p-8 shadow-2xl transform"
          x-transition:enter="transition ease-out duration-300"
          x-transition:enter-start="opacity-0 scale-90 translate-y-4"
          x-transition:enter-end="opacity-100 scale-100 translate-y-0"
@@ -87,7 +87,8 @@ Approved by Steve Jobs and Jony Ive (in spirit)
             </div>
 
             {{-- QR Code Container - Clean & Minimal --}}
-            <div class="bg-white dark:bg-white p-6 rounded-2xl shadow-inner border border-secondary-200 dark:border-secondary-300 inline-block"
+            <div class="theme-surface-lock bg-white dark:bg-white p-6 rounded-2xl shadow-inner border border-secondary-200 dark:border-secondary-300 inline-block"
+                 style="color-scheme: light;"
                  @if($enableCache && ($cardName || $cardBalance))
                      data-card-info
                      @if($cardName) data-card-name="{{ $cardName }}" @endif

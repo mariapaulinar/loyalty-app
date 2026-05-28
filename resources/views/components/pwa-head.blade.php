@@ -37,6 +37,7 @@ Usage:
 <meta name="theme-color" content="{{ $themeColor }}">
 <meta name="theme-color" content="{{ $themeColor }}" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1e293b" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
 
 {{-- iOS/PWA Support --}}
 <meta name="mobile-web-app-capable" content="yes">

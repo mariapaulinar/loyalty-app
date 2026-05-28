@@ -74,7 +74,7 @@ Beautiful animations, consistent UX, Jony Ive approved.
                         x-transition:enter="transition ease-out duration-300" x-transition:enter-start="opacity-0"
                         x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-200"
                         x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0">
-                        <div class="bg-white dark:bg-secondary-900 w-full max-w-sm rounded-3xl p-8 shadow-2xl relative transform transition-all"
+                        <div class="theme-surface-lock bg-white dark:bg-secondary-900 w-full max-w-sm rounded-3xl p-8 shadow-2xl relative transform transition-all"
                             @click.away="showRewardQr = false" x-transition:enter="transition ease-out duration-300"
                             x-transition:enter-start="opacity-0 scale-90 translate-y-4"
                             x-transition:enter-end="opacity-100 scale-100 translate-y-0"
@@ -90,11 +90,13 @@ Beautiful animations, consistent UX, Jony Ive approved.
                                     <h3 class="text-2xl font-bold text-secondary-900 dark:text-white">{{ trans('common.collect_reward') }}</h3>
                                     <p class="text-secondary-500 dark:text-secondary-400 mt-2">{{ trans('common.show_qr_to_staff') }}</p>
                                 </div>
-                                <div class="bg-white p-4 rounded-2xl shadow-inner border border-secondary-100 inline-block">
+                                <div class="theme-surface-lock bg-white p-4 rounded-2xl shadow-inner border border-secondary-100 inline-block"
+                                    style="color-scheme: light;">
                                     <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
                                         class="w-64 h-64 object-contain" data-qr-url="{{ route('staff.stamps.claim.show', ['member_identifier' => auth('member')->user()->unique_identifier, 'stamp_card_id' => $stampCard->id]) }}"
-                                        data-qr-color-light="#FCFCFC"
-                                        data-qr-color-dark="#1F1F1F" />
+                                        data-qr-color-light="#FFFFFF"
+                                        data-qr-color-dark="#000000"
+                                        alt="Reward QR Code" />
                                 </div>
                                 <div class="space-y-1.5 text-center">
                                     <div class="font-bold text-lg text-secondary-900 dark:text-white">
@@ -163,8 +165,8 @@ Beautiful animations, consistent UX, Jony Ive approved.
         :title="trans('common.show_qr_code')"
         :subtitle="trans('common.collect_stamp_from_staff')"
         :qr-url="$urlToCollectStamp"
-        qr-color-light="#FCFCFC"
-        qr-color-dark="#1F1F1F"
+        qr-color-light="#FFFFFF"
+        qr-color-dark="#000000"
         :identifier="$stampCard->title"
         identifier-label="card"
         icon-color="primary"
