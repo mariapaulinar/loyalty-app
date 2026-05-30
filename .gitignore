@@ -192,3 +192,6 @@ local.settings.json
 # Docker
 /docker-compose.yml
 /data/
+**/caddy
+frankenphp
+frankenphp-worker.php
