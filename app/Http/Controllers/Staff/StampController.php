@@ -49,7 +49,7 @@ class StampController extends Controller
 
         // Check if card belongs to staff's club
         $staff = auth('staff')->user();
-        if ($card && $card->club_id !== $staff->club_id) {
+        if ($card && ! $card->isAccessibleByStaffClub($staff->club_id)) {
             $card = null;
         }
 
@@ -219,7 +219,7 @@ class StampController extends Controller
 
         // Check if card belongs to staff's club
         $staff = auth('staff')->user();
-        if ($card && $card->club_id !== $staff->club_id) {
+        if ($card && ! $card->isAccessibleByStaffClub($staff->club_id)) {
             abort(403, 'This stamp card does not belong to your club');
         }
 
