@@ -1551,6 +1551,8 @@ return [
     'minimum_purchase_of_amount_required_to_earn_stamp' => 'Se requiere una compra mínima de :amount para ganar un sello.',
     'per_purchase' => 'por compra',
     'required_stamps' => 'Sellos requeridos',
+    'stamps_required_per_club' => 'Sellos requeridos por club',
+    'stamps_required_per_club_not_completed' => 'Ya se otorgaron todos los sellos permitidos.',
     'max_per_day' => 'Máx. por día',
     'max_per_transaction' => 'Máx. por transacción',
     'until' => 'Hasta',

@@ -117,15 +117,17 @@ class StampService
             $stampsAfter = $enrollment->current_stamps;
 
             if ($card->card_type === 'event' && $staff) {
-                $staff->loadMissing('club.partner');
-            
-                $partner = $staff->club?->partner ?? $staff->partner;
-            
-                $transactionData['meta'] = [
-                    'club_id' => $staff->club_id,
-                    'club_name' => $staff->club?->name,
-                    'partner_avatar_url' => $partner?->getAvatarUrl('small'),
-                ];
+                if (!$result) {
+                    return [
+                        'success' => false,
+                        'stamps_added' => 0,
+                        'current_stamps' => 0,
+                        'stamps_required' => $card->stamps_required_per_club,
+                        'completed' => false,
+                        'pending_rewards' => 0,
+                        'error' => trans('common.stamps_required_per_club_not_completed'),
+                    ];
+                }
             }
 
             // Create transaction record
