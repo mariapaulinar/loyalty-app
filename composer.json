@@ -31,6 +31,7 @@
         "moneyphp/money": "^4.0",
         "openai-php/client": "^0.19",
         "resend/resend-laravel": "^1.0",
+        "sentry/sentry-laravel": "^4.25",
         "spatie/laravel-activitylog": "^4.10",
         "spatie/laravel-medialibrary": "^11.0",
         "spatie/laravel-translatable": "^6.0",
