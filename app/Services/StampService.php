@@ -117,7 +117,7 @@ class StampService
             $stampsAfter = $enrollment->current_stamps;
 
             if ($card->card_type === 'event' && $staff) {
-                if (!$result) {
+                if (!$result['completed']) {
                     return [
                         'success' => false,
                         'stamps_added' => 0,
