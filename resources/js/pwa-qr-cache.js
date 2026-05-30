@@ -161,9 +161,9 @@ function precacheVisibleCards() {
 window.processQrCodes = function() {
     const elements = document.querySelectorAll('[data-qr-url]');
 
-    const format = element.getAttribute("data-qr-format") || "svg";
     elements.forEach(function(element) {
         const url = element.getAttribute('data-qr-url');
+        const format = element.getAttribute("data-qr-format") || "svg";
         
         // Skip if URL is empty or invalid
         if (!url || url.trim() === '' || url === 'null' || url === 'undefined') {
