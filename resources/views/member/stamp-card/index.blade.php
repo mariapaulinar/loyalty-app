@@ -92,7 +92,8 @@ Beautiful animations, consistent UX, Jony Ive approved.
                                 </div>
                                 <div class="theme-surface-lock bg-white p-4 rounded-2xl shadow-inner border border-secondary-100 inline-block"
                                     style="color-scheme: light;">
-                                    <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                                    <img src=""
+                                        data-qr-format="png"
                                         class="w-64 h-64 object-contain" data-qr-url="{{ route('staff.stamps.claim.show', ['member_identifier' => auth('member')->user()->unique_identifier, 'stamp_card_id' => $stampCard->id]) }}"
                                         data-qr-color-light="#FFFFFF"
                                         data-qr-color-dark="#000000"

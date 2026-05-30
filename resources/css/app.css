@@ -283,6 +283,26 @@
         filter: none;
     }
 
+    .qr-island {
+        color-scheme: only light;
+        forced-color-adjust: none;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        background-color: #ffffff !important;
+        filter: none !important;
+        isolation: isolate;
+    }
+    .qr-island img,
+    img.qr-code {
+        color-scheme: only light;
+        forced-color-adjust: none;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        filter: none !important;
+        opacity: 1 !important;
+        mix-blend-mode: normal;
+    }
+
     /* Card Container - Provides 3D perspective */
     .premium-card-container {
         perspective: 1200px;

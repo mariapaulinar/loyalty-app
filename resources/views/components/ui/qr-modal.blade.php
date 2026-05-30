@@ -94,8 +94,9 @@ Approved by Steve Jobs and Jony Ive (in spirit)
                      @if($cardName) data-card-name="{{ $cardName }}" @endif
                      @if($cardBalance) data-card-balance="{{ $cardBalance }}" @endif
                  @endif>
-                <img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                <img src=""
                      class="w-56 h-56 object-contain qr-code" 
+                     data-qr-format="png"
                      data-qr-url="{{ $qrUrl }}"
                      data-qr-color-light="{{ $qrColorLight }}"
                      data-qr-color-dark="{{ $qrColorDark }}"
