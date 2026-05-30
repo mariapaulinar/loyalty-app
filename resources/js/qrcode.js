@@ -8,6 +8,7 @@ import QRCode from "qrcode";
  */
 window.processQrCodes = function () {
   const elements = document.querySelectorAll("[data-qr-url]");
+  const format = element.getAttribute("data-qr-format") || "svg";
 
   elements.forEach(function (element) {
     const url = element.getAttribute("data-qr-url");
@@ -30,6 +31,13 @@ window.processQrCodes = function () {
       },
       width: 512, // High resolution for crisp display
     };
+
+    if (format === "png") {
+      QRCode.toDataURL(url, { ...opts, type: "image/png" }, function (error, dataUrl) {
+        if (!error) element.src = dataUrl;
+      });
+      return;
+    }
 
     // Generate the QR code as SVG for perfect scaling
     QRCode.toString(

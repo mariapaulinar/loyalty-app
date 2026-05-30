@@ -160,7 +160,8 @@ function precacheVisibleCards() {
  */
 window.processQrCodes = function() {
     const elements = document.querySelectorAll('[data-qr-url]');
-    
+
+    const format = element.getAttribute("data-qr-format") || "svg";
     elements.forEach(function(element) {
         const url = element.getAttribute('data-qr-url');
         
@@ -193,6 +194,13 @@ window.processQrCodes = function() {
                 return;
             }
         }
+
+        if (format === "png") {
+            QRCode.toDataURL(url, { ...opts, type: "image/png" }, function (error, dataUrl) {
+              if (!error) element.src = dataUrl;
+            });
+            return;
+          }
 
         // Generate QR code
         QRCode.toString(url, opts, function(error, svgString) {
