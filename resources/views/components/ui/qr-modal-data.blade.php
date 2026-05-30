@@ -60,8 +60,8 @@
                 <div class="bg-white p-8 rounded-3xl shadow-inner border border-secondary-200 dark:border-secondary-300">
                     <img src=""
                          :data-qr-url="url" 
-                         data-qr-color-light="#FCFCFC" 
-                         data-qr-color-dark="#1F1F1F"
+                         data-qr-color-light="#ffffff" 
+                         data-qr-color-dark="#ffffff"
                          alt="QR Code" 
                          class="w-64 h-64" />
                 </div>
