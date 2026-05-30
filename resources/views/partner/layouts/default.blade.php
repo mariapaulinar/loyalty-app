@@ -438,6 +438,13 @@
                         :active="$routeDataDefinition == 'stamp-cards'" icon="stamp">
                         {{ trans('common.stamp_cards') }}
                     </x-ui.nav-link>
+                    {{-- Event Stamp Cards --}}
+                    @if($entitlements->can($partner, 'event_stamp_cards'))
+                    <x-ui.nav-link :href="route('partner.data.list', ['name' => 'event-stamp-cards'])"
+                        :active="$routeDataDefinition == 'event-stamp-cards'" icon="stamp">
+                        {{ trans('common.event_stamp_cards') }}
+                    </x-ui.nav-link>
+                    @endif
                     <x-ui.nav-link :href="route('partner.stamp-card-analytics')" :active="Str::startsWith($routeName, 'partner.stamp-card-analytics')"
                         icon="bar-chart">
                         {{ trans('common.analytics') }}
