@@ -11,7 +11,7 @@
 
 @extends('staff.layouts.default')
 
-@section('page_title', $card->name . config('default.page_title_delimiter') . trans('common.add_stamp') . config('default.page_title_delimiter') . config('default.app_name'))
+@section('page_title', ($card?->name ?? trans('common.add_stamp')) . config('default.page_title_delimiter') . trans('common.add_stamp') . config('default.page_title_delimiter') . config('default.app_name'))
 
 @section('content')
 <div class="w-full max-w-lg mx-auto px-4 py-8 md:py-14">

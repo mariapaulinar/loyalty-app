@@ -573,6 +573,30 @@ class StampCard extends Model implements HasMedia
         return max(0, $remaining);
     }
 
+    
+    /**
+     * Determine if this stamp card is accessible by the staff member's club.
+     *
+     * Checks if the provided staff club ID gives access to this stamp card:
+     * - For cards of type 'event', it verifies if the staff club is associated with the card through the pivot table.
+     * - For other card types, it compares the card's club_id with the staff club ID.
+     *
+     * @param  string|null  $staffClubId  The ID of the staff's club
+     * @return bool  True if accessible by the staff club, false otherwise
+     */
+    public function isAccessibleByStaffClub(?string $staffClubId): bool
+    {
+        if (! $staffClubId) {
+            return false;
+        }
+
+        if ($this->card_type === 'event') {
+            return $this->clubes()->where('club_id', $staffClubId)->exists();
+        }
+
+        return $this->club_id === $staffClubId;
+    }
+
     // ═════════════════════════════════════════════════════════════════════════
     // MEDIA ACCESSORS
     // ═════════════════════════════════════════════════════════════════════════
