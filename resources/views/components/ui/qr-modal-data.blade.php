@@ -61,7 +61,7 @@
                     <img src=""
                          :data-qr-url="url" 
                          data-qr-color-light="#ffffff" 
-                         data-qr-color-dark="#ffffff"
+                         data-qr-color-dark="#000000"
                          alt="QR Code" 
                          class="w-64 h-64" />
                 </div>
