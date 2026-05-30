@@ -90,10 +90,9 @@ Beautiful animations, consistent UX, Jony Ive approved.
                                     <h3 class="text-2xl font-bold text-secondary-900 dark:text-white">{{ trans('common.collect_reward') }}</h3>
                                     <p class="text-secondary-500 dark:text-secondary-400 mt-2">{{ trans('common.show_qr_to_staff') }}</p>
                                 </div>
-                                <div class="theme-surface-lock bg-white p-4 rounded-2xl shadow-inner border border-secondary-100 inline-block"
+                                <div class="qr-island theme-surface-lock bg-white p-4 rounded-2xl border border-secondary-100 inline-block"
                                     style="color-scheme: light;">
                                     <img src=""
-                                        data-qr-format="png"
                                         class="w-64 h-64 object-contain" data-qr-url="{{ route('staff.stamps.claim.show', ['member_identifier' => auth('member')->user()->unique_identifier, 'stamp_card_id' => $stampCard->id]) }}"
                                         data-qr-color-light="#FFFFFF"
                                         data-qr-color-dark="#000000"
