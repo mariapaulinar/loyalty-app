@@ -42,11 +42,6 @@ $emptySlots = $totalSlots - $stampsRequired;
 
 // Link to reward card if exists
 $rewardCardUrl = $stampCard->reward_card_id ? route('member.card', ['card_id' => $stampCard->reward_card_id]) : null;
-$stampLogos = [];
-if ($stampCard->card_type === 'event' && $enrollment) {
-    $stampLogos = app(\App\Services\StampService::class)
-        ->getVisibleStampLogosForEventCard($enrollment);
-}
 @endphp
 
 <div class="space-y-6">
@@ -172,15 +167,9 @@ if ($stampCard->card_type === 'event' && $enrollment) {
                                 : 'bg-secondary-100 dark:bg-secondary-700' }}"
                         :class="activeStamp === {{ $i }} && {{ $i }} > {{ $currentStamps }} ? 'bg-secondary-200 dark:bg-secondary-600' : ''"
                     >
+                        {{-- Icon/Emoji --}}
                         @if ($i <= $currentStamps)
-                            @if ($stampCard->card_type === 'event' && !empty($stampLogos[$i]))
-                                <img
-                                    src="{{ $stampLogos[$i] }}"
-                                    alt=""
-                                    class="w-[70%] h-[70%] object-contain rounded-lg drop-shadow-lg transition-transform duration-200"
-                                    :class="activeStamp === {{ $i }} ? 'scale-110' : ''"
-                                />
-                            @elseif ($isEmoji)
+                            @if ($isEmoji)
                                 <span 
                                     class="text-4xl drop-shadow-lg transition-transform duration-200"
                                     :class="activeStamp === {{ $i }} ? 'scale-110' : ''"

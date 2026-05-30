@@ -14,6 +14,13 @@ Now using universal <x-ui.rule-item> components for consistency!
         :title="trans('common.stamps_to_complete')"
         :description="trans('common.stamp_rule_required', ['stamps' => '<span class=\'font-bold text-primary-600 dark:text-primary-400\'>' . $stampCard->stamps_required . '</span>'])"
         color="primary" />
+    @if($stampCard->card_type === 'event')
+    <x-ui.rule-item
+        icon="check-circle"
+        :title="trans('common.stamps_required_per_club')"
+        :description="trans('common.stamp_rule_required_per_club', ['stamps' => '<span class=\'font-bold text-primary-600 dark:text-primary-400\'>' . $stampCard->stamps_required_per_club . '</span>'])"
+        color="emerald" />
+    @endif
     
     {{-- Rule 2: Expiration --}}
     @if ($stampCard->stamps_expire_days)
