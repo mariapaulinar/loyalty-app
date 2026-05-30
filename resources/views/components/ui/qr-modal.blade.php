@@ -87,7 +87,7 @@ Approved by Steve Jobs and Jony Ive (in spirit)
             </div>
 
             {{-- QR Code Container - Clean & Minimal --}}
-            <div class="qr-island theme-surface-lock bg-white dark:bg-white p-6 rounded-2xl border border-secondary-200 dark:border-secondary-300 inline-block"
+            <div class="theme-surface-lock bg-white dark:bg-white p-6 rounded-2xl shadow-inner border border-secondary-200 dark:border-secondary-300 inline-block"
                  style="color-scheme: light;"
                  @if($enableCache && ($cardName || $cardBalance))
                      data-card-info
@@ -96,6 +96,7 @@ Approved by Steve Jobs and Jony Ive (in spirit)
                  @endif>
                 <img src=""
                      class="w-56 h-56 object-contain qr-code" 
+                     data-qr-format="png"
                      data-qr-url="{{ $qrUrl }}"
                      data-qr-color-light="{{ $qrColorLight }}"
                      data-qr-color-dark="{{ $qrColorDark }}"

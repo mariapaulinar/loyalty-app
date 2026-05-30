@@ -11,6 +11,7 @@ window.processQrCodes = function () {
   
   elements.forEach(function (element) {
     const url = element.getAttribute("data-qr-url");
+    const format = element.getAttribute("data-qr-format") || "svg";
     
     // Skip if URL is empty or invalid
     if (!url || url.trim() === "" || url === "null" || url === "undefined") {
@@ -30,6 +31,13 @@ window.processQrCodes = function () {
       },
       width: 512, // High resolution for crisp display
     };
+
+    if (format === "png") {
+      QRCode.toDataURL(url, { ...opts, type: "image/png" }, function (error, dataUrl) {
+        if (!error) element.src = dataUrl;
+      });
+      return;
+    }
 
     // Generate the QR code as SVG for perfect scaling
     QRCode.toString(
