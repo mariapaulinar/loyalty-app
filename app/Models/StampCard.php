@@ -268,6 +268,14 @@ class StampCard extends Model implements HasMedia
     }
 
     /**
+     * Get the club that owns this stamp card.
+     */
+    public function clubes(): BelongsToMany
+    {
+        return $this->belongsToMany(Club::class, 'stamp_card_club');
+    }
+
+    /**
      * Partner who owns this stamp card (through club).
      */
     public function partner(): BelongsTo

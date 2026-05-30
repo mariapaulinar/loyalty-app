@@ -66,6 +66,8 @@ return [
         'has_activity_log' => false,
         'has_agent_api' => false,
         'max_agent_keys' => 0,
+        'has_event_stamp_cards' => true,
+        'max_event_stamp_cards' => -1,
     ],
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -102,6 +104,8 @@ return [
         'has_activity_log' => true,
         'has_agent_api' => false,
         'max_agent_keys' => 0,
+        'has_event_stamp_cards' => true,
+        'max_event_stamp_cards' => -1,
     ],
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -138,6 +142,9 @@ return [
         'has_activity_log' => true,
         'has_agent_api' => true,
         'max_agent_keys' => 5,
+        'has_event_stamp_cards' => true,
+        'max_event_stamp_cards' => -1,
+        
     ],
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -174,6 +181,8 @@ return [
         'has_activity_log' => true,
         'has_agent_api' => true,
         'max_agent_keys' => -1,     // Unlimited
+        'has_event_stamp_cards' => true,
+        'max_event_stamp_cards' => -1,
     ],
 
 ];

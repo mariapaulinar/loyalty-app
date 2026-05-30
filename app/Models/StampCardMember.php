@@ -233,6 +233,42 @@ class StampCardMember extends Model
             ];
         }
 
+        if ($this->stampCard->card_type === 'event') {
+            $staff = auth('staff')->user();
+            if (
+                $staff &&
+                $staff->club_id &&
+                !$this->stampCard->clubes()->where('club_id', $staff->club_id)->exists()
+            ) {
+                return [
+                    'completed' => false,
+                    'overflow' => 0,
+                    'completions' => 0,
+                ];
+            } else {
+                $staffClubId = $staff->club_id;
+                // Contar los sellos hechos por staff de ese club para este member y este card
+                $countStampsByClub = \App\Models\StampTransaction::query()
+                    ->where('stamp_card_id', $this->stamp_card_id)
+                    ->where('member_id', $this->member_id)
+                    ->where('staff_id', $staff->id)
+                    ->whereHas('staff', function ($query) use ($staffClubId) {
+                        $query->where('club_id', $staffClubId);
+                    })
+                    ->where('event', StampTransaction::EVENT_STAMP_EARNED)
+                    ->count();
+
+                // Comparar contra stamps_required_per_club
+                if ($countStampsByClub >= $this->stampCard->stamps_required_per_club) {
+                    return [
+                        'completed' => false,
+                        'overflow' => 0,
+                        'completions' => 0,
+                    ];
+                }
+            }
+        }
+
         $newTotal = $this->current_stamps + $count;
         $stampsRequired = $this->stampCard->stamps_required;
 

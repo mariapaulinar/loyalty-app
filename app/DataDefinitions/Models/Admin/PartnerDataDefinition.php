@@ -269,6 +269,23 @@ class PartnerDataDefinition extends DataDefinition
                         'help' => '-1 is unlimited',
                         'actions' => ['insert', 'edit', 'view', 'export'],
                     ],
+                    'event_stamp_cards_permission' => [
+                        'text' => trans('common.event_stamp_cards'),
+                        'type' => 'boolean',
+                        'json' => 'meta',
+                        'validate' => ['nullable', 'boolean'],
+                        'default' => false,
+                        'actions' => ['insert', 'edit', 'view', 'export'],
+                    ],
+                    'event_stamp_cards_limit' => [
+                        'text' => trans('common.event_stamp_cards') . ' (' . trans('common.limit') . ')',
+                        'type' => 'number',
+                        'json' => 'meta',
+                        'validate' => ['nullable', 'numeric'],
+                        'default' => -1,
+                        'help' => '-1 is unlimited',
+                        'actions' => ['insert', 'edit', 'view', 'export'],
+                    ],
                     'vouchers_permission' => [
                         'text' => trans('common.vouchers'),
                         'type' => 'boolean',

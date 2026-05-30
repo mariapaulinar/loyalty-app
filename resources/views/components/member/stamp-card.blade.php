@@ -146,6 +146,12 @@ $memberIdentifier = $member?->unique_identifier ?? auth('member')->user()?->uniq
 $urlToCollectStamp = ($authCheck && $memberId && $memberIdentifier) 
     ? route('staff.stamps.add.show', ['member_identifier' => $memberIdentifier, 'stamp_card_id' => $stampCard->id])
     : '';
+
+$stampLogos = [];
+if ($stampCard->card_type === 'event' && $enrollment && $showMemberData) {
+    $stampLogos = app(\App\Services\StampService::class)
+        ->getVisibleStampLogosForEventCard($enrollment);
+}
 @endphp
 
 <div {{ $attributes->except('class') }} id="{{ $element_id }}"
@@ -400,8 +406,14 @@ $urlToCollectStamp = ($authCheck && $memberId && $memberIdentifier)
                                 {{-- Inner rim light --}}
                                 <div class="absolute inset-px rounded-full border border-white/15"></div>
                                 
-                                {{-- Icon/Emoji - larger sizes at bigger breakpoints --}}
-                                @if ($isEmoji)
+                                                                {{-- Icon/Emoji o logo del partner (event stamp cards) --}}
+                                @if ($stampCard->card_type === 'event' && !empty($stampLogos[$i]))
+                                    <img
+                                        src="{{ $stampLogos[$i] }}"
+                                        alt=""
+                                        class="stamp-icon relative z-10 w-[70%] h-[70%] object-contain rounded-full drop-shadow-sm"
+                                    />
+                                @elseif ($isEmoji)
                                     <span class="stamp-icon relative z-10 text-lg @[400px]:text-xl @[500px]:text-3xl drop-shadow-sm">{{ $stampIcon }}</span>
                                 @else
                                     <x-ui.icon :icon="$stampIcon" class="stamp-icon relative z-10 w-5 h-5 @[400px]:w-7 @[400px]:h-7 @[500px]:w-9 @[500px]:h-9 drop-shadow-sm" />

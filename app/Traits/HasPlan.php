@@ -96,6 +96,8 @@ trait HasPlan
             'activity_permission' => $planConfig['has_activity_log'] ?? false,
             'agent_api_permission' => $planConfig['has_agent_api'] ?? false,
             'agent_keys_limit' => $planConfig['max_agent_keys'] ?? 0,
+            'event_stamp_cards_permission' => $planConfig['has_event_stamp_cards'] ?? false,
+            'event_stamp_cards_limit' => $planConfig['max_event_stamp_cards'] ?? 0,
         ];
 
         return array_merge($meta, $overrides);

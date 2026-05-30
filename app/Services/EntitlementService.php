@@ -95,6 +95,7 @@ class EntitlementService
         'email_campaigns'  => ['email_campaigns_permission',  'has_email_campaigns',   false],
         'activity_log'     => ['activity_permission',         'has_activity_log',      false],
         'agent_api'        => ['agent_api_permission',        'has_agent_api',         false],
+        'event_stamp_cards' => ['event_stamp_cards_permission', 'has_event_stamp_cards', false],
     ];
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -115,6 +116,7 @@ class EntitlementService
         'rewards'     => ['rewards_limit',         'max_rewards',     Reward::class,     3],
         'clubs'       => [null,                    'max_clubs',       Club::class,       1],
         'agent_keys'  => ['agent_keys_limit',      'max_agent_keys',  AgentKey::class,   0],
+        'event_stamp_cards' => ['event_stamp_cards_limit', 'max_event_stamp_cards', StampCard::class, 0],
     ];
 
     // ═════════════════════════════════════════════════════════════════════════
@@ -270,6 +272,17 @@ class EntitlementService
      */
     public function usage(Partner $partner, string $resource): int
     {
+        if ($resource === 'stamp_cards') {
+            return StampCard::where('created_by', $partner->id)
+                ->where('card_type', 'normal')
+                ->count();
+        }
+        if ($resource === 'event_stamp_cards') {
+            return StampCard::where('created_by', $partner->id)
+                ->where('card_type', 'event')
+                ->count();
+        }
+
         if (! isset(self::LIMIT_MAP[$resource])) {
             return 0;
         }
@@ -446,6 +459,7 @@ class EntitlementService
             'email_campaigns' => trans('common.entitlement.features.email_campaigns'),
             'activity_log'    => trans('common.entitlement.features.activity_log'),
             'agent_api'       => trans('common.entitlement.features.agent_api'),
+            'event_stamp_cards' => trans('common.entitlement.features.event_stamp_cards'),
         ];
 
         return $names[$feature] ?? $feature;
@@ -464,6 +478,7 @@ class EntitlementService
             'rewards'     => trans('common.entitlement.resources.rewards'),
             'clubs'       => trans('common.entitlement.resources.clubs'),
             'agent_keys'  => trans('common.entitlement.resources.agent_keys'),
+            'event_stamp_cards' => trans('common.entitlement.resources.event_stamp_cards'),
         ];
 
         return $names[$resource] ?? $resource;

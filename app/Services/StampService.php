@@ -116,6 +116,18 @@ class StampService
 
             $stampsAfter = $enrollment->current_stamps;
 
+            if ($card->card_type === 'event' && $staff) {
+                $staff->loadMissing('club.partner');
+            
+                $partner = $staff->club?->partner ?? $staff->partner;
+            
+                $transactionData['meta'] = [
+                    'club_id' => $staff->club_id,
+                    'club_name' => $staff->club?->name,
+                    'partner_avatar_url' => $partner?->getAvatarUrl('small'),
+                ];
+            }
+
             // Create transaction record
             $transactionData = [
                 'stamp_card_id' => $card->id,
@@ -403,6 +415,18 @@ class StampService
 
             $stampsAfter = $enrollment->current_stamps;
 
+            if ($card->card_type === 'event' && $staff) {
+                $staff->loadMissing('club.partner');
+            
+                $partner = $staff->club?->partner ?? $staff->partner;
+            
+                $transactionData['meta'] = [
+                    'club_id' => $staff->club_id,
+                    'club_name' => $staff->club?->name,
+                    'partner_avatar_url' => $partner?->getAvatarUrl('small'),
+                ];
+            }
+
             // Create transaction record
             $transaction = StampTransaction::create([
                 'stamp_card_id' => $card->id,
@@ -668,5 +692,66 @@ class StampService
             'reason' => null,
             'stamps_available' => $stampsAvailable,
         ];
+    }
+
+    /**
+     * Get the visible stamp logos for an event-type stamp card enrollment.
+     *
+     * This method returns an array of partner logo URLs associated with the most recent visible stamps
+     * earned by a member on an event stamp card. The number of logos returned corresponds to the current
+     * number of stamps held by the member for the event card.
+     *
+     * - Only works for event-type stamp cards. For others, returns an empty array.
+     * - Each logo corresponds to a partner (club) where a stamp was earned.
+     * - Logos are taken from the most recent qualifying transactions (EVENT_STAMP_EARNED or EVENT_STAMPS_BONUS).
+     *
+     * @param  StampCardMember  $enrollment   The member's enrollment in the event stamp card.
+     * @return array                        Associative array [1-based index => logo URL].
+     */
+    public function getVisibleStampLogosForEventCard(StampCardMember $enrollment): array
+    {
+        $enrollment->loadMissing('stampCard');
+
+        // Guard: solo stamp cards de evento
+        if ($enrollment->stampCard?->card_type !== 'event') {
+            return [];
+        }
+
+        $current = $enrollment->current_stamps;
+        if ($current <= 0) {
+            return [];
+        }
+
+        $transactions = StampTransaction::query()
+            ->where('stamp_card_id', $enrollment->stamp_card_id)
+            ->where('member_id', $enrollment->member_id)
+            ->whereIn('event', [
+                StampTransaction::EVENT_STAMP_EARNED,
+                StampTransaction::EVENT_STAMPS_BONUS,
+            ])
+            ->where('stamps', '>', 0)
+            ->orderBy('created_at')
+            ->with(['staff.club.partner'])
+            ->get();
+
+        $allLogos = [];
+
+        foreach ($transactions as $tx) {
+            $logo = $tx->meta['partner_avatar_url']
+                ?? $tx->staff?->club?->partner?->getAvatarUrl('small');
+
+            for ($i = 0; $i < $tx->stamps; $i++) {
+                $allLogos[] = $logo;
+            }
+        }
+
+        $visible = array_slice($allLogos, -$current);
+
+        $result = [];
+        foreach ($visible as $index => $logo) {
+            $result[$index + 1] = $logo;
+        }
+
+        return $result;
     }
 }

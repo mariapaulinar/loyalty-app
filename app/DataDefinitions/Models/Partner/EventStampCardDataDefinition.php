@@ -25,14 +25,14 @@ use App\DataDefinitions\DataDefinition;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
-class StampCardDataDefinition extends DataDefinition
+class EventStampCardDataDefinition extends DataDefinition
 {
     /**
      * Unique for data definitions, url-friendly name for CRUD purposes.
      *
      * @var string
      */
-    public $name = 'stamp-cards';
+    public $name = 'event-stamp-cards';
 
     /**
      * The model associated with the definition.
@@ -62,7 +62,7 @@ class StampCardDataDefinition extends DataDefinition
     {
         // Permission check via EntitlementService
         if (auth('partner')->check()) {
-            if (! app(\App\Services\EntitlementService::class)->can(auth('partner')->user(), 'stamp_cards')) {
+            if (! app(\App\Services\EntitlementService::class)->can(auth('partner')->user(), 'event_stamp_cards')) {
                 abort(403);
             }
         }
@@ -84,19 +84,16 @@ class StampCardDataDefinition extends DataDefinition
             'tab1' => [
                 'title' => trans('common.details'),
                 'fields' => [
-                    'club_id' => [
-                        'text' => trans('common.club'),
-                        'help' => trans('common.stamp_card_club_help'),
-                        'classes::list' => 'md-only:hidden',
-                        'highlight' => true,
-                        'filter' => true,
-                        'type' => 'belongsTo',
-                        'relation' => 'club',
+                    'clubes' => [
+                        'text' => trans('common.clubs'),
+                        'help' => trans('common.stamp_card_event_clubs_help'),
+                        'type' => 'belongsToMany',
+                        'relation' => 'clubes',
                         'relationKey' => 'clubs.id',
                         'relationValue' => 'clubs.name',
                         'relationModel' => new \App\Models\Club,
                         'relationMustBeOwned' => true,
-                        'validate' => ['required'],
+                        'validate' => ['required', 'array', 'min:1'],
                         'actions' => ['list', 'insert', 'edit', 'view', 'export'],
                     ],
                     'name' => [
@@ -245,6 +242,12 @@ class StampCardDataDefinition extends DataDefinition
                         'container_start::edit' => 'grid grid-cols-2 gap-4',
                         'actions' => ['insert', 'edit', 'view', 'export'],
                     ],
+                    'stamps_required_per_club' => [
+                        'text' => trans('common.stamps_required_per_club'),
+                        'type' => 'number',
+                        'validate' => ['required', 'integer', 'min:1'],
+                        'actions' => ['insert', 'edit', 'view', 'export'],
+                    ],
                     'stamps_per_purchase' => [
                         'text' => trans('common.stamps_per_purchase'),
                         'suffix' => trans('common.stamps'),
@@ -347,7 +350,7 @@ class StampCardDataDefinition extends DataDefinition
                         'container_end::edit' => true,
                         'actions' => ['view', 'edit', 'insert', 'export'],
                     ],
-                    ...((auth('partner')->check() && app(\App\Services\EntitlementService::class)->can(auth('partner')->user(), 'loyalty_cards')) ? [
+                    ...((auth('partner')->check() && app(\App\Services\EntitlementService::class)->can(auth('partner')->user(), 'event_stamp_cards')) ? [
                     'reward_points' => [
                         'text' => trans('common.also_reward_points'),
                         'suffix' => trans('common.points'),
@@ -573,7 +576,7 @@ class StampCardDataDefinition extends DataDefinition
             // Icon (using ticket icon for stamp cards)
             'icon' => 'stamp',
             // Title (plural of subject)
-            'title' => trans('common.stamp_cards'),
+            'title' => trans('common.event_stamp_cards'),
             // Override title
             'overrideTitle' => null,
             // Guard of user that manages this data
@@ -596,8 +599,34 @@ class StampCardDataDefinition extends DataDefinition
             'orderByColumn' => 'created_at',
             // Order direction
             'orderDirection' => 'desc',
-            // Query filter only normal stamp cards
-            'queryFilter' => fn ($query) => $query->where('card_type', 'normal'),
+            // Query filter only event stamp cards
+            'queryFilter' => fn ($query) => $query->where('card_type', 'event'),
+            // Before insert event stamp card
+            'beforeInsert' => function ($stampCard) {
+                $stampCard->card_type = 'event';
+                $clubIds = request()->input('clubes', []);
+                if (is_array($clubIds) && ! empty($clubIds)) {
+                    $stampCard->club_id = $clubIds[0];
+                }
+            },
+            // After insert event stamp card
+            'afterInsert' => function ($stampCard) {
+                $firstClubId = $stampCard->clubes()->orderBy('clubs.id')->value('clubs.id');
+                if ($firstClubId) {
+                    $stampCard->updateQuietly(['club_id' => $firstClubId]);
+                }
+            },
+            'beforeUpdate' => function ($stampCard) {
+                $clubIds = request()->input('clubes', []);
+                if (is_array($clubIds) && ! empty($clubIds)) {
+                    $stampCard->club_id = $clubIds[0];
+                }
+            },
+            // After update event stamp card
+            'afterUpdate' => function ($stampCard) {
+                $firstClubId = $stampCard->clubes()->orderBy('clubs.id')->value('clubs.id');
+                $stampCard->updateQuietly(['club_id' => $firstClubId ?? null]);
+            },
             // Possible actions
             'actions' => [
                 'subject_column' => 'name',
@@ -614,12 +643,12 @@ class StampCardDataDefinition extends DataDefinition
         if (auth('partner')->check()) {
             $entitlements = app(\App\Services\EntitlementService::class);
             $partner = auth('partner')->user();
-            if (! $entitlements->withinLimit($partner, 'stamp_cards')) {
+            if (! $entitlements->withinLimit($partner, 'event_stamp_cards')) {
                 $this->settings['actions']['insert'] = false;
                 $this->settings['limitReached'] = true;
                 $this->settings['limitReachedMessage'] = trans('common.limit_reached_message', [
-                    'limit' => $entitlements->limit($partner, 'stamp_cards'),
-                    'item' => trans('common.stamp_cards'),
+                    'limit' => $entitlements->limit($partner, 'event_stamp_cards'),
+                    'item' => trans('common.event_stamp_cards'),
                 ]);
             }
         }
