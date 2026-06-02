@@ -8,6 +8,14 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="{{ trans('config.dir') }}" class="h-full overflow-x-hidden">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PFNX92NT');</script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <script>
         // Prevent flash
@@ -39,6 +47,12 @@
     class="antialiased bg-secondary-50 dark:bg-secondary-950 text-secondary-900 dark:text-secondary-50 flex flex-col min-h-full selection:bg-primary-500 selection:text-white overflow-x-hidden"
     x-data="{ mobileMenuOpen: false, mobileProfileOpen: false, showLanguageModal: false }"
     @if(!request()->cookie('member_time_zone'))style="visibility: hidden;"@endif>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFNX92NT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
 
     {{-- Skip to Content (M-022 — WCAG 2.4.1) --}}
     <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-primary-600 focus:text-white focus:rounded-lg focus:shadow-lg focus:text-sm focus:font-semibold">{{ trans('common.skip_to_content') }}</a>
