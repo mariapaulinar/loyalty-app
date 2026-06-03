@@ -203,7 +203,9 @@ Timeline of stamp transactions with beautiful iconography and smooth animations.
                                 <x-ui.icon icon="clock" class="w-3 h-3" />
                                 {{ $transaction->created_at?->diffForHumans() ?? trans('common.unknown') }}
                             </span>
-
+                            @php
+                                $showStaff = ($stampCard->card_type === 'event') ? true : false;
+                            @endphp
                             @if($showStaff && $transaction->staff)
                                 <span class="flex items-center gap-1">
                                     <x-ui.icon icon="user" class="w-3 h-3" />
