@@ -175,19 +175,8 @@ local.settings.json
 /vendor/**/bower_components
 
 # Laravel Specific
-/vendor/**/Examples
-/vendor/**/benchmark
-/vendor/**/example
-/vendor/**/coverage
-/vendor/**/travis
-/vendor/**/benchmarks
-/vendor/**/docker-compose.yml
-/vendor/**/phpunit.xml.dist
-/vendor/**/Vagrantfile
-/vendor/**/Dockerfile
-/vendor/**/CONTRIBUTING.md
-/vendor/**/Contributing.md
-/vendor/**/CONTRIBUTING
+/vendor/
+/vendor/composer
 
 # Docker
 /docker-compose.yml
