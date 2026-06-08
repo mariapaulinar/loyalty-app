@@ -354,6 +354,25 @@ class StampService
                 enrollment: $enrollment,
                 wasAutoEnrolled: $isAutoEnroll
             ));
+            if ($card->card_type === 'event' && $card->stamp_on_enrollment) {
+                try {
+                    $this->addStamp(
+                        card: $card,
+                        member: $member,
+                        staff: null,
+                        stamps: 1,
+                        purchaseAmount: null,
+                        image: null,
+                        note: 'Stamp for enrollment'
+                    );
+                } catch (\Exception $e) {
+                    Log::error('Failed to add stamp for enrollment', [
+                        'card_id' => $card->id,
+                        'member_id' => $member->id,
+                        'error' => $e->getMessage(),
+                    ]);
+                }
+            }
         }
 
         return $enrollment;

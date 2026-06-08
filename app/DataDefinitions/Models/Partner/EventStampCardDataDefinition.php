@@ -164,6 +164,15 @@ class EventStampCardDataDefinition extends DataDefinition
                         'help' => trans('common.stamp_card_show_monetary_value_help'),
                         'actions' => ['insert', 'edit', 'view', 'export'],
                     ],
+                    'stamp_on_enrollment' => [
+                        'text' => trans('common.stamp_on_enrollment'),
+                        'type' => 'boolean',
+                        'validate' => ['nullable', 'boolean'],
+                        'format' => 'icon',
+                        'default' => false,
+                        'help' => trans('common.stamp_card_stamp_on_enrollment_help'),
+                        'actions' => ['insert', 'edit', 'view', 'export'],
+                    ],
                 ],
             ],
 
