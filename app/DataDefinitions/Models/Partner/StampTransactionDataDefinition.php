@@ -181,6 +181,30 @@ class StampTransactionDataDefinition extends DataDefinition
                 'type' => 'string',
                 'actions' => ['view', 'export'],
             ],
+            'experience_rating' => [
+                'text' => trans('common.stamp_review_rating_label'),
+                'type' => 'query',
+                'default' => '-',
+                'query' => function ($row) {
+                    $rating = $row->review['rating'] ?? null;
+
+                    return $rating !== null ? (string) $rating.'/5' : '-';
+                },
+                'actions' => ['list', 'view', 'export'],
+            ],
+            'experience_reviewed_at' => [
+                'text' => trans('common.stamp_review_submitted_at'),
+                'type' => 'query',
+                'default' => '-',
+                'query' => function ($row) {
+                    $submittedAt = $row->review['submitted_at'] ?? null;
+
+                    return $submittedAt
+                        ? \Carbon\Carbon::parse($submittedAt)->format('Y-m-d H:i:s')
+                        : '-';
+                },
+                'actions' => ['view', 'export'],
+            ],
             'created_at' => [
                 'text' => trans('common.date'),
                 'type' => 'date_time',

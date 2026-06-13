@@ -81,8 +81,8 @@ class PageController extends Controller
 
         // 1. Get loyalty card transactions
         $loyaltyTransactions = \App\Models\Transaction::with('member', 'card')
-            ->where('staff_id', $staffId)
-            ->where('created_at', '>=', $cutoffDate)
+            // ->where('staff_id', $staffId)
+            // ->where('created_at', '>=', $cutoffDate)
             ->whereHas('member', $memberSearchClosure)
             ->get()
             ->map(function ($transaction) {
@@ -100,7 +100,7 @@ class PageController extends Controller
         // 2. Get stamp card transactions
         $stampTransactions = \App\Models\StampTransaction::with('member', 'stampCard')
             ->where('staff_id', $staffId)
-            ->where('created_at', '>=', $cutoffDate)
+            // ->where('created_at', '>=', $cutoffDate)
             ->whereHas('member', $memberSearchClosure)
             ->get()
             ->map(function ($transaction) {
@@ -114,11 +114,30 @@ class PageController extends Controller
                     ]),
                 ];
             });
+        $stampEnrollments = \App\Models\StampCardMember::with('member', 'stampCard')
+            ->whereHas('member', $memberSearchClosure)
+            ->whereIn('stamp_card_id', function ($q) {
+                $q->select('id')
+                  ->from('stamp_cards')
+                  ->where('club_id', auth('staff')->user()->club_id);
+            })
+            ->get()
+            ->map(function ($enrollment) {
+                return [
+                    'member' => $enrollment->member,
+                    'type' => 'stamp',
+                    'date' => $enrollment->enrolled_at,
+                    'url' => route('staff.stamp.transactions', [
+                        'member_identifier' => $enrollment->member->unique_identifier,
+                        'stamp_card_id' => $enrollment->stamp_card_id,
+                    ]),
+                ];
+            });
 
         // 3. Get voucher redemptions
         $voucherRedemptions = \App\Models\VoucherRedemption::with('member', 'voucher')
-            ->where('staff_id', $staffId)
-            ->where('redeemed_at', '>=', $cutoffDate)
+            // ->where('staff_id', $staffId)
+            // ->where('redeemed_at', '>=', $cutoffDate)
             ->whereHas('member', $memberSearchClosure)
             ->get()
             ->map(function ($redemption) {
@@ -136,6 +155,7 @@ class PageController extends Controller
         // Merge all transactions
         $results = $loyaltyTransactions
             ->concat($stampTransactions)
+            ->concat($stampEnrollments)
             ->concat($voucherRedemptions)
             ->sortByDesc('date')
             ->unique(function ($item) {

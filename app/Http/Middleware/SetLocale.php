@@ -25,8 +25,9 @@ class SetLocale
      * @var array<int, string>
      */
     protected array $bypassPatterns = [
-        'r',        // /r/{code} - Referral short links
-        'shopify',  // /shopify/* - OAuth callbacks
+        'r',            // /r/{code} - Referral short links
+        'shopify',      // /shopify/* - OAuth callbacks
+        'broadcasting', // /broadcasting/auth - Laravel Echo private channels
     ];
 
     /**

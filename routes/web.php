@@ -160,6 +160,11 @@ Route::prefix('{locale}')->where(['locale' => '[a-z]{2}-[a-z]{2}'])->group(funct
             Route::get('stamp-card/{stamp_card_id}/enroll', 'Member\StampCardController@enroll')->name('member.stamp-card.enroll')->where(['stamp_card_id' => '[a-zA-Z0-9\-]+']);
             Route::get('stamp-card/{stamp_card_id}/unenroll', 'Member\StampCardController@unenroll')->name('member.stamp-card.unenroll')->where(['stamp_card_id' => '[a-zA-Z0-9\-]+']);
 
+            // Stamp experience review (websocket modal submission)
+            Route::post('stamp-transactions/{transactionId}/review', [\App\Http\Controllers\Member\StampReviewController::class, 'store'])
+                ->name('member.stamp.review')
+                ->whereUuid('transactionId');
+
             // Vouchers
             Route::get('voucher/{voucher_id}', 'Member\VoucherController@show')->name('member.voucher')->where(['voucher_id' => '[a-zA-Z0-9\-]+']);
             Route::get('voucher/{voucher_id}/save', 'Member\VoucherController@save')->name('member.voucher.save')->where(['voucher_id' => '[a-zA-Z0-9\-]+']);

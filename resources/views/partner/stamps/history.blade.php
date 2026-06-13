@@ -142,7 +142,7 @@
                         
                         {{-- History Content --}}
                         <div class="p-6">
-                            <x-member.stamp-history :stamp-card="$card" :member="$member" :show-notes="true" :show-attachments="true" :show-staff="true" />
+                            <x-member.stamp-history :stamp-card="$card" :member="$member" :show-notes="true" :show-attachments="true" :show-staff="true" :show-review="true" />
                         </div>
                     </div>
                 </div>

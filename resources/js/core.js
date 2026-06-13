@@ -83,6 +83,12 @@ import './datepicker.js';
 import './pin-input.js';
 
 // ═══════════════════════════════════════════════════════════════════════════
+// MEMBER STAMP REVIEW MODAL - Register before Alpine.start()
+// ═══════════════════════════════════════════════════════════════════════════
+// member.js loads after core.js; stampReviewModal must exist when Alpine inits.
+import './member/stamp-review-modal-alpine.js';
+
+// ═══════════════════════════════════════════════════════════════════════════
 // ALPINE.JS - The reactive backbone
 // ═══════════════════════════════════════════════════════════════════════════
 // Alpine must be initialized AFTER any Alpine.data() registrations from

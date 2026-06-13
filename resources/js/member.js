@@ -62,3 +62,8 @@ import './premium-cards.js';
 // Members see confetti when claiming rewards, completing stamp cards, etc.
 // Creates "Disney Castle Moments" that drive engagement.
 import './confetti.js';
+
+// ═══════════════════════════════════════════════════════════════════════════
+// WEBSOCKETS - Real-time stamp notifications via Laravel Reverb
+// ═══════════════════════════════════════════════════════════════════════════
+import './member-echo.js';

@@ -13,6 +13,7 @@ namespace App\Http\Controllers\Partner;
 use App\Http\Controllers\Controller;
 use App\Models\StampCard;
 use App\Services\Card\AnalyticsService;
+use App\Services\StampExperienceReviewService;
 use Illuminate\Http\Request;
 
 /**
@@ -27,7 +28,7 @@ class StampCardAnalyticsController extends Controller
      *
      * Shows analytics for all stamp cards with sorting and filtering options
      */
-    public function index(Request $request): \Illuminate\Http\Response
+    public function index(Request $request, StampExperienceReviewService $reviewService): \Illuminate\Http\Response
     {
         // Define the allowed values for the sort parameter (based on actual stamp_cards columns)
         $allowedSortValues = [
@@ -83,11 +84,19 @@ class StampCardAnalyticsController extends Controller
         // Apply sorting
         $stampCards = $query->orderBy($column, $direction)->get();
 
+        $reviewSummary = $reviewService->getSummary($partnerId);
+        $cardReviewSummaries = $reviewService->getSummariesForCards(
+            $partnerId,
+            $stampCards->pluck('id')->all()
+        );
+
         // Prepare view
         $view = view('partner.stamp-card-analytics.index', [
             'stampCards' => $stampCards,
             'sort' => $sort,
             'active_only' => $active_only,
+            'reviewSummary' => $reviewSummary,
+            'cardReviewSummaries' => $cardReviewSummaries,
         ]);
 
         // Create cookies for sort and active_only
@@ -101,8 +110,13 @@ class StampCardAnalyticsController extends Controller
     /**
      * Display detailed analytics for a specific stamp card
      */
-    public function show(string $locale, string $stamp_card_id, Request $request, AnalyticsService $analyticsService): \Illuminate\Http\Response
-    {
+    public function show(
+        string $locale,
+        string $stamp_card_id,
+        Request $request,
+        AnalyticsService $analyticsService,
+        StampExperienceReviewService $reviewService
+    ): \Illuminate\Http\Response {
         // Find the stamp card
         $stampCard = StampCard::with('club')->findOrFail($stamp_card_id);
 
@@ -171,6 +185,8 @@ class StampCardAnalyticsController extends Controller
             'resultsFound' => $resultsFound,
             'stampCardViews' => $stampCardViews,
             'stampCardViewsDifference' => $stampCardViewsDifference,
+            'reviewSummary' => $reviewService->getSummary($partnerId, $stamp_card_id),
+            'recentReviews' => $reviewService->getRecentReviews($partnerId, $stamp_card_id),
         ];
 
         // Create cookie to remember the range preference

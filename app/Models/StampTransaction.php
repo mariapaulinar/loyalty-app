@@ -85,6 +85,7 @@ class StampTransaction extends Model implements HasMedia
         'stamps_after' => 'integer',
         'purchase_amount' => 'float',
         'meta' => 'array',
+        'review' => 'array',
         'created_at' => 'datetime',
         'updated_at' => 'datetime',
     ];

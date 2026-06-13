@@ -414,6 +414,9 @@
     {{-- Agent Key One-Time Display Modal --}}
     @include('components.agent-key-modal')
 
+    {{-- Stamp Experience Review Modal (WebSocket) --}}
+    <x-member.stamp-review-modal />
+
     {{-- Toast Notifications --}}
     <x-ui.toast />
 

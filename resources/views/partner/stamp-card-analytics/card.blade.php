@@ -174,6 +174,25 @@
                     </div>
                 </div>
 
+                <div class="bg-white dark:bg-secondary-900 rounded-xl border border-secondary-200 dark:border-secondary-800 shadow-sm p-6 lg:col-span-2">
+                    <div class="flex items-center gap-3 mb-6 pb-4 border-b border-secondary-100 dark:border-secondary-800">
+                        <div class="w-10 h-10 rounded-xl bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
+                            <x-ui.icon icon="star" class="w-5 h-5 text-amber-600 dark:text-amber-400" />
+                        </div>
+                        <div>
+                            <h2 class="text-lg font-bold text-secondary-900 dark:text-white">
+                                {{ trans('common.stamp_review_panel_title') }}
+                            </h2>
+                            <p class="text-sm text-secondary-500 dark:text-secondary-400">
+                                {{ trans('common.stamp_review_panel_description') }}
+                            </p>
+                        </div>
+                    </div>
+                    <x-partner.stamp-experience-reviews
+                        :summary="$reviewSummary"
+                        :recent-reviews="$recentReviews" />
+                </div>
+
                 @if($resultsFound)
                     <div
                     class="bg-white dark:bg-secondary-900 rounded-xl border border-secondary-200 dark:border-secondary-800 shadow-sm p-6 lg:col-span-2">

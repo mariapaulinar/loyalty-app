@@ -23,6 +23,7 @@ use App\Events\StampCardCompleted;
 use App\Events\StampEarned;
 use App\Events\VoucherClaimed;
 use App\Listeners\AuthEventSubscriber;
+use App\Listeners\BroadcastStaffStampEarned;
 use App\Listeners\CreditPointsOnCompletion;
 use App\Listeners\LogStampActivity;
 use App\Listeners\LogTierChange;
@@ -53,6 +54,7 @@ class EventServiceProvider extends ServiceProvider
         ],
         StampEarned::class => [
             SendStampMilestoneNotification::class,
+            BroadcastStaffStampEarned::class,
         ],
         StampCardCompleted::class => [
             SendCompletionNotification::class,

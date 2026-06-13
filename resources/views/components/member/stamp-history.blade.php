@@ -7,7 +7,7 @@ Stamp History Component - Premium iOS 2030 Design
 Timeline of stamp transactions with beautiful iconography and smooth animations.
 --}}
 
-@props(['stampCard', 'member' => null, 'enrollment' => null, 'showNotes' => false, 'showAttachments' => false, 'showStaff' => false])
+@props(['stampCard', 'member' => null, 'enrollment' => null, 'showNotes' => false, 'showAttachments' => false, 'showStaff' => false, 'showReview' => false])
 
 @php
     // Get member from enrollment if not passed directly
@@ -211,6 +211,19 @@ Timeline of stamp transactions with beautiful iconography and smooth animations.
                                     <x-ui.icon icon="user" class="w-3 h-3" />
                                     {{ $transaction->staff->name }}
                                 </span>
+                            @endif
+                            @if($showReview && $transaction->event === \App\Models\StampTransaction::EVENT_STAMP_EARNED && $transaction->staff_id)
+                                @php $reviewRating = $transaction->review['rating'] ?? null; @endphp
+                                @if($reviewRating)
+                                    <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg bg-amber-50 dark:bg-amber-900/20 text-amber-700 dark:text-amber-300 font-medium">
+                                        <x-ui.icon icon="star" class="w-3 h-3 fill-current" />
+                                        {{ $reviewRating }}/5
+                                    </span>
+                                @else
+                                    <span class="text-secondary-400 dark:text-secondary-500 italic">
+                                        {{ trans('common.stamp_review_pending') }}
+                                    </span>
+                                @endif
                             @endif
                         </div>
 

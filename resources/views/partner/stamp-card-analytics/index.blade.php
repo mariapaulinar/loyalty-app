@@ -79,6 +79,24 @@
         });
     </script>
 
+    {{-- Experience Reviews Overview --}}
+    <div class="mb-8 bg-white dark:bg-secondary-900 rounded-xl border border-secondary-200 dark:border-secondary-800 shadow-sm p-6">
+        <div class="flex items-center gap-3 mb-6">
+            <div class="w-10 h-10 rounded-xl bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
+                <x-ui.icon icon="star" class="w-5 h-5 text-amber-600 dark:text-amber-400" />
+            </div>
+            <div>
+                <h2 class="text-lg font-bold text-secondary-900 dark:text-white">
+                    {{ trans('common.stamp_review_panel_title') }}
+                </h2>
+                <p class="text-sm text-secondary-500 dark:text-secondary-400">
+                    {{ trans('common.stamp_review_panel_description') }}
+                </p>
+            </div>
+        </div>
+        <x-partner.stamp-experience-reviews :summary="$reviewSummary" :compact="true" />
+    </div>
+
     {{-- Cards Grid --}}
     <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-6">
         @foreach($stampCards as $stampCard)
@@ -151,6 +169,27 @@
                                         </div>
                                     </div>
                                 </li>
+                                @php
+                                    $cardReview = $cardReviewSummaries[$stampCard->id] ?? null;
+                                @endphp
+                                @if($cardReview && $cardReview['total_reviews'] > 0)
+                                    <li class="pt-4">
+                                        <div class="flex items-center space-x-4">
+                                            <x-ui.icon icon="star" class="w-5 h-5 text-amber-500 shrink-0" />
+                                            <div class="flex-1 min-w-0">
+                                                <p class="text-sm font-bold text-secondary-900 truncate dark:text-white">
+                                                    {{ trans('common.stamp_review_average') }}</p>
+                                                <p class="text-xs text-secondary-500 truncate dark:text-secondary-400 mt-0.5">
+                                                    {{ trans('common.stamp_review_total') }}:
+                                                    <span class="format-number">{{ $cardReview['total_reviews'] }}</span>
+                                                </p>
+                                            </div>
+                                            <div class="inline-flex items-center text-lg font-bold text-amber-600 dark:text-amber-400">
+                                                {{ number_format($cardReview['average_rating'], 1) }}
+                                            </div>
+                                        </div>
+                                    </li>
+                                @endif
                             </ul>
                         </div>
                         <div

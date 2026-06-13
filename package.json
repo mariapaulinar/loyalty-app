@@ -47,7 +47,9 @@
         "flatpickr": "^4.6.13",
         "flowbite": "*",
         "htmx.org": "*",
+        "laravel-echo": "^2.3.7",
         "lucide": "0.469.0",
+        "pusher-js": "^8.5.0",
         "qrcode": "*",
         "sortablejs": "*",
         "tw-elements": "*"
