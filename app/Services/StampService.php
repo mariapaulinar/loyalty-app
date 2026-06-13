@@ -116,20 +116,6 @@ class StampService
 
             $stampsAfter = $enrollment->current_stamps;
 
-            if ($card->card_type === 'event' && $staff) {
-                if (!$result['completed']) {
-                    return [
-                        'success' => false,
-                        'stamps_added' => 0,
-                        'current_stamps' => 0,
-                        'stamps_required' => $card->stamps_required_per_club,
-                        'completed' => false,
-                        'pending_rewards' => 0,
-                        'error' => trans('common.stamps_required_per_club_not_completed'),
-                    ];
-                }
-            }
-
             // Create transaction record
             $transactionData = [
                 'stamp_card_id' => $card->id,
@@ -355,7 +341,6 @@ class StampService
                 wasAutoEnrolled: $isAutoEnroll
             ));
             if ($card->card_type === 'event' && $card->stamp_on_enrollment) {
-                try {
                     $this->addStamp(
                         card: $card,
                         member: $member,
@@ -363,15 +348,8 @@ class StampService
                         stamps: 1,
                         purchaseAmount: null,
                         image: null,
-                        note: 'Stamp for enrollment'
+                        note: trans('common.stamp_for_enrollment')
                     );
-                } catch (\Exception $e) {
-                    Log::error('Failed to add stamp for enrollment', [
-                        'card_id' => $card->id,
-                        'member_id' => $member->id,
-                        'error' => $e->getMessage(),
-                    ]);
-                }
             }
         }
 
@@ -699,6 +677,53 @@ class StampService
                 'reason' => 'Daily stamp limit reached',
                 'stamps_available' => 0,
             ];
+        }
+
+        if ($card->card_type === 'event') {
+            $staff = auth('staff')->user();
+            if ($staff) {
+                if (
+                    $staff->club_id &&
+                    !$card->clubes()->where('club_id', $staff->club_id)->exists()
+                ) {
+                    return [
+                        'eligible' => false,
+                        'reason' => trans('common.staff_not_related_to_club'),
+                        'stamps_available' => 0,
+                    ];
+                } else {
+                    $staffClubId = $staff->club_id;
+                    // Contar los sellos hechos por staff de ese club para este member y este card
+                    // Agregar where para filtrar desde el ultimo last_completed_at de StampCardMember
+                    $memberProgress = $card->getMemberProgress($member);
+                    $lastCompletedAt = $memberProgress?->last_completed_at;
+
+                    $query = \App\Models\StampTransaction::query()
+                        ->where('stamp_card_id', $card->id)
+                        ->where('member_id', $member->id)
+                        ->where('staff_id', $staff->id)
+                        ->whereHas('staff', function ($query) use ($staffClubId) {
+                            $query->where('club_id', $staffClubId);
+                        })
+                        ->where('event', StampTransaction::EVENT_STAMP_EARNED);
+
+                    if ($lastCompletedAt) {
+                        $query->where('created_at', '>', $lastCompletedAt);
+                    }
+
+                    $countStampsByClub = $query->count();
+                   
+                    // Comparar contra stamps_required_per_club
+                    if ($countStampsByClub >= $card->stamps_required_per_club) {
+                        return [
+                            'eligible' => false,
+                            'reason' => trans('common.stamps_required_per_club_not_reached'),
+                            'stamps_available' => 0,
+                        ];
+                    }
+                }
+            }
+            
         }
 
         // Calculate stamps available (respecting limits)
