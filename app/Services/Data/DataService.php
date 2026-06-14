@@ -966,6 +966,10 @@ class DataService
                     $validate = str_replace(':option_keys', $option_keys, $validate);
                 }
 
+                if (str_contains($validate, ':club_id')) {
+                    $validate = str_replace(':club_id', $request->get('club_id') ?? '', $validate);
+                }
+
                 // Add the updated validation rule to the rules array
                 if ($column['translatable']) {
                     $translatableValues = $request->{$columnName};

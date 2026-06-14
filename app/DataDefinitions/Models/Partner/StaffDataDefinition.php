@@ -133,7 +133,7 @@ class StaffDataDefinition extends DataDefinition
                 'format' => 'email',
                 'searchable' => true,
                 'sortable' => true,
-                'validate' => ['required', 'email', 'max:120', 'unique:staff,email,:id'],
+                'validate' => ['required', 'email', 'max:120', 'unique:staff,email,:id,id,club_id,:club_id'],
                 'actions' => ['insert', 'edit', 'view', 'export'],
             ],
             'password' => [
