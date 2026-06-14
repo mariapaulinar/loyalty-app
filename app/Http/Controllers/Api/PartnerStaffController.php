@@ -7,6 +7,7 @@ use App\Models\Staff;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Validation\Rule;
 
 class PartnerStaffController extends Controller
 {
@@ -115,7 +116,14 @@ class PartnerStaffController extends Controller
 
         $validated = $request->validate([
             'name' => 'required|string|max:64',
-            'email' => 'required|email|max:120|unique:staff,email',
+            'email' => [
+                'required',
+                'email',
+                'max:120',
+                Rule::unique('staff', 'email')->where(
+                    fn ($query) => $query->where('club_id', $request->club_id)
+                ),
+            ],
             'password' => 'required|string|min:6|max:48',
             'club_id' => 'required|exists:clubs,id',
             'role' => 'nullable|integer|in:1,2',
@@ -185,7 +193,14 @@ class PartnerStaffController extends Controller
 
         $validated = $request->validate([
             'name' => 'nullable|string|max:64',
-            'email' => 'nullable|email|max:120|unique:staff,email,' . $staff->id,
+            'email' => [
+                'nullable',
+                'email',
+                'max:120',
+                Rule::unique('staff', 'email')
+                    ->ignore($staff->id)
+                    ->where(fn ($query) => $query->where('club_id', $request->club_id)),
+            ],
             'password' => 'nullable|string|min:6|max:48',
             'role' => 'nullable|integer|in:1,2',
             'is_active' => 'nullable|boolean',
