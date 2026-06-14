@@ -55,6 +55,14 @@ return [
     'step1_create_account' => 'Create one',
 
     // ─────────────────────────────────────────────────────────────────────────
+    // LOGIN FLOW - STEP 1b (CLUB SELECTION - STAFF)
+    // ─────────────────────────────────────────────────────────────────────────
+
+    'step_club_title' => 'Select your club',
+    'step_club_subtitle' => 'This email is registered in multiple clubs. Choose where you want to sign in.',
+    'step_club_required' => 'Please select a club to continue.',
+
+    // ─────────────────────────────────────────────────────────────────────────
     // LOGIN FLOW - STEP 2 (METHOD SELECTION)
     // ─────────────────────────────────────────────────────────────────────────
 

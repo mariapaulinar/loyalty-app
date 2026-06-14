@@ -62,9 +62,11 @@ class StaffAuthController extends Controller
         $validated = $request->validate([
             'email' => 'required|email',
             'password' => 'required|string',
+            'club_id' => 'required|uuid|exists:clubs,id',
         ]);
 
         $staff = Staff::where('email', $validated['email'])
+            ->where('club_id', $validated['club_id'])
             ->where('is_active', true)
             ->first();
 

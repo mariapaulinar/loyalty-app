@@ -99,6 +99,44 @@
                 </div>
 
                 {{-- ═══════════════════════════════════════════════════════════════ --}}
+                {{-- STEP 1b: Club Selection (when email exists in multiple clubs) --}}
+                {{-- ═══════════════════════════════════════════════════════════════ --}}
+                <div x-show="step === 'club'" x-transition:enter="transition ease-out duration-300"
+                    x-transition:enter-start="opacity-0 translate-y-2" x-transition:enter-end="opacity-100 translate-y-0">
+
+                    <div class="text-center space-y-2 mb-8">
+                        <h2 class="text-3xl font-bold tracking-tight text-secondary-900 dark:text-white">
+                            {{ trans('otp.step_club_title') }}
+                        </h2>
+                        <p class="text-secondary-500 dark:text-secondary-400">
+                            {{ trans('otp.step_club_subtitle') }}
+                        </p>
+                        <p class="text-secondary-600 dark:text-secondary-400 text-sm">
+                            <span x-text="email"></span>
+                            <button @click="resetToEmail()" type="button"
+                                class="ml-2 font-medium text-primary-600 dark:text-primary-400 hover:underline">
+                                {{ trans('otp.step2_change_email') }}
+                            </button>
+                        </p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <template x-for="club in clubs" :key="club.id">
+                            <button
+                                type="button"
+                                @click="selectClub(club)"
+                                class="w-full py-3.5 px-4 text-base font-medium text-secondary-700 dark:text-secondary-200 bg-secondary-100 dark:bg-secondary-800 hover:bg-primary-50 hover:text-primary-700 dark:hover:bg-primary-900/30 dark:hover:text-primary-300 border border-secondary-200 dark:border-secondary-700 hover:border-primary-300 dark:hover:border-primary-700 rounded-xl transition-all flex items-center justify-center gap-2"
+                            >
+                                <x-ui.icon icon="building" class="w-5 h-5 flex-shrink-0" />
+                                <span x-text="club.name"></span>
+                            </button>
+                        </template>
+                    </div>
+
+                    <p x-show="error" x-text="error" class="mt-4 text-sm text-red-600 dark:text-red-400 text-center"></p>
+                </div>
+
+                {{-- ═══════════════════════════════════════════════════════════════ --}}
                 {{-- STEP 2: Authentication Method Selection --}}
                 {{-- ═══════════════════════════════════════════════════════════════ --}}
                 <div x-show="step === 'auth'" x-transition:enter="transition ease-out duration-300"
@@ -111,10 +149,13 @@
                         </h2>
                         <p class="text-secondary-600 dark:text-secondary-400">
                             <span x-text="email"></span>
-                            <button @click="step = 'email'" type="button"
+                            <button @click="goBackFromAuth()" type="button"
                                 class="ml-2 text-sm font-medium text-primary-600 dark:text-primary-400 hover:underline">
                                 {{ trans('otp.step2_change_email') }}
                             </button>
+                        </p>
+                        <p x-show="selectedClubName" class="text-sm text-secondary-500 dark:text-secondary-400 mt-1">
+                            <span x-text="selectedClubName"></span>
                         </p>
                     </div>
 
@@ -255,6 +296,10 @@ document.addEventListener('alpine:init', () => {
         // State
         step: 'email',
         email: config.initialEmail || '',
+        clubId: '',
+        selectedClubName: '',
+        clubs: [],
+        multipleAccounts: false,
         password: '',
         remember: true, // Always remember users (modern UX)
         loading: false,
@@ -263,6 +308,52 @@ document.addEventListener('alpine:init', () => {
         userHasPassword: false,
         isDemo: config.isDemo || false,
         demoPassword: config.demoPassword || '',
+
+        resetToEmail() {
+            this.step = 'email';
+            this.clubId = '';
+            this.selectedClubName = '';
+            this.clubs = [];
+            this.multipleAccounts = false;
+            this.error = '';
+        },
+
+        goBackFromAuth() {
+            if (this.multipleAccounts) {
+                this.step = 'club';
+                this.clubId = '';
+                this.selectedClubName = '';
+                this.userHasPassword = false;
+            } else {
+                this.resetToEmail();
+            }
+        },
+
+        selectClub(club) {
+            this.clubId = club.id;
+            this.selectedClubName = club.name;
+            this.userHasPassword = club.has_password;
+            this.step = 'auth';
+            this.error = '';
+        },
+
+        proceedToAuth(data) {
+            this.userExists = data.exists;
+            this.userHasPassword = data.has_password;
+            this.multipleAccounts = data.multiple_accounts;
+            this.clubs = data.clubs || [];
+
+            if (data.multiple_accounts) {
+                this.clubId = '';
+                this.selectedClubName = '';
+                this.step = 'club';
+                return;
+            }
+
+            this.clubId = data.club_id || '';
+            this.selectedClubName = '';
+            this.step = 'auth';
+        },
 
         // Fill demo credentials
         fillDemo() {
@@ -289,10 +380,8 @@ document.addEventListener('alpine:init', () => {
                 });
 
                 const data = await response.json();
-                
-                this.userExists = data.exists;
-                this.userHasPassword = data.has_password;
-                this.step = 'auth';
+
+                this.proceedToAuth(data);
             } catch (error) {
                 console.error('Check email error:', error);
                 this.error = 'An error occurred. Please try again.';
@@ -303,7 +392,7 @@ document.addEventListener('alpine:init', () => {
 
         // Step 2a: Password login
         async attemptLogin() {
-            if (!this.password) return;
+            if (!this.password || !this.clubId) return;
 
             this.loading = true;
             this.error = '';
@@ -315,6 +404,7 @@ document.addEventListener('alpine:init', () => {
             const fields = {
                 '_token': document.querySelector('meta[name="csrf-token"]').content,
                 'email': this.email,
+                'club_id': this.clubId,
                 'password': this.password,
                 'remember': this.remember ? '1' : '0'
             };
@@ -333,6 +423,11 @@ document.addEventListener('alpine:init', () => {
 
         // Step 2b: Send OTP
         async sendOtp() {
+            if (!this.clubId) {
+                this.error = '{{ trans('otp.step_club_required') }}';
+                return;
+            }
+
             this.loading = true;
             this.error = '';
 
@@ -344,7 +439,7 @@ document.addEventListener('alpine:init', () => {
                         'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content,
                         'Accept': 'application/json'
                     },
-                    body: JSON.stringify({ email: this.email })
+                    body: JSON.stringify({ email: this.email, club_id: this.clubId })
                 });
 
                 const data = await response.json();

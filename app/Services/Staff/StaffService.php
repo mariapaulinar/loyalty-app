@@ -3,9 +3,36 @@
 namespace App\Services\Staff;
 
 use App\Models\Staff;
+use Illuminate\Support\Collection;
 
 class StaffService
 {
+    /**
+     * Get all active staff records matching an email (may span multiple clubs).
+     *
+     * @return Collection<int, Staff>
+     */
+    public function findActiveMatchesByEmail(string $email): Collection
+    {
+        return Staff::query()
+            ->whereActive(true)
+            ->where('email', strtolower($email))
+            ->with('club')
+            ->get();
+    }
+
+    /**
+     * Get an active staff member by email and club.
+     */
+    public function findActiveByEmailAndClub(string $email, string $clubId): ?Staff
+    {
+        return Staff::query()
+            ->whereActive(true)
+            ->where('email', strtolower($email))
+            ->where('club_id', $clubId)
+            ->first();
+    }
+
     /**
      * Get an active staff by email address.
      *
@@ -17,7 +44,7 @@ class StaffService
     {
         $query = Staff::query()
             ->whereActive(true)
-            ->where('email', $email);
+            ->where('email', strtolower($email));
 
         if ($authUserIsOwner) {
             $query->where('created_by', auth()->user()->owner_id);

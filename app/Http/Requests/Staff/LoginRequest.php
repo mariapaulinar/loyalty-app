@@ -37,6 +37,7 @@ class LoginRequest extends FormRequest
     {
         return [
             'email' => 'required|email|max:96',
+            'club_id' => 'required|uuid|exists:clubs,id',
             'password' => 'required|min:6|max:48',
             'remember' => 'boolean',
         ];

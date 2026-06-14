@@ -45,6 +45,11 @@ return [
     'step1_no_account' => '¿No tienes cuenta?',
     'step1_create_account' => 'Crea una',
 
+    // LOGIN FLOW - STEP 1b (CLUB SELECTION - STAFF)
+    'step_club_title' => 'Selecciona tu club',
+    'step_club_subtitle' => 'Este correo está registrado en varios clubs. Elige dónde quieres iniciar sesión.',
+    'step_club_required' => 'Selecciona un club para continuar.',
+
     // LOGIN FLOW - STEP 2
     'step2_welcome_back' => 'Bienvenido de nuevo',
     'step2_welcome' => 'Bienvenido',

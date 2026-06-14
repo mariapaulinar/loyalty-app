@@ -20,7 +20,7 @@ class AuthService
     public function login(array $login)
     {
         $staffService = resolve('App\Services\Staff\StaffService');
-        $staff = $staffService->findActiveByEmail($login['email']);
+        $staff = $staffService->findActiveByEmailAndClub($login['email'], $login['club_id']);
 
         $authenticated = false;
 
