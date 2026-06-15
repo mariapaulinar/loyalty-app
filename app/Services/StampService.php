@@ -723,10 +723,14 @@ class StampService
                     }
                 }
             } elseif($card->stamp_on_enrollment && !$member->stampCards()->where('stamp_card_id', $card->id)->exists()) {
+                $stampsAvailable = $card->stamps_per_purchase;
+                if ($card->max_stamps_per_transaction && $stampsAvailable > $card->max_stamps_per_transaction) {
+                    $stampsAvailable = $card->max_stamps_per_transaction;
+                }
                 return [
                     'eligible' => true,
                     'reason' => null,
-                    'stamps_available' => 1,
+                    'stamps_available' => $stampsAvailable,
                 ];
             }
             
