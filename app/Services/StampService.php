@@ -722,6 +722,12 @@ class StampService
                         ];
                     }
                 }
+            } elseif($card->stamp_on_enrollment && $member->stampCards()->where('stamp_card_id', $card->id)->exists()) {
+                return [
+                    'eligible' => true,
+                    'reason' => null,
+                    'stamps_available' => 1,
+                ];
             }
             
         }
