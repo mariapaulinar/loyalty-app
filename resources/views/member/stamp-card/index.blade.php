@@ -54,6 +54,11 @@ Beautiful animations, consistent UX, Jony Ive approved.
             :member="auth('member')->user()"
             :detail-view="true" 
             class="card-stagger" />
+            
+        {{-- Add/Remove Card Button - Below tabs, above share --}}
+        <div class="w-full max-w-lg mx-auto animate-fade-in-up delay-400">
+            <x-member.enroll-stamp-card :stampCard="$stampCard" />
+        </div>
         
         {{-- Actions Section - Unified group --}}
         <div class="w-full max-w-lg mx-auto space-y-4">
