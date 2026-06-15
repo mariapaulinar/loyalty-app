@@ -79,7 +79,7 @@ class StampService
         ?string $createdAt = null
     ): array {
         // Validate eligibility
-        $eligibility = $this->checkEarningEligibility($card, $member, $purchaseAmount);
+        $eligibility = $this->checkEarningEligibility($card, $member, $purchaseAmount, $staff);
 
         if (! $eligibility['eligible']) {
             return [
@@ -650,7 +650,8 @@ class StampService
     public function checkEarningEligibility(
         StampCard $card,
         Member $member,
-        ?float $purchaseAmount = null
+        ?float $purchaseAmount = null,
+        ?Staff $staff = null
     ): array {
         // Card must be available
         if (! $card->isAvailable()) {
@@ -680,7 +681,6 @@ class StampService
         }
 
         if ($card->card_type === 'event') {
-            $staff = auth('staff')->user();
             if ($staff) {
                 if (
                     $staff->club_id &&
@@ -722,7 +722,7 @@ class StampService
                         ];
                     }
                 }
-            } elseif($card->stamp_on_enrollment) {
+            } elseif($card->stamp_on_enrollment && !$member->stampCards()->where('stamp_card_id', $card->id)->exists()) {
                 $stampsAvailable = $card->stamps_per_purchase;
                 if ($card->max_stamps_per_transaction && $stampsAvailable > $card->max_stamps_per_transaction) {
                     $stampsAvailable = $card->max_stamps_per_transaction;
