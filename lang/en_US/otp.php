@@ -127,6 +127,7 @@ return [
     'code_invalid' => 'Invalid code. :remaining attempt(s) remaining.',
     'code_locked' => 'Too many failed attempts. Please request a new code.',
     'user_not_found' => 'No account found with this email address.',
+    'email_not_found_register' => 'The email provided does not exist, please register',
     'account_not_found_create' => 'No account found for :email. <a href=":register_url" class="font-semibold text-primary-600 dark:text-primary-400 hover:underline">Create an account?</a>',
     'user_inactive' => 'This account is not active. Please contact support.',
     'send_failed' => 'Failed to send verification code. Please try again.',

@@ -97,6 +97,7 @@ return [
     'code_invalid' => 'Código inválido. Quedan :remaining intento(s).',
     'code_locked' => 'Demasiados intentos fallidos. Por favor solicita un nuevo código.',
     'user_not_found' => 'No se encontró ninguna cuenta con este correo electrónico.',
+    'email_not_found_register' => 'El email suministrado no existe, por favor regístrate',
     'account_not_found_create' => 'No se encontró cuenta para :email. <a href=":register_url" class="font-semibold text-primary-600 dark:text-primary-400 hover:underline">¿Crear una cuenta?</a>',
     'user_inactive' => 'Esta cuenta no está activa. Por favor contacta al soporte.',
     'send_failed' => 'Error al enviar el código de verificación. Por favor inténtalo de nuevo.',

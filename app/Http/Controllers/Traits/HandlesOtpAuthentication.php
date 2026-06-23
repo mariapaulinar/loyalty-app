@@ -84,6 +84,16 @@ trait HandlesOtpAuthentication
         $email = $request->validated()['email'];
         $result = $otpService->checkUser($email, $this->getGuard());
 
+        // Members without an account are redirected to registration
+        if (! $result['exists'] && $this->getRoutePrefix() === 'member') {
+            return response()->json([
+                'exists' => false,
+                'has_password' => false,
+                'email' => $email,
+                'redirect_url' => route('member.login.register-redirect', ['email' => $email]),
+            ]);
+        }
+
         // Store email in session for subsequent steps
         session()->put('otp_email', $email);
         session()->put('otp_guard', $this->getGuard());

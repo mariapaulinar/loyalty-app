@@ -179,8 +179,30 @@ class AuthController extends Controller
             return redirect()->route('member.cards');
         }
 
-        // If the user is not logged in, show the registration view
-        return view('member.auth.register');
+        $email = $request->get('email', '');
+        $fromLogin = $request->boolean('from_login');
+
+        if ($fromLogin && $email && ! $request->session()->has('info')) {
+            session()->flash('info', trans('otp.email_not_found_register'));
+        }
+
+        return view('member.auth.register', compact('email'));
+    }
+
+    /**
+     * Redirect to registration after login email check found no account.
+     */
+    public function redirectToRegister(Request $request)
+    {
+        $email = strtolower(trim((string) $request->get('email', '')));
+
+        if (! filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            return redirect()->route('member.register');
+        }
+
+        return redirect()
+            ->route('member.register', ['email' => $email])
+            ->with('info', trans('otp.email_not_found_register'));
     }
 
     /**

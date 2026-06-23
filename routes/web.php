@@ -198,6 +198,7 @@ Route::prefix('{locale}')->where(['locale' => '[a-z]{2}-[a-z]{2}'])->group(funct
 
             // OTP Authentication Routes
             Route::post('login/check', 'Member\OtpController@checkEmail')->name('member.login.check');
+            Route::get('login/register-redirect', 'Member\AuthController@redirectToRegister')->name('member.login.register-redirect');
             Route::post('login/otp/send', 'Member\OtpController@sendOtp')->name('member.login.otp.send');
             Route::get('login/otp/verify', 'Member\OtpController@showOtpVerify')->name('member.login.otp.verify');
             Route::post('login/otp/verify', 'Member\OtpController@verifyOtp')->name('member.login.otp.verify.post');

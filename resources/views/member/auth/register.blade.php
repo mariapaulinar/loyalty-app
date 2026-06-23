@@ -63,6 +63,7 @@
                                     class="transition-all focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 hover:border-secondary-400 dark:hover:border-secondary-500" />
                                 <x-forms.input type="email" name="email" icon="mail" :label="trans('common.email_address')"
                                     :placeholder="trans('common.your_email')" :required="true"
+                                    :value="$email ?? ''"
                                     class="transition-all focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 hover:border-secondary-400 dark:hover:border-secondary-500" />
                             </div>
 

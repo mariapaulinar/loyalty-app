@@ -296,8 +296,16 @@ document.addEventListener('alpine:init', () => {
                 });
 
                 const data = await response.json();
-                
-                this.userExists = data.exists;
+
+                if (!data.exists) {
+                    const redirectUrl = data.redirect_url
+                        || @json(route('member.login.register-redirect')).replace(/\/$/, '')
+                        + '?email=' + encodeURIComponent(this.email);
+                    window.location.href = redirectUrl;
+                    return;
+                }
+
+                this.userExists = true;
                 this.userHasPassword = data.has_password;
                 this.step = 'method';
 

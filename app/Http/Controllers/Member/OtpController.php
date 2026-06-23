@@ -29,6 +29,7 @@ namespace App\Http\Controllers\Member;
 
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Traits\HandlesOtpAuthentication;
+use App\Http\Requests\Auth\CheckEmailRequest;
 use App\Http\Requests\Auth\OtpVerifyRequest;
 use App\Http\Requests\Member\RegistrationRequest;
 use App\Services\Auth\OtpService;
@@ -36,6 +37,7 @@ use App\Services\Member\AuthService;
 use App\Services\Member\MemberService;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
 
@@ -73,6 +75,33 @@ class OtpController extends Controller
     protected function getDashboardRoute(): string
     {
         return 'member.cards';
+    }
+
+    /**
+     * Check if member exists; redirect new users to registration.
+     */
+    public function checkEmail(CheckEmailRequest $request, OtpService $otpService): JsonResponse
+    {
+        $email = $request->validated()['email'];
+        $result = $otpService->checkUser($email, $this->getGuard());
+
+        if (! $result['exists']) {
+            return response()->json([
+                'exists' => false,
+                'has_password' => false,
+                'email' => $email,
+                'redirect_url' => route('member.login.register-redirect', ['email' => $email]),
+            ]);
+        }
+
+        session()->put('otp_email', $email);
+        session()->put('otp_guard', $this->getGuard());
+
+        return response()->json([
+            'exists' => true,
+            'has_password' => $result['has_password'],
+            'email' => $email,
+        ]);
     }
 
     // ─────────────────────────────────────────────────────────────────────────
