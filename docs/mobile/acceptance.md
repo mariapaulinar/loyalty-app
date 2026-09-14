@@ -9,13 +9,30 @@
 - Cada frame tiene trazabilidad a vista/ruta/controlador PWA, endpoint o gap y criterio observable.
 - La validación usa los mismos casos y datos en PWA y app candidata.
 
+## Facilidad de uso V1 — frontend
+
+- Bottom navigation oculta en auth, OTP, recuperación, confirmaciones y QR.
+- Toda tarjeta de Descubrir/Billetera es tocable y tiene estado pressed/focus.
+- Existe acceso visible Abrir mi billetera desde Descubrir.
+- Billetera puede mostrar Usados recientemente usando almacenamiento local.
+- Desde Billetera hasta mostrar un QR no hay más de tres decisiones del miembro.
+- El CTA principal usa oro Lealmi y mantiene posición/patrón consistente.
+- Logo y nombre del socio son reconocibles en su producto.
+- Recibir sello y Retirar premio se distinguen por texto, icono, explicación y QR.
+- El primer uso explica una sola vez que el miembro muestra su QR al personal.
+- El socio puede usar un deep link/QR físico para abrir su producto sin escáner dentro de la app.
+- Texto normal mínimo 14 sp; soporte 12 sp; CTA 14 sp; navegación 12 sp.
+- No se muestra éxito hasta observar confirmación del backend.
+- Al volver del QR, la app refresca el recurso; mientras tanto muestra Esperando confirmación.
+- Estas mejoras usan navegación, caché/almacenamiento local y endpoints existentes; no requieren modificar el core del backend.
+
 ## Cobertura
 
 - Solo Member; Descubrir/Billetera/Cuenta separados; sin QR tab ni pantallas de otros roles.
 - Login check, password/OTP, registro OTP, cooldown, token cifrado, 401 y pending action completos.
 - Todos los IDs de 05 tienen frame y estados.
 - Orden de 09 respetado.
-- Loading, empty, error, expired, exhausted, insufficient, duplicate, disabled y offline diseñados.
+- Loading, empty, error, expired, exhausted, insufficient, duplicate, disabled, waiting-confirmation y offline diseñados.
 - Deep links conservan recurso y parámetros; el retorno post-auth completa la acción original.
 - QR contextual desde detalle usa URL/payload oficial del backend; el miembro muestra y el staff escanea.
 - Puntos, sellos, rewards y cupones conservan reglas de elegibilidad, vigencia, saldo, progreso y canje de la PWA.
@@ -35,6 +52,8 @@ Una pantalla está aceptada solo si con los mismos datos que la PWA:
 3. comunica las mismas condiciones críticas;
 4. conserva el contexto al navegar o autenticarse;
 5. produce el mismo estado de negocio;
-6. no introduce funciones ni reglas no aprobadas.
+6. no introduce funciones ni reglas no aprobadas;
+7. permite al socio explicarla con el guion definido en 10;
+8. evita pasos innecesarios y falsos estados de éxito.
 
 La semejanza visual por sí sola no demuestra paridad.
