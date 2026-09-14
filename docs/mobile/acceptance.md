@@ -1,49 +1,12 @@
-# Acceptance checklist — V1 (apps separadas)
+# Aceptación — Member App
 
-Marcar por plataforma: **MA** = Member Android · **MI** = Member iOS · **SA** = Staff Android · **SI** = Staff iOS.
-
-Estado de referencia: [`08-implementation-status.md`](08-implementation-status.md).
-
-## Loyalty Member
-
-### Build
-- [ ] MA [ ] MI Compila release/debug
-- [ ] MA [ ] MI `API_BASE_URL` + locale configurables
-- [ ] MA [ ] MI Tema: fallback + `GET /mobile/branding` (paint-first, ETag)
-- [ ] MA [ ] MI Sin Role Gate / sin pantallas Staff
-
-### Navegación / chrome (PWA)
-- [x] MA [ ] MI Top bar: logo, My Cards, menú Mi cuenta
-- [x] MA [ ] MI Bottom opcional: Home | Mis tarjetas (sin tab QR)
-- [x] MA [ ] MI Logout solo con email
-- [x] MA [ ] MI Switch account **no** en menú header (solo perfil anónimo)
-
-### Pantallas core
-- [x] MA [ ] MI Splash → init `issue_token:true`
-- [ ] MA [ ] MI Home discovery completo (G-MEM-09) — hero parcial OK
-- [x] MA [ ] MI My Cards wallet API (stamps → loyalty → vouchers)
-- [x] MA [ ] MI Detalle loyalty + QR earn + follow
-- [x] MA [ ] MI Detalle stamp + QR add/claim + enroll
-- [x] MA [ ] MI Detalle voucher + QR redeem + save
-- [x] MA [ ] MI Login email → password (OTP P1)
-- [ ] MA [ ] MI Register paridad OTP web (password API V1)
-- [x] MA [ ] MI Switch por device code
-
-### Pendiente P1+
-- [ ] Reward detail/claim · Enter code · Legal · Perfil editable · OTP REST
-
-## Loyalty Staff
-
-### Funcional
-- [ ] SA [ ] SI Login email → club → password
-- [ ] SA [ ] SI Home: search + Scan + recent
-- [ ] SA [ ] SI Scanner → deep-link acción (earn/claim/redeem)
-- [ ] SA [ ] SI Operaciones POS vía API
-
-## Paridad transversal
-- [ ] MA MI SA SI Copy español alineado a `lang/es_ES`
-- [ ] MA MI SA SI CTAs accent `#FCD34D` como PWA
-- [ ] MA MI SA SI Errores 422/401 usables
-
-## No bloquea V1
-Referrals, request-points, OTP API completo, historial staff rico, stamp-review WebSocket, pinning TLS.
+- Solo Member; Descubrir/Billetera/Cuenta separados; sin QR tab ni pantallas de otros roles.
+- Login check, password/OTP, registro OTP, cooldown, token cifrado, 401 y pending action completos.
+- Todos los IDs de 05 tienen frame y estados.
+- Orden de 09 respetado.
+- Loading, empty, error, expired, insufficient y offline diseñados.
+- Deep links y retorno post-auth funcionan.
+- QR contextual desde detalle usa URL oficial.
+- Branding paint-first; fallback #FCD34D/#000000/#FFFFFF; partner solo en su producto; claro/oscuro; 44 px y AA.
+- No llamar endpoints inexistentes. Cada gap se implementa o la función queda explícitamente deshabilitada.
+- Figma usa IDs estables y conecta journeys de 10.

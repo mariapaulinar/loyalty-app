@@ -1,74 +1,31 @@
-# 01 — Architecture
+# 01 — Arquitectura funcional
 
-## Dos apps independientes
+Es agnóstica de framework: SwiftUI, Compose, Flutter, React Native o no-code con REST, almacenamiento seguro y deep links.
 
-| App | Repos | applicationId / bundle |
-|-----|-------|-------------------------|
-| **Loyalty Member** | `loyalty-member-android`, `loyalty-member-ios` | `com.lealmi.loyalty.member` |
-| **Loyalty Staff** | `loyalty-staff-android`, `loyalty-staff-ios` | `com.lealmi.loyalty.staff` |
+## Capas
 
-Specs y OpenAPI viven en `loyalty-app` (`docs/mobile/`). No hay SDK multiplataforma compartido: contrato = OpenAPI + docs + branding API + `design-tokens.json` (fallback).
+UI; estado; dominio; datos/API/caché; integraciones de deep links, compartir y notificaciones futuras.
 
-**No hay Role Gate.** Cada binary es solo Member o solo Staff (stores separados, onboarding separado).
+## Estado mínimo
 
-```
-┌────────────────────────┐     Bearer Sanctum      ┌──────────────────────────┐
-│ loyalty-member-android │ ─── /member/... ──────► │                          │
-│ loyalty-member-ios     │                         │ loyalty-app              │
-└────────────────────────┘     GET /mobile/branding│ /api/{locale}/v1         │
-┌────────────────────────┐     (público, cache)    │                          │
-│ loyalty-staff-android  │ ─── /staff/... ───────► │                          │
-│ loyalty-staff-ios      │                         └──────────────────────────┘
-└────────────────────────┘
-```
+token, member, locale, timezone, branding_cache, pending_action, wallet_cache, qr_cache y last_sync_at. Guardar tokens en Keychain o equivalente cifrado.
 
-Ambas apps llaman **también** `GET /mobile/branding` (paint-first, ETag) para white-label; ver [`02-design-system.md`](02-design-system.md).
+## Bootstrap
 
-Legacy folder names `loyalty-android` / `loyalty-ios` (si existen) se tratan como **Member**; Staff usa los repos `loyalty-staff-*`.
+1. Splash con branding cacheado/fallback.
+2. Refrescar mobile/branding sin bloquear.
+3. Validar token con GET /member o /member/identity.
+4. Válido → Descubrir; ausente/401 → Login.
+5. Procesar deep link pendiente tras autenticar.
 
-## Capas recomendadas (cada app)
+El modo anónimo existe detrás de configuración pero no se activa sin decisión explícita.
 
-1. **UI** — Compose / SwiftUI (`screens/member/*` o `screens/staff/*`) + ThemeStore.
-2. **Presentation** — ViewModels / `@Observable`.
-3. **Domain** — use cases de esa app únicamente.
-4. **Data** — API client + secure storage (+ QR offline solo Member) + branding disk cache.
+## Sincronización y offline
 
-### Android stack
+Refrescar Descubrir y Billetera al entrar; detalle al abrir; Billetera al volver de QR/background. No se requiere realtime V1.
 
-- Kotlin 2.x, minSdk 26+, Compose, Navigation, Hilt, Retrofit + OkHttp, Moshi
-- EncryptedSharedPreferences / DataStore
-- **Staff only:** CameraX + ML Kit Barcode
-- Coil
+Offline permite abrir QR cacheados con programa, saldo conocido, fecha, indicador Offline y Reintentar. No ejecutar canjes o transferencias offline.
 
-### iOS stack
+## Deep links
 
-- iOS 16+, SwiftUI, NavigationStack, URLSession, Keychain
-- **Staff only:** AVFoundation / DataScanner
-
-## Locale
-
-- Path: `en-us`, `es-es` (kebab).
-- Mapear `en_US` ↔ `en-us` si el perfil lo requiere.
-
-## Offline
-
-- **Member:** cachear identity QR (unique_identifier / device_code) cifrado.
-- **Staff:** requiere red para POS; sin mock de canjes offline en V1.
-
-## Config
-
-```
-API_BASE_URL=https://{host}
-DEFAULT_LOCALE=en-us
-```
-
-Base: `{API_BASE_URL}/api/{locale}/v1`
-
-## Seguridad
-
-- TLS only; no logs de tokens; Staff no persiste passwords.
-- Logout revoca token vía API cuando hay red.
-
-## Realtime
-
-Reverb/Echo **no** requerido en V1.
+Resolver card, reward, stamp-card, voucher, claim-voucher y request-points. Si requiere auth, conservar destino y retomarlo.
