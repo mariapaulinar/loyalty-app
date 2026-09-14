@@ -1,85 +1,81 @@
-# 06 — Paridad PWA → nativo (componentes y comportamiento)
+# 06 — Paridad PWA
 
-Fuente de verdad visual/estructural: Blade en `loyalty-app/resources/views/`.  
-Las apps nativas **no** embeben HTML; replican layout, jerarquía, CTAs, estados y semántica de color del **PWA de producción**.
+## Regla normativa
 
-## Principios de fidelidad
+La PWA Member de producción es la referencia funcional y conductual. Paridad significa conservar información, jerarquía, reglas, acciones, estados, mensajes, continuidad y resultado; no copiar HTML ni reproducir limitaciones accidentales del navegador.
 
-1. **Misma información, mismo orden** que el Blade de la pantalla.
-2. **Mismos estados:** loading (skeleton), empty, error, success toast.
-3. **Misma semántica de color:** chrome = branding API; cara de card = partner; CTAs fuertes PWA usan **accent** (`pwa_theme_color` / accent tokens).
-4. **UI sans; códigos en mono.**
-5. **No inventar** bottom TabBar de 4 ítems, tab QR global, ni dashboards que la PWA no tenga.
-6. Pixel-perfect CSS no es el objetivo; **paridad de producto** sí.
+Una implementación no puede eliminar, renombrar conceptualmente, reordenar de forma que cambie la prioridad, ni alterar una regla comprobada sin registrar la decisión como mejora propuesta y obtener aprobación de producto.
 
-## Layouts → shell nativo
+## Fuentes comprobables
 
-| PWA | Nativo |
-|-----|--------|
-| `member/layouts/default.blade.php` — **top header** (logo, My Cards, avatar) | Top bar equivalente; opcional bottom **Home \| My Cards** solamente |
-| QR en `card/index`, `stamp-card/index`, `voucher/index` | Modal/sheet QR **desde detalle**, payload = URL staff de acción |
-| `staff/layouts/default.blade.php` | Home hub + CTA Scan; stacks de acción |
-| `<x-ui.brand-styles />` | ThemeStore + `GET mobile/branding` |
-| First-visit loader + timezone cookie | `M_Splash`: capturar TZ del device; no bloquear eternamente |
+| Dominio | Fuente |
+|---|---|
+| Shell | member/layouts/default.blade.php |
+| Descubrir | member/home*.blade.php |
+| Billetera | member/my-cards.blade.php + PageController@dashboard |
+| Puntos/rewards | member/card/* |
+| Sellos | member/stamp-card/index.blade.php |
+| Cupones | member/voucher/index + member/vouchers/claim |
+| Auth | member/auth/* |
+| Cuenta | account/privacy-data, switch-account y definición account |
+| Secundarias | member/code, referrals, point_request |
+| Offline | pwa/offline.blade.php |
 
-## UI kit compartido (`components/ui/`)
+## Clasificación obligatoria de decisiones
 
-| Blade | Nativo | Notas |
-|-------|--------|-------|
-| `ui/button` | Primary / Accent / Secondary / Destructive | CTAs “Get started / Access / Show QR” → **accent** como PWA |
-| `ui/input` | TextField | Errores 422 |
-| `ui/toast` | Snackbar | Post earn/redeem |
-| `ui/empty-state` | EmptyState | |
-| `ui/skeleton` | Shimmer | Home / My Cards |
-| `ui/qr-modal*` | Full-screen QR | Desde detalle de programa |
-| `ui/progress-bar` | Progress | Stamps |
-| `ui/tabs` | Segmented | Detalle Rewards/History/Rules; My Cards secciones |
-| `ui/pin-input` | Digits | Enter code |
-| `ui/rules-section` | Rules block | |
+| Clase | Qué comprende | Tratamiento |
+|---|---|---|
+| Paridad obligatoria | Datos, reglas, permisos, elegibilidad, acciones, estados, textos críticos, orden funcional y resultado | Debe coincidir con la PWA |
+| Adaptación nativa permitida | Bottom navigation, back nativo, sheets, diálogos, controles, gestos, safe areas, feedback háptico | Puede variar sin alterar significado ni resultado |
+| Mejora propuesta | Funciones nuevas, cambios de journey, nueva jerarquía, automatizaciones o comportamiento no comprobado | Rotular, justificar y aprobar antes de construir |
+| Deuda excluida | Bugs, duplicados, menús de otros roles, código huérfano o acciones comentadas | No trasladar a la app |
 
-## Member — dominio
+## Matriz mínima de paridad
 
-| Blade | Screen(s) | Comportamiento mínimo |
-|-------|-----------|----------------------|
-| `premium-card` / `loyalty-card` | Home, My Cards, Detail | Cara partner; tap → detail |
-| Home grids (loyalty / vouchers / stamps) | `M_Home` | Discovery multi-tipo ordenado como PWA |
-| `my-cards` métricas + secciones | `M_MyCards` | Stamps → loyalty → vouchers (+ tiers si API) |
-| `follow-card` | Card detail | Follow/unfollow |
-| `rewards` / tabs Rewards·History·Rules | Card detail | Orden PWA |
-| CTA Scan / Show QR | Card / Stamp / Voucher detail | Genera URL staff; modal QR |
-| `stamp-progress` / enroll | Stamp detail | |
-| `save-voucher` | Voucher detail | |
-| Auth blades | Login / Register | V1 password API |
-| `switch-account` | Switch | device_code |
-| `code/redeem` | Enter code | Acceso desde Profile u oculto; no nav top |
+| Área | Se debe conservar | Puede adaptarse |
+|---|---|---|
+| Autenticación | Método aplicable, OTP/password, acción pendiente y destino posterior | Teclado, autofill, biometría futura y presentación del formulario |
+| Descubrir | Filtros de actividad/visibilidad, tipos de producto, prioridad y empty state | Layout del catálogo y patrones de scroll |
+| Billetera | Criterios de pertenencia, orden sellos → puntos → niveles → cupones y ocultamiento de secciones vacías | Cards, carruseles o listas si preservan jerarquía |
+| Puntos | Saldo, nivel, reglas, rewards, elegibilidad y QR contextual | Tabs, sheets y animaciones |
+| Sellos | Progreso, meta, premio pendiente, inscripción/salida y QR independientes | Representación visual del progreso |
+| Cupones | Estado, vigencia, límites, guardado/reclamo, código y restricciones | Composición de la tarjeta y presentación del código |
+| QR | Contexto, payload oficial, superficie blanca, identificador e instrucción al miembro | Sheet o pantalla completa |
+| Errores/offline | Qué se permite, qué se bloquea, mensaje y recuperación | Patrón visual de alerta o retry |
+| Deep links | Recurso, autenticación pendiente y retorno al destino original | Transición y animación de entrada |
 
-**No cablear** `identity-badge` como tab: en layout PWA actual **no** está en el chrome.
+## Reglas funcionales transversales
 
-## Staff — dominio
+- Descubrir muestra únicamente loyalty, vouchers y stamps activos y visibles conforme a las reglas web.
+- Billetera conserva el orden sellos → puntos → niveles → cupones y no reserva espacio para secciones vacías.
+- Los detalles conservan información, acciones y agrupaciones equivalentes a sus tabs.
+- El miembro muestra QR; no se debe inventar un escáner Member para acumular o canjear.
+- Cada QR es contextual y debe provenir del backend, no reconstruirse con supuestos en el cliente.
+- Contactar, compartir y añadir/quitar son acciones secundarias.
+- Elegibilidad, vigencia, disponibilidad y saldo se muestran antes de confirmar un canje.
+- Si la autenticación interrumpe una acción, la app la conserva y regresa al destino y resultado esperados.
+- Un estado expirado, agotado, insuficiente, duplicado, desactivado u offline debe bloquear exactamente las mutaciones que bloquea la PWA y ofrecer una salida clara.
 
-| Blade | Screen | Comportamiento |
-|-------|--------|----------------|
-| `auth/login` | `S_Login` | Email → club(s) → password |
-| `index` | `S_Home` | Search + Scan + recent |
-| `qr/scanner` | `S_Scanner` | Scan URL → navegar a acción (no sheet genérico) |
-| `loyalty-cards/add` | `S_EarnPoints` | |
-| `loyalty-cards/claim` | `S_RedeemReward` | |
-| `stamps/add` · `claim` | Add/Redeem stamps | |
-| `vouchers/redeem` | `S_VoucherRedeem` | |
-| History | `S_History` | Destino post-éxito PWA |
+## Trazabilidad obligatoria por pantalla
 
-## Checklist agente (por pantalla)
+Cada pantalla o estado debe documentar:
 
-- [ ] Blade de `05-screen-map.md` abierto
-- [ ] Secciones y CTAs en el mismo orden
-- [ ] QR contextual si aplica (URL staff, no identity tab)
-- [ ] Empty / loading / error
-- [ ] Color: chrome branding vs partner vs accent CTA
+1. ID estable de 05.
+2. Objetivo del miembro.
+3. Ruta, vista y controlador PWA de referencia.
+4. Datos y condiciones de visibilidad.
+5. Jerarquía y contenido.
+6. Acciones principales y secundarias.
+7. Estados, validaciones y errores.
+8. Entrada, salida y comportamiento de back.
+9. Adaptaciones nativas permitidas.
+10. Dependencia API y gap, si existe.
+11. Criterios observables de aceptación.
 
-## Branding
+Sin esta información el frame se considera exploratorio, no listo para construcción.
 
-Ver [`02-design-system.md`](02-design-system.md). Paint-first + ETag; no fetch por pantalla.
+## Validación
 
-## Fuera de alcance V1
+La revisión debe comparar PWA y app con el mismo caso de prueba y los mismos datos. Se acepta una presentación nativa diferente cuando el miembro encuentra la misma información, toma una acción equivalente, recibe las mismas restricciones y alcanza el mismo resultado.
 
-Admin/Partner, GTM, SEO, Vite, referrals/request-points, staff generate-code (salvo TASK), realtime stamp-review WebSocket.
+No replicar menús de otros roles, Agent Keys, enlaces para negocios, acciones comentadas como navegación primaria ni bugs/botones duplicados.

@@ -1,45 +1,37 @@
-# 00 — Product context
+# 00 — Contexto del producto Member
 
-## Producto
+Lealmi es una billetera de fidelización multi-negocio. Un miembro conserva tarjetas de puntos, saldos, recompensas, niveles, tarjetas de sellos y cupones de distintos clubs.
 
-**Reward Loyalty / Lealmi** (NowSquare): plataforma multi-tenant de lealtad.
+## Objetivo
 
-```
-Network → Partner → Club → Cards / StampCards / Vouchers / Staff
-                         ↘ Member (wallet compartido entre clubs)
-```
+Descubrir programas, agregarlos a la billetera y usar beneficios presencialmente mostrando al personal un QR.
 
-Backend: Laravel (`loyalty-app`). Web: PWA Blade Member + Staff (producción).
+## Continuidad multiplataforma
 
-## Apps nativas V1 (separadas)
+La app nativa extiende la experiencia Member existente; no constituye un rediseño independiente. El miembro debe poder pasar de la PWA a iOS o Android sin reaprender:
 
-### Loyalty Member (`com.lealmi.loyalty.member`)
+- dónde descubrir y guardar beneficios;
+- cómo reconocer tarjetas, sellos, niveles y cupones;
+- cómo acumular y canjear mostrando su QR al staff;
+- qué ocurre después de autenticarse o completar una acción;
+- cómo se representan vigencia, elegibilidad, saldo, progreso y errores.
 
-Cliente final con el **mismo flujo** que el PWA Member en **Lealmi** (modo anónimo desactivado):
+La coherencia se evalúa por el modelo mental, las reglas y el resultado del journey, no por una copia literal del HTML. Los patrones propios de iOS y Android son válidos cuando mantienen esa continuidad.
 
-- **Login obligatorio** (email → password u OTP → sesión)
-- **Home = discovery** (loyalty + stamps + vouchers)
-- **My Cards = wallet**
-- QR de caja **en detalle de programa** (URL hacia Staff)
-- Account / perfil / privacidad
+## Superficies principales
 
-Repos: `loyalty-member-android`, `loyalty-member-ios`.  
-Referencia: `resources/views/member/`.
+1. Descubrir: catálogo activo de puntos, sellos y cupones.
+2. Billetera: productos seguidos, guardados, reclamados o inscritos.
+3. Cuenta: perfil, localización, privacidad y sesión.
 
-### Loyalty Staff (`com.lealmi.loyalty.staff`)
+## V1 recomendado
 
-POS como el PWA Staff: login → hub (search + scan) → deep-link de acción desde QR member → earn/claim/redeem.
+Splash, login híbrido, registro OTP, Descubrir, My Cards, detalles de puntos/recompensas/sellos/cupones, QR contextuales, perfil, privacidad, deep links y offline útil.
 
-Repos: `loyalty-staff-android`, `loyalty-staff-ios`.  
-Referencia: `resources/views/staff/`.
+## Secundarias
 
-**No** Role Gate en un solo binary.
+Código de cuatro dígitos, referidos, solicitar/enviar puntos y contenido legal. No ocupan la navegación principal.
 
-## Fuera de V1
+## Fuera de alcance
 
-Partner/Admin; referrals / request-points → V1.1.
-
-## Principio de paridad
-
-Flujo + look & feel del PWA (`05-screen-map`, `06-pwa-component-parity`), UI nativa Compose/SwiftUI.  
-Branding: `GET /mobile/branding`; `design-tokens.json` = fallback.
+Admin, Partner, Staff/POS, Agent API, billing y administración de campañas.

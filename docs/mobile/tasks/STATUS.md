@@ -1,10 +1,5 @@
-# TASK status
+# Estado de documentación
 
-| Task | Status |
-|------|--------|
-| TASK-001–007 backend P0 | Mostly done |
-| TASK-008 mobile branding | Done |
-| TASK-010–013 scaffolds | Done |
-| TASK-020+ | Pending — auth/core por app |
+Tasks y screens históricos son planificación auxiliar, no la especificación Member.
 
-**Arquitectura:** Member / Staff separados; paridad PWA (`05-screen-map`, `06-pwa-component-parity`). Fuente de verdad: `docs/mobile/`.
+Fuente actual: README; 00 a 10; backend-gaps; acceptance; código activo y routes/api.php. Validar cualquier task contra ellos. Referencias a Staff o repos previos quedan fuera del alcance Member.

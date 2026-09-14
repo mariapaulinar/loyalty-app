@@ -1,49 +1,59 @@
-# Acceptance checklist — V1 (apps separadas)
+# Aceptación — Member App
 
-Marcar por plataforma: **MA** = Member Android · **MI** = Member iOS · **SA** = Staff Android · **SI** = Staff iOS.
+## Condición de producto
 
-Estado de referencia: [`08-implementation-status.md`](08-implementation-status.md).
+- La PWA Member de producción es la referencia funcional y conductual.
+- La implementación preserva modelo mental, contenido, jerarquía, reglas, acciones, estados, mensajes críticos, continuidad y resultado.
+- Las diferencias de UI corresponden a patrones nativos y no alteran significado, restricciones ni resultado.
+- Toda capacidad no comprobada en la PWA está marcada como “Propuesta — requiere aprobación”.
+- Cada frame tiene trazabilidad a vista/ruta/controlador PWA, endpoint o gap y criterio observable.
+- La validación usa los mismos casos y datos en PWA y app candidata.
 
-## Loyalty Member
+## Facilidad de uso V1 — frontend
 
-### Build
-- [ ] MA [ ] MI Compila release/debug
-- [ ] MA [ ] MI `API_BASE_URL` + locale configurables
-- [ ] MA [ ] MI Tema: fallback + `GET /mobile/branding` (paint-first, ETag)
-- [ ] MA [ ] MI Sin Role Gate / sin pantallas Staff
+- Bottom navigation oculta en auth, OTP, recuperación, confirmaciones y QR.
+- Toda tarjeta de Descubrir/Billetera es tocable y tiene estado pressed/focus.
+- Existe acceso visible Abrir mi billetera desde Descubrir.
+- Billetera puede mostrar Usados recientemente usando almacenamiento local.
+- Desde Billetera hasta mostrar un QR no hay más de tres decisiones del miembro.
+- El CTA principal usa oro Lealmi y mantiene posición/patrón consistente.
+- Logo y nombre del socio son reconocibles en su producto.
+- Recibir sello y Retirar premio se distinguen por texto, icono, explicación y QR.
+- El primer uso explica una sola vez que el miembro muestra su QR al personal.
+- El socio puede usar un deep link/QR físico para abrir su producto sin escáner dentro de la app.
+- Texto normal mínimo 14 sp; soporte 12 sp; CTA 14 sp; navegación 12 sp.
+- No se muestra éxito hasta observar confirmación del backend.
+- Al volver del QR, la app refresca el recurso; mientras tanto muestra Esperando confirmación.
+- Estas mejoras usan navegación, caché/almacenamiento local y endpoints existentes; no requieren modificar el core del backend.
 
-### Navegación / chrome (PWA)
-- [x] MA [ ] MI Top bar: logo, My Cards, menú Mi cuenta
-- [x] MA [ ] MI Bottom opcional: Home | Mis tarjetas (sin tab QR)
-- [x] MA [ ] MI Logout solo con email
-- [x] MA [ ] MI Switch account **no** en menú header (solo perfil anónimo)
+## Cobertura
 
-### Pantallas core
-- [x] MA [ ] MI Splash → init `issue_token:true`
-- [ ] MA [ ] MI Home discovery completo (G-MEM-09) — hero parcial OK
-- [x] MA [ ] MI My Cards wallet API (stamps → loyalty → vouchers)
-- [x] MA [ ] MI Detalle loyalty + QR earn + follow
-- [x] MA [ ] MI Detalle stamp + QR add/claim + enroll
-- [x] MA [ ] MI Detalle voucher + QR redeem + save
-- [x] MA [ ] MI Login email → password (OTP P1)
-- [ ] MA [ ] MI Register paridad OTP web (password API V1)
-- [x] MA [ ] MI Switch por device code
+- Solo Member; Descubrir/Billetera/Cuenta separados; sin QR tab ni pantallas de otros roles.
+- Login check, password/OTP, registro OTP, cooldown, token cifrado, 401 y pending action completos.
+- Todos los IDs de 05 tienen frame y estados.
+- Orden de 09 respetado.
+- Loading, empty, error, expired, exhausted, insufficient, duplicate, disabled, waiting-confirmation y offline diseñados.
+- Deep links conservan recurso y parámetros; el retorno post-auth completa la acción original.
+- QR contextual desde detalle usa URL/payload oficial del backend; el miembro muestra y el staff escanea.
+- Puntos, sellos, rewards y cupones conservan reglas de elegibilidad, vigencia, saldo, progreso y canje de la PWA.
+- Billetera conserva criterios de pertenencia, orden de secciones y ocultamiento de vacíos.
+- Branding paint-first; fallback #FCD34D/#000000/#FFFFFF; partner solo en su producto; claro/oscuro; 44 px y AA.
+- No llamar endpoints inexistentes. Cada gap se implementa o la función queda explícitamente deshabilitada.
+- Figma usa IDs estables, página de trazabilidad y conecta journeys felices, interrumpidos y de error de 10.
 
-### Pendiente P1+
-- [ ] Reward detail/claim · Enter code · Legal · Perfil editable · OTP REST
+## Definition of Done por pantalla
 
-## Loyalty Staff
+Una pantalla está lista para construir solo si contiene objetivo, fuente PWA, datos, reglas de visibilidad, jerarquía, acciones, estados, navegación, adaptación nativa, dependencia API/gap y criterios de aceptación.
 
-### Funcional
-- [ ] SA [ ] SI Login email → club → password
-- [ ] SA [ ] SI Home: search + Scan + recent
-- [ ] SA [ ] SI Scanner → deep-link acción (earn/claim/redeem)
-- [ ] SA [ ] SI Operaciones POS vía API
+Una pantalla está aceptada solo si con los mismos datos que la PWA:
 
-## Paridad transversal
-- [ ] MA MI SA SI Copy español alineado a `lang/es_ES`
-- [ ] MA MI SA SI CTAs accent `#FCD34D` como PWA
-- [ ] MA MI SA SI Errores 422/401 usables
+1. muestra información y prioridades equivalentes;
+2. permite o bloquea las mismas acciones;
+3. comunica las mismas condiciones críticas;
+4. conserva el contexto al navegar o autenticarse;
+5. produce el mismo estado de negocio;
+6. no introduce funciones ni reglas no aprobadas;
+7. permite al socio explicarla con el guion definido en 10;
+8. evita pasos innecesarios y falsos estados de éxito.
 
-## No bloquea V1
-Referrals, request-points, OTP API completo, historial staff rico, stamp-review WebSocket, pinning TLS.
+La semejanza visual por sí sola no demuestra paridad.

@@ -1,68 +1,55 @@
-# Mobile Specs — Loyalty Member y Loyalty Staff
+# Lealmi Member App — documentación canónica
 
-Fuente de verdad para **dos apps nativas independientes** con **paridad de flujo y look & feel** al PWA Member/Staff de producción en `loyalty-app`.
+Esta carpeta especifica la aplicación que usan los miembros de Lealmi. Se construyó interpretando directamente las rutas, controladores, vistas Blade, componentes y reglas de negocio de la rama main.
 
-| App | Plataformas | Stack |
-|-----|-------------|--------|
-| Loyalty Member | Android + iOS | Kotlin/Compose · Swift/SwiftUI |
-| Loyalty Staff | Android + iOS | Kotlin/Compose · Swift/SwiftUI |
-| Backend | — | Laravel `/api/{locale}/v1/member\|staff` + `/mobile/branding` |
+## Principio rector: continuidad con la PWA
 
-Repos: `loyalty-member-android|ios` · `loyalty-staff-android|ios`.
+La PWA de producción es la referencia funcional y de experiencia para la app Member. Toda implementación en Figma, no-code, iOS, Android o generada por Codex debe preservar el modelo mental que ya conocen los miembros: contenido, jerarquía, reglas, acciones, estados, mensajes y resultado de cada journey.
 
-## Cómo usar con un agente
+La especificación es agnóstica de la herramienta, no agnóstica del producto. Una herramienta puede traducir controles web a patrones nativos, pero no reinterpretar libremente el comportamiento de Lealmi.
 
-1. [`AGENTS.md`](AGENTS.md) → [`00-product-context.md`](00-product-context.md) → [`01-architecture.md`](01-architecture.md)
-2. Confirmar app de la TASK (`member` | `staff`)
-3. [`02-design-system.md`](02-design-system.md) + [`06-pwa-component-parity.md`](06-pwa-component-parity.md) + [`05-screen-map.md`](05-screen-map.md)
-4. TASK en `tasks/`; screen/flow concretos
-5. Si falta API → [`backend-gaps.md`](backend-gaps.md); **no inventar**
+Cada decisión debe clasificarse así:
 
-### Prompt plantilla
+1. **Paridad obligatoria:** comportamiento, reglas, contenido, estados y resultados comprobados en la PWA.
+2. **Adaptación nativa permitida:** controles, gestos, navegación, sheets, diálogos, áreas seguras y convenciones de iOS/Android que no cambien el significado ni el resultado.
+3. **Mejora propuesta:** capacidad o cambio no presente en la PWA. Debe quedar rotulado como propuesta y requiere aprobación de producto antes de implementarse.
 
-```
-Eres un agente de implementación para Loyalty.
-App: MEMBER | STAFF (una sola).
-Lee docs/mobile/AGENTS.md, 05-screen-map.md, 06-pwa-component-parity.md
-y docs/mobile/tasks/TASK-XXX-....md.
-Paridad PWA producción: top nav Member (Home + My Cards); QR solo en detalle de programa (URL staff).
-No inventes TabBar con tab QR ni endpoints.
-Tema: paint-first + GET /mobile/branding.
-Repos: loyalty-member-* o loyalty-staff-*.
-```
+En caso de contradicción, la prioridad es:
 
-Prompt listo TASK-020: [`prompts/CODEX-TASK-020-member-android-auth.md`](prompts/CODEX-TASK-020-member-android-auth.md)
+1. Código web de miembros en resources/views/member y rutas/controladores activos.
+2. Esta documentación canónica.
+3. Contrato REST realmente registrado en routes/api.php.
+4. Documentos auxiliares, fixtures y tareas históricas.
 
-## Índice
+La documentación móvil anterior no define el producto. Tampoco se debe asumir que una capacidad documentada existe en el API: debe verificarse en las rutas y controladores activos.
 
-| Doc | Contenido |
-|-----|-----------|
-| [AGENTS.md](AGENTS.md) | Reglas |
-| [00-product-context.md](00-product-context.md) | Producto |
-| [01-architecture.md](01-architecture.md) | Arquitectura |
-| [02-design-system.md](02-design-system.md) | Branding + tokens fallback |
-| [03-api-contract.md](03-api-contract.md) | REST |
-| [04-auth-and-sessions.md](04-auth-and-sessions.md) | Auth |
-| [05-screen-map.md](05-screen-map.md) | Pantallas + nav + contrato QR |
-| [06-pwa-component-parity.md](06-pwa-component-parity.md) | Blade → nativo |
-| [07-navigation-shell.md](07-navigation-shell.md) | Chrome PWA → shell nativo |
-| [08-implementation-status.md](08-implementation-status.md) | Auditoría PWA ↔ código (gap matrix) |
-| [screens/](screens/) | Spec por pantalla |
-| [flows/](flows/) | Flujos E2E |
-| [tasks/](tasks/) | Backlog |
-| [backend-gaps.md](backend-gaps.md) | Gaps |
-| [acceptance.md](acceptance.md) | Checklist |
-| [design-tokens.json](design-tokens.json) | Fallback estático |
-| [fixtures/](fixtures/) | JSON ejemplos |
-| [prompts/](prompts/) | Prompts Cursor/Agent |
+## Alcance
 
-## Fases
+Incluye únicamente la experiencia Member: Descubrir, registro/login, My Cards, puntos, recompensas, niveles, sellos, cupones, Cuenta, privacidad, localización, deep links, funciones secundarias y estados transversales.
 
-```
-F0 Specs → F1 Backend → F2 Scaffold → F3 Auth → F4 Member core
-→ F5 Staff core → F6 UI polish → F7 QA
-```
+No incluye Admin, Partner, Staff, POS, billing, Shopify ni Agent API.
 
-## Fuera de alcance V1
+## Documentos
 
-Partner/Admin, RN/Flutter/Capacitor, app única con Role Gate, Agent API como transporte.
+| Documento | Uso |
+|---|---|
+| 00-product-context.md | Producto, actores y alcance |
+| 01-architecture.md | Arquitectura funcional |
+| 02-design-system.md | Paleta Lealmi, tokens y componentes |
+| 03-api-contract.md | API disponible y límites |
+| 04-auth-and-sessions.md | Registro, login, OTP y sesión |
+| 05-screen-map.md | Inventario completo de pantallas |
+| 06-pwa-component-parity.md | Correspondencia normativa PWA → UI nativa |
+| 07-navigation-shell.md | Navegación y deep links |
+| 08-implementation-status.md | Cobertura API por experiencia |
+| 09-member-ui-spec.md | Especificación para Figma/no-code |
+| 10-member-journeys.md | Journeys y transiciones |
+| 11-api-gaps-cursor-spec.md | Contratos implementables por Cursor y Laravel Cloud |
+| backend-gaps.md | Índice resumido de capacidades faltantes |
+| acceptance.md | Criterios de aceptación |
+
+Una herramienta de diseño debe leer 00, 02, 05, 06, 09, 10 y acceptance. Un generador de apps debe leer todos los documentos canónicos, contrastar routes/api.php y no inventar endpoints. Un agente backend debe usar 11 como instrucción de implementación y backend-gaps.md solo como índice.
+
+Antes de aprobar cualquier implementación se debe validar cada frame contra la matriz y la plantilla de 06 y 09. Una diferencia visual puede ser aceptable como adaptación nativa; una diferencia de reglas, estados, contenido, continuidad o resultado no lo es.
+
+La paleta oficial se obtiene de GET /api/{locale}/v1/mobile/branding. El fallback Lealmi es oro #FCD34D sobre #FFFFFF.

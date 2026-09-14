@@ -1,57 +1,36 @@
-# 07 — Navigation shell (PWA chrome → nativo)
+# 07 — Navegación y shell
 
-Referencia Blade: `resources/views/member/layouts/default.blade.php` (Member) y `staff/layouts/default.blade.php` (Staff).
+## Nativo
 
-## Member — chrome autenticado
+Bottom navigation: Descubrir, Billetera y Cuenta. Es una adaptación táctil del modelo existente. No añadir QR.
 
-La PWA **no** usa bottom TabBar de 4 ítems. Replica:
+La navegación inferior aparece únicamente en las superficies principales autenticadas. Debe ocultarse durante splash, login, registro, OTP, recuperación, confirmaciones críticas y presentación de QR. Estas pantallas usan back o cerrar según el contexto y nunca simulan destinos disponibles antes de autenticar.
 
-| Zona PWA | Nativo |
-|----------|--------|
-| Logo → Home (`member.index`) | Tap logo / título → `M_Home` |
-| Pill/icono **My Cards** (`member.cards`) | Acción en top bar → `M_MyCards` |
-| Avatar dropdown | `M_Profile` (Account, Switch, Legal, Logout si email) |
-| QR en detalle de programa | Modal desde `M_CardDetail` / stamp / voucher — **no** tab QR |
+Top bar: logo, título/back, compartir cuando aplique y avatar opcional.
 
-Opcional nativo: bottom bar **solo** `Home | My Cards` (2 destinos) si mejora el pulgar; Profile siempre desde avatar/menú.
+Jerarquía: Descubrir o Billetera → detalle; Cuenta → perfil/localización/privacidad/secundarias. Reward depende de Card detail. QR se abre como sheet full-screen desde detalle.
 
-### Home (`M_Home`) vs My Cards (`M_MyCards`)
+## Acceso rápido V1 — solo frontend
 
-| Pantalla | Rol PWA | Contenido |
-|----------|---------|-----------|
-| **Home** | `member/home.blade.php` | Hero + CTA wallet; secciones discovery (loyalty, vouchers, stamps). *API discovery completo = G-MEM-09; wallet API no sustituye catálogo público.* |
-| **My Cards** | `member/my-cards.blade.php` | Wallet: métricas + stamps → loyalty → vouchers |
+Para reducir pasos en caja sin crear un QR universal:
 
-### Logout (PWA)
+- toda tarjeta de Billetera es tocable;
+- cada tarjeta puede mostrar una acción secundaria visible “Usar tarjeta” o “Mostrar QR” cuando el contexto sea inequívoco;
+- Billetera presenta “Usados recientemente” cuando existe historial local;
+- la app guarda localmente el último producto abierto y orden de uso reciente;
+- Descubrir incluye acceso visible “Abrir mi billetera”;
+- ninguna optimización omite validaciones de elegibilidad, vigencia o saldo.
 
-Solo visible si el member tiene **email** (`@if(auth('member')->user()?->email)`). Anónimos: Switch account, no logout clásico.
+El acceso rápido no cambia el QR ni la operación: abre el mismo detalle o sheet contextual definido por la PWA.
 
-## Staff — chrome
+## Deep links
 
-| Zona PWA | Nativo |
-|----------|--------|
-| Dashboard (`staff.index`) | `S_Home`: saludo + search + **Scan** CTA |
-| Scan (`staff.qr.scanner`) | `S_Scanner` |
-| Sidebar / drawer ops | Earn/redeem vía **deep-link del QR**, no hub genérico |
+card/{id}; card/{cardId}/{rewardId}; stamp-card/{id}; voucher/{id}; claim-voucher/{batchId}/{token}; request-points/{identifier}. Sin auth → Login/Registro → destino original.
 
-Post-scan feliz: URL del QR member → pantalla de acción (`S_EarnPoints`, etc.). `S_MemberLookup` solo fallback.
+El socio puede compartir o exhibir un QR que contenga uno de estos enlaces para abrir directamente su producto. El miembro lo escanea con la cámara del teléfono; la app Member no incorpora un escáner universal.
 
-## Dark mode
+Cerrar QR vuelve al detalle. Al volver del QR, la app refresca el recurso mediante los endpoints existentes o al recuperar foreground. Solo muestra “completado” cuando el backend confirma el nuevo estado; en caso contrario muestra “Esperando confirmación” y permite reintentar/actualizar.
 
-PWA: `localStorage color-theme` + `dark:` Tailwind. Nativo V1: respetar `isSystemInDarkTheme()`; logos `logo_dark_url` desde branding cuando existan.
+Canje exitoso vuelve al detalle actualizado o Billetera. Evitar duplicar detalles en el stack.
 
-## Implementación por repo (estado real — ver `08-implementation-status.md`)
-
-| Repo | Shell | Estado |
-|------|-------|--------|
-| `loyalty-member-android` | `MemberAppShell` + Home / MyCards / Profile | ⚠️ V1 parcial — auth, wallet, detalle card/stamp/voucher + QR |
-| `loyalty-member-ios` | `MemberAppShell` SwiftUI | ❌ scaffold visual; sin API |
-| `loyalty-staff-android` | Hub + Scan CTA placeholder | ❌ login/scanner placeholder |
-| `loyalty-staff-ios` | Placeholder | ❌ |
-
-### Menú avatar (paridad PWA autenticado)
-
-- Home, Mis tarjetas (duplicado móvil PWA)
-- **Mi cuenta** → `M_Profile`
-- **Cerrar sesión** → solo si `email` presente
-- **No** incluir: Switch account, Enter code, Referrals (van en perfil u ocultos V1)
+Cuenta incluye perfil, idioma, timezone, privacidad, introducir código, legales y logout. Referidos/solicitud de puntos pueden activarse V1.1.
