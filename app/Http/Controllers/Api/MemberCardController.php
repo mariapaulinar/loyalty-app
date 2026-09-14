@@ -287,4 +287,63 @@ class MemberCardController extends Controller
         // Return the member's balance in a JSON response
         return response()->json(compact('balance'));
     }
+
+    /**
+     * Get a single active card with rewards and member balance.
+     */
+    public function getCard(string $locale, string $cardId, Request $request, CardService $cardService): Response
+    {
+        $member = $request->user('member_api');
+        $card = $cardService->findActiveCard($cardId, false, 'partner', true);
+
+        if (! $card) {
+            return response()->json(['message' => 'Card not found'], 404);
+        }
+
+        $card->load(['activeRewards', 'club']);
+        $card->setAttribute('balance', $card->getMemberBalance($member));
+        $card->setAttribute('is_followed', $card->members()->where('members.id', $member->id)->exists());
+
+        return response()->json($card);
+    }
+
+    /**
+     * Follow (add) a loyalty card for the authenticated member.
+     */
+    public function follow(string $locale, string $cardId, Request $request, CardService $cardService): Response
+    {
+        $member = $request->user('member_api');
+        $card = $cardService->findActiveCard($cardId);
+
+        if (! $card) {
+            return response()->json(['message' => 'Card not found'], 404);
+        }
+
+        $card->members()->syncWithoutDetaching([$member->id]);
+
+        return response()->json([
+            'message' => 'Card followed',
+            'card_id' => $card->id,
+        ]);
+    }
+
+    /**
+     * Unfollow (remove) a loyalty card for the authenticated member.
+     */
+    public function unfollow(string $locale, string $cardId, Request $request, CardService $cardService): Response
+    {
+        $member = $request->user('member_api');
+        $card = $cardService->findActiveCard($cardId);
+
+        if (! $card) {
+            return response()->json(['message' => 'Card not found'], 404);
+        }
+
+        $card->members()->detach($member->id);
+
+        return response()->json([
+            'message' => 'Card unfollowed',
+            'card_id' => $card->id,
+        ]);
+    }
 }

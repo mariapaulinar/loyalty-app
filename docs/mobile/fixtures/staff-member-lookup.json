@@ -1,0 +1,15 @@
+{
+  "endpoint": "GET /{locale}/v1/staff/member/{identifier}",
+  "identifier": "abc123def456",
+  "response_200_shape": {
+    "member": {
+      "id": "uuid",
+      "unique_identifier": "abc123def456",
+      "name": "Guest 4K7X",
+      "cards": [],
+      "stamp_cards": [],
+      "vouchers": []
+    }
+  },
+  "notes": "Shape exacta según StaffController::findMember — actualizar tras leer implementación."
+}

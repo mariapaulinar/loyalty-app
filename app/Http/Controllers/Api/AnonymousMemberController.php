@@ -43,21 +43,12 @@ class AnonymousMemberController extends Controller
      *
      * Request Body:
      * {
-     *   "device_uuid": "550e8400-e29b-41d4-a716-446655440000"
+     *   "device_uuid": "550e8400-e29b-41d4-a716-446655440000",
+     *   "issue_token": true   // optional — native apps only; omitted by PWA
      * }
      *
-     * Response (200):
-     * {
-     *   "success": true,
-     *   "is_new": false,
-     *   "member": {
-     *     "id": "uuid",
-     *     "code": "4K7X",
-     *     "display_name": "Guest 4K7X",
-     *     "is_anonymous": true,
-     *     "unique_identifier": "abc123def456"
-     *   }
-     * }
+     * Response (200) matches legacy PWA shape unless issue_token is true,
+     * in which case a Sanctum `token` field is added (and prior member-api tokens revoked).
      */
     public function init(Request $request): JsonResponse
     {
@@ -72,6 +63,7 @@ class AnonymousMemberController extends Controller
 
         $request->validate([
             'device_uuid' => 'required|uuid',
+            'issue_token' => 'sometimes|boolean',
         ]);
 
         $deviceUuid = $request->input('device_uuid');
@@ -83,7 +75,7 @@ class AnonymousMemberController extends Controller
         // Initialize or create session
         $member = $this->service->initSession($deviceUuid);
 
-        return response()->json([
+        $payload = [
             'success' => true,
             'is_new' => $isNew,
             'member' => [
@@ -93,7 +85,14 @@ class AnonymousMemberController extends Controller
                 'is_anonymous' => $member->isAnonymous(),
                 'unique_identifier' => $member->unique_identifier,
             ],
-        ]);
+        ];
+
+        // Opt-in only: PWA must keep legacy response (no token / no DB token rows)
+        if ($this->shouldIssueApiToken($request)) {
+            $payload['token'] = $this->issueMemberApiToken($member);
+        }
+
+        return response()->json($payload);
     }
 
     /**
@@ -114,6 +113,7 @@ class AnonymousMemberController extends Controller
         $request->validate([
             'code' => 'required|string|min:4|max:12',
             'device_uuid' => 'required|uuid',
+            'issue_token' => 'sometimes|boolean',
         ]);
 
         $result = $this->service->switchToMember(
@@ -130,7 +130,7 @@ class AnonymousMemberController extends Controller
 
         $member = $result['member'];
 
-        return response()->json([
+        $payload = [
             'success' => true,
             'device_uuid' => $result['device_uuid'],
             'member' => [
@@ -140,7 +140,13 @@ class AnonymousMemberController extends Controller
                 'is_anonymous' => $member->isAnonymous(),
                 'unique_identifier' => $member->unique_identifier,
             ],
-        ]);
+        ];
+
+        if ($this->shouldIssueApiToken($request)) {
+            $payload['token'] = $this->issueMemberApiToken($member);
+        }
+
+        return response()->json($payload);
     }
 
     /**
@@ -238,5 +244,30 @@ class AnonymousMemberController extends Controller
                 'email' => $member->email,
             ],
         ]);
+    }
+
+    /**
+     * Native clients opt in with body issue_token=true or header X-Issue-Token: 1.
+     * PWA omits both → identical legacy response and no personal_access_tokens writes.
+     */
+    private function shouldIssueApiToken(Request $request): bool
+    {
+        if ($request->boolean('issue_token')) {
+            return true;
+        }
+
+        $header = strtolower((string) $request->header('X-Issue-Token', ''));
+
+        return in_array($header, ['1', 'true', 'yes'], true);
+    }
+
+    /**
+     * Replace prior native API tokens for this member to avoid unbounded growth.
+     */
+    private function issueMemberApiToken(Member $member): string
+    {
+        $member->tokens()->where('name', 'member-api-token')->delete();
+
+        return $member->createToken('member-api-token')->plainTextToken;
     }
 }

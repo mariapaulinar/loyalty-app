@@ -153,4 +153,44 @@ class MemberStampCardController extends Controller
 
         return response()->json(['message' => 'Stamp card removed from My Cards']);
     }
+
+    /**
+     * Get a single stamp card with enrollment progress for the authenticated member.
+     */
+    public function show(string $locale, Request $request, string $stampCardId): JsonResponse
+    {
+        $member = $request->user('member_api');
+
+        $stampCard = StampCard::with('club')
+            ->where('is_active', true)
+            ->where(function ($query) use ($stampCardId) {
+                $query->where('id', $stampCardId)
+                    ->orWhere('unique_identifier', $stampCardId);
+            })
+            ->first();
+
+        if (! $stampCard) {
+            return response()->json(['message' => 'Stamp card not found'], 404);
+        }
+
+        $enrollment = StampCardMember::where('stamp_card_id', $stampCard->id)
+            ->where('member_id', $member->id)
+            ->where('is_active', true)
+            ->first();
+
+        if ($enrollment) {
+            $stampCard->setAttribute('current_stamps', $enrollment->current_stamps);
+            $stampCard->setAttribute('pending_rewards', $enrollment->pending_rewards);
+            $stampCard->setAttribute('completed_count', $enrollment->completed_count);
+            $stampCard->setAttribute('redeemed_count', $enrollment->redeemed_count);
+            $stampCard->setAttribute('enrolled_at', $enrollment->enrolled_at);
+            $stampCard->setAttribute('last_stamp_at', $enrollment->last_stamp_at);
+            $stampCard->setAttribute('is_enrolled', true);
+        } else {
+            $stampCard->setAttribute('is_enrolled', false);
+            $stampCard->setAttribute('current_stamps', 0);
+        }
+
+        return response()->json($stampCard);
+    }
 }

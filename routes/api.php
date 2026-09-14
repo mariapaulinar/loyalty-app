@@ -256,6 +256,17 @@ Route::prefix('agent/v1')
 |
 */
 Route::prefix('{locale}/v1')->group(function () {
+    /*
+    |--------------------------------------------------------------------------
+    | Mobile branding bootstrap (public, cached)
+    |--------------------------------------------------------------------------
+    |
+    | Additive endpoint for native Member/Staff apps. Mirrors admin brand_color
+    | + PWA theme settings without changing Blade/PWA behavior.
+    |
+    */
+    Route::get('mobile/branding', [App\Http\Controllers\Api\MobileBrandingController::class, 'show']);
+
     Route::prefix('admin')->group(function () {
         Route::post('login', [App\Http\Controllers\Api\AdminAuthController::class, 'login']);
 
@@ -360,7 +371,15 @@ Route::prefix('{locale}/v1')->group(function () {
     });
     Route::prefix('member')->group(function () {
         Route::post('login', [App\Http\Controllers\Api\MemberAuthController::class, 'login']);
+        Route::post('login/check', [App\Http\Controllers\Api\MemberLoginOtpApiController::class, 'checkEmail']);
+        Route::post('login/otp/send', [App\Http\Controllers\Api\MemberLoginOtpApiController::class, 'sendOtp']);
+        Route::post('login/otp/verify', [App\Http\Controllers\Api\MemberLoginOtpApiController::class, 'verifyOtp']);
         Route::post('register', [App\Http\Controllers\Api\MemberAuthController::class, 'register']);
+        Route::post('register/otp/start', [App\Http\Controllers\Api\MemberRegisterOtpApiController::class, 'start']);
+        Route::post('register/otp/resend', [App\Http\Controllers\Api\MemberRegisterOtpApiController::class, 'resend']);
+        Route::post('register/otp/verify', [App\Http\Controllers\Api\MemberRegisterOtpApiController::class, 'verify']);
+        Route::post('password/forgot', [App\Http\Controllers\Api\MemberPasswordResetApiController::class, 'forgot']);
+        Route::post('password/reset', [App\Http\Controllers\Api\MemberPasswordResetApiController::class, 'reset']);
 
         /*
         |--------------------------------------------------------------------------
@@ -384,13 +403,19 @@ Route::prefix('{locale}/v1')->group(function () {
 
         Route::middleware('auth:member_api', 'member.auth.api')->group(function () {
             Route::get('/', [App\Http\Controllers\Api\MemberAuthController::class, 'getMember']);
+            Route::get('identity', [App\Http\Controllers\Api\MemberAuthController::class, 'identity']);
             Route::post('logout', [App\Http\Controllers\Api\MemberAuthController::class, 'logout']);
+            Route::post('account/login-email/send', [App\Http\Controllers\Api\MemberAccountEmailApiController::class, 'sendLoginOtp']);
+            Route::post('account/login-email/verify', [App\Http\Controllers\Api\MemberAccountEmailApiController::class, 'verifyLoginOtp']);
 
             // Loyalty Cards
             Route::get('all-cards', [App\Http\Controllers\Api\MemberCardController::class, 'getAllCards']);
             Route::get('followed-cards', [App\Http\Controllers\Api\MemberCardController::class, 'getFollowedCards']);
             Route::get('transacted-cards', [App\Http\Controllers\Api\MemberCardController::class, 'getTransactedCards']);
             Route::get('balance/{cardId}', [App\Http\Controllers\Api\MemberCardController::class, 'getMemberBalance']);
+            Route::get('cards/{cardId}', [App\Http\Controllers\Api\MemberCardController::class, 'getCard']);
+            Route::post('cards/{cardId}/follow', [App\Http\Controllers\Api\MemberCardController::class, 'follow']);
+            Route::delete('cards/{cardId}/follow', [App\Http\Controllers\Api\MemberCardController::class, 'unfollow']);
 
             // Stamp Cards (existing)
             Route::get('stamp-cards', [App\Http\Controllers\Member\StampCardController::class, 'apiIndex']);
@@ -398,13 +423,18 @@ Route::prefix('{locale}/v1')->group(function () {
 
             // Stamp Cards - My Cards (enroll/unenroll)
             Route::get('my-stamp-cards', [App\Http\Controllers\Api\MemberStampCardController::class, 'getMyStampCards']);
+            Route::get('stamp-cards/{stampCardId}', [App\Http\Controllers\Api\MemberStampCardController::class, 'show']);
             Route::post('stamp-cards/{stampCardId}/enroll', [App\Http\Controllers\Api\MemberStampCardController::class, 'enroll']);
             Route::delete('stamp-cards/{stampCardId}/enroll', [App\Http\Controllers\Api\MemberStampCardController::class, 'unenroll']);
 
             // Vouchers - My Cards (save/unsave)
             Route::get('my-vouchers', [App\Http\Controllers\Api\MemberVoucherController::class, 'getMyVouchers']);
+            Route::get('vouchers/{voucherId}', [App\Http\Controllers\Api\MemberVoucherController::class, 'show']);
             Route::post('vouchers/{voucherId}/save', [App\Http\Controllers\Api\MemberVoucherController::class, 'save']);
             Route::delete('vouchers/{voucherId}/save', [App\Http\Controllers\Api\MemberVoucherController::class, 'unsave']);
+
+            // Point codes
+            Route::post('codes/redeem', [App\Http\Controllers\Api\MemberCodeController::class, 'redeem']);
         });
     });
 

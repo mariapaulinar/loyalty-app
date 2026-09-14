@@ -49,10 +49,10 @@ return [
      | color generates a complete 11-shade palette (50-950) for the primary
      | color scale. Admins can customize this via Settings > Branding.
      |
-     | Format: Hex color code (e.g., '#2563EB' for blue)
-     | Default: Blue (#2563EB) - Tailwind blue-600, deeper and more premium
+     | Format: Hex color code (e.g., '#FCD34D' for Lealmi gold)
+     | Default: Lealmi production brand (#FCD34D)
      */
-    'brand_color' => env('BRAND_COLOR', '#2563EB'),
+    'brand_color' => env('BRAND_COLOR', '#FCD34D'),
 
     /*
      |--------------------------------------------------------------------------
@@ -80,8 +80,8 @@ return [
 
     'pwa_app_name' => env('PWA_APP_NAME', env('APP_NAME', 'Lealmi')),
     'pwa_short_name' => env('PWA_SHORT_NAME', 'Lealmi'),
-    'pwa_description' => env('PWA_DESCRIPTION', 'Your digital loyalty cards'),
-    'pwa_theme_color' => env('PWA_THEME_COLOR', '#F39C12'),
+    'pwa_description' => env('PWA_DESCRIPTION', 'Todas tus recompensas, un solo lugar'),
+    'pwa_theme_color' => env('PWA_THEME_COLOR', '#FCD34D'),
     'pwa_background_color' => env('PWA_BACKGROUND_COLOR', '#ffffff'),
 
     /*

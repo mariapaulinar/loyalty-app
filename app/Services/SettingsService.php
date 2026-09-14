@@ -131,6 +131,10 @@ class SettingsService
         // Clear cache
         Cache::forget(self::CACHE_PREFIX.$key);
 
+        if (in_array($key, ['brand_color', 'pwa_theme_color', 'pwa_background_color', 'app_name', 'pwa_app_name'], true)) {
+            Cache::forget(\App\Services\MobileBrandingService::CACHE_KEY);
+        }
+
         return $setting;
     }
 
@@ -237,6 +241,8 @@ class SettingsService
         foreach ($settings as $key) {
             Cache::forget(self::CACHE_PREFIX.$key);
         }
+
+        Cache::forget(\App\Services\MobileBrandingService::CACHE_KEY);
     }
 
     /**

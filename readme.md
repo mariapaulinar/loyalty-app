@@ -4,6 +4,10 @@
 
 📚 [Documentation](https://rewardloyalty.co/docs) | 🎯 [Live Demo](https://rewardloyalty.co/demo)
 
+### Native mobile apps (Member + Staff)
+
+Agent-ready specs for Android (Kotlin/Compose) and iOS (Swift/SwiftUI) live in [`docs/mobile/`](docs/mobile/README.md). Sibling apps: `loyalty-member-android` / `loyalty-member-ios` and `loyalty-staff-android` / `loyalty-staff-ios`.
+
 ---
 
 ## What is Reward Loyalty?

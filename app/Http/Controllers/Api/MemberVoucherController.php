@@ -137,4 +137,32 @@ class MemberVoucherController extends Controller
 
         return response()->json(['message' => 'Voucher removed from My Cards']);
     }
+
+    /**
+     * Get a single active voucher with saved state for the authenticated member.
+     */
+    public function show(string $locale, Request $request, string $voucherId): JsonResponse
+    {
+        $member = $request->user('member_api');
+
+        $voucher = Voucher::with('club')
+            ->where('is_active', true)
+            ->where(function ($query) use ($voucherId) {
+                $query->where('id', $voucherId)
+                    ->orWhere('unique_identifier', $voucherId);
+            })
+            ->first();
+
+        if (! $voucher) {
+            return response()->json(['message' => 'Voucher not found'], 404);
+        }
+
+        $isSaved = $member->vouchers()
+            ->where('vouchers.id', $voucher->id)
+            ->exists();
+
+        $voucher->setAttribute('is_saved', $isSaved);
+
+        return response()->json($voucher);
+    }
 }

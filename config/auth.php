@@ -62,6 +62,11 @@ return [
             'driver' => 'session',
             'provider' => 'staff',
         ],
+        'staff_api' => [
+            'driver' => 'sanctum',
+            'provider' => 'staff',
+            'hash' => false,
+        ],
         'member' => [
             'driver' => 'session',
             'provider' => 'members',

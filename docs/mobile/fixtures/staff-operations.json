@@ -1,0 +1,16 @@
+{
+  "purchase_request": {
+    "member_id": "uuid-or-unique-identifier",
+    "amount": 25.5,
+    "points": 25,
+    "note": "Confirm required fields in StaffController::addPurchase"
+  },
+  "add_stamps_request": {
+    "member_id": "uuid-or-unique-identifier",
+    "stamps": 1
+  },
+  "validate_voucher_request": {
+    "code": "VOUCHER-CODE",
+    "member_id": "optional-uuid"
+  }
+}

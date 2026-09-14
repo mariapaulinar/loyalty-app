@@ -1,0 +1,45 @@
+{
+  "endpoint": "GET /{locale}/v1/mobile/branding",
+  "auth": "none (public)",
+  "headers_request": {
+    "If-None-Match": "optional ETag from previous response"
+  },
+  "headers_response": {
+    "ETag": "\"sha1...\"",
+    "Cache-Control": "public, max-age=3600"
+  },
+  "response_200": {
+    "version": "lealmi-prod-fcd34d",
+    "app_name": "Lealmi",
+    "brand_color": "#FCD34D",
+    "pwa_theme_color": "#FCD34D",
+    "pwa_background_color": "#FFFFFF",
+    "logo_url": null,
+    "logo_dark_url": null,
+    "primary": {
+      "50": "#ffffff",
+      "100": "#ffffff",
+      "200": "#fffdf8",
+      "300": "#fef1c5",
+      "400": "#fde289",
+      "500": "#fcd34d",
+      "600": "#fbc925",
+      "700": "#f3bb04",
+      "800": "#c69903",
+      "900": "#96760a",
+      "950": "#705808"
+    },
+    "foreground_on_brand": "#000000",
+    "semantic": {
+      "brand": "#FCD34D",
+      "cta_hint": "#FCD34D",
+      "background": "#FFFFFF"
+    },
+    "notes": {
+      "primary_overrides_css": "Same as <x-ui.brand-styles /> injecting --color-primary-*",
+      "partner_card_colors": "Per-partner brand_color comes on card payloads, not this endpoint",
+      "production_defaults": "Lealmi admin Marca+PWA: brand=#FCD34D theme=#FCD34D bg=#FFFFFF; text on brand is black"
+    }
+  },
+  "response_304": "Empty body when If-None-Match matches ETag"
+}

@@ -1,0 +1,19 @@
+{
+  "request": {
+    "email": "staff@example.com",
+    "password": "welcome3210",
+    "club_id": "7c9e6679-7425-40de-944b-e07fc1f90ae7"
+  },
+  "response_200": {
+    "token": "1|staffApiToken",
+    "staff": {
+      "id": "uuid",
+      "email": "staff@example.com",
+      "club_id": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+      "is_active": true
+    }
+  },
+  "error_401": {
+    "message": "Invalid credentials"
+  }
+}

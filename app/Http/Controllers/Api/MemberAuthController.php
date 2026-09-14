@@ -366,4 +366,22 @@ class MemberAuthController extends Controller
 
         return response()->json($member, 200);
     }
+
+    /**
+     * Identity payload for member QR display (native + PWA parity).
+     *
+     * GET /{locale}/v1/member/identity
+     */
+    public function identity(Request $request)
+    {
+        $member = $request->user('member_api');
+
+        return response()->json([
+            'id' => $member->id,
+            'unique_identifier' => $member->unique_identifier,
+            'device_code' => $member->device_code,
+            'display_name' => $member->getDisplayNameFormatted(),
+            'is_anonymous' => $member->isAnonymous(),
+        ]);
+    }
 }

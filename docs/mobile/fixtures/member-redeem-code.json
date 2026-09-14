@@ -1,0 +1,13 @@
+{
+  "endpoint": "POST /{locale}/v1/member/codes/redeem",
+  "request": { "code": "1234" },
+  "response_200": {
+    "message": "Code redeemed",
+    "points": 50,
+    "card_id": "uuid-of-card"
+  },
+  "errors": {
+    "404": { "message": "code does not exist" },
+    "400": { "message": "code used or expired" }
+  }
+}

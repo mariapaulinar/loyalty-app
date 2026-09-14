@@ -1,0 +1,38 @@
+{
+  "description": "QR payloads Member → Staff (same URLs the PWA encodes in x-ui.qr-modal). Native apps must generate absolute URLs on the tenant origin.",
+  "base_example": {
+    "origin": "https://lealmi.com",
+    "locale": "es-es"
+  },
+  "patterns": [
+    {
+      "context": "Loyalty earn points",
+      "pwa_route": "staff.earn.points",
+      "template": "{origin}/{locale}/staff/earn/{member_unique_identifier}/{card_unique_identifier}",
+      "example": "https://lealmi.com/es-es/staff/earn/abc123member/card456xyz"
+    },
+    {
+      "context": "Reward claim (signed URL in PWA)",
+      "pwa_route": "staff.claim.reward",
+      "template": "{origin}/{locale}/staff/claim/{member_unique_identifier}/{card_id}/{reward_id}?signature=...",
+      "note": "Member PWA uses signed route; native must use signed URL from API when claiming rewards (P1)."
+    },
+    {
+      "context": "Stamp collect",
+      "pwa_route": "staff.stamps.add.show",
+      "template": "{origin}/{locale}/staff/stamps/add/{member_unique_identifier}/{stamp_card_id}",
+      "example": "https://lealmi.com/es-es/staff/stamps/add/abc123member/stamp789"
+    },
+    {
+      "context": "Stamp reward claim",
+      "pwa_route": "staff.stamps.claim.show",
+      "template": "{origin}/{locale}/staff/stamps/claim/{member_unique_identifier}/{stamp_card_id}"
+    },
+    {
+      "context": "Voucher redeem",
+      "pwa_route": "staff.vouchers.redeem.show",
+      "template": "{origin}/{locale}/staff/vouchers/redeem/{member_unique_identifier}/{voucher_id}"
+    }
+  ],
+  "staff_scanner_behavior": "Decode QR text → if same-origin staff path, navigate directly to earn/claim/redeem screen (no generic hub). See flows/staff-scan-earn.md."
+}

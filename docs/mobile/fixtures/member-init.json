@@ -1,0 +1,33 @@
+{
+  "request_pwa_legacy": {
+    "device_uuid": "550e8400-e29b-41d4-a716-446655440000"
+  },
+  "response_200_pwa_legacy": {
+    "success": true,
+    "is_new": true,
+    "member": {
+      "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "code": "4K7X",
+      "display_name": "Guest 4K7X",
+      "is_anonymous": true,
+      "unique_identifier": "abc123def456"
+    }
+  },
+  "request_native": {
+    "device_uuid": "550e8400-e29b-41d4-a716-446655440000",
+    "issue_token": true
+  },
+  "response_200_native": {
+    "success": true,
+    "is_new": true,
+    "token": "1|exampleSanctumTokenReplaceMe",
+    "member": {
+      "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "code": "4K7X",
+      "display_name": "Guest 4K7X",
+      "is_anonymous": true,
+      "unique_identifier": "abc123def456"
+    }
+  },
+  "notes": "issue_token (body) or X-Issue-Token: 1 (header) is required for Sanctum token. PWA must omit both to keep legacy response and avoid writing personal_access_tokens."
+}

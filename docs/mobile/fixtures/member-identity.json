@@ -1,0 +1,11 @@
+{
+  "endpoint": "GET /{locale}/v1/member/identity",
+  "auth": "Bearer member token",
+  "response_200": {
+    "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+    "unique_identifier": "abc123def456",
+    "device_code": "4K7X",
+    "display_name": "Guest 4K7X",
+    "is_anonymous": true
+  }
+}

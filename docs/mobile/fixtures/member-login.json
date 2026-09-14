@@ -1,0 +1,15 @@
+{
+  "request": {
+    "email": "member@example.com",
+    "password": "password123"
+  },
+  "response_200_shape": {
+    "token": "1|memberApiToken",
+    "member": {
+      "id": "uuid",
+      "email": "member@example.com",
+      "name": "Jane Doe"
+    }
+  },
+  "notes": "Confirmar shape exacta en MemberAuthController / OpenAPI schema MemberRegistration o login response."
+}

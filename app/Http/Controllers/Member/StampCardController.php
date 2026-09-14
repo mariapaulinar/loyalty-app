@@ -267,9 +267,9 @@ class StampCardController extends Controller
      *
      * GET /api/member/stamp-cards/{id}/history
      */
-    public function apiHistory(int $id): JsonResponse
+    public function apiHistory(string $locale, int $id, Request $request): JsonResponse
     {
-        $member = auth('member')->user();
+        $member = $request->user('member_api');
         $card = StampCard::findOrFail($id);
 
         // Verify card belongs to member's club

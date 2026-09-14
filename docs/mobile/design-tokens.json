@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "source": "Lealmi production admin (Marca + PWA) — cold-start fallback",
+    "production_reference": {
+      "app_name": "Lealmi",
+      "app_url": "https://lealmi.com",
+      "brand_color": "#FCD34D",
+      "pwa_theme_color": "#FCD34D",
+      "pwa_background_color": "#FFFFFF",
+      "pwa_short_name": "Lealmi",
+      "pwa_description": "Todas tus recompensas, un solo lugar"
+    },
+    "note": "FALLBACK until GET /api/{locale}/v1/mobile/branding returns live settings. Palette from ColorHelper::generatePalette(#FCD34D). Partner card colors come from card payloads.",
+    "live_endpoint": "/{locale}/v1/mobile/branding",
+    "fixture": "fixtures/mobile-branding.json"
+  },
+  "colors": {
+    "primary": {
+      "50": "#FFFFFF",
+      "100": "#FFFFFF",
+      "200": "#FFFDF8",
+      "300": "#FEF1C5",
+      "400": "#FDE289",
+      "500": "#FCD34D",
+      "600": "#FBC925",
+      "700": "#F3BB04",
+      "800": "#C69903",
+      "900": "#96760A",
+      "950": "#705808"
+    },
+    "accent": {
+      "50": "#FFFDF8",
+      "100": "#FEF1C5",
+      "200": "#FDE289",
+      "300": "#FCD34D",
+      "400": "#FBC925",
+      "500": "#FCD34D",
+      "600": "#F3BB04",
+      "700": "#C69903",
+      "800": "#96760A",
+      "900": "#705808"
+    },
+    "secondary": {
+      "50": "#FAFAF9",
+      "100": "#F5F5F4",
+      "200": "#E7E5E4",
+      "300": "#D6D3D1",
+      "400": "#A8A29E",
+      "500": "#78716C",
+      "600": "#44403C",
+      "700": "#292524",
+      "800": "#1C1917",
+      "900": "#0C0A09",
+      "950": "#050505"
+    },
+    "success": { "500": "#22C55E", "600": "#16A34A", "700": "#15803D" },
+    "warning": { "500": "#F59E0B", "600": "#D97706", "700": "#B45309" },
+    "error": { "500": "#EF4444", "600": "#DC2626", "700": "#B91C1C" }
+  },
+  "typography": {
+    "fontSans": "Geist, Inter, system-ui, sans-serif",
+    "fontMono": "JetBrains Mono, SF Mono, Menlo, monospace",
+    "androidFontSans": "sans-serif",
+    "iosFontSans": "SF Pro",
+    "iosFontMono": "SF Mono"
+  },
+  "motion": {
+    "easeDefault": [0.4, 0.0, 0.2, 1.0],
+    "easeOutExpo": [0.16, 1.0, 0.3, 1.0],
+    "easeSpring": [0.34, 1.56, 0.64, 1.0]
+  },
+  "elevation": {
+    "card": "soft border + light shadow",
+    "avoid": "multi-layer neon glows"
+  },
+  "semantic": {
+    "brand": "primary.500",
+    "cta": "accent.500",
+    "foregroundOnBrand": "#000000",
+    "backgroundLight": "#FFFFFF",
+    "backgroundDark": "secondary.950",
+    "textLight": "secondary.900",
+    "textDark": "secondary.50"
+  }
+}

@@ -566,6 +566,8 @@ class SettingsController extends Controller
                 ]);
             }
         }
+
+        app(\App\Services\MobileBrandingService::class)->forgetCache();
     }
 
     /**
