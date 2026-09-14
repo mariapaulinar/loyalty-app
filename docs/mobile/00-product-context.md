@@ -6,6 +6,18 @@ Lealmi es una billetera de fidelización multi-negocio. Un miembro conserva tarj
 
 Descubrir programas, agregarlos a la billetera y usar beneficios presencialmente mostrando al personal un QR.
 
+## Continuidad multiplataforma
+
+La app nativa extiende la experiencia Member existente; no constituye un rediseño independiente. El miembro debe poder pasar de la PWA a iOS o Android sin reaprender:
+
+- dónde descubrir y guardar beneficios;
+- cómo reconocer tarjetas, sellos, niveles y cupones;
+- cómo acumular y canjear mostrando su QR al staff;
+- qué ocurre después de autenticarse o completar una acción;
+- cómo se representan vigencia, elegibilidad, saldo, progreso y errores.
+
+La coherencia se evalúa por el modelo mental, las reglas y el resultado del journey, no por una copia literal del HTML. Los patrones propios de iOS y Android son válidos cuando mantienen esa continuidad.
+
 ## Superficies principales
 
 1. Descubrir: catálogo activo de puntos, sellos y cupones.
